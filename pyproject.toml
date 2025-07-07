@@ -18,6 +18,7 @@ requests-cache = "^1.2.1"
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.4.1"
 pytest-dotenv = "^0.5.2"
+black = "^25.1.0"
 
 [build-system]
 requires = ["poetry-core"]
