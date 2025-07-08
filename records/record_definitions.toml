@@ -54,10 +54,10 @@ complex = [
     { attribute = "in_language", location = "base" },
     { attribute = "has_primary_title", location = "item" },
     { attribute = "described_by", location = "base" },
+    { attribute = "element_type", location = "item" },
 ]
 
 [item.simple]
-element_type = { xpath = "mat_characteristics/mat_characteristics.material_type_film/value[@lang='de-DE']/text()", enum = "ItemElementTypeEnum" }
 has_access_status = { xpath = "copy_status/value[@lang='3']/text()", enum = "ItemAccessStatusEnum" }
 has_frame_rate = { xpath = "Film_speed/frame_rate/value[@lang='de-DE']/text()", enum = "FrameRateEnum" }
 has_colour_type = { xpath = "colour_type/value[@lang='3']/text()", enum = "ColourTypeEnum" }

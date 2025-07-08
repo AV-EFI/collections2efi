@@ -89,6 +89,10 @@
 "Umkehrpositiv" = "OriginalPositiveReversalFilm"
 "Positivkopie" = "Positive"
 "Tonnegativ" = "SoundNegative"
+"DCP" = "DCP"
+"DCDM" = "DCDM"
+"EDL" = "EditDecisionList"
+"Untertitel" = "Subtitles"
 
 [LanguageCodeEnum]
 "deutsch" = "deu"

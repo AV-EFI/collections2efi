@@ -52,8 +52,8 @@ docs = ["linkml (>=1.8.0)", "mkdocs-material (>=9.5.17)"]
 [package.source]
 type = "git"
 url = "https://github.com/AV-EFI/av-efi-schema.git"
-reference = "f44dadbc2cfeda23fc0bb613250350e68c794584"
-resolved_reference = "f44dadbc2cfeda23fc0bb613250350e68c794584"
+reference = "ce8edeae88eabd2d8d432a4e147c9829e0fcc8ba"
+resolved_reference = "ce8edeae88eabd2d8d432a4e147c9829e0fcc8ba"
 
 [[package]]
 name = "black"
@@ -1388,4 +1388,4 @@ files = [
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.12"
-content-hash = "8cd190a03c52aac0ff5aa2aab15b0b0f99a7328138e3d7975cfae9c98116f141"
+content-hash = "559e9eaea9b70aebc870db59cf7af517f1b44a4d433a38d0d43b59895f046233"
