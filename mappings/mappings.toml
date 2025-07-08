@@ -43,6 +43,9 @@
 "DPX" = "DPX"
 "MOV" = "MOV"
 "MXF" = "MXF"
+"VOB" = "VOB"
+"WebM" = "WebM"
+"DV" = "DV"
 
 [FormatFilmTypeEnum]
 "16mm" = "16mmFilm"
@@ -60,11 +63,20 @@
 "DVD" = "DVD"
 
 [FormatVideoTypeEnum]
+"1 Zoll" = "1InchCFormat"
+"2 Zoll" = "2InchQuadruplex"
 "Betacam SP" = "BetacamSP"
 "D1" = "D1"
 "DVCPRO" = "DVCPROHD"
 "DigiBeta" = "DigitalBetacam"
 "HDCam SR" = "HDCAMSR"
+"DV" = "DV"
+"HDCam" = "HDCAM"
+"MiniDV" = "MiniDV"
+"S-VHS" = "SVHS"
+"U-Matic" = "UMatic"
+"IMX" = "IMX"
+"VHS" = "VHS"
 
 [FrameRateEnum]
 "16" = "16fps"
