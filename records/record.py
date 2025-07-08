@@ -38,18 +38,24 @@ class Record:
         try:
             self.definition = self.all_definitions[record_type]
         except KeyError:
-            raise KeyError(f"Record definition for '{record_type}' not found in record_definitions.toml")
+            raise KeyError(
+                f"Record definition for '{record_type}' not found in record_definitions.toml"
+            )
 
     def build(self):
         efi_class_name = self.all_definitions["efi_classes"].get(self.record_type)
         if not efi_class_name:
-            raise ValueError(f"EFI class mapping for record type '{self.record_type}' not found.")
+            raise ValueError(
+                f"EFI class mapping for record type '{self.record_type}' not found."
+            )
         efi_class = getattr(efi, efi_class_name)
         attributes = {}
 
         if "simple" in self.definition:
             for attr, mapping in self.definition["simple"].items():
                 value = self.xml.get_first(mapping["xpath"])
+                if value is None:
+                    continue
                 attributes[attr] = get_mapped_enum_value(mapping["enum"], value)
 
         if "complex" in self.definition:
