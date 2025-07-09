@@ -102,14 +102,15 @@
 "Sichtungskopie" = "Viewing"
 
 [ItemElementTypeEnum]
+"DCP" = "DCP"
 "Dupnegativ" = "DuplicateNegative"
 "Duppositiv" = "DuplicatePositive"
 "Bildnegativ" = "ImageNegative"
 "Originalbildnegativ" = "OriginalNegative"
 "Umkehrpositiv" = "OriginalPositiveReversalFilm"
 "Positivkopie" = "Positive"
+"Positivkopie (kombiniert)" = "Positive"
 "Tonnegativ" = "SoundNegative"
-"DCP" = "DCP"
 "DCDM" = "DCDM"
 "EDL" = "EditDecisionList"
 "Untertitel" = "Subtitles"
