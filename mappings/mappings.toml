@@ -97,9 +97,9 @@
 [ItemAccessStatusEnum]
 "Archivkopie" = "Archive"
 "Verleihkopie" = "Distribution"
-"Master" = "Master"
-"Removed" = "Removed"
-"Viewing" = "Viewing"
+"Mastermaterial" = "Master"
+"Kassation" = "Removed"
+"Sichtungskopie" = "Viewing"
 
 [ItemElementTypeEnum]
 "Dupnegativ" = "DuplicateNegative"
