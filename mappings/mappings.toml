@@ -38,6 +38,14 @@
 "Schnitt" = "FilmEditor"
 "Schnittassistenz" = "AssistantFilmEditor"
 
+[FormatAudioTypeEnum]
+"16mm" = "16mmMagneticTrack"
+"17,5mm" = "17.5mmMagneticTrack"
+"35mm" = "35mmMagneticTrack"
+"Audiokassette" = "Audiocassette"
+"1 Zoll" = "OneInchAudioReel"
+"2 Zoll" = "TwoInchAudioReel"
+
 [FormatDigitalFileTypeEnum]
 "AVI" = "AVI"
 "DPX" = "DPX"
