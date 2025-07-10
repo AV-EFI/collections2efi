@@ -176,7 +176,8 @@
 "Produktionsassistenz" = "ProductionAssistant"
 "Produktionskoordination" = "ProductionCoordinator"
 "Aufnahmeleitung" = "ProductionManager"
-"Publizist; Publizistin" = "Publicist"
+"Publizist" = "Publicist"
+"Publizistin" = "Publicist"
 
 [ProductionDesignActivityTypeEnum]
 "Ausstattung" = "ArtDirector"
