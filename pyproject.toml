@@ -1,20 +1,18 @@
-[tool.poetry]
+[project]
 name = "av-efi-generator"
 version = "0.1.0"
 description = ""
-authors = ["fjlein <fjlein@gmail.com>"]
+authors = [{ name = "fjlein", email = "fjlein@gmail.com" }]
 readme = "README.md"
-package-mode = false
-
-[tool.poetry.dependencies]
-python = "^3.12"
-dicttoxml = "^1.7.16"
-lxml = "6.0.0"
-requests = "^2.32.3"
-linkml-runtime = "^1.8.0"
-avefi-schema = {git = "https://github.com/AV-EFI/av-efi-schema.git", rev = "ce8edeae88eabd2d8d432a4e147c9829e0fcc8ba"}
-efi-conv = {git = "https://github.com/AV-EFI/efi-conv.git", rev = "dd0d83bece7eec523671ff93e8f490b4e994fea1"}
-requests-cache = "^1.2.1"
+requires-python = ">=3.11,<4.0.0"
+dependencies = [
+    "dicttoxml>=1.7.16",
+    "lxml>=6.0.0",
+    "requests>=2.32.3",
+    "linkml-runtime>=1.8.0",
+    "avefi-schema @ git+https://github.com/AV-EFI/av-efi-schema.git@ce8edeae88eabd2d8d432a4e147c9829e0fcc8ba",
+    "requests-cache>=1.2.1"
+]
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.4.1"
