@@ -1,0 +1,35 @@
+version = 1
+disable_existing_loggers = false
+
+[formatters.simple]
+format = "%(levelname)s: %(message)s"
+
+[formatters.detailed]
+format = "[%(levelname)s|%(module)s|L%(lineno)d] %(asctime)s: %(message)s"
+datefmt = "%Y-%m-%dT%H:%M:%S%z"
+
+[handlers.stderr]
+class = "logging.StreamHandler"
+level = "WARNING"
+formatter = "simple"
+stream = "ext://sys.stderr"
+
+[handlers.rotating_file]
+class = "logging.handlers.RotatingFileHandler"
+level = "INFO"
+formatter = "detailed"
+filename = "logs/collection2efi_rotating.log"
+maxBytes = 10_485_760
+backupCount = 3
+
+[handlers.overwrite_file]
+class = "logging.FileHandler"
+level = "INFO"
+formatter = "detailed"
+filename = "logs/collection2efi_latest.log"
+mode = "w"
+
+[loggers.root]
+level = "INFO"
+handlers = ["stderr", "rotating_file", "overwrite_file"]
+propagate = 0

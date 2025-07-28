@@ -9,3 +9,6 @@ __pycache__/
 
 #cache
 /axiell_collections_cache.sqlite
+
+#logs
+/logs/

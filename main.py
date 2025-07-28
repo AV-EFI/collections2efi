@@ -1,6 +1,10 @@
 import logging
+import logging.config
+import logging.handlers
 import os
+import pathlib
 import tempfile
+import tomllib
 from datetime import datetime
 
 from linkml_runtime.dumpers import JSONDumper
@@ -8,19 +12,18 @@ from linkml_runtime.dumpers import JSONDumper
 from axiell_collections import collect_provider, pointer_file_provider
 from records.record import Record
 
-logger = logging.getLogger()
-logger.setLevel(logging.INFO)
-formatter = logging.Formatter("%(asctime)s - %(levelname)s - %(message)s")
+logger = logging.getLogger("collections2efi")
 
-all_logs_handler = logging.FileHandler("all.log", mode="w")
-all_logs_handler.setLevel(logging.INFO)
-all_logs_handler.setFormatter(formatter)
-logger.addHandler(all_logs_handler)
 
-error_logs_handler = logging.FileHandler("errors.log", mode="w")
-error_logs_handler.setLevel(logging.ERROR)
-error_logs_handler.setFormatter(formatter)
-logger.addHandler(error_logs_handler)
+def setup_logging():
+    os.makedirs("logs", exist_ok=True)
+    config_file = pathlib.Path("logging_config.toml")
+    with open(config_file, "rb") as f_in:
+        config_file = tomllib.load(f_in)
+    logging.config.dictConfig(config_file)
+
+
+setup_logging()
 
 
 class RecordCategory:
@@ -50,7 +53,9 @@ def main():
     )
 
     for i, record_category in enumerate([works, manifestations, items]):
-        logging.info(f"{i+1}. {len(record_category.prirefs)} ({record_category.record_type}s)")
+        logging.info(
+            f"{i+1}. {len(record_category.prirefs)} ({record_category.record_type}s)"
+        )
 
     for i, record_category in enumerate([works, manifestations, items]):
         logging.info(f"# Handling {record_category.record_type}s")
