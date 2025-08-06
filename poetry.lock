@@ -52,8 +52,8 @@ docs = ["linkml (>=1.8.0)", "mkdocs-material (>=9.5.17)"]
 [package.source]
 type = "git"
 url = "https://github.com/AV-EFI/av-efi-schema.git"
-reference = "ce8edeae88eabd2d8d432a4e147c9829e0fcc8ba"
-resolved_reference = "ce8edeae88eabd2d8d432a4e147c9829e0fcc8ba"
+reference = "eb24e8bf2b1c62b0b41ddbfd8db4e25307632c04"
+resolved_reference = "eb24e8bf2b1c62b0b41ddbfd8db4e25307632c04"
 
 [[package]]
 name = "black"
@@ -128,14 +128,14 @@ ujson = ["ujson (>=5.10.0)"]
 
 [[package]]
 name = "certifi"
-version = "2025.7.14"
+version = "2025.8.3"
 description = "Python package for providing Mozilla's CA Bundle."
 optional = false
 python-versions = ">=3.7"
 groups = ["main"]
 files = [
-    {file = "certifi-2025.7.14-py3-none-any.whl", hash = "sha256:6b31f564a415d79ee77df69d757bb49a5bb53bd9f756cbbe24394ffd6fc1f4b2"},
-    {file = "certifi-2025.7.14.tar.gz", hash = "sha256:8ea99dbdfaaf2ba2f9bac77b9249ef62ec5218e7c2b2e903378ed5fccf765995"},
+    {file = "certifi-2025.8.3-py3-none-any.whl", hash = "sha256:f6c12493cfb1b06ba2ff328595af9350c65d6644968e5d3a2ffd78699af217a5"},
+    {file = "certifi-2025.8.3.tar.gz", hash = "sha256:e564105f78ded564e3ae7c923924435e1daa7463faeab5bb932bc53ffae63407"},
 ]
 
 [[package]]
@@ -1392,4 +1392,4 @@ files = [
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.11,<4.0.0"
-content-hash = "258a8a86cd875d665349d5e8074f999ac6bd2c4c6c49a370b6dafb6a05dba7a5"
+content-hash = "f492284ca6ca133fe1cf07f4afdc8a913770a800572f89db28bbabed73ae91bf"
