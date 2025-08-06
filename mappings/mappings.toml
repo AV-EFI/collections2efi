@@ -23,8 +23,11 @@
 
 [ColourTypeEnum]
 "schwarz-weiß" = "BlackAndWhite"
+"schwarzweiß" = "BlackAndWhite"
+"Schwarzweiß" = "BlackAndWhite"
 "Farbe" = "Colour"
 "Farbe und schwarz-weiß" = "ColourBlackAndWhite"
+"Farbe + Schwarzweiß" = "ColourBlackAndWhite"
 
 [DirectingActivityTypeEnum]
 "Regieassistenz" = "AssistantDirector"
@@ -236,6 +239,9 @@
 "Industrie-/Wirtschaftsfilm" = "IndustrialFilm"
 "Musikvideo" = "MusicVideo"
 "Wochenschau" = "Newsreel"
+"Spielfilm" = "Fiction"
+"Dokumentarfilm" = "Documentary"
+"Dokumentation" = "Documentary"
 
 [WorkVariantTypeEnum]
 "Monographisch" = "Monographic"
