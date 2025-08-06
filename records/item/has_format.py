@@ -91,6 +91,8 @@ def get_from_material_type_digitalvideo(xml):
     material_type_digitalvideo = xml.get_first(
         "material_type_digitalvideo/value[@lang='de-DE']/text()"
     )
+    if material_type_digitalvideo is None:
+        return []
 
     mapped_value_optical = get_mapped_enum_value(
         "FormatOpticalTypeEnum", material_type_digitalvideo
