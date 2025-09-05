@@ -27,31 +27,24 @@ type = { xpath = "work.description_type/value[@lang='3']/text()", enum = "WorkVa
 complex = [
     { attribute = "has_item", location = "manifestation" },
     { attribute = "is_manifestation_of", location = "manifestation" },
-    { attribute = "has_duration", location = "base" },
-    { attribute = "has_extent", location = "base" },
     { attribute = "has_note", location = "manifestation" },
     { attribute = "has_event", location = "manifestation" },
     { attribute = "has_identifier", location = "base" },
-    { attribute = "in_language", location = "base" },
     { attribute = "has_primary_title", location = "manifestation" },
     { attribute = "described_by", location = "base" },
 ]
-
-[manifestation.simple]
-has_colour_type = { xpath = "colour_manifestation/value[@lang='3']/text()", enum = "ColourTypeEnum" }
-has_sound_type = { xpath = "sound_manifestation/value[@lang='3']/text()", enum = "SoundTypeEnum" }
 
 
 
 [item]
 complex = [
     { attribute = "is_item_of", location = "item" },
-    { attribute = "has_duration", location = "base" },
-    { attribute = "has_extent", location = "base" },
+    { attribute = "has_duration", location = "item" },
+    { attribute = "has_extent", location = "item" },
     { attribute = "has_format", location = "item" },
     { attribute = "has_webresource", location = "item" },
     { attribute = "has_identifier", location = "base" },
-    { attribute = "in_language", location = "base" },
+    { attribute = "in_language", location = "item" },
     { attribute = "has_primary_title", location = "item" },
     { attribute = "described_by", location = "base" },
     { attribute = "element_type", location = "item" },
