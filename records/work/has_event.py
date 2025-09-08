@@ -1,12 +1,13 @@
 from avefi_schema import model as efi
 
-from axiell_collections import people_provider, thesau_provider
+from axiell_collections import people_provider
 from mappings.loader import get_mapping
 from records.record import XMLAccessor
 from records.utils import (
-    get_formatted_date,
     get_same_as_for_priref,
     get_mapped_enum_value,
+    get_located_in,
+    get_has_date,
 )
 
 
@@ -96,60 +97,19 @@ def has_event(xml: XMLAccessor):
                 )
 
     return efi.ProductionEvent(
-        located_in=_get_located_in(xml),
-        has_date=_get_has_date(xml),
+        located_in=get_located_in(xml.get_all("Production")),
+        has_date=get_has_date(
+            xml.get_first("Dating/dating.date.start/text()"),
+            xml.get_first("Dating/dating.date.end/text()"),
+            xml.get_first(
+                "Dating/dating.date.start.prec/value[@lang='3'][text()='circa']/text()"
+            ),
+            xml.get_first(
+                "Dating/dating.date.end.prec/value[@lang='3'][text()='circa']/text()"
+            ),
+        ),
         has_activity=activities,
     )
-
-
-def _get_has_date(xml: XMLAccessor):
-    production_date_start = xml.get_first("Dating/dating.date.start/text()")
-    production_date_start_prec = xml.get_first(
-        "Dating/dating.date.start.prec/value[@lang='3'][text()='circa']/text()"
-    )
-    production_date_end = xml.get_first("Dating/dating.date.end/text()")
-    production_date_end_prec = xml.get_first(
-        "Dating/dating.date.end.prec/value[@lang='3'][text()='circa']/text()"
-    )
-
-    if production_date_start is None or production_date_end is None:
-        return None
-
-    return get_formatted_date(
-        production_date_start,
-        production_date_start_prec,
-        production_date_end,
-        production_date_end_prec,
-    )
-
-
-def _get_located_in(xml: XMLAccessor):
-    located_in = []
-
-    xml_productions = xml.get_all("Production")
-
-    for xml_production in xml_productions:
-        production_country = xml_production.get_first(
-            "production_country/value[@lang='de-DE']/text()"
-        )
-        priref = xml_production.get_first("production_country.lref/text()")
-
-        if production_country is None or priref is None:
-            continue
-
-        located_in.append(
-            efi.GeographicName(
-                has_name=production_country,
-                same_as=get_same_as_for_priref(
-                    priref,
-                    thesau_provider,
-                    include_gnd=True,
-                    include_tgn=True,
-                ),
-            )
-        )
-
-    return located_in
 
 
 def _get_type_for_priref(priref, provider):

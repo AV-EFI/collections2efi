@@ -3,17 +3,22 @@ import re
 
 from avefi_schema import model as efi
 
+from axiell_collections import thesau_provider
 from mappings.loader import get_mapping
 
 
-def get_formatted_date(date_start, date_start_prec, date_end, date_end_prec):
-    production_date_start_value = date_start + ("~" if date_start_prec else "")
-    production_date_end_value = date_end + ("~" if date_end_prec else "")
-    return (
-        production_date_start_value
-        if production_date_start_value == production_date_end_value
-        else f"{production_date_start_value}/{production_date_end_value}"
-    )
+def get_has_date(
+    date_start,
+    date_end,
+    date_start_prec=None,
+    date_end_prec=None,
+):
+    if date_start is None or date_end is None:
+        return None
+
+    start = date_start + ("~" if date_start_prec else "")
+    end = date_end + ("~" if date_end_prec else "")
+    return start if start == end else f"{start}/{end}"
 
 
 def get_same_as_for_priref(
@@ -78,3 +83,29 @@ def get_mapped_enum_value(enum_name, key):
 
     return enum[key]
 
+
+def get_located_in(xml_productions):
+    located_in = []
+
+    for xml_production in xml_productions:
+        production_country = xml_production.get_first(
+            "production_country/value[@lang='de-DE']/text()"
+        )
+        priref = xml_production.get_first("production_country.lref/text()")
+
+        if production_country is None or priref is None:
+            continue
+
+        located_in.append(
+            efi.GeographicName(
+                has_name=production_country,
+                same_as=get_same_as_for_priref(
+                    priref,
+                    thesau_provider,
+                    include_gnd=True,
+                    include_tgn=True,
+                ),
+            )
+        )
+
+    return located_in
