@@ -5,7 +5,13 @@ import pytest
 from axiell_collections import RecordProvider, Database
 from records.record import XMLAccessor
 
-RECORD_PRIREFS = ["200000127", "200000151"]
+RECORD_PRIREFS = {
+    "200000127",
+    "200000151",
+    "200044362",
+    "200152050",
+    "200323440",
+}
 
 
 @pytest.fixture(scope="session")
