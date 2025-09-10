@@ -13,12 +13,12 @@ def get_has_date(
     date_start_prec=None,
     date_end_prec=None,
 ):
-    if date_start is None or date_end is None:
-        return None
+    start = f"{date_start}{'~' if date_start_prec else ''}" if date_start else None
+    end = f"{date_end}{'~' if date_end_prec else ''}" if date_end else None
 
-    start = date_start + ("~" if date_start_prec else "")
-    end = date_end + ("~" if date_end_prec else "")
-    return start if start == end else f"{start}/{end}"
+    if start and end:
+        return start if start == end else f"{start}/{end}"
+    return start or end
 
 
 def get_same_as_for_priref(
