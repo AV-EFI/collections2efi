@@ -63,15 +63,15 @@ def has_subject(xml: XMLAccessor):
 
         term_types = subject_xml.xpath("term.type/value[@lang='3']/text()")
 
-        if "Ort" in term_types:
+        if "Ort" in term_types || "avefi:TGNResource" in [
+                identifier.category for identifier in same_as]:
             geographic_names.append(
                 efi.GeographicName(
                     has_name=subject_name,
                     same_as=same_as,
                 )
             )
-
-        if "Ort" not in term_types:
+        else:
             subjects.append(
                 efi.Subject(
                     has_name=subject_name,
