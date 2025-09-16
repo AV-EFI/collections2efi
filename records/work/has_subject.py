@@ -6,42 +6,16 @@ from records.utils import get_same_as_for_priref
 
 
 def has_subject(xml: XMLAccessor):
-    # Agent (Person) handling
-    xml_content_persons = xml.get_all("Content_person")
+    return (
+        get_from_content_person(xml)
+        + get_from_content_subject(xml)
+        + get_from_geographical_keyword(xml)
+    )
 
-    persons = []
 
-    for xml_content_person in xml_content_persons:
-
-        person_name = xml_content_person.get_first("content.person.name/value/text()")
-        priref = xml_content_person.get_first("content.person.name.lref/text()")
-
-        if person_name is None or priref is None:
-            continue
-
-        # CURRENTLY WRONG !!!! HOW TO DECIDE WHICH AGENT TYPE ????
-
-        person = efi.Agent(
-            has_name=person_name,
-            same_as=get_same_as_for_priref(
-                priref,
-                people_provider,
-                include_gnd=True,
-                include_filmportal=True,
-                include_tgn=True,
-            ),
-            type=efi.AgentTypeEnum.Person,
-        )
-        persons.append(person)
-
-    # Subject and GeographicName handling
-
-    xml_content_subjects = xml.get_all("Content_subject")
-
+def get_from_content_subject(xml):
     subjects = []
-    geographic_names = []
-
-    for xml_content_subject in xml_content_subjects:
+    for xml_content_subject in xml.get_all("Content_subject"):
 
         subject_name = xml_content_subject.get_first(
             "content.subject/value[@lang='de-DE']/text()"
@@ -51,8 +25,6 @@ def has_subject(xml: XMLAccessor):
         if subject_name is None or priref is None:
             continue
 
-        subject_xml = thesau_provider.get_by_priref(priref)
-
         same_as = get_same_as_for_priref(
             priref,
             thesau_provider,
@@ -61,23 +33,82 @@ def has_subject(xml: XMLAccessor):
             include_tgn=True,
         )
 
-        term_types = subject_xml.xpath("term.type/value[@lang='3']/text()")
+        subject_type = (
+            efi.GeographicName
+            if "avefi:TGNResource" in [identifier.category for identifier in same_as]
+            else efi.Subject
+        )
 
-        if "Ort" in term_types or "avefi:TGNResource" in [
-            identifier.category for identifier in same_as
-        ]:
-            geographic_names.append(
-                efi.GeographicName(
-                    has_name=subject_name,
-                    same_as=same_as,
-                )
+        subjects.append(
+            subject_type(
+                has_name=subject_name,
+                same_as=same_as,
             )
-        else:
-            subjects.append(
-                efi.Subject(
-                    has_name=subject_name,
-                    same_as=same_as,
-                )
-            )
+        )
 
-    return persons + subjects + geographic_names
+    return subjects
+
+
+def get_from_geographical_keyword(xml):
+
+    geographic_names = []
+
+    for xml_geographical_keyword in xml.get_all("ContentGeo"):
+
+        geographical_keyword_name = xml_geographical_keyword.get_first(
+            "content.geographical_keyword/value[@lang='de-DE']/text()"
+        )
+        priref = xml_geographical_keyword.get_first(
+            "content.geographical_keyword.lref/text()"
+        )
+
+        if geographical_keyword_name is None or priref is None:
+            continue
+
+        geographic_names.append(
+            efi.GeographicName(
+                has_name=geographical_keyword_name,
+                same_as=get_same_as_for_priref(
+                    priref,
+                    thesau_provider,
+                    include_gnd=True,
+                    include_filmportal=True,
+                    include_tgn=True,
+                ),
+            )
+        )
+
+    return geographic_names
+
+
+def get_from_content_person(xml):
+    persons = []
+
+    for xml_content_person in xml.get_all("Content_person"):
+
+        person_name = xml_content_person.get_first("content.person.name/value/text()")
+        priref = xml_content_person.get_first("content.person.name.lref/text()")
+
+        if person_name is None or priref is None:
+            continue
+
+        person = efi.Agent(
+            has_name=person_name,
+            same_as=get_same_as_for_priref(
+                priref,
+                people_provider,
+                include_gnd=True,
+                include_filmportal=True,
+            ),
+            type=(
+                efi.AgentTypeEnum.CorporateBody
+                if XMLAccessor(people_provider.get_by_priref(priref)).get_first(
+                    "record_type/value[@lang='neutral']/text()"
+                )
+                == "2"
+                else efi.AgentTypeEnum.Person
+            ),
+        )
+        persons.append(person)
+
+    return persons
