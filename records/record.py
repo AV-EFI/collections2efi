@@ -31,15 +31,17 @@ class XMLAccessor:
 
 
 class Record:
-    def __init__(self, record_type: str, xml_element):
-        self.record_type = record_type
+    def __init__(self, xml_element):
         self.xml = XMLAccessor(xml_element)
+        self.record_type = self.xml.get_first(
+            "record_type/value[@lang='neutral']/text()"
+        ).lower()
         self.all_definitions = get_record_definitions()
         try:
-            self.definition = self.all_definitions[record_type]
+            self.definition = self.all_definitions[self.record_type]
         except KeyError:
             raise KeyError(
-                f"Record definition for '{record_type}' not found in record_definitions.toml"
+                f"Record definition for '{self.record_type}' not found in record_definitions.toml"
             )
 
     def build(self):
