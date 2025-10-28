@@ -26,48 +26,20 @@ def setup_logging():
 setup_logging()
 
 
-class RecordCategory:
-    def __init__(self, priref, record_type):
-        xml = pointer_file_provider.get_by_priref(priref)
-        self.prirefs = xml.xpath("hit/text()")
-        self.record_type = record_type
-        self.records = []
-
-
 def main():
-    works = RecordCategory(
-        priref=3,
-        record_type="work",
-    )
-    manifestations = RecordCategory(
-        priref=4,
-        record_type="manifestation",
-    )
-    items = RecordCategory(
-        priref=5,
-        record_type="item",
-    )
+    work_prirefs = pointer_file_provider.get_by_priref(3).xpath("hit/text()")
+    manifestation_prirefs = pointer_file_provider.get_by_priref(4).xpath("hit/text()")
+    item_prirefs = pointer_file_provider.get_by_priref(5).xpath("hit/text()")
 
-    logging.info(
-        f"# Retrieved {len(works.prirefs + manifestations.prirefs + items.prirefs)} prirefs:"
-    )
+    prirefs = work_prirefs + manifestation_prirefs + item_prirefs
 
-    for i, record_category in enumerate([works, manifestations, items]):
-        logging.info(
-            f"{i+1}. {len(record_category.prirefs)} ({record_category.record_type}s)"
-        )
+    logging.info(f"# Retrieved {len(prirefs)} prirefs")
 
-    for i, record_category in enumerate([works, manifestations, items]):
-        logging.info(f"# Handling {record_category.record_type}s")
-        process_records(
-            record_category=record_category,
-        )
+    records = process_records(prirefs)
 
-    logging.info(
-        f"# Built {len(works.records + manifestations.records + items.records)} records"
-    )
+    logging.info(f"# Built {len(records)} records")
 
-    purged_records = purge_records(works.records, manifestations.records, items.records)
+    purged_records = purge_records(records)
 
     logging.info(f"# After purge: {len(purged_records)} records")
 
@@ -83,21 +55,27 @@ def main():
     print(f"Wrote data to file://{json_file}")
 
 
-def process_records(record_category):
-    for i, priref in enumerate(record_category.prirefs):
-        logging.info(
-            f"Handling {record_category.record_type} {i+1}/{len(record_category.prirefs)} with priref {priref}"
-        )
+def process_records(prirefs):
+    records = []
+    for priref in prirefs:
+        logging.info(f"Handling record with priref {priref}")
         try:
             xml = collect_provider.get_by_priref(priref)
-            record = Record(record_category.record_type, xml).build()
-            record_category.records.append(record)
+            record = Record(xml).build()
+            records.append(record)
         except Exception as e:
             logging.error(f"Error during mapping of {priref}: {e}", exc_info=True)
             pass
+    return records
 
 
-def purge_records(works, manifestations, items):
+def purge_records(records):
+    works = list(filter(lambda r: r.category == "avefi:WorkVariant", records))
+    manifestations = list(
+        filter(lambda r: r.category == "avefi:Manifestation", records)
+    )
+    items = list(filter(lambda r: r.category == "avefi:Item", records))
+
     work_prirefs = {work.has_identifier[0].id for work in works}
     purged_works = [
         work
