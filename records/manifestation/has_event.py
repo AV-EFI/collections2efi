@@ -8,7 +8,7 @@ from records.utils import (
 )
 
 
-def has_event(xml: XMLAccessor):
+def has_event(xml: XMLAccessor, related_records):
     manifestationlevel_type = xml.get_first(
         "manifestationlevel_type/value[@lang='3']/text()"
     )
@@ -32,7 +32,7 @@ def has_event(xml: XMLAccessor):
                     xml.get_first("release_date_start/text()"),
                     xml.get_first("release_date_end/text()"),
                 ),
-                located_in=get_located_in(xml.get_all("Production")),
+                located_in=get_located_in(xml.get_all("Production"), related_records),
             )
         ]
 

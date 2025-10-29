@@ -1,19 +1,18 @@
 from avefi_schema import model as efi
 
-from axiell_collections import thesau_provider, people_provider
 from records.record import XMLAccessor
 from records.utils import get_same_as_for_priref
 
 
-def has_subject(xml: XMLAccessor):
+def has_subject(xml: XMLAccessor, related_records):
     return (
-        get_from_content_person(xml)
-        + get_from_content_subject(xml)
-        + get_from_geographical_keyword(xml)
+        get_from_content_person(xml, related_records)
+        + get_from_content_subject(xml, related_records)
+        + get_from_geographical_keyword(xml, related_records)
     )
 
 
-def get_from_content_subject(xml):
+def get_from_content_subject(xml, related_records):
     subjects = []
     for xml_content_subject in xml.get_all("Content_subject"):
 
@@ -26,8 +25,7 @@ def get_from_content_subject(xml):
             continue
 
         same_as = get_same_as_for_priref(
-            priref,
-            thesau_provider,
+            related_records.get("thesau.inf").get(priref),
             include_gnd=True,
             include_filmportal=True,
             include_tgn=True,
@@ -49,7 +47,7 @@ def get_from_content_subject(xml):
     return subjects
 
 
-def get_from_geographical_keyword(xml):
+def get_from_geographical_keyword(xml, related_records):
 
     geographic_names = []
 
@@ -69,8 +67,7 @@ def get_from_geographical_keyword(xml):
             efi.GeographicName(
                 has_name=geographical_keyword_name,
                 same_as=get_same_as_for_priref(
-                    priref,
-                    thesau_provider,
+                    related_records.get("thesau.inf").get(priref),
                     include_gnd=True,
                     include_filmportal=True,
                     include_tgn=True,
@@ -81,7 +78,7 @@ def get_from_geographical_keyword(xml):
     return geographic_names
 
 
-def get_from_content_person(xml):
+def get_from_content_person(xml, related_records):
     persons = []
 
     for xml_content_person in xml.get_all("Content_person"):
@@ -95,14 +92,13 @@ def get_from_content_person(xml):
         person = efi.Agent(
             has_name=person_name,
             same_as=get_same_as_for_priref(
-                priref,
-                people_provider,
+                related_records.get("people.inf").get(priref),
                 include_gnd=True,
                 include_filmportal=True,
             ),
             type=(
                 efi.AgentTypeEnum.CorporateBody
-                if XMLAccessor(people_provider.get_by_priref(priref)).get_first(
+                if XMLAccessor(related_records.get("people.inf").get(priref)).get_first(
                     "record_type/value[@lang='neutral']/text()"
                 )
                 == "2"

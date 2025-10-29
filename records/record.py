@@ -1,4 +1,5 @@
 import importlib
+import inspect
 
 from avefi_schema import model as efi
 
@@ -44,7 +45,7 @@ class Record:
                 f"Record definition for '{self.record_type}' not found in record_definitions.toml"
             )
 
-    def build(self):
+    def build(self, related_records):
         efi_class_name = self.all_definitions["efi_classes"].get(self.record_type)
         if not efi_class_name:
             raise ValueError(
@@ -66,9 +67,13 @@ class Record:
                 location = complex_mapping["location"]
 
                 module_path = f"records.{location}.{attr}"
-
                 module = importlib.import_module(module_path)
                 func = getattr(module, attr)
-                attributes[attr] = func(self.xml)
+
+                sig = inspect.signature(func)
+                if "related_records" in sig.parameters:
+                    attributes[attr] = func(self.xml, related_records=related_records)
+                else:
+                    attributes[attr] = func(self.xml)
 
         return efi_class(**attributes)

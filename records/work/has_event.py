@@ -1,6 +1,5 @@
 from avefi_schema import model as efi
 
-from axiell_collections import people_provider
 from mappings.loader import get_mapping
 from records.record import XMLAccessor
 from records.utils import (
@@ -11,7 +10,7 @@ from records.utils import (
 )
 
 
-def has_event(xml: XMLAccessor):
+def has_event(xml: XMLAccessor, related_records):
     activities = []
 
     cast_members = []
@@ -34,13 +33,11 @@ def has_event(xml: XMLAccessor):
         cast_members.append(
             efi.Agent(
                 type=_get_type_for_priref(
-                    priref,
-                    people_provider,
+                    related_records.get("people.inf").get(priref),
                 ),
                 has_name=name,
                 same_as=get_same_as_for_priref(
-                    priref,
-                    people_provider,
+                    related_records.get("people.inf").get(priref),
                     include_gnd=True,
                     include_filmportal=True,
                 ),
@@ -82,13 +79,11 @@ def has_event(xml: XMLAccessor):
                         type=activity_type_enum[activity_type_name],
                         has_agent=efi.Agent(
                             type=_get_type_for_priref(
-                                priref,
-                                people_provider,
+                                related_records.get("people.inf").get(priref)
                             ),
                             has_name=name,
                             same_as=get_same_as_for_priref(
-                                priref,
-                                people_provider,
+                                related_records.get("people.inf").get(priref),
                                 include_gnd=True,
                                 include_filmportal=True,
                             ),
@@ -97,7 +92,7 @@ def has_event(xml: XMLAccessor):
                 )
 
     return efi.ProductionEvent(
-        located_in=get_located_in(xml.get_all("Production")),
+        located_in=get_located_in(xml.get_all("Production"), related_records),
         has_date=get_has_date(
             xml.get_first("Dating/dating.date.start/text()"),
             xml.get_first("Dating/dating.date.end/text()"),
@@ -112,9 +107,8 @@ def has_event(xml: XMLAccessor):
     )
 
 
-def _get_type_for_priref(priref, provider):
-    xml = provider.get_by_priref(priref)
-    record_type = XMLAccessor(xml).get_first("record_type/value[@lang='3']/text()")
+def _get_type_for_priref(xml):
+    record_type = xml.get_first("record_type/value[@lang='3']/text()")
 
     if record_type is None:
         return efi.AgentTypeEnum.Person
