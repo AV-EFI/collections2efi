@@ -3,7 +3,6 @@ import re
 
 from avefi_schema import model as efi
 
-from axiell_collections import thesau_provider
 from mappings.loader import get_mapping
 
 
@@ -22,56 +21,50 @@ def get_has_date(
 
 
 def get_same_as_for_priref(
-    priref,
-    provider,
+    xml,
     include_gnd=False,
     include_filmportal=False,
     include_tgn=False,
 ):
 
-    try:
-        same_as = []
+    same_as = []
 
-        xml_data = provider.get_by_priref(priref)
-        xml_sources = xml_data.xpath("Source")
+    xml_sources = xml.xpath("Source")
 
-        for source_xml in xml_sources:
+    for source_xml in xml_sources:
 
-            source_number = source_xml.xpath("string(source.number[1])") or None
+        source_number = source_xml.xpath("string(source.number[1])") or None
 
-            if source_number is None:
+        if source_number is None:
+            continue
+
+        if include_gnd and "d-nb.info/gnd/" in source_number:
+            same_as.append(
+                efi.GNDResource(
+                    id=source_number.split("/")[-1],
+                )
+            )
+
+        if include_filmportal and "www.filmportal.de" in source_number:
+
+            # temporary solution
+            filmportal_id = source_number.split("_")[-1]
+            if not re.fullmatch(r"^[\da-f]{32}$", filmportal_id):
                 continue
 
-            if include_gnd and "d-nb.info/gnd/" in source_number:
-                same_as.append(
-                    efi.GNDResource(
-                        id=source_number.split("/")[-1],
-                    )
+            same_as.append(
+                efi.FilmportalResource(
+                    id=filmportal_id,
                 )
+            )
 
-            if include_filmportal and "www.filmportal.de" in source_number:
-
-                # temporary solution
-                filmportal_id = source_number.split("_")[-1]
-                if not re.fullmatch(r"^[\da-f]{32}$", filmportal_id):
-                    continue
-
-                same_as.append(
-                    efi.FilmportalResource(
-                        id=filmportal_id,
-                    )
+        if include_tgn and "vocab.getty.edu/page/tgn/" in source_number:
+            same_as.append(
+                efi.TGNResource(
+                    id=source_number.split("/")[-1],
                 )
-
-            if include_tgn and "vocab.getty.edu/page/tgn/" in source_number:
-                same_as.append(
-                    efi.TGNResource(
-                        id=source_number.split("/")[-1],
-                    )
-                )
-        return same_as
-
-    except Exception as e:
-        raise Exception("Problem with same_as computation:", e)
+            )
+    return same_as
 
 
 def get_mapped_enum_value(enum_name, key):
@@ -84,7 +77,7 @@ def get_mapped_enum_value(enum_name, key):
     return enum[key]
 
 
-def get_located_in(xml_productions):
+def get_located_in(xml_productions, related_records):
     located_in = []
 
     for xml_production in xml_productions:
@@ -100,8 +93,7 @@ def get_located_in(xml_productions):
             efi.GeographicName(
                 has_name=production_country,
                 same_as=get_same_as_for_priref(
-                    priref,
-                    thesau_provider,
+                    related_records.get("thesau.inf").get(priref),
                     include_gnd=True,
                     include_tgn=True,
                 ),

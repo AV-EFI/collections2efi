@@ -4,13 +4,19 @@ import logging.handlers
 import os
 import pathlib
 import tempfile
+import time
 import tomllib
 from datetime import datetime
 
 from linkml_runtime.dumpers import JSONDumper
 
-from axiell_collections import collect_provider, pointer_file_provider
-from records.record import Record
+from axiell_collections import (
+    collect_provider,
+    pointer_file_provider,
+    people_provider,
+    thesau_provider,
+)
+from records.record import Record, XMLAccessor
 
 logger = logging.getLogger("collections2efi")
 
@@ -27,6 +33,9 @@ setup_logging()
 
 
 def main():
+
+    start = time.time()
+
     work_prirefs = pointer_file_provider.get_by_priref(3).xpath("hit/text()")
     manifestation_prirefs = pointer_file_provider.get_by_priref(4).xpath("hit/text()")
     item_prirefs = pointer_file_provider.get_by_priref(5).xpath("hit/text()")
@@ -35,11 +44,14 @@ def main():
 
     logging.info(f"# Retrieved {len(prirefs)} prirefs")
 
-    records = process_records(prirefs)
+    records = get_records(prirefs)
+    related_records = get_related_records(records)
 
-    logging.info(f"# Built {len(records)} records")
+    efi_records = build_records(records, related_records=related_records)
 
-    purged_records = purge_records(records)
+    logging.info(f"# Built {len(efi_records)} records")
+
+    purged_records = purge_records(efi_records)
 
     logging.info(f"# After purge: {len(purged_records)} records")
 
@@ -53,20 +65,68 @@ def main():
     dumper.dump(purged_records, json_file, inject_type=False)
 
     print(f"Wrote data to file://{json_file}")
+    end = time.time()
+    print(end - start)
 
 
-def process_records(prirefs):
+def get_related_records(records: list[Record]):
+    people_prirefs = set()
+    thesau_prirefs = set()
+    for record in records:
+        thesau_prirefs.update(
+            record.xml.get_all("Production/production_country.lref/text()")
+        )
+        thesau_prirefs.update(
+            record.xml.get_all("Content_genre/content.genre.lref/text()")
+        )
+        thesau_prirefs.update(
+            record.xml.get_all("Content_subject/content.subject.lref/text()")
+        )
+        thesau_prirefs.update(
+            record.xml.get_all("ContentGeo/content.geographical_keyword.lref/text()")
+        )
+        people_prirefs.update(record.xml.get_all("Cast/cast.name.lref/text()"))
+        people_prirefs.update(record.xml.get_all("Credits/credit.name.lref/text()"))
+        people_prirefs.update(
+            record.xml.get_all("Content_person/content.person.name.lref/text()")
+        )
+
+    related_records = {
+        "people.inf": {
+            priref: XMLAccessor(people_provider.get_by_priref(priref))
+            for priref in people_prirefs
+        },
+        "thesau.inf": {
+            priref: XMLAccessor(thesau_provider.get_by_priref(priref))
+            for priref in thesau_prirefs
+        },
+    }
+
+    return related_records
+
+
+def get_records(prirefs):
     records = []
     for priref in prirefs:
-        logging.info(f"Handling record with priref {priref}")
-        try:
-            xml = collect_provider.get_by_priref(priref)
-            record = Record(xml).build()
-            records.append(record)
-        except Exception as e:
-            logging.error(f"Error during mapping of {priref}: {e}", exc_info=True)
-            pass
+        record = Record(collect_provider.get_by_priref(priref))
+        records.append(record)
     return records
+
+
+def build_records(records: list[Record], related_records):
+    built_records = []
+    for record in records:
+        logging.info(f"Handling record with priref {record.xml.get_first("@priref")}")
+        try:
+            built_record = record.build(related_records=related_records)
+            built_records.append(built_record)
+        except Exception as e:
+            logging.error(
+                f"Error during mapping of {record.xml.get_first("@priref")}: {e}",
+                exc_info=True,
+            )
+            pass
+    return built_records
 
 
 def purge_records(records):

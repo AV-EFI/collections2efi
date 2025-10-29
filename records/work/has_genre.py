@@ -1,11 +1,10 @@
 from avefi_schema import model as efi
 
-from axiell_collections import thesau_provider
 from records.record import XMLAccessor
 from records.utils import get_same_as_for_priref
 
 
-def has_genre(xml: XMLAccessor):
+def has_genre(xml: XMLAccessor, related_records):
     xml_content_genres = xml.get_all("Content_genre")
 
     genres = []
@@ -20,8 +19,7 @@ def has_genre(xml: XMLAccessor):
         genre = efi.Genre(
             has_name=genre_name,
             same_as=get_same_as_for_priref(
-                priref,
-                thesau_provider,
+                related_records.get("thesau.inf").get(priref),
                 include_gnd=True,
             ),
         )
