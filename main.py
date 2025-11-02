@@ -16,7 +16,7 @@ from axiell_collections import (
     people_provider,
     thesau_provider,
 )
-from records.record import Record, XMLAccessor
+from collections2efi import Record, Translator, PeopleRepo, ThesauRepo
 
 logger = logging.getLogger("collections2efi")
 
@@ -45,9 +45,46 @@ def main():
     logging.info(f"# Retrieved {len(prirefs)} prirefs")
 
     records = get_records(prirefs)
-    related_records = get_related_records(records)
 
-    efi_records = build_records(records, related_records=related_records)
+    people_prirefs = set()
+    thesau_prirefs = set()
+
+    for record in records:
+        for xpath in [
+            "Cast/cast.name.lref/text()",
+            "Credits/credit.name.lref/text()",
+            "Content_person/content.person.name.lref/text()",
+        ]:
+            people_prirefs.update(record.xml.get_all(xpath))
+        for xpath in [
+            "Production/production_country.lref/text()",
+            "Content_genre/content.genre.lref/text()",
+            "Content_subject/content.subject.lref/text()",
+            "ContentGeo/content.geographical_keyword.lref/text()",
+        ]:
+            thesau_prirefs.update(record.xml.get_all(xpath))
+
+    people_repo = PeopleRepo()
+    thesau_repo = ThesauRepo()
+
+    people_repo.add_records(
+        {
+            priref: Record(people_provider.get_by_priref(priref))
+            for priref in people_prirefs
+        },
+    )
+    thesau_repo.add_records(
+        {
+            priref: Record(thesau_provider.get_by_priref(priref))
+            for priref in thesau_prirefs
+        },
+    )
+
+    efi_records = build_records(
+        records,
+        people_repo=people_repo,
+        thesau_repo=thesau_repo,
+    )
 
     logging.info(f"# Built {len(efi_records)} records")
 
@@ -69,43 +106,7 @@ def main():
     print(end - start)
 
 
-def get_related_records(records: list[Record]):
-    people_prirefs = set()
-    thesau_prirefs = set()
-    for record in records:
-        thesau_prirefs.update(
-            record.xml.get_all("Production/production_country.lref/text()")
-        )
-        thesau_prirefs.update(
-            record.xml.get_all("Content_genre/content.genre.lref/text()")
-        )
-        thesau_prirefs.update(
-            record.xml.get_all("Content_subject/content.subject.lref/text()")
-        )
-        thesau_prirefs.update(
-            record.xml.get_all("ContentGeo/content.geographical_keyword.lref/text()")
-        )
-        people_prirefs.update(record.xml.get_all("Cast/cast.name.lref/text()"))
-        people_prirefs.update(record.xml.get_all("Credits/credit.name.lref/text()"))
-        people_prirefs.update(
-            record.xml.get_all("Content_person/content.person.name.lref/text()")
-        )
-
-    related_records = {
-        "people.inf": {
-            priref: XMLAccessor(people_provider.get_by_priref(priref))
-            for priref in people_prirefs
-        },
-        "thesau.inf": {
-            priref: XMLAccessor(thesau_provider.get_by_priref(priref))
-            for priref in thesau_prirefs
-        },
-    }
-
-    return related_records
-
-
-def get_records(prirefs):
+def get_records(prirefs) -> list[Record]:
     records = []
     for priref in prirefs:
         record = Record(collect_provider.get_by_priref(priref))
@@ -113,16 +114,24 @@ def get_records(prirefs):
     return records
 
 
-def build_records(records: list[Record], related_records):
+def build_records(
+    records: list[Record],
+    people_repo: PeopleRepo,
+    thesau_repo: ThesauRepo,
+):
     built_records = []
+    translator = Translator(
+        people_repo=people_repo,
+        thesau_repo=thesau_repo,
+    )
     for record in records:
-        logging.info(f"Handling record with priref {record.xml.get_first("@priref")}")
+        logging.info(f"Handling record with priref {record.xml.get_first('@priref')}")
         try:
-            built_record = record.build(related_records=related_records)
+            built_record = translator.translate(record)
             built_records.append(built_record)
         except Exception as e:
             logging.error(
-                f"Error during mapping of {record.xml.get_first("@priref")}: {e}",
+                f"Error during mapping of {record.xml.get_first('@priref')}: {e}",
                 exc_info=True,
             )
             pass

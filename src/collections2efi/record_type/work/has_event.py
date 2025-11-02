@@ -1,0 +1,125 @@
+from avefi_schema import model as efi
+
+from collections2efi.mappings.loader import get_mapping
+from collections2efi.record import XMLAccessor, Record
+from collections2efi.record_type.base.utils import (
+    get_same_as_for_record,
+    get_located_in,
+    get_has_date,
+    get_mapped_enum_value,
+)
+from collections2efi.repositories import PeopleRepo, ThesauRepo
+
+
+def has_event(
+    xml: XMLAccessor,
+    people_repo: PeopleRepo,
+    thesau_repo: ThesauRepo,
+):
+    activities = []
+
+    cast_members = []
+
+    xml_cast_list = xml.get_all("Cast")
+
+    for xml_cast in xml_cast_list:
+
+        name = xml_cast.get_first("cast.name/value/text()")
+        priref = xml_cast.get_first("cast.name.lref/text()")
+        credit_type = xml_cast.get_first("cast.credit_type/value[@lang='de-DE']/text()")
+
+        if credit_type is not None:
+            continue
+
+        if name is None or priref is None:
+            continue
+
+        cast_members.append(
+            efi.Agent(
+                type=_get_type_for_people_record(
+                    people_repo.get_record(priref),
+                ),
+                has_name=name,
+                same_as=get_same_as_for_record(
+                    people_repo.get_record(priref),
+                    include_gnd=True,
+                    include_filmportal=True,
+                ),
+            )
+        )
+
+    if cast_members:
+        activities.append(
+            efi.CastActivity(
+                type=efi.CastActivityTypeEnum.CastMember, has_agent=cast_members
+            )
+        )
+
+    activity_to_type_mapping = [
+        (efi.DirectingActivity, get_mapping("DirectingActivityTypeEnum")),
+        (efi.CinematographyActivity, get_mapping("CinematographyActivityTypeEnum")),
+        (efi.EditingActivity, get_mapping("EditingActivityTypeEnum")),
+        (efi.WritingActivity, get_mapping("WritingActivityTypeEnum")),
+        (efi.ProductionDesignActivity, get_mapping("ProductionDesignActivityTypeEnum")),
+        (efi.ProducingActivity, get_mapping("ProducingActivityTypeEnum")),
+        (efi.MusicActivity, get_mapping("MusicActivityTypeEnum")),
+    ]
+
+    for activity, activity_type_enum in activity_to_type_mapping:
+        for activity_type_name in activity_type_enum.keys():
+            xml_entity_list = xml.get_all(
+                f"Credits[credit.type/value[@lang='de-DE'][text()='{activity_type_name}']]"
+            )
+
+            for xml_entity in xml_entity_list:
+                name = xml_entity.get_first("credit.name/value/text()")
+                priref = xml_entity.get_first("credit.name.lref/text()")
+
+                if name is None or priref is None:
+                    continue
+
+                people_record = people_repo.get_record(priref)
+
+                activities.append(
+                    activity(
+                        type=activity_type_enum[activity_type_name],
+                        has_agent=efi.Agent(
+                            type=_get_type_for_people_record(people_record),
+                            has_name=name,
+                            same_as=get_same_as_for_record(
+                                people_record,
+                                include_gnd=True,
+                                include_filmportal=True,
+                            ),
+                        ),
+                    )
+                )
+
+    return efi.ProductionEvent(
+        located_in=get_located_in(xml.get_all("Production"), thesau_repo),
+        has_date=get_has_date(
+            xml.get_first("Dating/dating.date.start/text()"),
+            xml.get_first("Dating/dating.date.end/text()"),
+            xml.get_first(
+                "Dating/dating.date.start.prec/value[@lang='3'][text()='circa']/text()"
+            ),
+            xml.get_first(
+                "Dating/dating.date.end.prec/value[@lang='3'][text()='circa']/text()"
+            ),
+        ),
+        has_activity=activities,
+    )
+
+
+def _get_type_for_people_record(record: Record):
+    record_type = record.xml.get_first("record_type/value[@lang='3']/text()")
+
+    if record_type is None:
+        return efi.AgentTypeEnum.Person
+
+    agent_type = get_mapped_enum_value("AgentTypeEnum", record_type)
+
+    if agent_type is None:
+        return efi.AgentTypeEnum.Person
+
+    return agent_type
