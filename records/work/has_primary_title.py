@@ -4,5 +4,3 @@ from records.work.utils import compute_title
 
 def has_primary_title(xml: XMLAccessor):
     return compute_title(xml)[0]
-
-

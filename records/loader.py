@@ -5,8 +5,10 @@ import tomllib
 
 
 def _load_record_definitions():
-    definitions_file = os.path.join(os.path.dirname(__file__), 'record_definitions.toml')
-    with open(definitions_file, 'rb') as f:
+    definitions_file = os.path.join(
+        os.path.dirname(__file__), "record_definitions.toml"
+    )
+    with open(definitions_file, "rb") as f:
         definitions = tomllib.load(f)
 
     return definitions
@@ -26,9 +28,14 @@ def _validate_complex_mappings(definitions):
                 try:
                     module = importlib.import_module(module_path)
                     if not hasattr(module, attr):
-                        raise AttributeError(f"Function '{attr}' not found in module '{module_path}' for record type '{record_type}'.")
+                        raise AttributeError(
+                            f"Function '{attr}' not found in module '{module_path}' for record type '{record_type}'."
+                        )
                 except ImportError:
-                    raise ImportError(f"Module '{module_path}' not found for complex mapping '{attr}' in record type '{record_type}'.")
+                    raise ImportError(
+                        f"Module '{module_path}' not found for complex mapping '{attr}' in record type '{record_type}'."
+                    )
+
 
 @functools.lru_cache(maxsize=None)
 def get_record_definitions():
