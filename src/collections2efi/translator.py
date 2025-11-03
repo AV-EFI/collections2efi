@@ -50,7 +50,9 @@ class Translator:
                 func = getattr(module, attr)
 
                 sig = inspect.signature(func)
-                kwargs = {"xml": record.xml}
+                kwargs = {}
+                if "xml" in sig.parameters:
+                    kwargs["xml"] = record.xml
                 if "people_repo" in sig.parameters:
                     kwargs["people_repo"] = self.people_repo
                 if "thesau_repo" in sig.parameters:
