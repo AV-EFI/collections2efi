@@ -7,14 +7,15 @@ import tempfile
 import time
 import tomllib
 from datetime import datetime
+from itertools import islice
 
 from linkml_runtime.dumpers import JSONDumper
 
 from axiell_collections import (
-    collect_provider,
     pointer_file_provider,
     people_provider,
     thesau_provider,
+    axiell_collections_database,
 )
 from collections2efi import Record, Translator, PeopleRepo, ThesauRepo
 
@@ -106,11 +107,29 @@ def main():
     print(end - start)
 
 
+def chunked(iterable, size):
+    it = iter(iterable)
+    while chunk := list(islice(it, size)):
+        yield chunk
+
+
 def get_records(prirefs) -> list[Record]:
     records = []
-    for priref in prirefs:
-        record = Record(collect_provider.get_by_priref(priref))
-        records.append(record)
+
+    chunk_size = 10
+
+    for i, chunk in enumerate(chunked(sorted(prirefs), chunk_size)):
+        text = ",".join(chunk)
+        q = {
+            "database": "collect.inf",
+            "search": f"priref={text}",
+            "limit": len(chunk),
+            "xmltype": "grouped",
+        }
+
+        response = axiell_collections_database.get(q)
+        records.extend([Record(r) for r in response.records])
+
     return records
 
 
