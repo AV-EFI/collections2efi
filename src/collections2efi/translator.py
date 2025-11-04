@@ -4,7 +4,7 @@ import inspect
 from avefi_schema import model as efi
 
 from collections2efi.loader import get_record_definitions
-from collections2efi.record import Record
+from collections2efi.record import CollectRecord
 from collections2efi.record_type.base.utils import get_mapped_enum_value
 from collections2efi.repositories import PeopleRepo, ThesauRepo
 
@@ -19,7 +19,7 @@ class Translator:
         self.people_repo = people_repo
         self.thesau_repo = thesau_repo
 
-    def translate(self, record: Record):
+    def translate(self, record: CollectRecord):
         record_type = record.xml.get_first(
             "record_type/value[@lang='neutral']/text()"
         ).lower()

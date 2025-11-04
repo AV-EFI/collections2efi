@@ -1,3 +1,6 @@
+from abc import ABC
+
+
 class XMLAccessor:
     def __init__(self, xml_element):
         self._element = xml_element
@@ -22,7 +25,7 @@ class XMLAccessor:
         return f"<XMLAccessor wrapping {self._element!r}>"
 
 
-class Record:
+class Record(ABC):
     def __init__(self, xml_element):
         self.xml = XMLAccessor(xml_element)
         self.priref = self.xml.get_first("@priref")
