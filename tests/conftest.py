@@ -1,9 +1,9 @@
 import os
 
 import pytest
-
-from axiell_collections import RecordProvider, Database
 from records.record import XMLAccessor
+
+from axiell_collections import Database, RecordProvider
 
 RECORD_PRIREFS = {
     "200000127",

@@ -27,13 +27,11 @@ def get_same_as_for_record(
     include_filmportal: bool = False,
     include_tgn: bool = False,
 ):
-
     same_as = []
 
     xml_sources = record.xml.xpath("Source")
 
     for source_xml in xml_sources:
-
         source_number = source_xml.xpath("string(source.number[1])") or None
 
         if source_number is None:
@@ -47,7 +45,6 @@ def get_same_as_for_record(
             )
 
         if include_filmportal and "www.filmportal.de" in source_number:
-
             # temporary solution
             filmportal_id = source_number.split("_")[-1]
             if not re.fullmatch(r"^[\da-f]{32}$", filmportal_id):

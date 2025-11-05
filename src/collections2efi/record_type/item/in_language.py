@@ -5,13 +5,11 @@ from collections2efi.record_type.base.utils import get_mapped_enum_value
 
 
 def in_language(xml: XMLAccessor):
-
     xml_languages_list = xml.get_all("Language")
 
     languages = []
 
     for xml_language in xml_languages_list:
-
         language = xml_language.get_first("language/value[@lang='de-DE']/text()")
         language_type = xml_language.get_first("language.type/value[@lang='3']/text()")
         if language is None or language_type is None:

@@ -12,19 +12,19 @@ from itertools import islice
 from linkml_runtime.dumpers import JSONDumper
 
 from axiell_collections import (
-    pointer_file_provider,
-    people_provider,
-    thesau_provider,
     axiell_collections_database,
     collect_provider,
+    people_provider,
+    pointer_file_provider,
+    thesau_provider,
 )
 from collections2efi import (
-    Translator,
-    PeopleRepo,
-    ThesauRepo,
     CollectRecord,
     PeopleRecord,
+    PeopleRepo,
     ThesauRecord,
+    ThesauRepo,
+    Translator,
 )
 
 logger = logging.getLogger("collections2efi")

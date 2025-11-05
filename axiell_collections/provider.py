@@ -1,4 +1,4 @@
-from abc import abstractmethod, ABC
+from abc import ABC, abstractmethod
 
 
 class BaseProvider(ABC):
@@ -26,7 +26,6 @@ class BaseProvider(ABC):
 
 class RecordProvider(BaseProvider):
     def _construct_query(self, priref):
-
         return {
             "search": f"priref={priref}",
             "database": self.database,
@@ -36,7 +35,6 @@ class RecordProvider(BaseProvider):
 
 class PointerFileProvider(BaseProvider):
     def _construct_query(self, priref):
-
         return {
             "database": self.database,
             "xmltype": "grouped",

@@ -20,7 +20,6 @@ def has_subject(
 def get_from_content_subject(xml: XMLAccessor, thesau_repo: ThesauRepo):
     subjects = []
     for xml_content_subject in xml.get_all("Content_subject"):
-
         subject_name = xml_content_subject.get_first(
             "content.subject/value[@lang='de-DE']/text()"
         )
@@ -53,11 +52,9 @@ def get_from_content_subject(xml: XMLAccessor, thesau_repo: ThesauRepo):
 
 
 def get_from_geographical_keyword(xml: XMLAccessor, thesau_repo: ThesauRepo):
-
     geographic_names = []
 
     for xml_geographical_keyword in xml.get_all("ContentGeo"):
-
         geographical_keyword_name = xml_geographical_keyword.get_first(
             "content.geographical_keyword/value[@lang='de-DE']/text()"
         )
@@ -87,7 +84,6 @@ def get_from_content_person(xml: XMLAccessor, people_repo: PeopleRepo):
     persons = []
 
     for xml_content_person in xml.get_all("Content_person"):
-
         person_name = xml_content_person.get_first("content.person.name/value/text()")
         priref = xml_content_person.get_first("content.person.name.lref/text()")
 

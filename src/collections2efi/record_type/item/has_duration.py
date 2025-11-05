@@ -5,7 +5,6 @@ from collections2efi.record_type.base.utils import get_mapped_enum_value
 
 
 def has_duration(xml: XMLAccessor):
-
     value = xml.get_first(
         "Dimension[dimension.type/value[@lang='de-DE' and text()='Laufzeit']][1]/dimension.value/text()"
     )
@@ -28,7 +27,6 @@ def has_duration(xml: XMLAccessor):
 
 
 def time_string_to_iso_8601_duration(time_str):
-
     minute_str, second_str = time_str.split(".") if "." in time_str else (time_str, "0")
 
     minutes = int(minute_str)

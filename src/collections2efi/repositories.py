@@ -1,6 +1,6 @@
-from typing import TypeVar, Generic
+from typing import Generic, TypeVar
 
-from collections2efi.record import Record, PeopleRecord, ThesauRecord
+from collections2efi.record import PeopleRecord, Record, ThesauRecord
 
 T = TypeVar("T", bound=Record)
 

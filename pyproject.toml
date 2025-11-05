@@ -20,7 +20,7 @@ packages = [{include = "collections2efi", from = "src"}]
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.4.1"
 pytest-dotenv = "^0.5.2"
-black = "^25.1.0"
+ruff = "^0.14.3"
 
 [build-system]
 requires = ["poetry-core"]
@@ -29,3 +29,15 @@ build-backend = "poetry.core.masonry.api"
 [tool.pytest.ini_options]
 pythonpath = ["src"]
 
+[tool.ruff]
+extend-exclude = ["axiell_collections/wrapper.py"]
+
+[tool.ruff.lint]
+select = ["I", "TID"]
+ignore = ["E501"]
+
+[tool.ruff.lint.isort]
+combine-as-imports = true
+
+[tool.ruff.lint.flake8-tidy-imports]
+ban-relative-imports = "all"

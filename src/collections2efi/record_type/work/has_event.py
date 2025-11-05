@@ -1,12 +1,12 @@
 from avefi_schema import model as efi
 
 from collections2efi.mappings.loader import get_mapping
-from collections2efi.record import XMLAccessor, PeopleRecord
+from collections2efi.record import PeopleRecord, XMLAccessor
 from collections2efi.record_type.base.utils import (
-    get_same_as_for_record,
-    get_located_in,
     get_has_date,
+    get_located_in,
     get_mapped_enum_value,
+    get_same_as_for_record,
 )
 from collections2efi.repositories import PeopleRepo, ThesauRepo
 
@@ -23,7 +23,6 @@ def has_event(
     xml_cast_list = xml.get_all("Cast")
 
     for xml_cast in xml_cast_list:
-
         name = xml_cast.get_first("cast.name/value/text()")
         priref = xml_cast.get_first("cast.name.lref/text()")
         credit_type = xml_cast.get_first("cast.credit_type/value[@lang='de-DE']/text()")

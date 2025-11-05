@@ -6,7 +6,7 @@ from avefi_schema import model as efi
 from collections2efi.loader import get_record_definitions
 from collections2efi.record import CollectRecord
 from collections2efi.record_type.base.utils import get_mapped_enum_value
-from .repositories import PeopleRepo, ThesauRepo
+from collections2efi.repositories import PeopleRepo, ThesauRepo
 
 
 class Translator:

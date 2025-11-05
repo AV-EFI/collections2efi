@@ -1,6 +1,5 @@
 import pytest
 from avefi_schema import model as efi
-
 from records.manifestation.has_event import has_event
 
 

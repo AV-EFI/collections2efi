@@ -5,12 +5,10 @@ from collections2efi.record_type.base.utils import get_mapped_enum_value
 
 
 def compute_title(xml: XMLAccessor):
-
     xml_titles = xml.get_all("Title")
     titles = []
 
     for xml_title in xml_titles:
-
         title_text = xml_title.get_first("title/text()")
         title_type = xml_title.get_first("title.type/value[@lang='de-DE']/text()")
         title_article = xml_title.get_first("title.article/text()")

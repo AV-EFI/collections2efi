@@ -55,7 +55,7 @@ def main():
             records = json.load(f)
 
         for i, record in enumerate(records):
-            logging.info(f"{i+1}/{len(records)}")
+            logging.info(f"{i + 1}/{len(records)}")
             process_record(record, cursor)
 
     except FileNotFoundError:

@@ -1,6 +1,5 @@
 import pytest
 from avefi_schema import model as efi
-
 from records.work.has_primary_title import has_primary_title
 
 
