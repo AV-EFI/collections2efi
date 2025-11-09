@@ -1,0 +1,113 @@
+<record priref="9646" created="2024-11-30T05:13:01" modification="2024-12-01T07:25:37" selected="false" deleted="false">
+  <equivalent_term>
+    <value lang="de-DE" invariant="false">Deutsche Demokratische Republik (DDR)</value>
+  </equivalent_term>
+  <equivalent_term>
+    <value lang="de-DE" invariant="true">Deutschland</value>
+    <value lang="en-GB" invariant="false">Germany</value>
+  </equivalent_term>
+  <equivalent_term>
+    <value lang="de-DE" invariant="true">Deutschland (Deutsches Reich)</value>
+    <value lang="en-GB" invariant="false">Germany (German Reich)</value>
+  </equivalent_term>
+  <equivalent_term>
+    <value lang="de-DE" invariant="true">Deutschland (Gebiet unter Alliierter Besatzung)</value>
+  </equivalent_term>
+  <equivalent_term.lref>8468</equivalent_term.lref>
+  <equivalent_term.lref>5479</equivalent_term.lref>
+  <equivalent_term.lref>8404</equivalent_term.lref>
+  <equivalent_term.lref>5255</equivalent_term.lref>
+  <Source>
+    <source>Gemeinsame Normdatei</source>
+    <source.number>https://d-nb.info/gnd/4011889-7</source.number>
+  </Source>
+  <Source>
+    <source>TGN</source>
+    <source.number>http://vocab.getty.edu/page/tgn/7000081</source.number>
+  </Source>
+  <guid>594418d7-e9a6-44c4-b74c-de0d0d8cf38c</guid>
+  <priref>9646</priref>
+  <record_access.owner>sdkAdmin</record_access.owner>
+  <related_term>
+    <value lang="de-DE" invariant="false">Deutsche Demokratische Republik (DDR)</value>
+  </related_term>
+  <related_term.lref>8468</related_term.lref>
+  <term>
+    <value lang="de-DE" invariant="true">Bundesrepublik Deutschland (BRD)</value>
+    <value lang="en-GB" invariant="false">Federal Republic of Germany</value>
+  </term>
+  <term.status>
+    <value lang="neutral">1</value>
+    <value lang="0">approved preferred term</value>
+    <value lang="1">descriptor</value>
+    <value lang="2">descripteur</value>
+    <value lang="3">Deskriptor</value>
+    <value lang="5">termine preferenziale approvato</value>
+    <value lang="9">godk&#228;nda f&#246;redragen term</value>
+    <value lang="10">&#1502;&#1493;&#1504;&#1495; &#1502;&#1488;&#1493;&#1513;&#1512; &#1502;&#1493;&#1506;&#1491;&#1507;</value>
+    <value lang="11">godkendt foretrukket term</value>
+    <value lang="14">&#25209;&#20934;&#39318;&#36984;&#26781;&#27454;</value>
+  </term.status>
+  <term.type>
+    <value lang="neutral"/>
+  </term.type>
+  <term.type>
+    <value lang="neutral">SUBJECT</value>
+    <value lang="0">subject</value>
+    <value lang="1">onderwerp</value>
+    <value lang="2">sujet</value>
+    <value lang="3">Thema</value>
+    <value lang="4">&#1605;&#1608;&#1590;&#1608;&#1593;</value>
+    <value lang="5">soggetto</value>
+    <value lang="6">&#952;&#941;&#956;&#945;</value>
+    <value lang="9">&#228;mne</value>
+  </term.type>
+  <term.type>
+    <value lang="neutral"/>
+  </term.type>
+  <term.type>
+    <value lang="neutral">RIGHTS_TERRITORY</value>
+    <value lang="0">Rights Territory</value>
+    <value lang="3">Rechte Gebiet</value>
+  </term.type>
+  <term.type>
+    <value lang="neutral">RIGHTS_USAGE_SCOPE</value>
+    <value lang="0">Rights Usage Scope</value>
+    <value lang="3">Rechte Nutzung Geltungsbereich</value>
+  </term.type>
+  <term.type>
+    <value lang="neutral">REGION</value>
+    <value lang="0">region</value>
+    <value lang="1">regio</value>
+    <value lang="3">Region</value>
+    <value lang="9">region</value>
+  </term.type>
+  <term.type>
+    <value lang="neutral">EVENT</value>
+    <value lang="0">event</value>
+    <value lang="1">gebeurtenis</value>
+    <value lang="2">&#233;v&#233;nement</value>
+    <value lang="3">Ereignis</value>
+    <value lang="4">&#1581;&#1583;&#1579;</value>
+    <value lang="5">evento</value>
+    <value lang="6">&#947;&#949;&#947;&#959;&#957;&#972;&#962;</value>
+    <value lang="9">h&#228;ndelse</value>
+  </term.type>
+  <term.type>
+    <value lang="neutral">COUNTRY</value>
+    <value lang="0">Country</value>
+    <value lang="3">Land</value>
+  </term.type>
+  <used_for>
+    <value lang="de-DE" invariant="false">BRD</value>
+  </used_for>
+  <used_for>
+    <value lang="de-DE" invariant="false">Deutschland (BRD)</value>
+  </used_for>
+  <used_for>
+    <value lang="de-DE" invariant="true">GW</value>
+  </used_for>
+  <used_for.lref>10850</used_for.lref>
+  <used_for.lref>9881</used_for.lref>
+  <used_for.lref>5251</used_for.lref>
+</record>

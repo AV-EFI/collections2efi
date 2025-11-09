@@ -1,0 +1,157 @@
+<record priref="5290" created="2024-11-30T05:11:14" modification="2024-12-01T07:26:04" selected="false" deleted="false">
+  <broader_term>
+    <value lang="de-DE" invariant="false">S&#252;damerika</value>
+  </broader_term>
+  <broader_term.lref>29227</broader_term.lref>
+  <group>
+    <value lang="de-DE" invariant="true">E3.2 Orte international</value>
+    <value lang="en-GB" invariant="false">E3.2 Places international</value>
+  </group>
+  <group.lref>947</group.lref>
+  <Source>
+    <source>Wikipedia</source>
+    <source.number>https://de.wikipedia.org/w/index.php?title=Argentinien&amp;oldid=169668231</source.number>
+  </Source>
+  <Source>
+    <source>Gemeinsame Normdatei</source>
+    <source.number>http://d-nb.info/gnd/4002890-2</source.number>
+  </Source>
+  <Source>
+    <source>TGN</source>
+    <source.number>http://vocab.getty.edu/page/tgn/7006477</source.number>
+  </Source>
+  <guid>d909682a-3235-4da6-b3f2-2bb510eff2d5</guid>
+  <narrower_term>
+    <value lang="de-DE" invariant="false">Bariloche</value>
+  </narrower_term>
+  <narrower_term>
+    <value lang="de-DE" invariant="false">Buenos Aires</value>
+  </narrower_term>
+  <narrower_term>
+    <value lang="de-DE" invariant="false">Chascom&#250;s</value>
+  </narrower_term>
+  <narrower_term>
+    <value lang="de-DE" invariant="false">Concordia</value>
+  </narrower_term>
+  <narrower_term>
+    <value lang="de-DE" invariant="false">C&#243;rdoba (Argentinien)</value>
+  </narrower_term>
+  <narrower_term>
+    <value lang="de-DE" invariant="false">Gualeguay</value>
+  </narrower_term>
+  <narrower_term>
+    <value lang="de-DE" invariant="false">La Plata</value>
+  </narrower_term>
+  <narrower_term>
+    <value lang="de-DE" invariant="false">Lago Argentino</value>
+  </narrower_term>
+  <narrower_term>
+    <value lang="de-DE" invariant="false">Mar del Plata, Buenos Aires</value>
+  </narrower_term>
+  <narrower_term>
+    <value lang="de-DE" invariant="false">Mendoza</value>
+  </narrower_term>
+  <narrower_term>
+    <value lang="de-DE" invariant="false">Paran&#225;</value>
+  </narrower_term>
+  <narrower_term>
+    <value lang="de-DE" invariant="false">Rosario</value>
+  </narrower_term>
+  <narrower_term>
+    <value lang="de-DE" invariant="false">Salta</value>
+  </narrower_term>
+  <narrower_term>
+    <value lang="de-DE" invariant="false">San Lorenzo</value>
+  </narrower_term>
+  <narrower_term>
+    <value lang="de-DE" invariant="false">San Miguel de Tucum&#225;n</value>
+  </narrower_term>
+  <narrower_term>
+    <value lang="de-DE" invariant="false">San Rafael</value>
+  </narrower_term>
+  <narrower_term>
+    <value lang="de-DE" invariant="false">San Salvador de Jujuy</value>
+  </narrower_term>
+  <narrower_term>
+    <value lang="de-DE" invariant="false">Santa F&#233; de la Vera Cruz</value>
+  </narrower_term>
+  <narrower_term>
+    <value lang="de-DE" invariant="false">Tandil</value>
+  </narrower_term>
+  <narrower_term>
+    <value lang="de-DE" invariant="false">Urdinarrain</value>
+  </narrower_term>
+  <narrower_term>
+    <value lang="de-DE" invariant="false">Vicente L&#243;pez</value>
+  </narrower_term>
+  <narrower_term>
+    <value lang="de-DE" invariant="false">Villa Ca&#241;&#225;s</value>
+  </narrower_term>
+  <narrower_term.lref>30237</narrower_term.lref>
+  <narrower_term.lref>9417</narrower_term.lref>
+  <narrower_term.lref>28256</narrower_term.lref>
+  <narrower_term.lref>25689</narrower_term.lref>
+  <narrower_term.lref>26542</narrower_term.lref>
+  <narrower_term.lref>27397</narrower_term.lref>
+  <narrower_term.lref>34287</narrower_term.lref>
+  <narrower_term.lref>23276</narrower_term.lref>
+  <narrower_term.lref>28232</narrower_term.lref>
+  <narrower_term.lref>27173</narrower_term.lref>
+  <narrower_term.lref>28348</narrower_term.lref>
+  <narrower_term.lref>26469</narrower_term.lref>
+  <narrower_term.lref>10086</narrower_term.lref>
+  <narrower_term.lref>25759</narrower_term.lref>
+  <narrower_term.lref>9641</narrower_term.lref>
+  <narrower_term.lref>26677</narrower_term.lref>
+  <narrower_term.lref>26815</narrower_term.lref>
+  <narrower_term.lref>23454</narrower_term.lref>
+  <narrower_term.lref>27187</narrower_term.lref>
+  <narrower_term.lref>25772</narrower_term.lref>
+  <narrower_term.lref>28972</narrower_term.lref>
+  <narrower_term.lref>23593</narrower_term.lref>
+  <priref>5290</priref>
+  <record_access.owner>sdkThesaurus</record_access.owner>
+  <reference_number>571: Filmland Argentinien</reference_number>
+  <reference_number>147: Filmwirtschaft / Ausland / Argentinien</reference_number>
+  <term>
+    <value lang="de-DE" invariant="true">Argentinien</value>
+  </term>
+  <term.status>
+    <value lang="neutral">1</value>
+    <value lang="0">approved preferred term</value>
+    <value lang="1">descriptor</value>
+    <value lang="2">descripteur</value>
+    <value lang="3">Deskriptor</value>
+    <value lang="5">termine preferenziale approvato</value>
+    <value lang="9">godk&#228;nda f&#246;redragen term</value>
+    <value lang="10">&#1502;&#1493;&#1504;&#1495; &#1502;&#1488;&#1493;&#1513;&#1512; &#1502;&#1493;&#1506;&#1491;&#1507;</value>
+    <value lang="11">godkendt foretrukket term</value>
+    <value lang="14">&#25209;&#20934;&#39318;&#36984;&#26781;&#27454;</value>
+  </term.status>
+  <term.type>
+    <value lang="neutral"/>
+  </term.type>
+  <term.type>
+    <value lang="neutral"/>
+  </term.type>
+  <term.type>
+    <value lang="neutral">SUBJECT</value>
+    <value lang="0">subject</value>
+    <value lang="1">onderwerp</value>
+    <value lang="2">sujet</value>
+    <value lang="3">Thema</value>
+    <value lang="4">&#1605;&#1608;&#1590;&#1608;&#1593;</value>
+    <value lang="5">soggetto</value>
+    <value lang="6">&#952;&#941;&#956;&#945;</value>
+    <value lang="9">&#228;mne</value>
+  </term.type>
+  <term.type>
+    <value lang="neutral">COUNTRY</value>
+    <value lang="0">Country</value>
+    <value lang="3">Land</value>
+  </term.type>
+  <used_for>
+    <value lang="de-DE" invariant="false">AG</value>
+  </used_for>
+  <used_for.lref>8185</used_for.lref>
+</record>

@@ -1,0 +1,59 @@
+<record priref="8059" created="2024-11-30T05:11:47" modification="2024-11-30T05:11:47" selected="false" deleted="false">
+  <broader_term>
+    <value lang="de-DE" invariant="false">Genre (Film)</value>
+  </broader_term>
+  <broader_term.lref>30903</broader_term.lref>
+  <group>
+    <value lang="de-DE" invariant="false">F6.3 Visuelle Werke</value>
+  </group>
+  <group>
+    <value lang="de-DE" invariant="false">T3.4 Darstellende Kunst</value>
+  </group>
+  <group.lref>10910</group.lref>
+  <group.lref>10097</group.lref>
+  <Source>
+    <scope_note>F&#252;r das Lexikon der Filmbegriffe der Universit&#228;t Kiel wird der Begriff Drama in der Filmkritik &#8222;als Sammelbezeichnung f&#252;r Filme verwendet, die zwischen Melo- und Sozialdrama angesiedelt sind. Die somit wohl unspezifischste Genrebezeichnung des Films umfasst neben anderen Subgenres das romantische Drama, den period film, zahlreiche historische Melodramen, viele Gerichtsfilme, manche Abenteuerdramen und &#196;hnliches mehr. Im Zentrum des Dramas stehen Figuren, die eine Lebenskrise durchmachen, vor eine lebensver&#228;ndernde Entscheidung gestellt sind, ihr Leben auf Grund von Verlust, Verfolgung, zuf&#228;lligem Gl&#252;ck oder &#196;hnlichem neu formieren m&#252;ssen.&#8220;</scope_note>
+    <source>Wikipedia</source>
+    <source.number>https://de.wikipedia.org/w/index.php?title=Drama_(Filmgenre)&amp;oldid=184224528</source.number>
+  </Source>
+  <Source>
+    <source>Gemeinsame Normdatei</source>
+    <source.number>https://d-nb.info/gnd/4012899-4</source.number>
+  </Source>
+  <guid>a04641c6-915d-4534-b5d5-c2d12bd25ef8</guid>
+  <priref>8059</priref>
+  <record_access.owner>sdkRedaktion</record_access.owner>
+  <term>
+    <value lang="de-DE" invariant="false">Drama</value>
+  </term>
+  <term.status>
+    <value lang="neutral">3</value>
+    <value lang="0">candidate</value>
+    <value lang="1">kandidaat</value>
+    <value lang="2">candidat</value>
+    <value lang="3">Kandidat</value>
+    <value lang="5">candidato</value>
+    <value lang="9">kandidat</value>
+    <value lang="10">&#1502;&#1493;&#1506;&#1502;&#1491;</value>
+    <value lang="11">kandidat</value>
+    <value lang="14">&#20505;&#36984;&#20154;</value>
+  </term.status>
+  <term.type>
+    <value lang="neutral">GENRE</value>
+    <value lang="0">genre</value>
+    <value lang="1">genre</value>
+    <value lang="3">Genre</value>
+    <value lang="9">genre</value>
+  </term.type>
+  <term.type>
+    <value lang="neutral">SUBJECT</value>
+    <value lang="0">subject</value>
+    <value lang="1">onderwerp</value>
+    <value lang="2">sujet</value>
+    <value lang="3">Thema</value>
+    <value lang="4">&#1605;&#1608;&#1590;&#1608;&#1593;</value>
+    <value lang="5">soggetto</value>
+    <value lang="6">&#952;&#941;&#956;&#945;</value>
+    <value lang="9">&#228;mne</value>
+  </term.type>
+</record>

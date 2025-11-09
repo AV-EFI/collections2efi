@@ -1,6 +1,8 @@
 import pytest
 from avefi_schema import model as efi
-from records.manifestation.has_event import has_event
+
+from collections2efi import ThesauRepo
+from collections2efi.record_type.manifestation.has_event import has_event
 
 
 @pytest.mark.parametrize(
@@ -44,6 +46,6 @@ from records.manifestation.has_event import has_event
         ),
     ],
 )
-def test_has_event(all_records, priref, expected):
-    xml = all_records[priref]
-    assert has_event(xml) == expected
+def test_has_event(collect_record_factory, thesau_repo: ThesauRepo, priref, expected):
+    xml = collect_record_factory(priref).xml
+    assert has_event(xml, thesau_repo) == expected

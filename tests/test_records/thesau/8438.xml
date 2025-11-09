@@ -1,0 +1,67 @@
+<record priref="8438" created="2024-11-30T05:12:06" modification="2024-11-30T05:12:06" selected="false" deleted="false">
+  <broader_term>
+    <value lang="de-DE" invariant="true">Berlin</value>
+    <value lang="en-GB" invariant="false">Berlin</value>
+  </broader_term>
+  <broader_term.lref>5457</broader_term.lref>
+  <group>
+    <value lang="de-DE" invariant="true">E3.1.1 Orte in Berlin</value>
+    <value lang="en-GB" invariant="false">E3.1.1 Places in Berlin</value>
+  </group>
+  <group.lref>946</group.lref>
+  <Source>
+    <scope_note>Benutzt f&#252;r die westlichen Ortsteile Berlins, 1945-1990 benutzt f&#252;r die Westsektoren und das Land Berlin.</scope_note>
+    <source>Gemeinsame Normdatei</source>
+    <source.number>http://d-nb.info/gnd/4069304-1</source.number>
+  </Source>
+  <guid>1315f9e7-819c-46e5-ac68-f87a9c4c3ecd</guid>
+  <priref>8438</priref>
+  <record_access.owner>sdkRedaktion</record_access.owner>
+  <term>
+    <value lang="de-DE" invariant="false">Berlin (West)</value>
+  </term>
+  <term.status>
+    <value lang="neutral">1</value>
+    <value lang="0">approved preferred term</value>
+    <value lang="1">descriptor</value>
+    <value lang="2">descripteur</value>
+    <value lang="3">Deskriptor</value>
+    <value lang="5">termine preferenziale approvato</value>
+    <value lang="9">godk&#228;nda f&#246;redragen term</value>
+    <value lang="10">&#1502;&#1493;&#1504;&#1495; &#1502;&#1488;&#1493;&#1513;&#1512; &#1502;&#1493;&#1506;&#1491;&#1507;</value>
+    <value lang="11">godkendt foretrukket term</value>
+    <value lang="14">&#25209;&#20934;&#39318;&#36984;&#26781;&#27454;</value>
+  </term.status>
+  <term.type>
+    <value lang="neutral">KEYWORD</value>
+    <value lang="0">keyword</value>
+    <value lang="1">trefwoord</value>
+    <value lang="2">mot-cl&#233;</value>
+    <value lang="3">Schlagwort</value>
+    <value lang="4">&#1603;&#1604;&#1605;&#1577;.&#1605;&#1601;&#1578;&#1575;&#1581;&#1610;&#1577;</value>
+    <value lang="5">parola chiave</value>
+    <value lang="6">&#955;&#941;&#958;&#951;-&#954;&#955;&#949;&#953;&#948;&#943;</value>
+    <value lang="9">keyword</value>
+  </term.type>
+  <term.type>
+    <value lang="neutral"/>
+  </term.type>
+  <term.type>
+    <value lang="neutral"/>
+  </term.type>
+  <term.type>
+    <value lang="neutral">SUBJECT</value>
+    <value lang="0">subject</value>
+    <value lang="1">onderwerp</value>
+    <value lang="2">sujet</value>
+    <value lang="3">Thema</value>
+    <value lang="4">&#1605;&#1608;&#1590;&#1608;&#1593;</value>
+    <value lang="5">soggetto</value>
+    <value lang="6">&#952;&#941;&#956;&#945;</value>
+    <value lang="9">&#228;mne</value>
+  </term.type>
+  <used_for>
+    <value lang="de-DE" invariant="false">Berlin-West</value>
+  </used_for>
+  <used_for.lref>22765</used_for.lref>
+</record>

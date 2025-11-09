@@ -1,0 +1,77 @@
+<record priref="5485" created="2024-11-30T05:11:19" modification="2024-11-30T05:11:19" selected="false" deleted="false">
+  <broader_term>
+    <value lang="de-DE" invariant="false">Kriminalit&#228;t</value>
+  </broader_term>
+  <broader_term.lref>8421</broader_term.lref>
+  <Source>
+    <scope_note>Unter einer Entf&#252;hrung versteht man einen kriminellen Akt, bei dem eine oder mehrere Personen unter kriminellem Zwang an einen unfreiwilligen Aufenthaltsort verschleppt beziehungsweise dort festgehalten werden. H&#228;ufig wird f&#252;r ihre Freilassung von den Entf&#252;hrern L&#246;segeld gefordert. Handelt es sich bei dem Entf&#252;hrungsopfer um ein Kind, spricht man von Kindesentf&#252;hrung.</scope_note>
+    <source>Wikipedia</source>
+    <source.number>https://de.wikipedia.org/w/index.php?title=Entf%C3%BChrung&amp;oldid=188608860</source.number>
+  </Source>
+  <Source>
+    <source>Gemeinsame Normdatei</source>
+    <source.number>http://d-nb.info/gnd/4121200-9</source.number>
+  </Source>
+  <guid>58c4c5d3-48fd-4285-b9e4-1607a12e7271</guid>
+  <narrower_term>
+    <value lang="de-DE" invariant="false">Flugzeugentf&#252;hrung</value>
+    <value lang="en-GB" invariant="false">Hijacking of aircraft</value>
+  </narrower_term>
+  <narrower_term>
+    <value lang="de-DE" invariant="false">Kindesentf&#252;hrung</value>
+    <value lang="en-GB" invariant="false">Child abduction</value>
+  </narrower_term>
+  <narrower_term.lref>32773</narrower_term.lref>
+  <narrower_term.lref>30498</narrower_term.lref>
+  <priref>5485</priref>
+  <record_access.owner>sdkRedaktion</record_access.owner>
+  <term>
+    <value lang="de-DE" invariant="true">Entf&#252;hrung</value>
+    <value lang="en-GB" invariant="false">Kidnapping</value>
+  </term>
+  <term.status>
+    <value lang="neutral">1</value>
+    <value lang="0">approved preferred term</value>
+    <value lang="1">descriptor</value>
+    <value lang="2">descripteur</value>
+    <value lang="3">Deskriptor</value>
+    <value lang="5">termine preferenziale approvato</value>
+    <value lang="9">godk&#228;nda f&#246;redragen term</value>
+    <value lang="10">&#1502;&#1493;&#1504;&#1495; &#1502;&#1488;&#1493;&#1513;&#1512; &#1502;&#1493;&#1506;&#1491;&#1507;</value>
+    <value lang="11">godkendt foretrukket term</value>
+    <value lang="14">&#25209;&#20934;&#39318;&#36984;&#26781;&#27454;</value>
+  </term.status>
+  <term.type>
+    <value lang="neutral">SUBJECT</value>
+    <value lang="0">subject</value>
+    <value lang="1">onderwerp</value>
+    <value lang="2">sujet</value>
+    <value lang="3">Thema</value>
+    <value lang="4">&#1605;&#1608;&#1590;&#1608;&#1593;</value>
+    <value lang="5">soggetto</value>
+    <value lang="6">&#952;&#941;&#956;&#945;</value>
+    <value lang="9">&#228;mne</value>
+  </term.type>
+  <term.type>
+    <value lang="neutral">SUBJECT</value>
+    <value lang="0">subject</value>
+    <value lang="1">onderwerp</value>
+    <value lang="2">sujet</value>
+    <value lang="3">Thema</value>
+    <value lang="4">&#1605;&#1608;&#1590;&#1608;&#1593;</value>
+    <value lang="5">soggetto</value>
+    <value lang="6">&#952;&#941;&#956;&#945;</value>
+    <value lang="9">&#228;mne</value>
+  </term.type>
+  <term.type>
+    <value lang="neutral">SUBJECT</value>
+    <value lang="0">subject</value>
+    <value lang="1">onderwerp</value>
+    <value lang="2">sujet</value>
+    <value lang="3">Thema</value>
+    <value lang="4">&#1605;&#1608;&#1590;&#1608;&#1593;</value>
+    <value lang="5">soggetto</value>
+    <value lang="6">&#952;&#941;&#956;&#945;</value>
+    <value lang="9">&#228;mne</value>
+  </term.type>
+</record>

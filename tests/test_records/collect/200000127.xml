@@ -1,0 +1,962 @@
+<record priref="200000127" created="2024-12-05T13:39:45" modification="2025-08-21T12:29:54" selected="false" deleted="false">
+  <copy_usage>
+    <value lang="neutral">6</value>
+    <value lang="0">Rental Deutsche Kinemathek</value>
+    <value lang="3">Verleih Deutsche Kinemathek</value>
+  </copy_usage>
+  <DAM_MAN_deeplink>https://sammlungen.deutsche-kinemathek.de/flow2/workdetails/sdk200000127</DAM_MAN_deeplink>
+  <dataset_name>
+    <value lang="neutral">film</value>
+    <value lang="0">Moving image catalogue</value>
+    <value lang="1">Filmcatalogus</value>
+    <value lang="2">Registres de la cin&#233;matographie</value>
+    <value lang="3">Filmkatalog</value>
+  </dataset_name>
+  <department>
+    <value lang="de-DE" invariant="false">Filmarchiv</value>
+  </department>
+  <department.lref>3264</department.lref>
+  <Alternative_number>
+    <alternative_number>3dbedd8ac0a84af89fc557eac45bc698</alternative_number>
+    <alternative_number.type>
+      <value lang="de-DE" invariant="false">ref_filmportal</value>
+    </alternative_number.type>
+    <alternative_number.type.lref>8560</alternative_number.type.lref>
+  </Alternative_number>
+  <Alternative_number>
+    <alternative_number>1030988</alternative_number>
+    <alternative_number.type>
+      <value lang="de-DE" invariant="false">ref_vdb</value>
+    </alternative_number.type>
+    <alternative_number.type.lref>12511</alternative_number.type.lref>
+  </Alternative_number>
+  <Content_genre>
+    <content.genre>
+      <value lang="de-DE" invariant="false">Drama</value>
+    </content.genre>
+    <content.genre.lref>8059</content.genre.lref>
+  </Content_genre>
+  <Content_subject>
+    <content.subject>
+      <value lang="de-DE" invariant="false">1970er</value>
+    </content.subject>
+    <content.subject.lref>8798</content.subject.lref>
+  </Content_subject>
+  <Content_subject>
+    <content.subject>
+      <value lang="de-DE" invariant="true">Schauspielerin</value>
+      <value lang="en-GB" invariant="false">actress</value>
+    </content.subject>
+    <content.subject.lref>753</content.subject.lref>
+  </Content_subject>
+  <Content_subject>
+    <content.subject>
+      <value lang="de-DE" invariant="true">Argentinien</value>
+    </content.subject>
+    <content.subject.lref>5290</content.subject.lref>
+  </Content_subject>
+  <Content_subject>
+    <content.subject>
+      <value lang="de-DE" invariant="false">Berlin (West)</value>
+    </content.subject>
+    <content.subject.lref>8438</content.subject.lref>
+  </Content_subject>
+  <Content_subject>
+    <content.subject>
+      <value lang="de-DE" invariant="false">Diktatur</value>
+    </content.subject>
+    <content.subject.lref>11203</content.subject.lref>
+  </Content_subject>
+  <Content_subject>
+    <content.subject>
+      <value lang="de-DE" invariant="true">Flucht</value>
+      <value lang="en-GB" invariant="false">Escape</value>
+    </content.subject>
+    <content.subject.lref>43</content.subject.lref>
+  </Content_subject>
+  <Content_subject>
+    <content.subject>
+      <value lang="de-DE" invariant="false">Frauenfreundschaft</value>
+    </content.subject>
+    <content.subject.lref>43216</content.subject.lref>
+  </Content_subject>
+  <Content_subject>
+    <content.subject>
+      <value lang="de-DE" invariant="false">Freundschaft</value>
+    </content.subject>
+    <content.subject.lref>8103</content.subject.lref>
+  </Content_subject>
+  <Content_subject>
+    <content.subject>
+      <value lang="de-DE" invariant="false">Hausfrau</value>
+    </content.subject>
+    <content.subject.lref>16902</content.subject.lref>
+  </Content_subject>
+  <Content_subject>
+    <content.subject>
+      <value lang="de-DE" invariant="true">Entf&#252;hrung</value>
+      <value lang="en-GB" invariant="false">Kidnapping</value>
+    </content.subject>
+    <content.subject.lref>5485</content.subject.lref>
+  </Content_subject>
+  <Content_subject>
+    <content.subject>
+      <value lang="de-DE" invariant="false">Mutter</value>
+    </content.subject>
+    <content.subject.lref>33722</content.subject.lref>
+  </Content_subject>
+  <Content_subject>
+    <content.subject>
+      <value lang="de-DE" invariant="true">Sohn</value>
+      <value lang="en-GB" invariant="false">Son</value>
+    </content.subject>
+    <content.subject.lref>11170</content.subject.lref>
+  </Content_subject>
+  <Credits>
+    <credit.name>
+      <value lang="de-DE" invariant="false">Meerapfel, Jeanine</value>
+    </credit.name>
+    <credit.name.lref>1449</credit.name.lref>
+    <credit.sequence>C001a</credit.sequence>
+    <credit.type>
+      <value lang="de-DE" invariant="true">Regie</value>
+      <value lang="en-GB" invariant="false">Director</value>
+    </credit.type>
+    <credit.type.lref>5238</credit.type.lref>
+  </Credits>
+  <Credits>
+    <credit.name>
+      <value lang="de-DE" invariant="false">Bayer, Osvaldo</value>
+    </credit.name>
+    <credit.name.lref>127229</credit.name.lref>
+    <credit.sequence>C002b</credit.sequence>
+    <credit.type>
+      <value lang="de-DE" invariant="true">Drehbuch</value>
+      <value lang="en-GB" invariant="false">Screenplay</value>
+    </credit.type>
+    <credit.type.lref>5286</credit.type.lref>
+  </Credits>
+  <Credits>
+    <credit.name>
+      <value lang="de-DE" invariant="false">Holland, Agnieszka</value>
+    </credit.name>
+    <credit.name.lref>3701</credit.name.lref>
+    <credit.sequence>C002b</credit.sequence>
+    <credit.type>
+      <value lang="de-DE" invariant="true">Drehbuch</value>
+      <value lang="en-GB" invariant="false">Screenplay</value>
+    </credit.type>
+    <credit.type.lref>5286</credit.type.lref>
+  </Credits>
+  <Credits>
+    <credit.name>
+      <value lang="de-DE" invariant="false">Chiesa, Alcides</value>
+    </credit.name>
+    <credit.name.lref>11642</credit.name.lref>
+    <credit.sequence>C002b</credit.sequence>
+    <credit.type>
+      <value lang="de-DE" invariant="true">Drehbuch</value>
+      <value lang="en-GB" invariant="false">Screenplay</value>
+    </credit.type>
+    <credit.type.lref>5286</credit.type.lref>
+  </Credits>
+  <Credits>
+    <credit.name>
+      <value lang="de-DE" invariant="false">Meerapfel, Jeanine</value>
+    </credit.name>
+    <credit.name.lref>1449</credit.name.lref>
+    <credit.sequence>C002b</credit.sequence>
+    <credit.type>
+      <value lang="de-DE" invariant="true">Drehbuch</value>
+      <value lang="en-GB" invariant="false">Screenplay</value>
+    </credit.type>
+    <credit.type.lref>5286</credit.type.lref>
+  </Credits>
+  <Dating>
+    <dating.date.end>1988</dating.date.end>
+    <dating.date.start>1987</dating.date.start>
+  </Dating>
+  <Description>
+    <description>
+      <value lang="de-DE" invariant="false">Argentinien zur Zeit der Junta: Zwei Freundinnen, die J&#252;din Raquel und die Katholikin Maria, werden, als Marias Sohn verschleppt wird, hautnah mit dem Unrechtssystem konfrontiert. Zun&#228;chst versuchen sie sich gegenseitig zu helfen, doch letztlich zerbricht ihre Freundschaft an der gesellschaftlichen Wirklichkeit. Erst nach Jahren der Trennung und unter ver&#228;nderten politischen Vorzeichen ist ein Neuanfang m&#246;glich. Ein engagierter Film, der jedoch den historischen Proze&#223; auf eine pers&#246;nliche Leidensgeschichte verk&#252;rzt.</value>
+    </description>
+    <description.name>
+      <value lang="de-DE" invariant="false">Filmdienst</value>
+    </description.name>
+    <description.name.lref>243997</description.name.lref>
+    <description.type>
+      <value lang="de-DE" invariant="false">Inhaltsangabe</value>
+    </description.type>
+    <description.type.lref>7969</description.type.lref>
+  </Description>
+  <External_ID>
+    <external_identifier>http://www.filmportal.de/film/3dbedd8ac0a84af89fc557eac45bc698</external_identifier>
+    <external_identifier.date>2022-12-06</external_identifier.date>
+    <external_identifier.primary>x</external_identifier.primary>
+    <external_identifier_domain>Filmportal</external_identifier_domain>
+  </External_ID>
+  <Parts>
+    <parts.condition.date/>
+    <parts.current_location.name/>
+    <parts.default_location.name/>
+    <parts.dimension.value/>
+    <parts.lead_word>La</parts.lead_word>
+    <parts.part/>
+    <parts.record_type>
+      <value lang="neutral">MANIFESTATION</value>
+      <value lang="0">Manifestation</value>
+      <value lang="1">Manifestatie</value>
+      <value lang="3">Manifestation</value>
+      <value lang="9">Manifestation</value>
+    </parts.record_type>
+    <parts.reference.lref>200041968</parts.reference.lref>
+    <parts.title>Amiga</parts.title>
+    <parts_reference>1200044</parts_reference>
+  </Parts>
+  <Parts>
+    <parts.condition.date/>
+    <parts.current_location.name/>
+    <parts.default_location.name/>
+    <parts.dimension.value/>
+    <parts.lead_word>La</parts.lead_word>
+    <parts.part/>
+    <parts.record_type>
+      <value lang="neutral">MANIFESTATION</value>
+      <value lang="0">Manifestation</value>
+      <value lang="1">Manifestatie</value>
+      <value lang="3">Manifestation</value>
+      <value lang="9">Manifestation</value>
+    </parts.record_type>
+    <parts.reference.lref>200339732</parts.reference.lref>
+    <parts.title>Amiga</parts.title>
+    <parts_reference>1329032</parts_reference>
+  </Parts>
+  <PIDdata>
+    <PID_data_URI>https://hdl.handle.net/21.11155/C7D93E43-27C6-4079-8C3F-18CCC795F538</PID_data_URI>
+  </PIDdata>
+  <Production>
+    <production_country>
+      <value lang="de-DE" invariant="true">Bundesrepublik Deutschland (BRD)</value>
+      <value lang="en-GB" invariant="false">Federal Republic of Germany</value>
+    </production_country>
+    <production_country.lref>9646</production_country.lref>
+  </Production>
+  <Production>
+    <production_country>
+      <value lang="de-DE" invariant="true">Argentinien</value>
+    </production_country>
+    <production_country.lref>5290</production_country.lref>
+  </Production>
+  <production_company>
+    <production_company>
+      <value lang="de-DE" invariant="true">Journal-Film Klaus Volkenborn KG</value>
+    </production_company>
+    <production_company.lref>10511</production_company.lref>
+  </production_company>
+  <production_company>
+    <production_company>
+      <value lang="de-DE" invariant="false">Alma Film GmbH (Berlin)</value>
+    </production_company>
+    <production_company.lref>84291</production_company.lref>
+  </production_company>
+  <production_company>
+    <production_company>
+      <value lang="de-DE" invariant="false">Jorge Estrada Mora Produ&#231;iones (Buenos Aires)</value>
+    </production_company>
+    <production_company.lref>84290</production_company.lref>
+  </production_company>
+  <production_company>
+    <production_company>
+      <value lang="de-DE" invariant="true">Sender Freies Berlin (SFB)</value>
+    </production_company>
+    <production_company.lref>11020</production_company.lref>
+  </production_company>
+  <Related_object>
+    <related_object.dataset>
+      <value lang="neutral">archivecatalogue</value>
+      <value lang="0">Archives catalogue</value>
+      <value lang="1">Archieven (catalogus)</value>
+      <value lang="2">Archives (catalogue)</value>
+      <value lang="3">Archiv (Katalog)</value>
+      <value lang="4">&#1575;&#1604;&#1571;&#1585;&#1588;&#1610;&#1601;&#1575;&#1578;(&#1601;&#1607;&#1585;&#1587;)</value>
+      <value lang="5">Archivi (catalogo)</value>
+      <value lang="6">&#913;&#961;&#967;&#949;&#943;&#945; (&#954;&#945;&#964;&#940;&#955;&#959;&#947;&#959;&#962;)</value>
+    </related_object.dataset>
+    <related_object.date.end/>
+    <related_object.date.start/>
+    <related_object.object_name>
+      <value lang="de-DE" invariant="true">Auszeichnung (Ehrung)</value>
+      <value lang="en-GB" invariant="false">Award (honor)</value>
+    </related_object.object_name>
+    <related_object.record_type>
+      <value lang="neutral">SERIES</value>
+      <value lang="0">series</value>
+      <value lang="1">reeks</value>
+      <value lang="2">s&#233;rie</value>
+      <value lang="3">Serie, Aktengruppe</value>
+      <value lang="4">&#1587;&#1604;&#1575;&#1587;&#1604;</value>
+      <value lang="5">collana</value>
+      <value lang="6">&#963;&#949;&#953;&#961;&#940;</value>
+      <value lang="9">serie</value>
+      <value lang="10">&#1505;&#1491;&#1512;&#1492;</value>
+      <value lang="11">tidsskrifter</value>
+      <value lang="14">&#31995;&#21015;</value>
+    </related_object.record_type>
+    <related_object.reference>PA-21981</related_object.reference>
+    <related_object.reference.lref>110023126</related_object.reference.lref>
+    <related_object.title>Amiga / Freundin, Die</related_object.title>
+    <related_object.title.article>La</related_object.title.article>
+  </Related_object>
+  <Related_object>
+    <related_object.dataset>
+      <value lang="neutral">museum</value>
+      <value lang="0">Object catalogue</value>
+      <value lang="1">Objecten</value>
+      <value lang="2">Catalogue d'objets</value>
+      <value lang="3">Objekte</value>
+      <value lang="5">Catalogo oggetti</value>
+      <value lang="6">&#922;&#945;&#964;&#940;&#955;&#959;&#947;&#959;&#962; &#945;&#957;&#964;&#953;&#954;&#949;&#953;&#956;&#941;&#957;&#969;&#957;</value>
+      <value lang="9">Objektskatalog</value>
+    </related_object.dataset>
+    <related_object.date.end>9999</related_object.date.end>
+    <related_object.date.start>9999</related_object.date.start>
+    <related_object.object_name>
+      <value lang="de-DE" invariant="true">(Premieren)Einladung</value>
+    </related_object.object_name>
+    <related_object.record_type>
+      <value lang="neutral"/>
+    </related_object.record_type>
+    <related_object.reference>F3990_OT</related_object.reference>
+    <related_object.reference.lref>77458</related_object.reference.lref>
+    <related_object.title>Freundin</related_object.title>
+    <related_object.title.article>Die</related_object.title.article>
+  </Related_object>
+  <Related_object>
+    <related_object.dataset>
+      <value lang="neutral">museum</value>
+      <value lang="0">Object catalogue</value>
+      <value lang="1">Objecten</value>
+      <value lang="2">Catalogue d'objets</value>
+      <value lang="3">Objekte</value>
+      <value lang="5">Catalogo oggetti</value>
+      <value lang="6">&#922;&#945;&#964;&#940;&#955;&#959;&#947;&#959;&#962; &#945;&#957;&#964;&#953;&#954;&#949;&#953;&#956;&#941;&#957;&#969;&#957;</value>
+      <value lang="9">Objektskatalog</value>
+    </related_object.dataset>
+    <related_object.date.end>9999</related_object.date.end>
+    <related_object.date.start>9999</related_object.date.start>
+    <related_object.object_name>
+      <value lang="de-DE" invariant="true">Presseheft</value>
+    </related_object.object_name>
+    <related_object.record_type>
+      <value lang="neutral"/>
+    </related_object.record_type>
+    <related_object.reference>F3990_3-2007_11</related_object.reference>
+    <related_object.reference.lref>114941</related_object.reference.lref>
+    <related_object.title>Freundin</related_object.title>
+    <related_object.title.article>Die</related_object.title.article>
+  </Related_object>
+  <Related_object>
+    <related_object.dataset>
+      <value lang="neutral">museum</value>
+      <value lang="0">Object catalogue</value>
+      <value lang="1">Objecten</value>
+      <value lang="2">Catalogue d'objets</value>
+      <value lang="3">Objekte</value>
+      <value lang="5">Catalogo oggetti</value>
+      <value lang="6">&#922;&#945;&#964;&#940;&#955;&#959;&#947;&#959;&#962; &#945;&#957;&#964;&#953;&#954;&#949;&#953;&#956;&#941;&#957;&#969;&#957;</value>
+      <value lang="9">Objektskatalog</value>
+    </related_object.dataset>
+    <related_object.date.end/>
+    <related_object.date.start/>
+    <related_object.object_name>
+      <value lang="de-DE" invariant="true">Filmplakat</value>
+      <value lang="en-GB" invariant="false">Film poster</value>
+    </related_object.object_name>
+    <related_object.record_type>
+      <value lang="neutral"/>
+    </related_object.record_type>
+    <related_object.reference>T101002-D102196</related_object.reference>
+    <related_object.reference.lref>182016</related_object.reference.lref>
+    <related_object.title>amiga</related_object.title>
+    <related_object.title.article>La</related_object.title.article>
+  </Related_object>
+  <Related_object>
+    <related_object.dataset>
+      <value lang="neutral">museum</value>
+      <value lang="0">Object catalogue</value>
+      <value lang="1">Objecten</value>
+      <value lang="2">Catalogue d'objets</value>
+      <value lang="3">Objekte</value>
+      <value lang="5">Catalogo oggetti</value>
+      <value lang="6">&#922;&#945;&#964;&#940;&#955;&#959;&#947;&#959;&#962; &#945;&#957;&#964;&#953;&#954;&#949;&#953;&#956;&#941;&#957;&#969;&#957;</value>
+      <value lang="9">Objektskatalog</value>
+    </related_object.dataset>
+    <related_object.date.end/>
+    <related_object.date.start/>
+    <related_object.object_name>
+      <value lang="de-DE" invariant="true">Filmplakat</value>
+      <value lang="en-GB" invariant="false">Film poster</value>
+    </related_object.object_name>
+    <related_object.record_type>
+      <value lang="neutral"/>
+    </related_object.record_type>
+    <related_object.reference>GW2_07_067</related_object.reference>
+    <related_object.reference.lref>182018</related_object.reference.lref>
+    <related_object.title>amiga</related_object.title>
+    <related_object.title.article>La</related_object.title.article>
+  </Related_object>
+  <Related_object>
+    <related_object.dataset>
+      <value lang="neutral">museum</value>
+      <value lang="0">Object catalogue</value>
+      <value lang="1">Objecten</value>
+      <value lang="2">Catalogue d'objets</value>
+      <value lang="3">Objekte</value>
+      <value lang="5">Catalogo oggetti</value>
+      <value lang="6">&#922;&#945;&#964;&#940;&#955;&#959;&#947;&#959;&#962; &#945;&#957;&#964;&#953;&#954;&#949;&#953;&#956;&#941;&#957;&#969;&#957;</value>
+      <value lang="9">Objektskatalog</value>
+    </related_object.dataset>
+    <related_object.date.end>9999</related_object.date.end>
+    <related_object.date.start>1988</related_object.date.start>
+    <related_object.object_name>
+      <value lang="de-DE" invariant="false">Drehbuch (Schriftst&#252;ck)</value>
+      <value lang="en-GB" invariant="false">Script</value>
+    </related_object.object_name>
+    <related_object.record_type>
+      <value lang="neutral"/>
+    </related_object.record_type>
+    <related_object.reference>4.4-198311,40</related_object.reference>
+    <related_object.reference.lref>148502</related_object.reference.lref>
+    <related_object.title>Freundin</related_object.title>
+    <related_object.title.article>Die</related_object.title.article>
+  </Related_object>
+  <Related_object>
+    <related_object.dataset>
+      <value lang="neutral">museum</value>
+      <value lang="0">Object catalogue</value>
+      <value lang="1">Objecten</value>
+      <value lang="2">Catalogue d'objets</value>
+      <value lang="3">Objekte</value>
+      <value lang="5">Catalogo oggetti</value>
+      <value lang="6">&#922;&#945;&#964;&#940;&#955;&#959;&#947;&#959;&#962; &#945;&#957;&#964;&#953;&#954;&#949;&#953;&#956;&#941;&#957;&#969;&#957;</value>
+      <value lang="9">Objektskatalog</value>
+    </related_object.dataset>
+    <related_object.date.end>9999</related_object.date.end>
+    <related_object.date.start>9999</related_object.date.start>
+    <related_object.object_name>
+      <value lang="de-DE" invariant="false">Drehbuch (Schriftst&#252;ck)</value>
+      <value lang="en-GB" invariant="false">Script</value>
+    </related_object.object_name>
+    <related_object.record_type>
+      <value lang="neutral"/>
+    </related_object.record_type>
+    <related_object.reference>4.4-198311,39</related_object.reference>
+    <related_object.reference.lref>148501</related_object.reference.lref>
+    <related_object.title/>
+    <related_object.title.article/>
+  </Related_object>
+  <Related_object>
+    <related_object.dataset>
+      <value lang="neutral">museum</value>
+      <value lang="0">Object catalogue</value>
+      <value lang="1">Objecten</value>
+      <value lang="2">Catalogue d'objets</value>
+      <value lang="3">Objekte</value>
+      <value lang="5">Catalogo oggetti</value>
+      <value lang="6">&#922;&#945;&#964;&#940;&#955;&#959;&#947;&#959;&#962; &#945;&#957;&#964;&#953;&#954;&#949;&#953;&#956;&#941;&#957;&#969;&#957;</value>
+      <value lang="9">Objektskatalog</value>
+    </related_object.dataset>
+    <related_object.date.end>9999</related_object.date.end>
+    <related_object.date.start>1986</related_object.date.start>
+    <related_object.object_name>
+      <value lang="de-DE" invariant="false">Drehbuch (Schriftst&#252;ck)</value>
+      <value lang="en-GB" invariant="false">Script</value>
+    </related_object.object_name>
+    <related_object.record_type>
+      <value lang="neutral"/>
+    </related_object.record_type>
+    <related_object.reference>A-2980</related_object.reference>
+    <related_object.reference.lref>134041</related_object.reference.lref>
+    <related_object.title>Amiga</related_object.title>
+    <related_object.title.article>La</related_object.title.article>
+  </Related_object>
+  <Related_object>
+    <related_object.dataset>
+      <value lang="neutral">museum</value>
+      <value lang="0">Object catalogue</value>
+      <value lang="1">Objecten</value>
+      <value lang="2">Catalogue d'objets</value>
+      <value lang="3">Objekte</value>
+      <value lang="5">Catalogo oggetti</value>
+      <value lang="6">&#922;&#945;&#964;&#940;&#955;&#959;&#947;&#959;&#962; &#945;&#957;&#964;&#953;&#954;&#949;&#953;&#956;&#941;&#957;&#969;&#957;</value>
+      <value lang="9">Objektskatalog</value>
+    </related_object.dataset>
+    <related_object.date.end>9999</related_object.date.end>
+    <related_object.date.start>1987</related_object.date.start>
+    <related_object.object_name>
+      <value lang="de-DE" invariant="false">Drehbuch (Schriftst&#252;ck)</value>
+      <value lang="en-GB" invariant="false">Script</value>
+    </related_object.object_name>
+    <related_object.record_type>
+      <value lang="neutral"/>
+    </related_object.record_type>
+    <related_object.reference>A-2981</related_object.reference>
+    <related_object.reference.lref>134040</related_object.reference.lref>
+    <related_object.title>Amiga</related_object.title>
+    <related_object.title.article>La</related_object.title.article>
+  </Related_object>
+  <Related_object>
+    <related_object.dataset>
+      <value lang="neutral">museum</value>
+      <value lang="0">Object catalogue</value>
+      <value lang="1">Objecten</value>
+      <value lang="2">Catalogue d'objets</value>
+      <value lang="3">Objekte</value>
+      <value lang="5">Catalogo oggetti</value>
+      <value lang="6">&#922;&#945;&#964;&#940;&#955;&#959;&#947;&#959;&#962; &#945;&#957;&#964;&#953;&#954;&#949;&#953;&#956;&#941;&#957;&#969;&#957;</value>
+      <value lang="9">Objektskatalog</value>
+    </related_object.dataset>
+    <related_object.date.end>9999</related_object.date.end>
+    <related_object.date.start>1988</related_object.date.start>
+    <related_object.object_name>
+      <value lang="de-DE" invariant="false">Drehbuch (Schriftst&#252;ck)</value>
+      <value lang="en-GB" invariant="false">Script</value>
+    </related_object.object_name>
+    <related_object.record_type>
+      <value lang="neutral"/>
+    </related_object.record_type>
+    <related_object.reference>SDK-3186</related_object.reference>
+    <related_object.reference.lref>128616</related_object.reference.lref>
+    <related_object.title>Freundin</related_object.title>
+    <related_object.title.article>Die</related_object.title.article>
+  </Related_object>
+  <Related_object>
+    <related_object.dataset>
+      <value lang="neutral">museum</value>
+      <value lang="0">Object catalogue</value>
+      <value lang="1">Objecten</value>
+      <value lang="2">Catalogue d'objets</value>
+      <value lang="3">Objekte</value>
+      <value lang="5">Catalogo oggetti</value>
+      <value lang="6">&#922;&#945;&#964;&#940;&#955;&#959;&#947;&#959;&#962; &#945;&#957;&#964;&#953;&#954;&#949;&#953;&#956;&#941;&#957;&#969;&#957;</value>
+      <value lang="9">Objektskatalog</value>
+    </related_object.dataset>
+    <related_object.date.end>9999</related_object.date.end>
+    <related_object.date.start>9999</related_object.date.start>
+    <related_object.object_name>
+      <value lang="de-DE" invariant="false">Expos&#233;</value>
+    </related_object.object_name>
+    <related_object.record_type>
+      <value lang="neutral"/>
+    </related_object.record_type>
+    <related_object.reference>4.4-198813,358</related_object.reference>
+    <related_object.reference.lref>126298</related_object.reference.lref>
+    <related_object.title>R&#252;ckkehr der Verschwundenen, Die  oder "Die verr&#252;ckten M&#252;tter"</related_object.title>
+    <related_object.title.article/>
+  </Related_object>
+  <Related_object>
+    <related_object.dataset>
+      <value lang="neutral">museum</value>
+      <value lang="0">Object catalogue</value>
+      <value lang="1">Objecten</value>
+      <value lang="2">Catalogue d'objets</value>
+      <value lang="3">Objekte</value>
+      <value lang="5">Catalogo oggetti</value>
+      <value lang="6">&#922;&#945;&#964;&#940;&#955;&#959;&#947;&#959;&#962; &#945;&#957;&#964;&#953;&#954;&#949;&#953;&#956;&#941;&#957;&#969;&#957;</value>
+      <value lang="9">Objektskatalog</value>
+    </related_object.dataset>
+    <related_object.date.end>9999</related_object.date.end>
+    <related_object.date.start>9999</related_object.date.start>
+    <related_object.object_name>
+      <value lang="de-DE" invariant="false">Expos&#233;</value>
+    </related_object.object_name>
+    <related_object.record_type>
+      <value lang="neutral"/>
+    </related_object.record_type>
+    <related_object.reference>4.4-198813,357</related_object.reference>
+    <related_object.reference.lref>126297</related_object.reference.lref>
+    <related_object.title>Regreso de los desaparecidos (o.: "Los madres locas" - titulos prov. = At.)</related_object.title>
+    <related_object.title.article/>
+  </Related_object>
+  <Related_object>
+    <related_object.dataset>
+      <value lang="neutral">museum</value>
+      <value lang="0">Object catalogue</value>
+      <value lang="1">Objecten</value>
+      <value lang="2">Catalogue d'objets</value>
+      <value lang="3">Objekte</value>
+      <value lang="5">Catalogo oggetti</value>
+      <value lang="6">&#922;&#945;&#964;&#940;&#955;&#959;&#947;&#959;&#962; &#945;&#957;&#964;&#953;&#954;&#949;&#953;&#956;&#941;&#957;&#969;&#957;</value>
+      <value lang="9">Objektskatalog</value>
+    </related_object.dataset>
+    <related_object.date.end>9999</related_object.date.end>
+    <related_object.date.start>1986-02</related_object.date.start>
+    <related_object.object_name>
+      <value lang="de-DE" invariant="false">Drehbuch (Schriftst&#252;ck)</value>
+      <value lang="en-GB" invariant="false">Script</value>
+    </related_object.object_name>
+    <related_object.record_type>
+      <value lang="neutral"/>
+    </related_object.record_type>
+    <related_object.reference>4.4-198813,356</related_object.reference>
+    <related_object.reference.lref>126296</related_object.reference.lref>
+    <related_object.title>Amiga, La (Maria and Raquel)</related_object.title>
+    <related_object.title.article/>
+  </Related_object>
+  <Related_object>
+    <related_object.dataset>
+      <value lang="neutral">museum</value>
+      <value lang="0">Object catalogue</value>
+      <value lang="1">Objecten</value>
+      <value lang="2">Catalogue d'objets</value>
+      <value lang="3">Objekte</value>
+      <value lang="5">Catalogo oggetti</value>
+      <value lang="6">&#922;&#945;&#964;&#940;&#955;&#959;&#947;&#959;&#962; &#945;&#957;&#964;&#953;&#954;&#949;&#953;&#956;&#941;&#957;&#969;&#957;</value>
+      <value lang="9">Objektskatalog</value>
+    </related_object.dataset>
+    <related_object.date.end>9999</related_object.date.end>
+    <related_object.date.start>1984-03</related_object.date.start>
+    <related_object.object_name>
+      <value lang="de-DE" invariant="false">Treatment</value>
+    </related_object.object_name>
+    <related_object.record_type>
+      <value lang="neutral"/>
+    </related_object.record_type>
+    <related_object.reference>4.4-198813,107</related_object.reference>
+    <related_object.reference.lref>125944</related_object.reference.lref>
+    <related_object.title>Geschichte der Eve</related_object.title>
+    <related_object.title.article>Die</related_object.title.article>
+  </Related_object>
+  <Related_object>
+    <related_object.dataset>
+      <value lang="neutral">museum</value>
+      <value lang="0">Object catalogue</value>
+      <value lang="1">Objecten</value>
+      <value lang="2">Catalogue d'objets</value>
+      <value lang="3">Objekte</value>
+      <value lang="5">Catalogo oggetti</value>
+      <value lang="6">&#922;&#945;&#964;&#940;&#955;&#959;&#947;&#959;&#962; &#945;&#957;&#964;&#953;&#954;&#949;&#953;&#956;&#941;&#957;&#969;&#957;</value>
+      <value lang="9">Objektskatalog</value>
+    </related_object.dataset>
+    <related_object.date.end>9999</related_object.date.end>
+    <related_object.date.start>1986</related_object.date.start>
+    <related_object.object_name>
+      <value lang="de-DE" invariant="false">Drehbuch (Schriftst&#252;ck)</value>
+      <value lang="en-GB" invariant="false">Script</value>
+    </related_object.object_name>
+    <related_object.record_type>
+      <value lang="neutral"/>
+    </related_object.record_type>
+    <related_object.reference>SDK-2120</related_object.reference>
+    <related_object.reference.lref>125336</related_object.reference.lref>
+    <related_object.title>Amiga, La / Freundin</related_object.title>
+    <related_object.title.article>Die</related_object.title.article>
+  </Related_object>
+  <Related_object>
+    <related_object.dataset>
+      <value lang="neutral">museum</value>
+      <value lang="0">Object catalogue</value>
+      <value lang="1">Objecten</value>
+      <value lang="2">Catalogue d'objets</value>
+      <value lang="3">Objekte</value>
+      <value lang="5">Catalogo oggetti</value>
+      <value lang="6">&#922;&#945;&#964;&#940;&#955;&#959;&#947;&#959;&#962; &#945;&#957;&#964;&#953;&#954;&#949;&#953;&#956;&#941;&#957;&#969;&#957;</value>
+      <value lang="9">Objektskatalog</value>
+    </related_object.dataset>
+    <related_object.date.end/>
+    <related_object.date.start/>
+    <related_object.object_name>
+      <value lang="de-DE" invariant="false">Szenenfotografie</value>
+      <value lang="en-GB" invariant="false">Production still</value>
+    </related_object.object_name>
+    <related_object.record_type>
+      <value lang="neutral"/>
+    </related_object.record_type>
+    <related_object.reference>F3990_01</related_object.reference>
+    <related_object.reference.lref>249264</related_object.reference.lref>
+    <related_object.title>Szenenfoto - Die Freundin</related_object.title>
+    <related_object.title.article/>
+  </Related_object>
+  <Related_object>
+    <related_object.dataset>
+      <value lang="neutral">museum</value>
+      <value lang="0">Object catalogue</value>
+      <value lang="1">Objecten</value>
+      <value lang="2">Catalogue d'objets</value>
+      <value lang="3">Objekte</value>
+      <value lang="5">Catalogo oggetti</value>
+      <value lang="6">&#922;&#945;&#964;&#940;&#955;&#959;&#947;&#959;&#962; &#945;&#957;&#964;&#953;&#954;&#949;&#953;&#956;&#941;&#957;&#969;&#957;</value>
+      <value lang="9">Objektskatalog</value>
+    </related_object.dataset>
+    <related_object.date.end/>
+    <related_object.date.start/>
+    <related_object.object_name>
+      <value lang="de-DE" invariant="false">Szenenfotografie</value>
+      <value lang="en-GB" invariant="false">Production still</value>
+    </related_object.object_name>
+    <related_object.record_type>
+      <value lang="neutral"/>
+    </related_object.record_type>
+    <related_object.reference>F3990_02</related_object.reference>
+    <related_object.reference.lref>249265</related_object.reference.lref>
+    <related_object.title>Szenenfoto - Die Freundin</related_object.title>
+    <related_object.title.article/>
+  </Related_object>
+  <Related_object>
+    <related_object.dataset>
+      <value lang="neutral">museum</value>
+      <value lang="0">Object catalogue</value>
+      <value lang="1">Objecten</value>
+      <value lang="2">Catalogue d'objets</value>
+      <value lang="3">Objekte</value>
+      <value lang="5">Catalogo oggetti</value>
+      <value lang="6">&#922;&#945;&#964;&#940;&#955;&#959;&#947;&#959;&#962; &#945;&#957;&#964;&#953;&#954;&#949;&#953;&#956;&#941;&#957;&#969;&#957;</value>
+      <value lang="9">Objektskatalog</value>
+    </related_object.dataset>
+    <related_object.date.end/>
+    <related_object.date.start/>
+    <related_object.object_name>
+      <value lang="de-DE" invariant="false">Szenenfotografie</value>
+      <value lang="en-GB" invariant="false">Production still</value>
+    </related_object.object_name>
+    <related_object.record_type>
+      <value lang="neutral"/>
+    </related_object.record_type>
+    <related_object.reference>F3990_03</related_object.reference>
+    <related_object.reference.lref>249266</related_object.reference.lref>
+    <related_object.title>Szenenfoto - Die Freundin</related_object.title>
+    <related_object.title.article/>
+  </Related_object>
+  <Related_object>
+    <related_object.dataset>
+      <value lang="neutral">museum</value>
+      <value lang="0">Object catalogue</value>
+      <value lang="1">Objecten</value>
+      <value lang="2">Catalogue d'objets</value>
+      <value lang="3">Objekte</value>
+      <value lang="5">Catalogo oggetti</value>
+      <value lang="6">&#922;&#945;&#964;&#940;&#955;&#959;&#947;&#959;&#962; &#945;&#957;&#964;&#953;&#954;&#949;&#953;&#956;&#941;&#957;&#969;&#957;</value>
+      <value lang="9">Objektskatalog</value>
+    </related_object.dataset>
+    <related_object.date.end/>
+    <related_object.date.start/>
+    <related_object.object_name>
+      <value lang="de-DE" invariant="true">Serienprogramm</value>
+    </related_object.object_name>
+    <related_object.record_type>
+      <value lang="neutral"/>
+    </related_object.record_type>
+    <related_object.reference>SP142442_B1</related_object.reference>
+    <related_object.reference.lref>397544</related_object.reference.lref>
+    <related_object.title>Filmindex Programm : FIP. Nr. 4313. La Amiga - Die Freundin</related_object.title>
+    <related_object.title.article/>
+  </Related_object>
+  <Related_object>
+    <related_object.dataset>
+      <value lang="neutral">museum</value>
+      <value lang="0">Object catalogue</value>
+      <value lang="1">Objecten</value>
+      <value lang="2">Catalogue d'objets</value>
+      <value lang="3">Objekte</value>
+      <value lang="5">Catalogo oggetti</value>
+      <value lang="6">&#922;&#945;&#964;&#940;&#955;&#959;&#947;&#959;&#962; &#945;&#957;&#964;&#953;&#954;&#949;&#953;&#956;&#941;&#957;&#969;&#957;</value>
+      <value lang="9">Objektskatalog</value>
+    </related_object.dataset>
+    <related_object.date.end/>
+    <related_object.date.start/>
+    <related_object.object_name>
+      <value lang="de-DE" invariant="false">Originalabzug</value>
+    </related_object.object_name>
+    <related_object.record_type>
+      <value lang="neutral"/>
+    </related_object.record_type>
+    <related_object.reference>F3990</related_object.reference>
+    <related_object.reference.lref>398191</related_object.reference.lref>
+    <related_object.title>Amiga</related_object.title>
+    <related_object.title.article>La</related_object.title.article>
+  </Related_object>
+  <Related_object>
+    <related_object.dataset>
+      <value lang="neutral">museum</value>
+      <value lang="0">Object catalogue</value>
+      <value lang="1">Objecten</value>
+      <value lang="2">Catalogue d'objets</value>
+      <value lang="3">Objekte</value>
+      <value lang="5">Catalogo oggetti</value>
+      <value lang="6">&#922;&#945;&#964;&#940;&#955;&#959;&#947;&#959;&#962; &#945;&#957;&#964;&#953;&#954;&#949;&#953;&#956;&#941;&#957;&#969;&#957;</value>
+      <value lang="9">Objektskatalog</value>
+    </related_object.dataset>
+    <related_object.date.end>9999</related_object.date.end>
+    <related_object.date.start>9999</related_object.date.start>
+    <related_object.object_name>
+      <value lang="de-DE" invariant="false">Programmzettel</value>
+    </related_object.object_name>
+    <related_object.record_type>
+      <value lang="neutral"/>
+    </related_object.record_type>
+    <related_object.reference>N6906_BP</related_object.reference>
+    <related_object.reference.lref>483345</related_object.reference.lref>
+    <related_object.title>Meerapfel, Jeanine</related_object.title>
+    <related_object.title.article/>
+  </Related_object>
+  <Rights_in>
+    <rights_in.contract_type>
+      <value lang="de-DE" invariant="false">Lizenzvertrag</value>
+    </rights_in.contract_type>
+    <rights_in.contracting_party>
+      <value lang="de-DE" invariant="true">Malena Filmproduktion GmbH &amp; Co. KG</value>
+    </rights_in.contracting_party>
+    <rights_in.date_end/>
+    <rights_in.date_start>2022-03-15</rights_in.date_start>
+    <rights_in.number>32</rights_in.number>
+    <rights_in.number.lref>10000032</rights_in.number.lref>
+  </Rights_in>
+  <Rights_situation>
+    <rights_overall_status>
+      <value lang="de-DE" invariant="false">Rechte vertraglich gekl&#228;rt</value>
+    </rights_overall_status>
+    <rights_situation.number>5971</rights_situation.number>
+    <rights_situation.number.lref>5538</rights_situation.number.lref>
+    <rights_situation.research_date/>
+  </Rights_situation>
+  <Title>
+    <title>Amiga</title>
+    <title.article>La</title.article>
+    <title.type>
+      <value lang="en-GB" invariant="true">Original Title</value>
+      <value lang="de-DE" invariant="false">Originaltitel</value>
+    </title.type>
+    <title.type.lref>5237</title.type.lref>
+  </Title>
+  <Title>
+    <title>Amiga - Die Freundin</title>
+    <title.article>La</title.article>
+    <title.type>
+      <value lang="en-GB" invariant="true">Original Title</value>
+      <value lang="de-DE" invariant="false">Originaltitel</value>
+    </title.type>
+    <title.type.lref>5237</title.type.lref>
+  </Title>
+  <utb>
+    <utb.content>GW/ AG</utb.content>
+    <utb.fieldname>Land</utb.fieldname>
+  </utb>
+  <utb>
+    <utb.content>1987/ 1988</utb.content>
+    <utb.fieldname>Jahr</utb.fieldname>
+  </utb>
+  <utb>
+    <utb.content>Meerapfel, Jeanine und Chiesa, Alcides</utb.content>
+    <utb.fieldname>Regie</utb.fieldname>
+  </utb>
+  <utb>
+    <utb.content/>
+    <utb.fieldname>Kategorie</utb.fieldname>
+  </utb>
+  <utb>
+    <utb.content/>
+    <utb.fieldname>Mehrteiler</utb.fieldname>
+  </utb>
+  <utb>
+    <utb.content/>
+    <utb.fieldname>Verweis_Mehrteiler</utb.fieldname>
+  </utb>
+  <utb>
+    <utb.content/>
+    <utb.fieldname>vgl DS-Nummer</utb.fieldname>
+  </utb>
+  <utb>
+    <utb.content/>
+    <utb.fieldname>Anmerkungen</utb.fieldname>
+  </utb>
+  <utb>
+    <utb.content>CBW019529</utb.content>
+    <utb.fieldname>ID CineGraph</utb.fieldname>
+  </utb>
+  <utb>
+    <utb.content/>
+    <utb.fieldname>Titelkategorie_Quelle</utb.fieldname>
+  </utb>
+  <utb>
+    <utb.content/>
+    <utb.fieldname>Quelle</utb.fieldname>
+  </utb>
+  <utb>
+    <utb.content/>
+    <utb.fieldname>Link_Quelle</utb.fieldname>
+  </utb>
+  <utb>
+    <utb.content/>
+    <utb.fieldname>Produktionsnummer</utb.fieldname>
+  </utb>
+  <utb>
+    <utb.content/>
+    <utb.fieldname>UAOrt</utb.fieldname>
+  </utb>
+  <utb>
+    <utb.content/>
+    <utb.fieldname>Urauff&#252;hrung Erstausstrahlung</utb.fieldname>
+  </utb>
+  <utb>
+    <utb.content/>
+    <utb.fieldname>DSNrNamen</utb.fieldname>
+  </utb>
+  <utb>
+    <utb.content>jbecker/09.07.1992</utb.content>
+    <utb.fieldname>Dateneingabe</utb.fieldname>
+  </utb>
+  <utb>
+    <utb.content>Ho|17.03.1995|Ot//09.10.2009|crelota</utb.content>
+    <utb.fieldname>Datenbearbeitung</utb.fieldname>
+  </utb>
+  <guid>e506c268-101e-4856-95dd-8915efd0a33b</guid>
+  <institution.code>DE-MUS-407010</institution.code>
+  <institution.name>
+    <value lang="de-DE" invariant="true">Deutsche Kinemathek &#8211; Museum f&#252;r Film und Fernsehen</value>
+    <value lang="en-GB" invariant="false">Deutsche Kinemathek &#8211; Museum f&#252;r Film und Fernsehen</value>
+  </institution.name>
+  <institution.name.lref>3238</institution.name.lref>
+  <institution.place>
+    <value lang="de-DE" invariant="true">Berlin</value>
+    <value lang="en-GB" invariant="false">Berlin</value>
+  </institution.place>
+  <nfa_category>
+    <value lang="neutral">F</value>
+    <value lang="0">Fiction</value>
+    <value lang="1">Fictie</value>
+    <value lang="3">Spielfilm</value>
+  </nfa_category>
+  <object_number>3990</object_number>
+  <priref>200000127</priref>
+  <production.status>
+    <value lang="neutral">R</value>
+    <value lang="0">Released</value>
+    <value lang="1">uitgebracht</value>
+    <value lang="3">ver&#246;ffentlicht</value>
+  </production.status>
+  <record_access.owner>sdkRedaktion</record_access.owner>
+  <record_type>
+    <value lang="neutral">WORK</value>
+    <value lang="0">Work</value>
+    <value lang="1">Werk</value>
+    <value lang="3">Werk</value>
+    <value lang="9">Verk</value>
+  </record_type>
+  <Update_field>150000130</Update_field>
+  <work.description_type>
+    <value lang="neutral">MONOGRAPHIC</value>
+    <value lang="0">Monographic</value>
+    <value lang="3">Monographisch</value>
+    <value lang="9">Sj&#228;lvst&#228;ndigt verk</value>
+  </work.description_type>
+  <work_type>
+    <value lang="neutral">F</value>
+    <value lang="0">Cinema</value>
+    <value lang="3">Kino</value>
+  </work_type>
+  <work_type.general>
+    <value lang="de-DE" invariant="false">Film</value>
+    <value lang="en-GB" invariant="false">Film</value>
+  </work_type.general>
+  <work_type.general.lref>11248</work_type.general.lref>
+</record>

@@ -1,6 +1,7 @@
 import pytest
 from avefi_schema import model as efi
-from records.work.has_primary_title import has_primary_title
+
+from collections2efi.record_type.work.has_primary_title import has_primary_title
 
 
 @pytest.mark.parametrize(
@@ -16,6 +17,6 @@ from records.work.has_primary_title import has_primary_title
         )
     ],
 )
-def test_has_primary_title(all_records, priref, expected):
-    xml = all_records[priref]
+def test_has_primary_title(collect_record_factory, priref, expected):
+    xml = collect_record_factory(priref).xml
     assert has_primary_title(xml) == expected

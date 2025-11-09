@@ -1,0 +1,250 @@
+<record priref="200152050" created="2024-12-05T14:30:35" modification="2025-05-30T10:09:59" selected="false" deleted="false">
+  <colour_manifestation>
+    <value lang="neutral">B</value>
+    <value lang="0">Black and White</value>
+    <value lang="1">Zwart Wit</value>
+    <value lang="2">Noir et Blanc</value>
+    <value lang="3">schwarz-wei&#223;</value>
+  </colour_manifestation>
+  <dataset_name>
+    <value lang="neutral">film</value>
+    <value lang="0">Moving image catalogue</value>
+    <value lang="1">Filmcatalogus</value>
+    <value lang="2">Registres de la cin&#233;matographie</value>
+    <value lang="3">Filmkatalog</value>
+  </dataset_name>
+  <Content_description>
+    <content.description>
+      <value lang="de-DE" invariant="false">Im Bestand des argentinischen Filmmuseums - des Museo del Cine Pablo Ducr&#243;s Hicken - wurde 2008 ein 16mm Dup-Negativ der als verschollen geglaubten Langfassung des Films entdeckt. Im Auftrag der Friedrich-Wilhelm-Murnau-Stiftung und in Zusammenarbeit mit der Deutschen Kinemathek und dem Museo del Cine Pablo C. Ducr&#243;s Hicken wurde die bislang vollst&#228;ndigste Ann&#228;herung an die Premierenfassung rekonstruiert und digital restauriert.</value>
+    </content.description>
+  </Content_description>
+  <Language>
+    <language.lref/>
+    <language.type>
+      <value lang="neutral">DIALORIG</value>
+      <value lang="0">Original version</value>
+      <value lang="3">OF</value>
+    </language.type>
+  </Language>
+  <Language>
+    <language>
+      <value lang="de-DE" invariant="true">deutsch</value>
+      <value lang="en-GB" invariant="false">German</value>
+    </language>
+    <language.lref>5247</language.lref>
+    <language.type>
+      <value lang="neutral">INTERT</value>
+      <value lang="0">Intertitles</value>
+      <value lang="1">Intertitles</value>
+      <value lang="3">Zwischentitel</value>
+    </language.type>
+  </Language>
+  <Manifestation_type>
+    <manifestation_type.notes>Restaurierte-/ Rekonstruierte Fassung von 2010, Friedrich-Wilhelm-Murnau-Stiftung und Deutsche Kinemathek - Museum f&#252;r Film und Fernsehen in Zusammenarbeit mit Museo del Cine C. Ducr&#243;s Hicken mit Beitr&#228;gen von Bundesarchiv, British Film Institute, Cin&#233;math&#232;que Francaise, Deutsches Filminstitut, Filmmuseum M&#252;nchen, Fondazione Cineteca Italiana, George Eastman House, Gosfilmofond, Museum of Modern Art, National Film and Sound Archive, New Zealand Film Archive, Staatliches Filmarchiv der DDR, Universit&#228;t der K&#252;nste</manifestation_type.notes>
+  </Manifestation_type>
+  <Part_of>
+    <part_of.lead_word/>
+    <part_of.location.default.name/>
+    <part_of.record_type>
+      <value lang="neutral">WORK</value>
+      <value lang="0">Work</value>
+      <value lang="1">Werk</value>
+      <value lang="3">Werk</value>
+      <value lang="9">Verk</value>
+    </part_of.record_type>
+    <part_of.title>Metropolis</part_of.title>
+    <part_of_reference>
+      <object_number>992</object_number>
+    </part_of_reference>
+    <part_of_reference.lref>200010385</part_of_reference.lref>
+  </Part_of>
+  <Parts>
+    <parts.condition.date/>
+    <parts.current_location.name/>
+    <parts.default_location.name>(3. UG) Videokeller</parts.default_location.name>
+    <parts.dimension.value/>
+    <parts.lead_word/>
+    <parts.part/>
+    <parts.record_type>
+      <value lang="neutral">ITEM</value>
+      <value lang="0">Item</value>
+      <value lang="1">Item</value>
+      <value lang="3">Item</value>
+      <value lang="9">Objekt</value>
+    </parts.record_type>
+    <parts.reference.lref>200134417</parts.reference.lref>
+    <parts.title>Metropolis - Live-Mitschnitt der Premiere</parts.title>
+    <parts_reference>383871</parts_reference>
+  </Parts>
+  <Parts>
+    <parts.condition.date/>
+    <parts.current_location.name/>
+    <parts.default_location.name>Imhoffweg</parts.default_location.name>
+    <parts.dimension.type>
+      <value lang="de-DE" invariant="true">L&#228;nge</value>
+      <value lang="en-GB" invariant="false">length</value>
+    </parts.dimension.type>
+    <parts.dimension.unit>
+      <value lang="de-DE" invariant="false">m</value>
+    </parts.dimension.unit>
+    <parts.dimension.value>4089</parts.dimension.value>
+    <parts.lead_word/>
+    <parts.part/>
+    <parts.record_type>
+      <value lang="neutral">ITEM</value>
+      <value lang="0">Item</value>
+      <value lang="1">Item</value>
+      <value lang="3">Item</value>
+      <value lang="9">Objekt</value>
+    </parts.record_type>
+    <parts.reference.lref>200141782</parts.reference.lref>
+    <parts.title>Metropolis</parts.title>
+    <parts_reference>391409</parts_reference>
+  </Parts>
+  <Parts>
+    <parts.condition.date/>
+    <parts.current_location.name/>
+    <parts.default_location.name/>
+    <parts.dimension.type>
+      <value lang="de-DE" invariant="true">Laufzeit</value>
+      <value lang="en-GB" invariant="false">runtime</value>
+    </parts.dimension.type>
+    <parts.dimension.unit>
+      <value lang="de-DE" invariant="false">min,sek</value>
+      <value lang="en-GB" invariant="false">min.sec</value>
+    </parts.dimension.unit>
+    <parts.dimension.value>149.3</parts.dimension.value>
+    <parts.lead_word/>
+    <parts.part/>
+    <parts.record_type>
+      <value lang="neutral">ITEM</value>
+      <value lang="0">Item</value>
+      <value lang="1">Item</value>
+      <value lang="3">Item</value>
+      <value lang="9">Objekt</value>
+    </parts.record_type>
+    <parts.reference.lref>200226745</parts.reference.lref>
+    <parts.title>Metropolis</parts.title>
+    <parts_reference>430980</parts_reference>
+  </Parts>
+  <Parts>
+    <parts.condition.date/>
+    <parts.current_location.name/>
+    <parts.default_location.name>(Imhoffweg) 1. Obergeschoss</parts.default_location.name>
+    <parts.dimension.value/>
+    <parts.lead_word/>
+    <parts.part/>
+    <parts.record_type>
+      <value lang="neutral">ITEM</value>
+      <value lang="0">Item</value>
+      <value lang="1">Item</value>
+      <value lang="3">Item</value>
+      <value lang="9">Objekt</value>
+    </parts.record_type>
+    <parts.reference.lref>200229083</parts.reference.lref>
+    <parts.title>Metropolis</parts.title>
+    <parts_reference>432023</parts_reference>
+  </Parts>
+  <Parts>
+    <parts.condition.date/>
+    <parts.current_location.name/>
+    <parts.default_location.name>(Imhoffweg) 1. Obergeschoss</parts.default_location.name>
+    <parts.dimension.value/>
+    <parts.lead_word/>
+    <parts.part/>
+    <parts.record_type>
+      <value lang="neutral">ITEM</value>
+      <value lang="0">Item</value>
+      <value lang="1">Item</value>
+      <value lang="3">Item</value>
+      <value lang="9">Objekt</value>
+    </parts.record_type>
+    <parts.reference.lref>200229179</parts.reference.lref>
+    <parts.title>Metropolis</parts.title>
+    <parts_reference>432081</parts_reference>
+  </Parts>
+  <Parts>
+    <parts.condition.date/>
+    <parts.current_location.name/>
+    <parts.default_location.name/>
+    <parts.dimension.type>
+      <value lang="de-DE" invariant="true">Laufzeit</value>
+      <value lang="en-GB" invariant="false">runtime</value>
+    </parts.dimension.type>
+    <parts.dimension.unit>
+      <value lang="de-DE" invariant="false">min,sek</value>
+      <value lang="en-GB" invariant="false">min.sec</value>
+    </parts.dimension.unit>
+    <parts.dimension.value>149.3</parts.dimension.value>
+    <parts.lead_word/>
+    <parts.part/>
+    <parts.record_type>
+      <value lang="neutral">ITEM</value>
+      <value lang="0">Item</value>
+      <value lang="1">Item</value>
+      <value lang="3">Item</value>
+      <value lang="9">Objekt</value>
+    </parts.record_type>
+    <parts.reference.lref>200323004</parts.reference.lref>
+    <parts.title>Metropolis</parts.title>
+    <parts_reference>1312711</parts_reference>
+  </Parts>
+  <PIDdata>
+    <PID_data_URI>https://hdl.handle.net/21.11155/621FA496-A03C-4ABC-B02D-26CF22EAEE4C</PID_data_URI>
+  </PIDdata>
+  <Production>
+    <production_country>
+      <value lang="de-DE" invariant="true">Deutschland</value>
+      <value lang="en-GB" invariant="false">Germany</value>
+    </production_country>
+    <production_country.lref>5479</production_country.lref>
+  </Production>
+  <Title>
+    <title>Metropolis</title>
+    <title.type>
+      <value lang="en-GB" invariant="true">Original Title</value>
+      <value lang="de-DE" invariant="false">Originaltitel</value>
+    </title.type>
+    <title.type.lref>5237</title.type.lref>
+  </Title>
+  <guid>b74028ca-2b2e-4dd1-88e3-c140c05fe04a</guid>
+  <institution.code>DE-MUS-407010</institution.code>
+  <institution.name>
+    <value lang="de-DE" invariant="true">Deutsche Kinemathek &#8211; Museum f&#252;r Film und Fernsehen</value>
+    <value lang="en-GB" invariant="false">Deutsche Kinemathek &#8211; Museum f&#252;r Film und Fernsehen</value>
+  </institution.name>
+  <institution.name.lref>3238</institution.name.lref>
+  <institution.place>
+    <value lang="de-DE" invariant="true">Berlin</value>
+    <value lang="en-GB" invariant="false">Berlin</value>
+  </institution.place>
+  <manifestationlevel_type>
+    <value lang="neutral">RESTORATION</value>
+    <value lang="0">Preservation/Restoration</value>
+    <value lang="2">Restauration</value>
+    <value lang="3">Restauriert</value>
+  </manifestationlevel_type>
+  <object_number>1271296</object_number>
+  <priref>200152050</priref>
+  <record_access.owner>sdkRedaktion</record_access.owner>
+  <record_type>
+    <value lang="neutral">MANIFESTATION</value>
+    <value lang="0">Manifestation</value>
+    <value lang="1">Manifestatie</value>
+    <value lang="3">Manifestation</value>
+    <value lang="9">Manifestation</value>
+  </record_type>
+  <release_date_end>2010</release_date_end>
+  <release_date_start>2010</release_date_start>
+  <sound_manifestation>
+    <value lang="neutral">SOUN</value>
+    <value lang="0">Sound</value>
+    <value lang="3">Ton</value>
+  </sound_manifestation>
+  <Update_field>150153587</Update_field>
+  <work_type>
+    <value lang="neutral">F</value>
+    <value lang="0">Cinema</value>
+    <value lang="3">Kino</value>
+  </work_type>
+</record>

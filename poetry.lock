@@ -866,22 +866,6 @@ pygments = ">=2.7.2"
 dev = ["argcomplete", "attrs (>=19.2)", "hypothesis (>=3.56)", "mock", "requests", "setuptools", "xmlschema"]
 
 [[package]]
-name = "pytest-dotenv"
-version = "0.5.2"
-description = "A py.test plugin that parses environment files before running tests"
-optional = false
-python-versions = "*"
-groups = ["dev"]
-files = [
-    {file = "pytest-dotenv-0.5.2.tar.gz", hash = "sha256:2dc6c3ac6d8764c71c6d2804e902d0ff810fa19692e95fe138aefc9b1aa73732"},
-    {file = "pytest_dotenv-0.5.2-py3-none-any.whl", hash = "sha256:40a2cece120a213898afaa5407673f6bd924b1fa7eafce6bda0e8abffe2f710f"},
-]
-
-[package.dependencies]
-pytest = ">=5.0.0"
-python-dotenv = ">=0.9.1"
-
-[[package]]
 name = "pytest-logging"
 version = "2015.11.4"
 description = "Configures logging and allows tweaking the log level with a py.test flag"
@@ -894,21 +878,6 @@ files = [
 
 [package.dependencies]
 pytest = ">=2.8.1"
-
-[[package]]
-name = "python-dotenv"
-version = "1.2.1"
-description = "Read key-value pairs from a .env file and set them as environment variables"
-optional = false
-python-versions = ">=3.9"
-groups = ["dev"]
-files = [
-    {file = "python_dotenv-1.2.1-py3-none-any.whl", hash = "sha256:b81ee9561e9ca4004139c6cbba3a238c32b03e4894671e181b671e8cb8425d61"},
-    {file = "python_dotenv-1.2.1.tar.gz", hash = "sha256:42667e897e16ab0d66954af0e60a9caa94f0fd4ecf3aaf6d2d260eec1aa36ad6"},
-]
-
-[package.extras]
-cli = ["click (>=5.0)"]
 
 [[package]]
 name = "pyyaml"
@@ -1425,4 +1394,4 @@ dev = ["pytest", "setuptools"]
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.11,<4.0.0"
-content-hash = "1a843669e6853ad718e7a17ca6510aeb56c260efca9baa248d506ca9f9ec5188"
+content-hash = "027eecfadbbb0722e8aa74fb40a38065aad071c643ce223137a1d722cb0b41c5"

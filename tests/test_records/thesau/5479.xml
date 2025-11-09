@@ -1,0 +1,200 @@
+<record priref="5479" created="2024-11-30T05:11:19" modification="2025-07-22T11:03:38" selected="false" deleted="false">
+  <broader_term>
+    <value lang="de-DE" invariant="false">Europa</value>
+  </broader_term>
+  <broader_term.lref>10865</broader_term.lref>
+  <equivalent_term>
+    <value lang="de-DE" invariant="true">Bundesrepublik Deutschland (BRD)</value>
+    <value lang="en-GB" invariant="false">Federal Republic of Germany</value>
+  </equivalent_term>
+  <equivalent_term>
+    <value lang="de-DE" invariant="false">Deutsche Demokratische Republik (DDR)</value>
+  </equivalent_term>
+  <equivalent_term>
+    <value lang="de-DE" invariant="true">Deutschland (Deutsches Reich)</value>
+    <value lang="en-GB" invariant="false">Germany (German Reich)</value>
+  </equivalent_term>
+  <equivalent_term>
+    <value lang="de-DE" invariant="true">Deutschland (Gebiet unter Alliierter Besatzung)</value>
+  </equivalent_term>
+  <equivalent_term>
+    <value lang="de-DE" invariant="true">Deutschland (Sowjetische Zone)</value>
+  </equivalent_term>
+  <equivalent_term.lref>9646</equivalent_term.lref>
+  <equivalent_term.lref>8468</equivalent_term.lref>
+  <equivalent_term.lref>8404</equivalent_term.lref>
+  <equivalent_term.lref>5255</equivalent_term.lref>
+  <equivalent_term.lref>5259</equivalent_term.lref>
+  <group>
+    <value lang="de-DE" invariant="true">E3.2 Orte international</value>
+    <value lang="en-GB" invariant="false">E3.2 Places international</value>
+  </group>
+  <group.lref>947</group.lref>
+  <Source>
+    <source>Gemeinsame Normdatei</source>
+    <source.number>https://d-nb.info/gnd/4011882-4</source.number>
+  </Source>
+  <Source>
+    <source>TGN</source>
+    <source.number>http://vocab.getty.edu/page/tgn/7000084</source.number>
+  </Source>
+  <guid>7dc636a8-2633-4852-af60-268393df3a7f</guid>
+  <narrower_term>
+    <value lang="de-DE" invariant="false">Baden-W&#252;rttemberg</value>
+  </narrower_term>
+  <narrower_term>
+    <value lang="de-DE" invariant="false">Baiernrain</value>
+  </narrower_term>
+  <narrower_term>
+    <value lang="de-DE" invariant="false">Bayern</value>
+  </narrower_term>
+  <narrower_term>
+    <value lang="de-DE" invariant="true">Berlin</value>
+    <value lang="en-GB" invariant="false">Berlin</value>
+  </narrower_term>
+  <narrower_term>
+    <value lang="de-DE" invariant="false">Brandenburg</value>
+  </narrower_term>
+  <narrower_term>
+    <value lang="de-DE" invariant="false">Bremen</value>
+  </narrower_term>
+  <narrower_term>
+    <value lang="de-DE" invariant="true">Hamburg</value>
+    <value lang="en-GB" invariant="false">Hamburg</value>
+  </narrower_term>
+  <narrower_term>
+    <value lang="de-DE" invariant="false">Hessen</value>
+  </narrower_term>
+  <narrower_term>
+    <value lang="de-DE" invariant="false">Mecklenburg-Vorpommern</value>
+  </narrower_term>
+  <narrower_term>
+    <value lang="de-DE" invariant="false">Niedersachsen</value>
+  </narrower_term>
+  <narrower_term>
+    <value lang="de-DE" invariant="false">Nordrhein-Westfalen</value>
+  </narrower_term>
+  <narrower_term>
+    <value lang="de-DE" invariant="false">Rheinland-Pfalz</value>
+  </narrower_term>
+  <narrower_term>
+    <value lang="de-DE" invariant="false">Saarland</value>
+  </narrower_term>
+  <narrower_term>
+    <value lang="de-DE" invariant="false">Sachsen</value>
+  </narrower_term>
+  <narrower_term>
+    <value lang="de-DE" invariant="false">Sachsen-Anhalt</value>
+  </narrower_term>
+  <narrower_term>
+    <value lang="de-DE" invariant="false">Schleswig-Holstein</value>
+  </narrower_term>
+  <narrower_term>
+    <value lang="de-DE" invariant="false">Th&#252;ringen</value>
+  </narrower_term>
+  <narrower_term.lref>11027</narrower_term.lref>
+  <narrower_term.lref>37237</narrower_term.lref>
+  <narrower_term.lref>11619</narrower_term.lref>
+  <narrower_term.lref>5457</narrower_term.lref>
+  <narrower_term.lref>11029</narrower_term.lref>
+  <narrower_term.lref>8047</narrower_term.lref>
+  <narrower_term.lref>989</narrower_term.lref>
+  <narrower_term.lref>9992</narrower_term.lref>
+  <narrower_term.lref>12843</narrower_term.lref>
+  <narrower_term.lref>11028</narrower_term.lref>
+  <narrower_term.lref>10227</narrower_term.lref>
+  <narrower_term.lref>12826</narrower_term.lref>
+  <narrower_term.lref>21041</narrower_term.lref>
+  <narrower_term.lref>11031</narrower_term.lref>
+  <narrower_term.lref>16722</narrower_term.lref>
+  <narrower_term.lref>9942</narrower_term.lref>
+  <narrower_term.lref>11621</narrower_term.lref>
+  <priref>5479</priref>
+  <record_access.owner>sdkRedaktion</record_access.owner>
+  <reference_number>98: Filmland Deutschland</reference_number>
+  <reference_number>166: Filmwirtschaft / Deutschland</reference_number>
+  <related_term>
+    <value lang="de-DE" invariant="true">Deutsche Teilung</value>
+    <value lang="en-GB" invariant="false">partition of Germany</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="true">Deutsche Wiedervereinigung</value>
+    <value lang="en-GB" invariant="false">German reunification</value>
+  </related_term>
+  <related_term.lref>453</related_term.lref>
+  <related_term.lref>58</related_term.lref>
+  <term>
+    <value lang="de-DE" invariant="true">Deutschland</value>
+    <value lang="en-GB" invariant="false">Germany</value>
+  </term>
+  <term.status>
+    <value lang="neutral">1</value>
+    <value lang="0">approved preferred term</value>
+    <value lang="1">descriptor</value>
+    <value lang="2">descripteur</value>
+    <value lang="3">Deskriptor</value>
+    <value lang="5">termine preferenziale approvato</value>
+    <value lang="9">godk&#228;nda f&#246;redragen term</value>
+    <value lang="10">&#1502;&#1493;&#1504;&#1495; &#1502;&#1488;&#1493;&#1513;&#1512; &#1502;&#1493;&#1506;&#1491;&#1507;</value>
+    <value lang="11">godkendt foretrukket term</value>
+    <value lang="14">&#25209;&#20934;&#39318;&#36984;&#26781;&#27454;</value>
+  </term.status>
+  <term.type>
+    <value lang="neutral"/>
+  </term.type>
+  <term.type>
+    <value lang="neutral"/>
+  </term.type>
+  <term.type>
+    <value lang="neutral">RIGHTS_TERRITORY</value>
+    <value lang="0">Rights Territory</value>
+    <value lang="3">Rechte Gebiet</value>
+  </term.type>
+  <term.type>
+    <value lang="neutral">RIGHTS_USAGE_SCOPE</value>
+    <value lang="0">Rights Usage Scope</value>
+    <value lang="3">Rechte Nutzung Geltungsbereich</value>
+  </term.type>
+  <term.type>
+    <value lang="neutral">SUBJECT</value>
+    <value lang="0">subject</value>
+    <value lang="1">onderwerp</value>
+    <value lang="2">sujet</value>
+    <value lang="3">Thema</value>
+    <value lang="4">&#1605;&#1608;&#1590;&#1608;&#1593;</value>
+    <value lang="5">soggetto</value>
+    <value lang="6">&#952;&#941;&#956;&#945;</value>
+    <value lang="9">&#228;mne</value>
+  </term.type>
+  <term.type>
+    <value lang="neutral">REGION</value>
+    <value lang="0">region</value>
+    <value lang="1">regio</value>
+    <value lang="3">Region</value>
+    <value lang="9">region</value>
+  </term.type>
+  <term.type>
+    <value lang="neutral">EVENT</value>
+    <value lang="0">event</value>
+    <value lang="1">gebeurtenis</value>
+    <value lang="2">&#233;v&#233;nement</value>
+    <value lang="3">Ereignis</value>
+    <value lang="4">&#1581;&#1583;&#1579;</value>
+    <value lang="5">evento</value>
+    <value lang="6">&#947;&#949;&#947;&#959;&#957;&#972;&#962;</value>
+    <value lang="9">h&#228;ndelse</value>
+  </term.type>
+  <term.type>
+    <value lang="neutral">COUNTRY</value>
+    <value lang="0">Country</value>
+    <value lang="3">Land</value>
+  </term.type>
+  <used_for>
+    <value lang="de-DE" invariant="true">DE</value>
+  </used_for>
+  <used_for>
+    <value lang="de-DE" invariant="true">GG</value>
+  </used_for>
+  <used_for.lref>5411</used_for.lref>
+  <used_for.lref>5242</used_for.lref>
+</record>
