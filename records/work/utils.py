@@ -1,52 +1,69 @@
+from records.record import XMLAccessor
 from avefi_schema import model as efi
 
-from records.record import XMLAccessor
+from dataclasses import dataclass
+
 from records.utils import get_mapped_enum_value
+from records.base.utils import compute_display_and_ordering_title
+
+
+@dataclass()
+class TempTitle:
+    name: str
+    type: str
+    ordering_name: str
 
 
 def compute_title(xml: XMLAccessor):
-
     xml_titles = xml.get_all("Title")
-    titles = []
+
+    temp_titles: list[TempTitle] = []
 
     for xml_title in xml_titles:
-
         title_text = xml_title.get_first("title/text()")
         title_type = xml_title.get_first("title.type/value[@lang='de-DE']/text()")
         title_article = xml_title.get_first("title.article/text()")
 
-        if title_text is None:
-            continue
+        new_title_text, ordering_title_text = compute_display_and_ordering_title(
+            title_text, title_article
+        )
 
-        ordering_title_text = None
-        new_title_text = title_text
-
-        if title_article is not None:
-            new_title_text = f"{title_article} {title_text}"
-            ordering_title_text = f"{title_text}, {title_article}"
-
-        new_title_type = efi.TitleTypeEnum.AlternativeTitle
-
-        if title_type is not None:
-            title_type_mapped = get_mapped_enum_value("TitleTypeEnum", title_type)
-            if title_type_mapped is not None:
-                new_title_type = title_type_mapped
-
-        titles.append(
-            efi.Title(
-                has_name=new_title_text,
-                type=new_title_type,
-                has_ordering_name=ordering_title_text,
+        temp_titles.append(
+            TempTitle(
+                name=new_title_text, type=title_type, ordering_name=ordering_title_text
             )
         )
 
-    def title_sort(title):
-        if str(title.type) == str(efi.TitleTypeEnum.PreferredTitle.text):
-            return 0
-        if str(title.type) == str(efi.TitleTypeEnum.SuppliedDevisedTitle.text):
-            return 1
-        return 2
+    if len(temp_titles) == 0:
+        raise Exception("No title found")
 
-    titles.sort(key=lambda x: title_sort(x))
+    primary_title = efi.Title(
+        has_name=temp_titles[0].name,
+        type=(
+            efi.TitleTypeEnum.SuppliedDevisedTitle
+            if temp_titles[0].type == "Archivtitel"
+            else efi.TitleTypeEnum.PreferredTitle
+        ),
+        has_ordering_name=temp_titles[0].ordering_name,
+    )
+
+    titles = [primary_title]
+
+    # all other titles
+
+    for temp_title in temp_titles[1:]:
+        title_type_mapped = get_mapped_enum_value("TitleTypeEnum", temp_title.type)
+
+        titles.append(
+            efi.Title(
+                has_name=temp_title.name,
+                type=(
+                    title_type_mapped
+                    if title_type_mapped
+                    else efi.TitleTypeEnum.AlternativeTitle
+                ),
+                has_ordering_name=temp_title.ordering_name,
+            )
+        )
 
     return titles

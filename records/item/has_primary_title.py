@@ -1,20 +1,26 @@
 from avefi_schema import model as efi
 
+from records.base.utils import compute_display_and_ordering_title
 from records.record import XMLAccessor
 
 
 def has_primary_title(xml: XMLAccessor):
-    part_of_title = xml.get_first(
-        "Part_of/part_of_reference/Part_of/part_of.title/text()",
+    own_title_text = xml.get_first("Title/title/text()")
+    own_title_article = xml.get_first("Title/title.article/text()")
+    own_title_type = xml.get_first("Title/title.article/text()")
+
+    if own_title_text is None:
+        return None
+
+    new_title_text, ordering_title_text = compute_display_and_ordering_title(
+        own_title_text, own_title_article
     )
-
-    part_of_lead_word = xml.get_first(
-        "Part_of/part_of_reference/Part_of/part_of.lead_word/text()",
+    return efi.Title(
+        type=(
+            efi.TitleTypeEnum.SuppliedDevisedTitle
+            if own_title_type == "Archivtitel"
+            else efi.TitleTypeEnum.TitleProper
+        ),
+        has_name=new_title_text,
+        has_ordering_name=ordering_title_text,
     )
-
-    if part_of_lead_word is not None:
-        title = part_of_lead_word + " " + part_of_title
-    else:
-        title = part_of_title
-
-    return efi.Title(type=efi.TitleTypeEnum.TitleProper, has_name=title)
