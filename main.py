@@ -33,7 +33,6 @@ setup_logging()
 
 
 def main():
-
     start = time.time()
 
     work_prirefs = pointer_file_provider.get_by_priref(3).xpath("hit/text()")
@@ -108,21 +107,29 @@ def get_related_records(records: list[Record]):
 def get_records(prirefs):
     records = []
     for priref in prirefs:
-        record = Record(collect_provider.get_by_priref(priref))
-        records.append(record)
+        try:
+            xml = collect_provider.get_by_priref(priref)
+            record = Record(xml)
+            records.append(record)
+        except Exception as e:
+            logging.error(
+                f"Failed to collect record {priref}: {e}",
+                exc_info=True,
+            )
+            pass
     return records
 
 
 def build_records(records: list[Record], related_records):
     built_records = []
     for record in records:
-        logging.info(f"Handling record with priref {record.xml.get_first("@priref")}")
+        logging.info(f"Handling record with priref {record.xml.get_first('@priref')}")
         try:
             built_record = record.build(related_records=related_records)
             built_records.append(built_record)
         except Exception as e:
             logging.error(
-                f"Error during mapping of {record.xml.get_first("@priref")}: {e}",
+                f"Error during mapping of {record.xml.get_first('@priref')}: {e}",
                 exc_info=True,
             )
             pass
