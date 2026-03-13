@@ -9,6 +9,9 @@ class Repository(Generic[T]):
     def __init__(self):
         self._data: dict[str, T] = {}
 
+    def __len__(self):
+        return len(self._data)
+
     def add_records(self, records: dict[str, T]):
         self._data.update(records)
 

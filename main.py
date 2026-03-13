@@ -182,6 +182,10 @@ def process_records(prirefs: list[str]):
 
     people_repo, thesau_repo = build_repos(records)
 
+    logging.info(
+        f"# Built People Repo: {len(people_repo)} and Thesau Repo: {len(thesau_repo)}"
+    )
+
     efi_records = translate_to_efi_records(
         records,
         people_repo=people_repo,
