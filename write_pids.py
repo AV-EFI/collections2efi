@@ -2,7 +2,7 @@ import json
 import logging
 
 from axiell_collections import axiell_collections_database
-from axiell_collections.wrapper import Cursor
+from axiell_collections import Cursor
 
 logging.getLogger("dicttoxml").setLevel(logging.WARNING)
 

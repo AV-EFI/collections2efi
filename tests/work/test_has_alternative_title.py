@@ -1,7 +1,7 @@
 import pytest
 from avefi_schema import model as efi
 
-from records.work.has_alternative_title import has_alternative_title
+from collections2efi.record_type.work.has_alternative_title import has_alternative_title
 
 
 @pytest.mark.parametrize(

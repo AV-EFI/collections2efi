@@ -1,8 +1,8 @@
 [project]
-name = "av-efi-generator"
+name = "collections2efi"
 version = "0.1.0"
 description = ""
-authors = [{ name = "fjlein", email = "fjlein@gmail.com" }]
+authors = [{ name = "Felix Lein", email = "fjlein@gmail.com" }]
 readme = "README.md"
 requires-python = ">=3.11,<4.0.0"
 dependencies = [
@@ -11,8 +11,11 @@ dependencies = [
     "requests>=2.32.3",
     "linkml-runtime>=1.8.0",
     "avefi-schema @ git+https://github.com/AV-EFI/av-efi-schema.git@fe413a3ecbd8c140f77c0007b696b0eb1cd46546",
-    "requests-cache>=1.2.1"
+    "requests-cache>=1.2.1",
 ]
+
+[tool.poetry]
+packages = [{include = "collections2efi", from = "src"}]
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.4.1"
@@ -24,5 +27,5 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.pytest.ini_options]
-pythonpath = ["."]
+pythonpath = ["src"]
 

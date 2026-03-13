@@ -1,7 +1,9 @@
 import pytest
 from avefi_schema import model as efi
 
-from records.manifestation.has_primary_title import has_primary_title
+from collections2efi.record_type.manifestation.has_primary_title import (
+    has_primary_title,
+)
 
 
 @pytest.mark.parametrize(

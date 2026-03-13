@@ -3,7 +3,7 @@ import os
 import pytest
 
 from axiell_collections import RecordProvider, Database
-from records.record import XMLAccessor
+from collections2efi.record import XMLAccessor
 
 RECORD_PRIREFS = {
     "200000127",
