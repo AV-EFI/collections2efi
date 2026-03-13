@@ -3,8 +3,8 @@ import re
 
 from avefi_schema import model as efi
 
-from collections2efi import Record
 from collections2efi.mappings.loader import get_mapping
+from collections2efi.record import PeopleRecord, ThesauRecord
 
 
 def get_has_date(
@@ -22,10 +22,10 @@ def get_has_date(
 
 
 def get_same_as_for_record(
-    record: Record,
-    include_gnd=False,
-    include_filmportal=False,
-    include_tgn=False,
+    record: ThesauRecord | PeopleRecord,
+    include_gnd: bool = False,
+    include_filmportal: bool = False,
+    include_tgn: bool = False,
 ):
 
     same_as = []

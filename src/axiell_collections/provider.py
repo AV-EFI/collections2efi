@@ -13,11 +13,13 @@ class BaseProvider(ABC):
         return data_xml
 
     def _execute_query(self, query):
+        result = self.axiell_collections.get(query)
         try:
-            return self.axiell_collections.get(query).records[0]
+            return result.records[0]
+        except IndexError:
+            raise IndexError("Did not receive a record")
         except Exception as e:
-            print(f"An error occurred during the request: {e}")
-            return None
+            raise Exception(f"An error occurred during the request: {e}")
 
     @abstractmethod
     def _construct_query(self, priref):
@@ -26,7 +28,6 @@ class BaseProvider(ABC):
 
 class RecordProvider(BaseProvider):
     def _construct_query(self, priref):
-
         return {
             "search": f"priref={priref}",
             "database": self.database,
@@ -36,7 +37,6 @@ class RecordProvider(BaseProvider):
 
 class PointerFileProvider(BaseProvider):
     def _construct_query(self, priref):
-
         return {
             "database": self.database,
             "xmltype": "grouped",

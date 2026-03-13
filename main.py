@@ -11,12 +11,25 @@ from datetime import datetime
 from linkml_runtime.dumpers import JSONDumper
 
 from axiell_collections import (
-    collect_provider,
     pointer_file_provider,
     people_provider,
     thesau_provider,
+    collect_provider,
 )
-from collections2efi import Record, Translator, PeopleRepo, ThesauRepo
+from collections2efi.translator import (
+    Translator,
+)
+
+from collections2efi.record import (
+    ThesauRecord,
+    PeopleRecord,
+    CollectRecord,
+)
+
+from collections2efi.repositories import (
+    PeopleRepo,
+    ThesauRepo,
+)
 
 logger = logging.getLogger("collections2efi")
 
@@ -32,97 +45,78 @@ def setup_logging():
 setup_logging()
 
 
-def main():
-    start = time.time()
-
+def get_prirefs_from_pointer_files() -> list[str]:
     work_prirefs = pointer_file_provider.get_by_priref(3).xpath("hit/text()")
     manifestation_prirefs = pointer_file_provider.get_by_priref(4).xpath("hit/text()")
     item_prirefs = pointer_file_provider.get_by_priref(5).xpath("hit/text()")
+    return work_prirefs + manifestation_prirefs + item_prirefs
 
-    prirefs = work_prirefs + manifestation_prirefs + item_prirefs
 
-    logging.info(f"# Retrieved {len(prirefs)} prirefs")
+def get_prirefs_from_graph_exploration(start_priref: str) -> list[str]:
+    unexplored_prirefs = {start_priref}
+    all_prirefs = set()
 
-    records = get_records(prirefs)
+    while unexplored_prirefs:
+        priref = unexplored_prirefs.pop()
 
+        if priref in all_prirefs:
+            continue
+
+        all_prirefs.add(priref)
+
+        record = CollectRecord(collect_provider.get_by_priref(priref))
+
+        unexplored_prirefs.update(record.get_connected_collect_prirefs())
+
+    return list(all_prirefs)
+
+
+def get_records(prirefs: list[str]) -> list[CollectRecord]:
+    records = []
+
+    for priref in prirefs:
+        try:
+            response = collect_provider.get_by_priref(priref)
+            records.append(CollectRecord(response))
+        except Exception as e:
+            logger.error(
+                f"Error while retrieving priref {priref}: {e}, record not collected, priref skipped"
+            )
+            continue
+
+    return records
+
+
+def build_repos(
+    records: list[CollectRecord],
+) -> tuple[PeopleRepo, ThesauRepo]:
     people_prirefs = set()
     thesau_prirefs = set()
 
     for record in records:
-        for xpath in [
-            "Cast/cast.name.lref/text()",
-            "Credits/credit.name.lref/text()",
-            "Content_person/content.person.name.lref/text()",
-        ]:
-            people_prirefs.update(record.xml.get_all(xpath))
-        for xpath in [
-            "Production/production_country.lref/text()",
-            "Content_genre/content.genre.lref/text()",
-            "Content_subject/content.subject.lref/text()",
-            "ContentGeo/content.geographical_keyword.lref/text()",
-        ]:
-            thesau_prirefs.update(record.xml.get_all(xpath))
+        people_prirefs.update(record.get_connected_people_prirefs())
+        thesau_prirefs.update(record.get_connected_thesau_prirefs())
 
     people_repo = PeopleRepo()
     thesau_repo = ThesauRepo()
 
     people_repo.add_records(
         {
-            priref: Record(people_provider.get_by_priref(priref))
+            priref: PeopleRecord(people_provider.get_by_priref(priref))
             for priref in people_prirefs
         },
     )
     thesau_repo.add_records(
         {
-            priref: Record(thesau_provider.get_by_priref(priref))
+            priref: ThesauRecord(thesau_provider.get_by_priref(priref))
             for priref in thesau_prirefs
         },
     )
-
-    efi_records = build_records(
-        records,
-        people_repo=people_repo,
-        thesau_repo=thesau_repo,
-    )
-
-    logging.info(f"# Built {len(efi_records)} records")
-
-    purged_records = purge_records(efi_records)
-
-    logging.info(f"# After purge: {len(purged_records)} records")
-
-    file_obj, json_file = tempfile.mkstemp(
-        prefix=datetime.now().strftime("%Y%m%d-%H%M%S-"),
-        suffix=".json",
-    )
-    os.close(file_obj)
-
-    dumper = JSONDumper()
-    dumper.dump(purged_records, json_file, inject_type=False)
-
-    print(f"Wrote data to file://{json_file}")
-    end = time.time()
-    print(end - start)
+    return people_repo, thesau_repo
 
 
-def get_records(prirefs) -> list[Record]:
-    records = []
-    for priref in prirefs:
-        try:
-            xml = collect_provider.get_by_priref(priref)
-            record = Record(xml)
-            records.append(record)
-        except Exception as e:
-            logging.error(
-                f"Failed to collect record {priref}: {e}",
-                exc_info=True,
-            )
-            pass
-    return records
-
-
-def build_records(
-    records: list[Record],
+def translate_to_efi_records(
+    records: list[CollectRecord],
     people_repo: PeopleRepo,
     thesau_repo: ThesauRepo,
 ):
@@ -179,6 +173,47 @@ def purge_records(records):
     ]
 
     return purged_works + purged_manifestations + purged_items
+
+
+def process_records(prirefs: list[str]):
+    start = time.time()
+
+    logging.info(f"# Retrieved {len(prirefs)} prirefs")
+
+    records: list[CollectRecord] = get_records(prirefs)
+
+    people_repo, thesau_repo = build_repos(records)
+
+    efi_records = translate_to_efi_records(
+        records,
+        people_repo=people_repo,
+        thesau_repo=thesau_repo,
+    )
+
+    logging.info(f"# Built {len(efi_records)} records")
+
+    purged_records = purge_records(efi_records)
+
+    logging.info(f"# After purge: {len(purged_records)} records")
+
+    file_obj, json_file = tempfile.mkstemp(
+        prefix=datetime.now().strftime("%Y%m%d-%H%M%S-"),
+        suffix=".json",
+    )
+    os.close(file_obj)
+
+    dumper = JSONDumper()
+    dumper.dump(purged_records, json_file, inject_type=False)
+
+    print(f"Wrote data to file://{json_file}")
+    end = time.time()
+    print(end - start)
+
+
+def main():
+    prirefs = get_prirefs_from_pointer_files()
+    # prirefs = get_prirefs_from_graph_exploration("200339733")
+    process_records(prirefs)
 
 
 if __name__ == "__main__":

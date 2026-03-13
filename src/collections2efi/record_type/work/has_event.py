@@ -1,7 +1,7 @@
 from avefi_schema import model as efi
 
 from collections2efi.mappings.loader import get_mapping
-from collections2efi.record import XMLAccessor, Record
+from collections2efi.record import XMLAccessor, PeopleRecord
 from collections2efi.record_type.base.utils import (
     get_same_as_for_record,
     get_located_in,
@@ -34,14 +34,14 @@ def has_event(
         if name is None or priref is None:
             continue
 
+        record = people_repo.get_record(priref)
+
         cast_members.append(
             efi.Agent(
-                type=_get_type_for_people_record(
-                    people_repo.get_record(priref),
-                ),
+                type=_get_type(record),
                 has_name=name,
                 same_as=get_same_as_for_record(
-                    people_repo.get_record(priref),
+                    record,
                     include_gnd=True,
                     include_filmportal=True,
                 ),
@@ -78,16 +78,16 @@ def has_event(
                 if name is None or priref is None:
                     continue
 
-                people_record = people_repo.get_record(priref)
+                record = people_repo.get_record(priref)
 
                 activities.append(
                     activity(
                         type=activity_type_enum[activity_type_name],
                         has_agent=efi.Agent(
-                            type=_get_type_for_people_record(people_record),
+                            type=_get_type(record),
                             has_name=name,
                             same_as=get_same_as_for_record(
-                                people_record,
+                                record,
                                 include_gnd=True,
                                 include_filmportal=True,
                             ),
@@ -111,7 +111,7 @@ def has_event(
     )
 
 
-def _get_type_for_people_record(record: Record):
+def _get_type(record: PeopleRecord):
     record_type = record.xml.get_first("record_type/value[@lang='3']/text()")
 
     if record_type is None:

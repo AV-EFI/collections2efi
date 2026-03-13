@@ -1,22 +1,28 @@
-class Repository:
-    def __init__(self):
-        self._data = {}
+from typing import TypeVar, Generic
 
-    def add_records(self, records: dict):
+from collections2efi.record import Record, PeopleRecord, ThesauRecord
+
+T = TypeVar("T", bound=Record)
+
+
+class Repository(Generic[T]):
+    def __init__(self):
+        self._data: dict[str, T] = {}
+
+    def add_records(self, records: dict[str, T]):
         self._data.update(records)
 
-    def get_record(self, priref: str):
+    def get_record(self, priref: str) -> T:
         record = self._data.get(priref)
-        if record is None:
-            print("No record found for priref '{}'".format(priref))
+        assert record is not None
         return record
 
 
-class PeopleRepo(Repository):
+class PeopleRepo(Repository[PeopleRecord]):
     def __init__(self):
         super().__init__()
 
 
-class ThesauRepo(Repository):
+class ThesauRepo(Repository[ThesauRecord]):
     def __init__(self):
         super().__init__()
