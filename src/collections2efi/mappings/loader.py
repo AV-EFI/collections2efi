@@ -2,7 +2,7 @@ import functools
 import os
 import tomllib
 
-from avefi_schema import model as efi
+from avefi_schema import model_pydantic_v2 as efi
 
 
 @functools.lru_cache(maxsize=None)

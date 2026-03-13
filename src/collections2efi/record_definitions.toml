@@ -15,7 +15,7 @@ complex = [
     { attribute = "has_alternative_title", location = "work" },
     { attribute = "has_primary_title", location = "work" },
     { attribute = "has_identifier", location = "base" },
-    { attribute = "described_by", location = "base" },
+    { attribute = "described_by", location = "work" },
 ]
 
 [work.simple]
@@ -31,7 +31,7 @@ complex = [
     { attribute = "has_event", location = "manifestation" },
     { attribute = "has_identifier", location = "base" },
     { attribute = "has_primary_title", location = "manifestation" },
-    { attribute = "described_by", location = "base" },
+    { attribute = "described_by", location = "manifestation" },
 ]
 
 
@@ -46,7 +46,7 @@ complex = [
     { attribute = "has_identifier", location = "base" },
     { attribute = "in_language", location = "item" },
     { attribute = "has_primary_title", location = "item" },
-    { attribute = "described_by", location = "base" },
+    { attribute = "described_by", location = "item" },
     { attribute = "element_type", location = "item" },
     { attribute = "has_access_status", location = "item" },
 ]

@@ -1,7 +1,7 @@
 import importlib
 import inspect
 
-from avefi_schema import model as efi
+from avefi_schema import model_pydantic_v2 as efi
 
 from collections2efi.loader import get_record_definitions
 from collections2efi.record import CollectRecord

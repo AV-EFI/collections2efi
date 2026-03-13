@@ -42,9 +42,9 @@
 "Schnittassistenz" = "AssistantFilmEditor"
 
 [FormatAudioTypeEnum]
-"16mm" = "16mmMagneticTrack"
-"17,5mm" = "17.5mmMagneticTrack"
-"35mm" = "35mmMagneticTrack"
+"16mm" = "number_16mmMagneticTrack"
+"17,5mm" = "number_17FULL_STOP5mmMagneticTrack"
+"35mm" = "number_35mmMagneticTrack"
 "Audiokassette" = "Audiocassette"
 "1 Zoll" = "OneInchAudioReel"
 "2 Zoll" = "TwoInchAudioReel"
@@ -59,12 +59,12 @@
 "DV" = "DV"
 
 [FormatFilmTypeEnum]
-"16mm" = "16mmFilm"
-"17,5mm" = "17.5mmFilm"
-"35mm" = "35mmFilm"
-"70mm" = "70mmFilm"
-"8mm" = "8mmFilm"
-"9,5mm" = "9.5mmFilm"
+"16mm" = "number_16mmFilm"
+"17,5mm" = "number_17FULL_STOP5mmFilm"
+"35mm" = "number_35mmFilm"
+"70mm" = "number_70mmFilm"
+"8mm" = "number_8mmFilm"
+"9,5mm" = "number_9FULL_STOP5mmFilm"
 "S16mm" = "Super16mmFilm"
 "S8mm" = "Super8mmFilm"
 
@@ -74,8 +74,8 @@
 "DVD" = "DVD"
 
 [FormatVideoTypeEnum]
-"1 Zoll" = "1InchCFormat"
-"2 Zoll" = "2InchQuadruplex"
+"1 Zoll" = "number_1InchCFormat"
+"2 Zoll" = "number_2InchQuadruplex"
 "Betacam SP" = "BetacamSP"
 "D1" = "D1"
 "DigiBeta" = "DigitalBetacam"
@@ -90,12 +90,12 @@
 "VHS" = "VHS"
 
 [FrameRateEnum]
-"16" = "16fps"
-"23,98" = "23.98fps"
-"24" = "24fps"
-"25" = "25fps"
-"30" = "30fps"
-"48" = "48fps"
+"16" = "number_16fps"
+"23,98" = "number_23FULL_STOP98fps"
+"24" = "number_24fps"
+"25" = "number_25fps"
+"30" = "number_30fps"
+"48" = "number_48fps"
 
 [ItemAccessStatusEnum]
 "Archivkopie" = "Archive"

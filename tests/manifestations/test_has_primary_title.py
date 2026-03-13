@@ -1,5 +1,5 @@
 import pytest
-from avefi_schema import model as efi
+from avefi_schema import model_pydantic_v2 as efi
 
 from collections2efi.record_type.manifestation.has_primary_title import (
     has_primary_title,

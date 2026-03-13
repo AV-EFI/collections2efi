@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from avefi_schema import model as efi
+from avefi_schema import model_pydantic_v2 as efi
 
 from collections2efi.record import XMLAccessor
 from collections2efi.record_type.base.utils import (

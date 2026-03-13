@@ -1,5 +1,5 @@
 import pytest
-from avefi_schema import model as efi
+from avefi_schema import model_pydantic_v2 as efi
 
 from collections2efi.record_type.work.has_alternative_title import has_alternative_title
 

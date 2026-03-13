@@ -39,13 +39,12 @@ pydantic = ">=2.11.0"
 
 [package.extras]
 dataclasses = ["linkml-runtime (>=1.8.0)"]
-docs = ["linkml (>=1.8.0)", "mkdocs-material (>=9.5.17)"]
 
 [package.source]
 type = "git"
 url = "https://github.com/AV-EFI/av-efi-schema.git"
-reference = "fe413a3ecbd8c140f77c0007b696b0eb1cd46546"
-resolved_reference = "fe413a3ecbd8c140f77c0007b696b0eb1cd46546"
+reference = "173321cd2b7d08fb1970d84133ffe8ecc0f463eb"
+resolved_reference = "173321cd2b7d08fb1970d84133ffe8ecc0f463eb"
 
 [[package]]
 name = "cattrs"
@@ -1378,4 +1377,4 @@ dev = ["pytest", "setuptools"]
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.11,<4.0.0"
-content-hash = "150cdee4255bfc7e15596d2b54a014a34fa526e3490c5f0cc5b1e9b6ae14b942"
+content-hash = "c942852f03dd1257173ee0236275c94b2922b124b7cff82cc291c6d7ac613df6"

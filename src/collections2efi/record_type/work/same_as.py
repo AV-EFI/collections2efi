@@ -1,4 +1,4 @@
-from avefi_schema import model as efi
+from avefi_schema import model_pydantic_v2 as efi
 
 from collections2efi.record import XMLAccessor
 
@@ -17,6 +17,6 @@ def same_as(xml: XMLAccessor):
             continue
 
         if number_type == "ref_filmportal":
-            return efi.FilmportalResource(id=number)
+            return [efi.FilmportalResource(id=number)]
 
     return None

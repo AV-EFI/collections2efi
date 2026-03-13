@@ -10,7 +10,7 @@ dependencies = [
     "lxml>=6.0.0",
     "requests>=2.32.3",
     "linkml-runtime>=1.8.0",
-    "avefi-schema @ git+https://github.com/AV-EFI/av-efi-schema.git@fe413a3ecbd8c140f77c0007b696b0eb1cd46546",
+    "avefi-schema @ git+https://github.com/AV-EFI/av-efi-schema.git@173321cd2b7d08fb1970d84133ffe8ecc0f463eb",
     "requests-cache>=1.2.1",
 ]
 

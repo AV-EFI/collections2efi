@@ -1,4 +1,4 @@
-from avefi_schema import model as efi
+from avefi_schema import model_pydantic_v2 as efi
 
 from collections2efi.mappings.loader import get_mapping
 from collections2efi.record import PeopleRecord, XMLAccessor
@@ -82,32 +82,36 @@ def has_event(
                 activities.append(
                     activity(
                         type=activity_type_enum[activity_type_name],
-                        has_agent=efi.Agent(
-                            type=_get_type(record),
-                            has_name=name,
-                            same_as=get_same_as_for_record(
-                                record,
-                                include_gnd=True,
-                                include_filmportal=True,
-                            ),
-                        ),
+                        has_agent=[
+                            efi.Agent(
+                                type=_get_type(record),
+                                has_name=name,
+                                same_as=get_same_as_for_record(
+                                    record,
+                                    include_gnd=True,
+                                    include_filmportal=True,
+                                ),
+                            )
+                        ],
                     )
                 )
 
-    return efi.ProductionEvent(
-        located_in=get_located_in(xml.get_all("Production"), thesau_repo),
-        has_date=get_has_date(
-            xml.get_first("Dating/dating.date.start/text()"),
-            xml.get_first("Dating/dating.date.end/text()"),
-            xml.get_first(
-                "Dating/dating.date.start.prec/value[@lang='3'][text()='circa']/text()"
+    return [
+        efi.ProductionEvent(
+            located_in=get_located_in(xml.get_all("Production"), thesau_repo),
+            has_date=get_has_date(
+                xml.get_first("Dating/dating.date.start/text()"),
+                xml.get_first("Dating/dating.date.end/text()"),
+                xml.get_first(
+                    "Dating/dating.date.start.prec/value[@lang='3'][text()='circa']/text()"
+                ),
+                xml.get_first(
+                    "Dating/dating.date.end.prec/value[@lang='3'][text()='circa']/text()"
+                ),
             ),
-            xml.get_first(
-                "Dating/dating.date.end.prec/value[@lang='3'][text()='circa']/text()"
-            ),
-        ),
-        has_activity=activities,
-    )
+            has_activity=activities,
+        )
+    ]
 
 
 def _get_type(record: PeopleRecord):
