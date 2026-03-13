@@ -1,0 +1,335 @@
+<record priref="200322201" created="2024-12-05T15:27:26" modification="2025-11-13T00:03:35" selected="false" deleted="false">
+  <acquisition.number>28473</acquisition.number>
+  <archive_number>SDK04874-V</archive_number>
+  <aspect_ratio>
+    <value lang="de-DE" invariant="true">1:1,375</value>
+    <value lang="en-GB" invariant="false">1:1,375</value>
+  </aspect_ratio>
+  <aspect_ratio.lref>7013</aspect_ratio.lref>
+  <can_size>
+    <value lang="neutral">C</value>
+    <value lang="0">600</value>
+    <value lang="1">600</value>
+    <value lang="3">600</value>
+  </can_size>
+  <cans>2</cans>
+  <colour_type>
+    <value lang="neutral">CB</value>
+    <value lang="0">Colour and B/W</value>
+    <value lang="3">Farbe + Schwarzwei&#223;</value>
+  </colour_type>
+  <copy_status>
+    <value lang="neutral">VERLEIH</value>
+    <value lang="0">Distribution Print</value>
+    <value lang="3">Verleihkopie</value>
+  </copy_status>
+  <copy_usage>
+    <value lang="neutral">6</value>
+    <value lang="0">Rental Deutsche Kinemathek</value>
+    <value lang="3">Verleih Deutsche Kinemathek</value>
+  </copy_usage>
+  <copy_usage>
+    <value lang="neutral">2</value>
+    <value lang="0">Viewing</value>
+    <value lang="3">Sichtung</value>
+  </copy_usage>
+  <DAM_MAN_deeplink>https://sammlungen.deutsche-kinemathek.de/flow2/itemdetails/sdk200322201</DAM_MAN_deeplink>
+  <dataset_name>
+    <value lang="neutral">film</value>
+    <value lang="0">Moving image catalogue</value>
+    <value lang="1">Filmcatalogus</value>
+    <value lang="2">Registres de la cin&#233;matographie</value>
+    <value lang="3">Filmkatalog</value>
+  </dataset_name>
+  <department>
+    <value lang="de-DE" invariant="false">Filmarchiv</value>
+  </department>
+  <department.lref>3264</department.lref>
+  <Condition>
+    <condition.notes>Koppelstellen Anfang und Enden vorhanden. Rolle 1 mit 5 Klebestellen und einem Perforationsschaden. Rolle 2 mit 3 Klebestellen (davon 2 mit Tonfliegen) und einem Perforationsschaden. Kopie ist in einem guten Zustand mit nur m&#228;&#223;igen Gebrauchsspuren. 
+M&#228;&#223;iger Regen an den Rollenanf&#228;ngen- und Enden (Anfang Ro 2 etwas st&#228;rkerer Regen), sowie kleine Schichtkratzer, blankseitige Sprung- und Querschrammen. Wiederkehrend Laufstreifen links/rechts/mittig, z.T. pendelnd, und an den Bildr&#228;ndern. Laufverschrammung der ersten Rolle st&#228;rker (fast durchgehend, z.T. 2-3 St. + wiederkehrende schichtseitige LS sowie Kratzer, ab 270m fast durchgehend kurze Schichtkratzer rechts), Rolle 2 zumeist nur wenig verschrammt. Mitunter nicht entfernbare Ablagerungen. Durchg&#228;ngig leichter Regen sowie feine Sprung- und Querschrammen.</condition.notes>
+    <condition.type>
+      <value lang="neutral">MECHANIC</value>
+      <value lang="0">2. Mechanic</value>
+      <value lang="3">2. Mechanisch</value>
+    </condition.type>
+  </Condition>
+  <Condition>
+    <condition.notes>i.O. 
+Z.T. leichte Unsch&#228;rfe und Grobk&#246;rnigkeit.</condition.notes>
+    <condition.type>
+      <value lang="neutral">PHOTO</value>
+      <value lang="0">1. Photographic</value>
+      <value lang="3">1. Fotografisch</value>
+    </condition.type>
+  </Condition>
+  <Dimension>
+    <dimension.type>
+      <value lang="de-DE" invariant="true">L&#228;nge</value>
+      <value lang="en-GB" invariant="false">length</value>
+    </dimension.type>
+    <dimension.type.lref>8706</dimension.type.lref>
+    <dimension.unit>
+      <value lang="de-DE" invariant="false">m</value>
+    </dimension.unit>
+    <dimension.unit.lref>8708</dimension.unit.lref>
+    <dimension.value>1158</dimension.value>
+  </Dimension>
+  <Dimension>
+    <dimension.type>
+      <value lang="de-DE" invariant="true">Laufzeit</value>
+      <value lang="en-GB" invariant="false">runtime</value>
+    </dimension.type>
+    <dimension.type.lref>8707</dimension.type.lref>
+    <dimension.unit>
+      <value lang="de-DE" invariant="false">min,sek</value>
+      <value lang="en-GB" invariant="false">min.sec</value>
+    </dimension.unit>
+    <dimension.unit.lref>8709</dimension.unit.lref>
+    <dimension.value>105.53</dimension.value>
+  </Dimension>
+  <Film_speed>
+    <frame_rate>
+      <value lang="de-DE" invariant="true">24</value>
+    </frame_rate>
+    <frame_rate.lref>7605</frame_rate.lref>
+    <speed.type>
+      <value lang="neutral">PLAYBACKSPEED</value>
+      <value lang="0">playback speed</value>
+      <value lang="3">Abspielgeschwindigkeit</value>
+    </speed.type>
+  </Film_speed>
+  <Language>
+    <language>
+      <value lang="de-DE" invariant="true">deutsch</value>
+      <value lang="en-GB" invariant="false">German</value>
+    </language>
+    <language.lref>5247</language.lref>
+    <language.type>
+      <value lang="neutral">DIALORIG</value>
+      <value lang="0">Original version</value>
+      <value lang="3">OF</value>
+    </language.type>
+  </Language>
+  <mat_characteristics>
+    <carrier_type_general>
+      <value lang="de-DE" invariant="true">Azetat</value>
+    </carrier_type_general>
+    <carrier_type_general.lref>6723</carrier_type_general.lref>
+    <mat_characteristics.material_format_film>
+      <value lang="de-DE" invariant="false">16mm</value>
+    </mat_characteristics.material_format_film>
+    <mat_characteristics.material_format_film.lref>6736</mat_characteristics.material_format_film.lref>
+    <mat_characteristics.material_type_film>
+      <value lang="de-DE" invariant="true">Positivkopie (kombiniert)</value>
+    </mat_characteristics.material_type_film>
+    <material_type_film.lref>7406</material_type_film.lref>
+  </mat_characteristics>
+  <Part_of>
+    <part_of.lead_word>Die</part_of.lead_word>
+    <part_of.location.default.name/>
+    <part_of.record_type>
+      <value lang="neutral">MANIFESTATION</value>
+      <value lang="0">Manifestation</value>
+      <value lang="1">Manifestatie</value>
+      <value lang="3">Manifestation</value>
+      <value lang="9">Manifestation</value>
+    </part_of.record_type>
+    <part_of.title>Geschichten vom K&#252;belkind</part_of.title>
+    <part_of_reference>
+      <Part_of>
+        <part_of.title>Alle Macht den Vampiren</part_of.title>
+        <part_of_reference.lref>200322187</part_of_reference.lref>
+      </Part_of>
+      <Part_of>
+        <part_of.title>Alte M&#228;nner</part_of.title>
+        <part_of_reference.lref>200322176</part_of_reference.lref>
+      </Part_of>
+      <Part_of>
+        <part_of.lead_word>Das</part_of.lead_word>
+        <part_of.title>Bankkonto im Walde</part_of.title>
+        <part_of_reference.lref>200322199</part_of_reference.lref>
+      </Part_of>
+      <Part_of>
+        <part_of.title>Besonders nette Eltern</part_of.title>
+        <part_of_reference.lref>200322191</part_of_reference.lref>
+      </Part_of>
+      <Part_of>
+        <part_of.title>Des Hauses Schmuck ist Reinlichkeit</part_of.title>
+        <part_of_reference.lref>200322179</part_of_reference.lref>
+      </Part_of>
+      <Part_of>
+        <part_of.title>Freiheit durch Al Capone</part_of.title>
+        <part_of_reference.lref>200322188</part_of_reference.lref>
+      </Part_of>
+      <Part_of>
+        <part_of.lead_word>Ein</part_of.lead_word>
+        <part_of.title>Ganz Kleines Gl&#252;ck</part_of.title>
+        <part_of_reference.lref>200307846</part_of_reference.lref>
+      </Part_of>
+      <Part_of>
+        <part_of.title>Geschichten und Finanzierungsvorschl&#228;ge bitte an der Kasse</part_of.title>
+        <part_of_reference.lref>200322192</part_of_reference.lref>
+      </Part_of>
+      <Part_of>
+        <part_of.title>Geschichten und Finanzierungsvorschl&#228;ge bitte an der Kasse</part_of.title>
+        <part_of_reference.lref>200322194</part_of_reference.lref>
+      </Part_of>
+      <Part_of>
+        <part_of.title>Geschichten und Finanzierungsvorschl&#228;ge bitte an der Kinokasse erfragen</part_of.title>
+        <part_of_reference.lref>200322197</part_of_reference.lref>
+      </Part_of>
+      <Part_of>
+        <part_of.lead_word>Die</part_of.lead_word>
+        <part_of.title>Hexe soll brennen</part_of.title>
+        <part_of_reference.lref>200322193</part_of_reference.lref>
+      </Part_of>
+      <Part_of>
+        <part_of.title>Katzen haben Fl&#246;he</part_of.title>
+        <part_of_reference.lref>200322180</part_of_reference.lref>
+      </Part_of>
+      <Part_of>
+        <part_of.lead_word>Eine</part_of.lead_word>
+        <part_of.title>Kaufhausdiebin</part_of.title>
+        <part_of_reference.lref>200322189</part_of_reference.lref>
+      </Part_of>
+      <Part_of>
+        <part_of.title>K&#252;belkind's Kindheit</part_of.title>
+        <part_of_reference.lref>200322177</part_of_reference.lref>
+      </Part_of>
+      <Part_of>
+        <part_of.title>K&#252;belkind ers&#228;uft K&#252;belkinder</part_of.title>
+        <part_of_reference.lref>200322196</part_of_reference.lref>
+      </Part_of>
+      <Part_of>
+        <part_of.title>K&#252;belkind erz&#228;hlt einer K&#246;nigin ein M&#228;rchen</part_of.title>
+        <part_of_reference.lref>200322183</part_of_reference.lref>
+      </Part_of>
+      <Part_of>
+        <part_of.title>K&#252;belkind hat einen guten Menschen zum Fressen gern</part_of.title>
+        <part_of_reference.lref>200322195</part_of_reference.lref>
+      </Part_of>
+      <Part_of>
+        <part_of.title>K&#252;belkind lernt ein Schei&#223;spiel</part_of.title>
+        <part_of_reference.lref>200322184</part_of_reference.lref>
+      </Part_of>
+      <Part_of>
+        <part_of.title>K&#252;belkind lernt einen Lord kennen und wird aufgeh&#228;ngt</part_of.title>
+        <part_of_reference.lref>200322182</part_of_reference.lref>
+      </Part_of>
+      <Part_of>
+        <part_of.title>K&#252;belkind lernt nein sagen</part_of.title>
+        <part_of_reference.lref>200322185</part_of_reference.lref>
+      </Part_of>
+      <Part_of>
+        <part_of.title>K&#252;belkind reitet f&#252;r den K&#246;nig</part_of.title>
+        <part_of_reference.lref>200322198</part_of_reference.lref>
+      </Part_of>
+      <Part_of>
+        <part_of.title>K&#252;belkind wird glatt und rund</part_of.title>
+        <part_of_reference.lref>200322181</part_of_reference.lref>
+      </Part_of>
+      <Part_of>
+        <part_of.title>K&#252;belsyndrom</part_of.title>
+        <part_of_reference.lref>200322178</part_of_reference.lref>
+      </Part_of>
+      <Part_of>
+        <part_of.title>Murmeltier lernt tanzen</part_of.title>
+        <part_of_reference.lref>200322186</part_of_reference.lref>
+      </Part_of>
+      <Part_of>
+        <part_of.title>Niedrig gilt das Geld auf dieser Erde</part_of.title>
+        <part_of_reference.lref>200322190</part_of_reference.lref>
+      </Part_of>
+      <object_number>1311899</object_number>
+    </part_of_reference>
+    <part_of_reference.lref>200322200</part_of_reference.lref>
+  </Part_of>
+  <PIDdata>
+    <PID_data_URI>https://hdl.handle.net/21.11155/5AA2ACEE-4B6E-45DC-A02B-C4968EF77A78</PID_data_URI>
+  </PIDdata>
+  <reels>
+    <reel.length>547</reel.length>
+    <reel.number>1</reel.number>
+  </reels>
+  <reels>
+    <reel.length>611</reel.length>
+    <reel.number>2</reel.number>
+  </reels>
+  <Related_accession>
+    <related_accession_number>Z2163</related_accession_number>
+    <related_accession_number.lref>100002077</related_accession_number.lref>
+    <related_accession_number.method>
+      <value lang="de-DE" invariant="false">Depositum</value>
+    </related_accession_number.method>
+    <related_accession_number.source>
+      <value lang="de-DE" invariant="false">St&#246;ckl, Ula</value>
+      <value lang="en-GB" invariant="false">St&#246;ckl, Ula</value>
+    </related_accession_number.source>
+    <related_accession_number.title/>
+  </Related_accession>
+  <Source_item>
+    <source_item.notes>Titel im Bestand nicht vorhanden.</source_item.notes>
+  </Source_item>
+  <Title>
+    <title>Geschichten vom K&#252;belkind</title>
+    <title.article>Die</title.article>
+    <title.type.lref>5243</title.type.lref>
+  </Title>
+  <guid>1802f1dd-dc1b-4e2a-9c6d-3cfdb639cc00</guid>
+  <institution.code>DE-MUS-407010</institution.code>
+  <institution.name>
+    <value lang="de-DE" invariant="true">Deutsche Kinemathek &#8211; Museum f&#252;r Film und Fernsehen</value>
+    <value lang="en-GB" invariant="false">Deutsche Kinemathek &#8211; Museum f&#252;r Film und Fernsehen</value>
+  </institution.name>
+  <institution.name.lref>3238</institution.name.lref>
+  <institution.place>
+    <value lang="de-DE" invariant="true">Berlin</value>
+    <value lang="en-GB" invariant="false">Berlin</value>
+  </institution.place>
+  <item_type>
+    <value lang="neutral">FILM</value>
+    <value lang="0">Film</value>
+    <value lang="1">Film</value>
+    <value lang="3">Film</value>
+  </item_type>
+  <legacy.condition>2-</legacy.condition>
+  <legacy.copy_specifics>Info auf B&#252;chse: Basis-Verleihetikett. Basis 93093</legacy.copy_specifics>
+  <location.default.barcode>5</location.default.barcode>
+  <location.default.box.type/>
+  <location.default.context>Imhoffweg</location.default.context>
+  <location.default.lref>5</location.default.lref>
+  <location.default.mergein/>
+  <location.default.name>Imhoffweg</location.default.name>
+  <location.default.package_location>
+    <value lang="neutral">LOCATION</value>
+    <value lang="0">location</value>
+    <value lang="1">standplaats</value>
+    <value lang="3">Standort</value>
+    <value lang="9">plats</value>
+    <value lang="10">&#1502;&#1497;&#1511;&#1493;&#1501;</value>
+    <value lang="11">placering</value>
+    <value lang="14">&#20301;&#32622;</value>
+  </location.default.package_location>
+  <object_number>1311900</object_number>
+  <priref>200322201</priref>
+  <record_access.owner>sdkRedaktion</record_access.owner>
+  <record_type>
+    <value lang="neutral">ITEM</value>
+    <value lang="0">Item</value>
+    <value lang="1">Item</value>
+    <value lang="3">Item</value>
+    <value lang="9">Objekt</value>
+  </record_type>
+  <reels_count>2</reels_count>
+  <sound_fixation_type>
+    <value lang="de-DE" invariant="true">Doppelzacke</value>
+  </sound_fixation_type>
+  <sound_fixation_type.lref>6764</sound_fixation_type.lref>
+  <sound_item>
+    <value lang="de-DE" invariant="true">Ton</value>
+    <value lang="en-GB" invariant="false">Sound</value>
+  </sound_item>
+  <sound_item.lref>5136</sound_item.lref>
+  <Update_field>150328140</Update_field>
+</record>

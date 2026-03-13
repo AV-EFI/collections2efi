@@ -1,0 +1,93 @@
+<record priref="11170" created="2024-11-30T05:14:05" modification="2024-11-30T05:54:18" selected="false" deleted="false">
+  <group>
+    <value lang="de-DE" invariant="true">F1.6 Personen nach Geschlecht</value>
+    <value lang="en-GB" invariant="false">F1.6 Persons by gender</value>
+  </group>
+  <group>
+    <value lang="de-DE" invariant="true">F1.4 Personen nach Familienbeziehung</value>
+    <value lang="en-GB" invariant="false">F1.4 Persons by family relation</value>
+  </group>
+  <group.lref>401</group.lref>
+  <group.lref>548</group.lref>
+  <Source>
+    <scope_note>m&#228;nnliche Person im Hinblick auf ihre leibliche Abstammung von den Eltern; unmittelbarer m&#228;nnlicher Nachkomme</scope_note>
+    <source>Duden</source>
+    <source.number>https://www.duden.de/node/167838/revision/167874</source.number>
+  </Source>
+  <Source>
+    <source>Gemeinsame Normdatei</source>
+    <source.number>http://d-nb.info/gnd/4203420-6</source.number>
+  </Source>
+  <guid>a4a58536-1505-4dbe-82ea-bad84d0e2d9f</guid>
+  <narrower_term>
+    <value lang="de-DE" invariant="false">Adoptivsohn</value>
+  </narrower_term>
+  <narrower_term>
+    <value lang="de-DE" invariant="false">Stiefsohn</value>
+  </narrower_term>
+  <narrower_term.lref>32399</narrower_term.lref>
+  <narrower_term.lref>36483</narrower_term.lref>
+  <priref>11170</priref>
+  <record_access.owner>sdkAdmin</record_access.owner>
+  <term>
+    <value lang="de-DE" invariant="true">Sohn</value>
+    <value lang="en-GB" invariant="false">Son</value>
+  </term>
+  <term.status>
+    <value lang="neutral">1</value>
+    <value lang="0">approved preferred term</value>
+    <value lang="1">descriptor</value>
+    <value lang="2">descripteur</value>
+    <value lang="3">Deskriptor</value>
+    <value lang="5">termine preferenziale approvato</value>
+    <value lang="9">godk&#228;nda f&#246;redragen term</value>
+    <value lang="10">&#1502;&#1493;&#1504;&#1495; &#1502;&#1488;&#1493;&#1513;&#1512; &#1502;&#1493;&#1506;&#1491;&#1507;</value>
+    <value lang="11">godkendt foretrukket term</value>
+    <value lang="14">&#25209;&#20934;&#39318;&#36984;&#26781;&#27454;</value>
+  </term.status>
+  <term.type>
+    <value lang="neutral">SUBJECT</value>
+    <value lang="0">subject</value>
+    <value lang="1">onderwerp</value>
+    <value lang="2">sujet</value>
+    <value lang="3">Thema</value>
+    <value lang="4">&#1605;&#1608;&#1590;&#1608;&#1593;</value>
+    <value lang="5">soggetto</value>
+    <value lang="6">&#952;&#941;&#956;&#945;</value>
+    <value lang="9">&#228;mne</value>
+  </term.type>
+  <term.type>
+    <value lang="neutral">ASSOC</value>
+    <value lang="0">association</value>
+    <value lang="1">associatie</value>
+    <value lang="2">association</value>
+    <value lang="3">Assoziation</value>
+    <value lang="4">&#1607;&#1610;&#1574;&#1577;</value>
+    <value lang="5">associazione</value>
+    <value lang="6">&#963;&#965;&#963;&#967;&#949;&#964;&#953;&#963;&#956;&#972;&#962;</value>
+    <value lang="9">relation</value>
+  </term.type>
+  <term.type>
+    <value lang="neutral">SUBJECT</value>
+    <value lang="0">subject</value>
+    <value lang="1">onderwerp</value>
+    <value lang="2">sujet</value>
+    <value lang="3">Thema</value>
+    <value lang="4">&#1605;&#1608;&#1590;&#1608;&#1593;</value>
+    <value lang="5">soggetto</value>
+    <value lang="6">&#952;&#941;&#956;&#945;</value>
+    <value lang="9">&#228;mne</value>
+  </term.type>
+  <term.type>
+    <value lang="neutral">ASSOCPI</value>
+    <value lang="0">association (Persons &amp; Institutions)</value>
+    <value lang="1">associatie (Personen &amp; Instellingen)</value>
+    <value lang="2">association (Personnes &amp; Institutions)</value>
+    <value lang="3">Assoziation (Person &amp; K&#246;rperschaften)</value>
+    <value lang="9">relation (Personer &amp; Institutioner)</value>
+  </term.type>
+  <used_for>
+    <value lang="de-DE" invariant="false">S&#246;hne</value>
+  </used_for>
+  <used_for.lref>16115</used_for.lref>
+</record>

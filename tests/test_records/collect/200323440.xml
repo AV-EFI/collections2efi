@@ -1,0 +1,190 @@
+<record priref="200323440" created="2024-12-05T15:27:56" modification="2025-05-30T10:13:06" selected="false" deleted="false">
+  <broadcast_channel>
+    <value lang="de-DE" invariant="false">Zweites Deutsches Fernsehen (ZDF)</value>
+  </broadcast_channel>
+  <broadcast_channel.lref>103093</broadcast_channel.lref>
+  <broadcast_company>
+    <value lang="de-DE" invariant="false">Zweites Deutsches Fernsehen (ZDF)</value>
+  </broadcast_company>
+  <broadcast_company.lref>103093</broadcast_company.lref>
+  <colour_manifestation>
+    <value lang="neutral">C</value>
+    <value lang="0">Colour</value>
+    <value lang="1">Kleur</value>
+    <value lang="2">Couleur</value>
+    <value lang="3">Farbe</value>
+  </colour_manifestation>
+  <dataset_name>
+    <value lang="neutral">film</value>
+    <value lang="0">Moving image catalogue</value>
+    <value lang="1">Filmcatalogus</value>
+    <value lang="2">Registres de la cin&#233;matographie</value>
+    <value lang="3">Filmkatalog</value>
+  </dataset_name>
+  <format_high_level>
+    <value lang="neutral">FILM</value>
+    <value lang="0">Film</value>
+    <value lang="3">Film</value>
+  </format_high_level>
+  <Language>
+    <language>
+      <value lang="de-DE" invariant="true">deutsch</value>
+      <value lang="en-GB" invariant="false">German</value>
+    </language>
+    <language.lref>5247</language.lref>
+    <language.type>
+      <value lang="neutral">DIALORIG</value>
+      <value lang="0">Original version</value>
+      <value lang="3">OF</value>
+    </language.type>
+  </Language>
+  <Part_of>
+    <part_of.lead_word>Die</part_of.lead_word>
+    <part_of.location.default.name/>
+    <part_of.record_type>
+      <value lang="neutral">WORK</value>
+      <value lang="0">Work</value>
+      <value lang="1">Werk</value>
+      <value lang="3">Werk</value>
+      <value lang="9">Verk</value>
+    </part_of.record_type>
+    <part_of.title>Deutschen und ihre M&#228;nner - Bericht aus Bonn</part_of.title>
+    <part_of_reference>
+      <object_number>18039</object_number>
+    </part_of_reference>
+    <part_of_reference.lref>200006819</part_of_reference.lref>
+  </Part_of>
+  <Parts>
+    <parts.condition.date/>
+    <parts.current_location.name/>
+    <parts.default_location.name>Koblenz</parts.default_location.name>
+    <parts.dimension.type>
+      <value lang="de-DE" invariant="true">L&#228;nge</value>
+      <value lang="en-GB" invariant="false">length</value>
+    </parts.dimension.type>
+    <parts.dimension.unit>
+      <value lang="de-DE" invariant="false">m</value>
+    </parts.dimension.unit>
+    <parts.dimension.value>1106</parts.dimension.value>
+    <parts.lead_word>Die</parts.lead_word>
+    <parts.part/>
+    <parts.record_type>
+      <value lang="neutral">ITEM</value>
+      <value lang="0">Item</value>
+      <value lang="1">Item</value>
+      <value lang="3">Item</value>
+      <value lang="9">Objekt</value>
+    </parts.record_type>
+    <parts.reference.lref>200094052</parts.reference.lref>
+    <parts.title>Deutschen und ihre M&#228;nner - Bericht aus Bonn</parts.title>
+    <parts_reference>343297</parts_reference>
+  </Parts>
+  <Parts>
+    <parts.condition.date>2019-07-10</parts.condition.date>
+    <parts.current_location.name/>
+    <parts.default_location.name>Imhoffweg</parts.default_location.name>
+    <parts.dimension.type>
+      <value lang="de-DE" invariant="true">L&#228;nge</value>
+      <value lang="en-GB" invariant="false">length</value>
+    </parts.dimension.type>
+    <parts.dimension.unit>
+      <value lang="de-DE" invariant="false">m</value>
+    </parts.dimension.unit>
+    <parts.dimension.value>1107</parts.dimension.value>
+    <parts.lead_word>Die</parts.lead_word>
+    <parts.part/>
+    <parts.record_type>
+      <value lang="neutral">ITEM</value>
+      <value lang="0">Item</value>
+      <value lang="1">Item</value>
+      <value lang="3">Item</value>
+      <value lang="9">Objekt</value>
+    </parts.record_type>
+    <parts.reference.lref>200097546</parts.reference.lref>
+    <parts.title>Deutschen und ihre M&#228;nner - Bericht aus Bonn</parts.title>
+    <parts_reference>346797</parts_reference>
+  </Parts>
+  <Parts>
+    <parts.condition.date>2019-07-10</parts.condition.date>
+    <parts.current_location.name/>
+    <parts.default_location.name>Imhoffweg</parts.default_location.name>
+    <parts.dimension.type>
+      <value lang="de-DE" invariant="true">L&#228;nge</value>
+      <value lang="en-GB" invariant="false">length</value>
+    </parts.dimension.type>
+    <parts.dimension.unit>
+      <value lang="de-DE" invariant="false">m</value>
+    </parts.dimension.unit>
+    <parts.dimension.value>1107</parts.dimension.value>
+    <parts.lead_word>Die</parts.lead_word>
+    <parts.part/>
+    <parts.record_type>
+      <value lang="neutral">ITEM</value>
+      <value lang="0">Item</value>
+      <value lang="1">Item</value>
+      <value lang="3">Item</value>
+      <value lang="9">Objekt</value>
+    </parts.record_type>
+    <parts.reference.lref>200097591</parts.reference.lref>
+    <parts.title>Deutschen und ihre M&#228;nner - Bericht aus Bonn</parts.title>
+    <parts_reference>346842</parts_reference>
+  </Parts>
+  <PIDdata>
+    <PID_data_URI>https://hdl.handle.net/21.11155/6A9D88CB-49DA-4D93-836A-9CDC1003A565</PID_data_URI>
+  </PIDdata>
+  <Production>
+    <production_country>
+      <value lang="de-DE" invariant="true">Bundesrepublik Deutschland (BRD)</value>
+      <value lang="en-GB" invariant="false">Federal Republic of Germany</value>
+    </production_country>
+    <production_country.lref>9646</production_country.lref>
+  </Production>
+  <Runtime>
+    <runtime.minutes>96</runtime.minutes>
+  </Runtime>
+  <Title>
+    <title>Deutschen und ihre M&#228;nner - Bericht aus Bonn</title>
+    <title.article>Die</title.article>
+    <title.type>
+      <value lang="en-GB" invariant="true">Original Title</value>
+      <value lang="de-DE" invariant="false">Originaltitel</value>
+    </title.type>
+    <title.type.lref>5237</title.type.lref>
+  </Title>
+  <guid>12534f64-3af8-4059-92af-6b050e2bb79d</guid>
+  <institution.code>DE-MUS-407010</institution.code>
+  <institution.name>
+    <value lang="de-DE" invariant="true">Deutsche Kinemathek &#8211; Museum f&#252;r Film und Fernsehen</value>
+    <value lang="en-GB" invariant="false">Deutsche Kinemathek &#8211; Museum f&#252;r Film und Fernsehen</value>
+  </institution.name>
+  <institution.name.lref>3238</institution.name.lref>
+  <institution.place>
+    <value lang="de-DE" invariant="true">Berlin</value>
+    <value lang="en-GB" invariant="false">Berlin</value>
+  </institution.place>
+  <manifestationlevel_type>
+    <value lang="neutral">TRANSMISSION</value>
+    <value lang="0">Broadcast</value>
+    <value lang="3">Fernsehausstrahlung</value>
+  </manifestationlevel_type>
+  <object_number>1313150</object_number>
+  <priref>200323440</priref>
+  <record_access.owner>sdkRedaktion</record_access.owner>
+  <record_type>
+    <value lang="neutral">MANIFESTATION</value>
+    <value lang="0">Manifestation</value>
+    <value lang="1">Manifestatie</value>
+    <value lang="3">Manifestation</value>
+    <value lang="9">Manifestation</value>
+  </record_type>
+  <release_date_end>1989</release_date_end>
+  <release_date_start>1989</release_date_start>
+  <sound_manifestation>
+    <value lang="neutral">SOUN</value>
+    <value lang="0">Sound</value>
+    <value lang="3">Ton</value>
+  </sound_manifestation>
+  <transmission_date>1989-08-15</transmission_date>
+  <transmission_start_time>22:30:00</transmission_start_time>
+  <Update_field>150329394</Update_field>
+</record>

@@ -19,6 +19,6 @@ from collections2efi.record_type.work.has_alternative_title import has_alternati
         )
     ],
 )
-def test_has_alternative_title(all_records, priref, expected):
-    xml = all_records[priref]
+def test_has_alternative_title(collect_record_factory, priref, expected):
+    xml = collect_record_factory(priref).xml
     assert has_alternative_title(xml) == expected

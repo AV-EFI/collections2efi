@@ -1,0 +1,118 @@
+<record priref="11642" created="2024-11-30T06:03:11" modification="2025-05-14T15:43:36" selected="false" deleted="false">
+  <birth.date.end>1948</birth.date.end>
+  <birth.date.start>1948</birth.date.start>
+  <birth.place>
+    <value lang="de-DE" invariant="false">Buenos Aires</value>
+  </birth.place>
+  <birth.place.lref>9417</birth.place.lref>
+  <forename>Alcides</forename>
+  <gender>
+    <value lang="de-DE" invariant="false">m&#228;nnlich</value>
+    <value lang="en-GB" invariant="false">male</value>
+  </gender>
+  <gender.lref>44180</gender.lref>
+  <Source>
+    <source>CineGraph Minis</source>
+    <source.number>CBP009210</source.number>
+    <source_reference.date/>
+    <source_reference.time/>
+  </Source>
+  <Source>
+    <source>Filmportal</source>
+    <source.number>https://www.filmportal.de/person/alcides-chiesa_e5ac1d7a8ea242bf934f9572010694cf</source.number>
+    <source_reference.date>2025-05-14</source_reference.date>
+    <source_reference.time>15:43:36</source_reference.time>
+  </Source>
+  <Source>
+    <source>Gemeinsame Normdatei</source>
+    <source.number>https://d-nb.info/gnd/140821694</source.number>
+    <source_reference.date>2025-05-14</source_reference.date>
+    <source_reference.time>15:43:36</source_reference.time>
+  </Source>
+  <utb>
+    <utb.content>geb. Buenos Aires, 1948</utb.content>
+    <utb.fieldname>Lebensdaten</utb.fieldname>
+  </utb>
+  <guid>447f3131-f8a9-4202-9025-51fb1aae3cc2</guid>
+  <name>
+    <value lang="de-DE" invariant="false">Chiesa, Alcides</value>
+  </name>
+  <name.status>
+    <value lang="neutral">1</value>
+    <value lang="0">approved preferred term</value>
+    <value lang="1">descriptor</value>
+    <value lang="2">descripteur</value>
+    <value lang="3">Deskriptor</value>
+    <value lang="5">termine preferenziale approvato</value>
+    <value lang="9">godk&#228;nda f&#246;redragen term</value>
+    <value lang="10">&#1502;&#1493;&#1504;&#1495; &#1502;&#1488;&#1493;&#1513;&#1512; &#1502;&#1493;&#1506;&#1491;&#1507;</value>
+    <value lang="11">godkendt foretrukket term</value>
+    <value lang="14">&#25209;&#20934;&#39318;&#36984;&#26781;&#27454;</value>
+  </name.status>
+  <name.type>
+    <value lang="neutral">CAST</value>
+    <value lang="0">cast</value>
+    <value lang="1">cast</value>
+    <value lang="3">Besetzung</value>
+    <value lang="9">roller</value>
+  </name.type>
+  <name.type>
+    <value lang="neutral">MAKER</value>
+    <value lang="0">creator</value>
+    <value lang="1">vervaardiger</value>
+    <value lang="2">cr&#233;ateur</value>
+    <value lang="3">Hersteller</value>
+    <value lang="4">&#1575;&#1604;&#1589;&#1575;&#1606;&#1593;</value>
+    <value lang="5">creatore</value>
+    <value lang="6">&#948;&#951;&#956;&#953;&#959;&#965;&#961;&#947;&#972;&#962;</value>
+    <value lang="9">upphov</value>
+    <value lang="10">&#1497;&#1493;&#1510;&#1512;</value>
+    <value lang="11">kunstner</value>
+    <value lang="14">&#21109;&#20316;&#20154;</value>
+  </name.type>
+  <name.type>
+    <value lang="neutral">PERSON</value>
+    <value lang="0">person</value>
+    <value lang="1">persoon</value>
+    <value lang="2">personne</value>
+    <value lang="3">Person</value>
+    <value lang="4">&#1573;&#1587;&#1605; &#1588;&#1582;&#1589;</value>
+    <value lang="5">persona</value>
+    <value lang="6">&#960;&#961;&#972;&#963;&#969;&#960;&#959;</value>
+    <value lang="9">person</value>
+    <value lang="10">&#1488;&#1491;&#1501;</value>
+    <value lang="11">person</value>
+    <value lang="14">&#20154;&#22763;</value>
+  </name.type>
+  <name.type>
+    <value lang="neutral">CREDITS</value>
+    <value lang="0">credits</value>
+    <value lang="1">credits</value>
+    <value lang="3">Credits</value>
+    <value lang="9">krediteringar</value>
+  </name.type>
+  <occupation>
+    <value lang="de-DE" invariant="true">Drehbuchautor</value>
+    <value lang="en-GB" invariant="false">Screenwriter</value>
+  </occupation>
+  <occupation>
+    <value lang="de-DE" invariant="true">Produzent</value>
+    <value lang="en-GB" invariant="false">Producer</value>
+  </occupation>
+  <occupation>
+    <value lang="de-DE" invariant="true">Regisseur</value>
+    <value lang="en-GB" invariant="false">Director</value>
+  </occupation>
+  <occupation.lref>5038</occupation.lref>
+  <occupation.lref>5032</occupation.lref>
+  <occupation.lref>5047</occupation.lref>
+  <priref>11642</priref>
+  <record_access.owner>sdkAdmin</record_access.owner>
+  <record_type>
+    <value lang="neutral">1</value>
+    <value lang="0">Person</value>
+    <value lang="3">Person</value>
+  </record_type>
+  <reference_number>16591</reference_number>
+  <surname>Chiesa</surname>
+</record>

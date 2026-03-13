@@ -1,0 +1,44 @@
+<record priref="11203" created="2024-11-30T05:14:07" modification="2024-11-30T05:14:07" selected="false" deleted="false">
+  <Source>
+    <scope_note>Die Diktatur (von lateinisch dictatura) ist eine Herrschaftsform, die sich durch eine einzelne regierende Person, den Diktator, oder eine regierende Gruppe von Personen (z. B. Partei, Milit&#228;rjunta, Familie) mit weitreichender bis unbeschr&#228;nkter politischer Macht auszeichnet.</scope_note>
+    <source>Wikipedia</source>
+    <source.number>https://de.wikipedia.org/w/index.php?title=Diktatur&amp;oldid=168948742</source.number>
+  </Source>
+  <Source>
+    <source>Gemeinsame Normdatei</source>
+    <source.number>http://d-nb.info/gnd/4149920-7</source.number>
+  </Source>
+  <guid>4310aa24-c59a-46ee-a857-557a9ed1abe8</guid>
+  <priref>11203</priref>
+  <record_access.owner>sdkAdmin</record_access.owner>
+  <related_term>
+    <value lang="de-DE" invariant="false">Diktator</value>
+  </related_term>
+  <related_term.lref>30582</related_term.lref>
+  <term>
+    <value lang="de-DE" invariant="false">Diktatur</value>
+  </term>
+  <term.status>
+    <value lang="neutral">1</value>
+    <value lang="0">approved preferred term</value>
+    <value lang="1">descriptor</value>
+    <value lang="2">descripteur</value>
+    <value lang="3">Deskriptor</value>
+    <value lang="5">termine preferenziale approvato</value>
+    <value lang="9">godk&#228;nda f&#246;redragen term</value>
+    <value lang="10">&#1502;&#1493;&#1504;&#1495; &#1502;&#1488;&#1493;&#1513;&#1512; &#1502;&#1493;&#1506;&#1491;&#1507;</value>
+    <value lang="11">godkendt foretrukket term</value>
+    <value lang="14">&#25209;&#20934;&#39318;&#36984;&#26781;&#27454;</value>
+  </term.status>
+  <term.type>
+    <value lang="neutral">SUBJECT</value>
+    <value lang="0">subject</value>
+    <value lang="1">onderwerp</value>
+    <value lang="2">sujet</value>
+    <value lang="3">Thema</value>
+    <value lang="4">&#1605;&#1608;&#1590;&#1608;&#1593;</value>
+    <value lang="5">soggetto</value>
+    <value lang="6">&#952;&#941;&#956;&#945;</value>
+    <value lang="9">&#228;mne</value>
+  </term.type>
+</record>

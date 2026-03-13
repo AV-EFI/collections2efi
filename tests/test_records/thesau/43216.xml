@@ -1,0 +1,30 @@
+<record priref="43216" created="2024-11-30T05:30:38" modification="2025-03-25T13:45:53" selected="false" deleted="false">
+  <broader_term>
+    <value lang="de-DE" invariant="false">Freundschaft</value>
+  </broader_term>
+  <broader_term.lref>8103</broader_term.lref>
+  <Source>
+    <source>Gemeinsame Normdatei</source>
+    <source.number>https://d-nb.info/gnd/4196112-2</source.number>
+    <source_reference.date>2025-03-25</source_reference.date>
+    <source_reference.time>13:45:53</source_reference.time>
+  </Source>
+  <guid>1d0693b2-a7cf-4794-824b-4246829d0d86</guid>
+  <priref>43216</priref>
+  <record_access.owner>sdkRedaktion</record_access.owner>
+  <term>
+    <value lang="de-DE" invariant="false">Frauenfreundschaft</value>
+  </term>
+  <term.status>
+    <value lang="neutral">3</value>
+    <value lang="0">candidate</value>
+    <value lang="1">kandidaat</value>
+    <value lang="2">candidat</value>
+    <value lang="3">Kandidat</value>
+    <value lang="5">candidato</value>
+    <value lang="9">kandidat</value>
+    <value lang="10">&#1502;&#1493;&#1506;&#1502;&#1491;</value>
+    <value lang="11">kandidat</value>
+    <value lang="14">&#20505;&#36984;&#20154;</value>
+  </term.status>
+</record>

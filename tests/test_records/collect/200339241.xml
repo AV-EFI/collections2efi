@@ -1,0 +1,269 @@
+<record priref="200339241" created="2024-12-05T15:34:42" modification="2025-05-30T10:14:22" selected="false" deleted="false">
+  <dataset_name>
+    <value lang="neutral">film</value>
+    <value lang="0">Moving image catalogue</value>
+    <value lang="1">Filmcatalogus</value>
+    <value lang="2">Registres de la cin&#233;matographie</value>
+    <value lang="3">Filmkatalog</value>
+  </dataset_name>
+  <format_high_level>
+    <value lang="neutral">DIGITAL</value>
+    <value lang="0">Digital</value>
+    <value lang="3">Digital</value>
+  </format_high_level>
+  <Part_of>
+    <part_of.lead_word/>
+    <part_of.location.default.name/>
+    <part_of.record_type>
+      <value lang="neutral">WORK</value>
+      <value lang="0">Work</value>
+      <value lang="1">Werk</value>
+      <value lang="3">Werk</value>
+      <value lang="9">Verk</value>
+    </part_of.record_type>
+    <part_of.title>Picasso in Vallauris - Kurzfassung</part_of.title>
+    <part_of_reference>
+      <object_number>1328538</object_number>
+    </part_of_reference>
+    <part_of_reference.lref>200339239</part_of_reference.lref>
+  </Part_of>
+  <Parts>
+    <parts.condition.date/>
+    <parts.current_location.name/>
+    <parts.default_location.name/>
+    <parts.dimension.type>
+      <value lang="de-DE" invariant="true">Laufzeit</value>
+      <value lang="en-GB" invariant="false">runtime</value>
+    </parts.dimension.type>
+    <parts.dimension.unit>
+      <value lang="de-DE" invariant="false">min,sek</value>
+      <value lang="en-GB" invariant="false">min.sec</value>
+    </parts.dimension.unit>
+    <parts.dimension.value>15.1</parts.dimension.value>
+    <parts.lead_word/>
+    <parts.part/>
+    <parts.record_type>
+      <value lang="neutral">ITEM</value>
+      <value lang="0">Item</value>
+      <value lang="1">Item</value>
+      <value lang="3">Item</value>
+      <value lang="9">Objekt</value>
+    </parts.record_type>
+    <parts.reference.lref>200339258</parts.reference.lref>
+    <parts.title/>
+    <parts_reference>1328557</parts_reference>
+  </Parts>
+  <Parts>
+    <parts.condition.date/>
+    <parts.current_location.name/>
+    <parts.default_location.name/>
+    <parts.dimension.value/>
+    <parts.lead_word/>
+    <parts.part/>
+    <parts.record_type>
+      <value lang="neutral">ITEM</value>
+      <value lang="0">Item</value>
+      <value lang="1">Item</value>
+      <value lang="3">Item</value>
+      <value lang="9">Objekt</value>
+    </parts.record_type>
+    <parts.reference.lref>200339251</parts.reference.lref>
+    <parts.title/>
+    <parts_reference>1328550</parts_reference>
+  </Parts>
+  <Parts>
+    <parts.condition.date/>
+    <parts.current_location.name/>
+    <parts.default_location.name/>
+    <parts.dimension.type>
+      <value lang="de-DE" invariant="true">Laufzeit</value>
+      <value lang="en-GB" invariant="false">runtime</value>
+    </parts.dimension.type>
+    <parts.dimension.unit>
+      <value lang="de-DE" invariant="false">min,sek</value>
+      <value lang="en-GB" invariant="false">min.sec</value>
+    </parts.dimension.unit>
+    <parts.dimension.value>15.1</parts.dimension.value>
+    <parts.lead_word/>
+    <parts.part/>
+    <parts.record_type>
+      <value lang="neutral">ITEM</value>
+      <value lang="0">Item</value>
+      <value lang="1">Item</value>
+      <value lang="3">Item</value>
+      <value lang="9">Objekt</value>
+    </parts.record_type>
+    <parts.reference.lref>200339255</parts.reference.lref>
+    <parts.title/>
+    <parts_reference>1328554</parts_reference>
+  </Parts>
+  <Parts>
+    <parts.condition.date/>
+    <parts.current_location.name/>
+    <parts.default_location.name/>
+    <parts.dimension.type>
+      <value lang="de-DE" invariant="true">Laufzeit</value>
+      <value lang="en-GB" invariant="false">runtime</value>
+    </parts.dimension.type>
+    <parts.dimension.unit>
+      <value lang="de-DE" invariant="false">min,sek</value>
+      <value lang="en-GB" invariant="false">min.sec</value>
+    </parts.dimension.unit>
+    <parts.dimension.value>15.1</parts.dimension.value>
+    <parts.lead_word/>
+    <parts.part/>
+    <parts.record_type>
+      <value lang="neutral">ITEM</value>
+      <value lang="0">Item</value>
+      <value lang="1">Item</value>
+      <value lang="3">Item</value>
+      <value lang="9">Objekt</value>
+    </parts.record_type>
+    <parts.reference.lref>200339254</parts.reference.lref>
+    <parts.title/>
+    <parts_reference>1328553</parts_reference>
+  </Parts>
+  <Parts>
+    <parts.condition.date/>
+    <parts.current_location.name/>
+    <parts.default_location.name/>
+    <parts.dimension.type>
+      <value lang="de-DE" invariant="true">Laufzeit</value>
+      <value lang="en-GB" invariant="false">runtime</value>
+    </parts.dimension.type>
+    <parts.dimension.unit>
+      <value lang="de-DE" invariant="false">min,sek</value>
+      <value lang="en-GB" invariant="false">min.sec</value>
+    </parts.dimension.unit>
+    <parts.dimension.value>15.1</parts.dimension.value>
+    <parts.lead_word/>
+    <parts.part/>
+    <parts.record_type>
+      <value lang="neutral">ITEM</value>
+      <value lang="0">Item</value>
+      <value lang="1">Item</value>
+      <value lang="3">Item</value>
+      <value lang="9">Objekt</value>
+    </parts.record_type>
+    <parts.reference.lref>200339253</parts.reference.lref>
+    <parts.title/>
+    <parts_reference>1328552</parts_reference>
+  </Parts>
+  <Parts>
+    <parts.condition.date/>
+    <parts.current_location.name/>
+    <parts.default_location.name/>
+    <parts.dimension.type>
+      <value lang="de-DE" invariant="true">Laufzeit</value>
+      <value lang="en-GB" invariant="false">runtime</value>
+    </parts.dimension.type>
+    <parts.dimension.unit>
+      <value lang="de-DE" invariant="false">min,sek</value>
+      <value lang="en-GB" invariant="false">min.sec</value>
+    </parts.dimension.unit>
+    <parts.dimension.value>15.1</parts.dimension.value>
+    <parts.lead_word/>
+    <parts.part/>
+    <parts.record_type>
+      <value lang="neutral">ITEM</value>
+      <value lang="0">Item</value>
+      <value lang="1">Item</value>
+      <value lang="3">Item</value>
+      <value lang="9">Objekt</value>
+    </parts.record_type>
+    <parts.reference.lref>200339252</parts.reference.lref>
+    <parts.title/>
+    <parts_reference>1328551</parts_reference>
+  </Parts>
+  <Parts>
+    <parts.condition.date/>
+    <parts.current_location.name/>
+    <parts.default_location.name/>
+    <parts.dimension.type>
+      <value lang="de-DE" invariant="true">Laufzeit</value>
+      <value lang="en-GB" invariant="false">runtime</value>
+    </parts.dimension.type>
+    <parts.dimension.unit>
+      <value lang="de-DE" invariant="false">min,sek</value>
+      <value lang="en-GB" invariant="false">min.sec</value>
+    </parts.dimension.unit>
+    <parts.dimension.value>15.1</parts.dimension.value>
+    <parts.lead_word/>
+    <parts.part/>
+    <parts.record_type>
+      <value lang="neutral">ITEM</value>
+      <value lang="0">Item</value>
+      <value lang="1">Item</value>
+      <value lang="3">Item</value>
+      <value lang="9">Objekt</value>
+    </parts.record_type>
+    <parts.reference.lref>200339256</parts.reference.lref>
+    <parts.title/>
+    <parts_reference>1328555</parts_reference>
+  </Parts>
+  <Parts>
+    <parts.condition.date/>
+    <parts.current_location.name/>
+    <parts.default_location.name/>
+    <parts.dimension.type>
+      <value lang="de-DE" invariant="true">Laufzeit</value>
+      <value lang="en-GB" invariant="false">runtime</value>
+    </parts.dimension.type>
+    <parts.dimension.unit>
+      <value lang="de-DE" invariant="false">min,sek</value>
+      <value lang="en-GB" invariant="false">min.sec</value>
+    </parts.dimension.unit>
+    <parts.dimension.value>15.1</parts.dimension.value>
+    <parts.lead_word/>
+    <parts.part/>
+    <parts.record_type>
+      <value lang="neutral">ITEM</value>
+      <value lang="0">Item</value>
+      <value lang="1">Item</value>
+      <value lang="3">Item</value>
+      <value lang="9">Objekt</value>
+    </parts.record_type>
+    <parts.reference.lref>200339257</parts.reference.lref>
+    <parts.title/>
+    <parts_reference>1328556</parts_reference>
+  </Parts>
+  <PIDdata>
+    <PID_data_URI>https://hdl.handle.net/21.11155/96E694DF-590F-4A05-BF51-30CCF7F471AB</PID_data_URI>
+  </PIDdata>
+  <Title>
+    <title.type>
+      <value lang="en-GB" invariant="true">Original Title</value>
+      <value lang="de-DE" invariant="false">Originaltitel</value>
+    </title.type>
+    <title.type.lref>5237</title.type.lref>
+  </Title>
+  <guid>9516de57-b675-4af9-860a-66cf770b399a</guid>
+  <institution.code>DE-MUS-407010</institution.code>
+  <institution.name>
+    <value lang="de-DE" invariant="true">Deutsche Kinemathek &#8211; Museum f&#252;r Film und Fernsehen</value>
+    <value lang="en-GB" invariant="false">Deutsche Kinemathek &#8211; Museum f&#252;r Film und Fernsehen</value>
+  </institution.name>
+  <institution.name.lref>3238</institution.name.lref>
+  <institution.place>
+    <value lang="de-DE" invariant="true">Berlin</value>
+    <value lang="en-GB" invariant="false">Berlin</value>
+  </institution.place>
+  <manifestationlevel_type>
+    <value lang="neutral">THEAT</value>
+    <value lang="0">Theatrical distribution</value>
+    <value lang="3">Kino-Distribution</value>
+  </manifestationlevel_type>
+  <object_number>1328540</object_number>
+  <priref>200339241</priref>
+  <record_access.owner>sdkRedaktion</record_access.owner>
+  <record_type>
+    <value lang="neutral">MANIFESTATION</value>
+    <value lang="0">Manifestation</value>
+    <value lang="1">Manifestatie</value>
+    <value lang="3">Manifestation</value>
+    <value lang="9">Manifestation</value>
+  </record_type>
+  <release_date_end>2021</release_date_end>
+  <release_date_start>2021</release_date_start>
+  <Update_field>150345356</Update_field>
+</record>

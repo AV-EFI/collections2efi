@@ -1,0 +1,102 @@
+<record priref="43" created="2024-11-30T05:09:18" modification="2024-11-30T05:09:18" selected="false" deleted="false">
+  <group>
+    <value lang="de-DE" invariant="true">T7 Recht/Verwaltung</value>
+    <value lang="en-GB" invariant="false">T7 Law/Administration</value>
+  </group>
+  <group>
+    <value lang="de-DE" invariant="true">T6.5 Flucht/Ausreise</value>
+    <value lang="en-GB" invariant="false">T6.5 Escape/Departure</value>
+  </group>
+  <group>
+    <value lang="de-DE" invariant="false">F4.2 Ereignisse</value>
+    <value lang="en-GB" invariant="false">F4.2 Events</value>
+  </group>
+  <group>
+    <value lang="de-DE" invariant="true">F4.1 Handlungen/T&#228;tigkeiten</value>
+    <value lang="en-GB" invariant="false">F4.1 Physical and Mental Activities</value>
+  </group>
+  <group.lref>272</group.lref>
+  <group.lref>411</group.lref>
+  <group.lref>10435</group.lref>
+  <group.lref>10036</group.lref>
+  <Source>
+    <scope_note>Flucht bezeichnet allgemein eine Reaktion auf Gefahren, (existentielle) Bedrohungen oder als unzumutbar empfundene Situationen. Bei den Tieren geh&#246;rt &#8222;Fluchtverhalten&#8220; zum nat&#252;rlichen Verhaltensrepertoire. Beim Menschen ist die Flucht ein pl&#246;tzliches und eiliges, manchmal auch heimliches Verlassen eines Aufenthaltsorts oder Landes. Die eilige Bewegung weg von der Bedrohung ist oft ziellos und ungeordnet, eine Flucht kann aber auch das gezielte Aufsuchen eines Zufluchtsorts sein. [...]
+
+Erscheinungsformen [der Flucht k&#246;nnen sein]: Flucht von Soldaten im Krieg, Flucht vor Gefahren oder Bedrohungen, Massenflucht, Flucht aus Unfreiheit oder Gefangenschaft, Flucht in einen gesch&#252;tzten Raum, Landflucht, Weltflucht, Fluchtverhalten bei Tieren.</scope_note>
+    <source>Wikipedia</source>
+    <source.number>https://de.wikipedia.org/w/index.php?title=Flucht&amp;oldid=201304690</source.number>
+  </Source>
+  <Source>
+    <scope_note>a, das Fliehen, Fl&#252;chten
+b, das unerlaubte und heimliche Verlassen eines Landes, Ortes</scope_note>
+    <source>Duden</source>
+    <source.number>https://www.duden.de/node/48912/revision/48948</source.number>
+  </Source>
+  <Source>
+    <scope_note>Benutzt auch f&#252;r das zwangsweise Verlassen des Heimatlandes aus polit. oder religi&#246;sen Gr&#252;nden
+Verwendungshinweis: F&#252;r Flucht der Deutschen aus den Ostgebieten benutze Vertreibung.</scope_note>
+    <source>Gemeinsame Normdatei</source>
+    <source.number>http://d-nb.info/gnd/4017598-4</source.number>
+  </Source>
+  <guid>71066c0c-6f35-4a68-a19d-ab08e36a7d6a</guid>
+  <narrower_term>
+    <value lang="de-DE" invariant="false">Gef&#228;ngnisausbruch</value>
+  </narrower_term>
+  <narrower_term>
+    <value lang="de-DE" invariant="true">Republikflucht (DDR)</value>
+  </narrower_term>
+  <narrower_term.lref>36361</narrower_term.lref>
+  <narrower_term.lref>1351</narrower_term.lref>
+  <notes>
+    <value lang="de-DE" invariant="false">Begriff "Flucht"</value>
+  </notes>
+  <priref>43</priref>
+  <related_term>
+    <value lang="de-DE" invariant="true">Fl&#252;chtling</value>
+    <value lang="en-GB" invariant="false">refugee</value>
+  </related_term>
+  <related_term.lref>42</related_term.lref>
+  <term>
+    <value lang="de-DE" invariant="true">Flucht</value>
+    <value lang="en-GB" invariant="false">Escape</value>
+  </term>
+  <term.code>sdk:C00043</term.code>
+  <term.status>
+    <value lang="neutral">1</value>
+    <value lang="0">approved preferred term</value>
+    <value lang="1">descriptor</value>
+    <value lang="2">descripteur</value>
+    <value lang="3">Deskriptor</value>
+    <value lang="5">termine preferenziale approvato</value>
+    <value lang="9">godk&#228;nda f&#246;redragen term</value>
+    <value lang="10">&#1502;&#1493;&#1504;&#1495; &#1502;&#1488;&#1493;&#1513;&#1512; &#1502;&#1493;&#1506;&#1491;&#1507;</value>
+    <value lang="11">godkendt foretrukket term</value>
+    <value lang="14">&#25209;&#20934;&#39318;&#36984;&#26781;&#27454;</value>
+  </term.status>
+  <term.type>
+    <value lang="neutral">SUBJECT</value>
+    <value lang="0">subject</value>
+    <value lang="1">onderwerp</value>
+    <value lang="2">sujet</value>
+    <value lang="3">Thema</value>
+    <value lang="4">&#1605;&#1608;&#1590;&#1608;&#1593;</value>
+    <value lang="5">soggetto</value>
+    <value lang="6">&#952;&#941;&#956;&#945;</value>
+    <value lang="9">&#228;mne</value>
+  </term.type>
+  <term.type>
+    <value lang="neutral">SUBJECT</value>
+    <value lang="0">subject</value>
+    <value lang="1">onderwerp</value>
+    <value lang="2">sujet</value>
+    <value lang="3">Thema</value>
+    <value lang="4">&#1605;&#1608;&#1590;&#1608;&#1593;</value>
+    <value lang="5">soggetto</value>
+    <value lang="6">&#952;&#941;&#956;&#945;</value>
+    <value lang="9">&#228;mne</value>
+  </term.type>
+  <used_for>
+    <value lang="en-GB" invariant="true">flight</value>
+  </used_for>
+  <used_for.lref>1352</used_for.lref>
+</record>
