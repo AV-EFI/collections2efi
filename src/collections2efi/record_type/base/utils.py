@@ -33,7 +33,6 @@ def get_same_as_for_record(
     xml_sources = record.xml.xpath("Source")
 
     for source_xml in xml_sources:
-
         source_number = source_xml.xpath("string(source.number[1])") or None
 
         if source_number is None:
@@ -47,7 +46,6 @@ def get_same_as_for_record(
             )
 
         if include_filmportal and "www.filmportal.de" in source_number:
-
             # temporary solution
             filmportal_id = source_number.split("_")[-1]
             if not re.fullmatch(r"^[\da-f]{32}$", filmportal_id):
@@ -102,6 +100,7 @@ def get_located_in(xml_productions, thesau_repo):
         )
 
     return located_in
+
 
 def compute_display_and_ordering_title(
     title_text: str, title_article: str | None

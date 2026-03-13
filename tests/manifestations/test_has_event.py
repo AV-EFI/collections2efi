@@ -1,8 +1,8 @@
 import pytest
 from avefi_schema import model as efi
 
-from collections2efi.repositories import ThesauRepo
 from collections2efi.record_type.manifestation.has_event import has_event
+from collections2efi.repositories import ThesauRepo
 
 
 @pytest.mark.parametrize(

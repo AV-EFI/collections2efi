@@ -11,24 +11,22 @@ from datetime import datetime
 from linkml_runtime.dumpers import JSONDumper
 
 from axiell_collections import (
-    pointer_file_provider,
-    people_provider,
-    thesau_provider,
     collect_provider,
+    people_provider,
+    pointer_file_provider,
+    thesau_provider,
 )
-from collections2efi.translator import (
-    Translator,
-)
-
 from collections2efi.record import (
-    ThesauRecord,
-    PeopleRecord,
     CollectRecord,
+    PeopleRecord,
+    ThesauRecord,
 )
-
 from collections2efi.repositories import (
     PeopleRepo,
     ThesauRepo,
+)
+from collections2efi.translator import (
+    Translator,
 )
 
 logger = logging.getLogger("collections2efi")

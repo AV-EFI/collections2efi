@@ -2,7 +2,7 @@ import json
 import logging
 
 from axiell_collections import axiell_collections_database
-from axiell_collections import Cursor
+from axiell_collections.wrapper import Cursor
 
 logging.getLogger("dicttoxml").setLevel(logging.WARNING)
 
@@ -55,7 +55,7 @@ def main():
             records = json.load(f)
 
         for i, record in enumerate(records):
-            logging.info(f"{i+1}/{len(records)}")
+            logging.info(f"{i + 1}/{len(records)}")
             process_record(record, cursor)
 
     except FileNotFoundError:

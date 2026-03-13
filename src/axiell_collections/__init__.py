@@ -2,7 +2,7 @@ import os
 
 from requests_cache import CachedSession
 
-from axiell_collections.provider import RecordProvider, PointerFileProvider
+from axiell_collections.provider import PointerFileProvider, RecordProvider
 from axiell_collections.wrapper import Database
 
 

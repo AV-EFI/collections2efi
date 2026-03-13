@@ -11,7 +11,6 @@ def in_language(xml: XMLAccessor):
     languages = []
 
     for xml_language in xml_languages_list:
-
         language = xml_language.get_first("language/value[@lang='de-DE']/text()")
         language_type = xml_language.get_first("language.type/value[@lang='3']/text()")
         if language is None or language_type is None:

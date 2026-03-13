@@ -1,7 +1,7 @@
 from avefi_schema import model as efi
 
-from collections2efi.record_type.base.utils import compute_display_and_ordering_title
 from collections2efi.record import XMLAccessor
+from collections2efi.record_type.base.utils import compute_display_and_ordering_title
 
 
 def has_primary_title(xml: XMLAccessor):
