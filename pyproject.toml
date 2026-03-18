@@ -17,6 +17,7 @@ dependencies = [
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.4.1"
 ruff = "^0.15.6"
+pytest-regressions = "^2.10.0"
 
 [build-system]
 requires = ["poetry-core"]

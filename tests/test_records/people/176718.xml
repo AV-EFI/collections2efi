@@ -1,0 +1,64 @@
+<record priref="176718" created="2024-11-30T07:54:46" modification="2024-12-01T07:31:26" selected="false" deleted="false">
+  <forename>Wolfgang</forename>
+  <gender>
+    <value lang="de-DE" invariant="false">m&#228;nnlich</value>
+    <value lang="en-GB" invariant="false">male</value>
+  </gender>
+  <gender.lref>44180</gender.lref>
+  <Source>
+    <source>Gemeinsame Normdatei</source>
+    <source.number>http://d-nb.info/gnd/1062188918</source.number>
+  </Source>
+  <Source>
+    <source>Filmportal</source>
+    <source.number>https://www.filmportal.de/person/wolfgang-schacht_c25999b59f1042f58ae56aa17d0ccfe0</source.number>
+  </Source>
+  <Source>
+    <source>Internet Movie Database</source>
+    <source.number>https://www.imdb.com/name/nm0769511/</source.number>
+  </Source>
+  <guid>b9f4534d-1c08-4794-8be4-08535957b99d</guid>
+  <name>
+    <value lang="de-DE" invariant="false">Schacht, Wolfgang</value>
+  </name>
+  <name.status>
+    <value lang="neutral">1</value>
+    <value lang="0">approved preferred term</value>
+    <value lang="1">descriptor</value>
+    <value lang="2">descripteur</value>
+    <value lang="3">Deskriptor</value>
+    <value lang="5">termine preferenziale approvato</value>
+    <value lang="9">godk&#228;nda f&#246;redragen term</value>
+    <value lang="10">&#1502;&#1493;&#1504;&#1495; &#1502;&#1488;&#1493;&#1513;&#1512; &#1502;&#1493;&#1506;&#1491;&#1507;</value>
+    <value lang="11">godkendt foretrukket term</value>
+    <value lang="14">&#25209;&#20934;&#39318;&#36984;&#26781;&#27454;</value>
+  </name.status>
+  <name.type>
+    <value lang="neutral">CAST</value>
+    <value lang="0">cast</value>
+    <value lang="1">cast</value>
+    <value lang="3">Besetzung</value>
+    <value lang="9">roller</value>
+  </name.type>
+  <name.type>
+    <value lang="neutral">CREDITS</value>
+    <value lang="0">credits</value>
+    <value lang="1">credits</value>
+    <value lang="3">Credits</value>
+    <value lang="9">krediteringar</value>
+  </name.type>
+  <occupation>
+    <value lang="de-DE" invariant="true">Cutter</value>
+    <value lang="en-GB" invariant="false">Editor</value>
+  </occupation>
+  <occupation.lref>5049</occupation.lref>
+  <priref>176718</priref>
+  <record_access.owner>sdkRedaktion</record_access.owner>
+  <record_type>
+    <value lang="neutral">1</value>
+    <value lang="0">Person</value>
+    <value lang="3">Person</value>
+  </record_type>
+  <reference_number>84094</reference_number>
+  <surname>Schacht</surname>
+</record>

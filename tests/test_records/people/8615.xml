@@ -1,0 +1,165 @@
+<record priref="8615" created="2024-11-30T06:00:55" modification="2025-04-01T18:46:48" selected="false" deleted="false">
+  <birth.date.end>1937-04-04</birth.date.end>
+  <birth.date.start>1937-04-04</birth.date.start>
+  <birth.place>
+    <value lang="de-DE" invariant="false">Heidenheim an der Brenz</value>
+  </birth.place>
+  <birth.place.lref>8314</birth.place.lref>
+  <forename>Thomas</forename>
+  <gender>
+    <value lang="de-DE" invariant="false">m&#228;nnlich</value>
+    <value lang="en-GB" invariant="false">male</value>
+  </gender>
+  <gender.lref>44180</gender.lref>
+  <Address>
+    <address>Paul-Lincke-Ufer 17</address>
+    <address.country>
+      <value lang="de-DE" invariant="true">Deutschland</value>
+      <value lang="en-GB" invariant="false">Germany</value>
+    </address.country>
+    <address.country.lref>5479</address.country.lref>
+    <address.place>
+      <value lang="de-DE" invariant="true">Berlin</value>
+      <value lang="en-GB" invariant="false">Berlin</value>
+    </address.place>
+    <address.place.lref>5457</address.place.lref>
+    <address.postal_code>10999</address.postal_code>
+    <address.type>
+      <value lang="neutral">2</value>
+      <value lang="0">Home address</value>
+      <value lang="3">Privatadresse</value>
+    </address.type>
+  </Address>
+  <Source>
+    <source>Gemeinsame Normdatei</source>
+    <source.number>https://d-nb.info/gnd/137692226</source.number>
+  </Source>
+  <utb>
+    <utb.content>geb. Heidenheim an der Brenz, 4. Apr 1937</utb.content>
+    <utb.fieldname>Lebensdaten</utb.fieldname>
+  </utb>
+  <guid>26ec3d95-8804-4530-a251-b1648649a034</guid>
+  <name>
+    <value lang="de-DE" invariant="false">Mauch, Thomas</value>
+  </name>
+  <name.status>
+    <value lang="neutral">1</value>
+    <value lang="0">approved preferred term</value>
+    <value lang="1">descriptor</value>
+    <value lang="2">descripteur</value>
+    <value lang="3">Deskriptor</value>
+    <value lang="5">termine preferenziale approvato</value>
+    <value lang="9">godk&#228;nda f&#246;redragen term</value>
+    <value lang="10">&#1502;&#1493;&#1504;&#1495; &#1502;&#1488;&#1493;&#1513;&#1512; &#1502;&#1493;&#1506;&#1491;&#1507;</value>
+    <value lang="11">godkendt foretrukket term</value>
+    <value lang="14">&#25209;&#20934;&#39318;&#36984;&#26781;&#27454;</value>
+  </name.status>
+  <name.type>
+    <value lang="neutral">CAST</value>
+    <value lang="0">cast</value>
+    <value lang="1">cast</value>
+    <value lang="3">Besetzung</value>
+    <value lang="9">roller</value>
+  </name.type>
+  <name.type>
+    <value lang="neutral">ACQUISITIONSOURCE</value>
+    <value lang="0">acquisition source</value>
+    <value lang="1">verwervingsbron</value>
+    <value lang="2">source d'acquisition</value>
+    <value lang="3">Erwerbungsquelle</value>
+    <value lang="5">fonte di acquisizione</value>
+    <value lang="6">&#960;&#951;&#947;&#942; &#945;&#960;&#972;&#954;&#964;&#951;&#963;&#951;&#962;</value>
+    <value lang="9">f&#246;rv&#228;rv k&#228;lla</value>
+    <value lang="10">&#1502;&#1511;&#1493;&#1512; &#1492;&#1512;&#1499;&#1497;&#1513;&#1492;</value>
+    <value lang="11">accession.kilde</value>
+    <value lang="14">&#34255;&#21697;&#21462;&#24471;&#20358;&#28304;</value>
+  </name.type>
+  <name.type>
+    <value lang="neutral">PERSON</value>
+    <value lang="0">person</value>
+    <value lang="1">persoon</value>
+    <value lang="2">personne</value>
+    <value lang="3">Person</value>
+    <value lang="4">&#1573;&#1587;&#1605; &#1588;&#1582;&#1589;</value>
+    <value lang="5">persona</value>
+    <value lang="6">&#960;&#961;&#972;&#963;&#969;&#960;&#959;</value>
+    <value lang="9">person</value>
+    <value lang="10">&#1488;&#1491;&#1501;</value>
+    <value lang="11">person</value>
+    <value lang="14">&#20154;&#22763;</value>
+  </name.type>
+  <name.type>
+    <value lang="neutral">MAKER</value>
+    <value lang="0">creator</value>
+    <value lang="1">vervaardiger</value>
+    <value lang="2">cr&#233;ateur</value>
+    <value lang="3">Hersteller</value>
+    <value lang="4">&#1575;&#1604;&#1589;&#1575;&#1606;&#1593;</value>
+    <value lang="5">creatore</value>
+    <value lang="6">&#948;&#951;&#956;&#953;&#959;&#965;&#961;&#947;&#972;&#962;</value>
+    <value lang="9">upphov</value>
+    <value lang="10">&#1497;&#1493;&#1510;&#1512;</value>
+    <value lang="11">kunstner</value>
+    <value lang="14">&#21109;&#20316;&#20154;</value>
+  </name.type>
+  <name.type>
+    <value lang="neutral">PERSON</value>
+    <value lang="0">person</value>
+    <value lang="1">persoon</value>
+    <value lang="2">personne</value>
+    <value lang="3">Person</value>
+    <value lang="4">&#1573;&#1587;&#1605; &#1588;&#1582;&#1589;</value>
+    <value lang="5">persona</value>
+    <value lang="6">&#960;&#961;&#972;&#963;&#969;&#960;&#959;</value>
+    <value lang="9">person</value>
+    <value lang="10">&#1488;&#1491;&#1501;</value>
+    <value lang="11">person</value>
+    <value lang="14">&#20154;&#22763;</value>
+  </name.type>
+  <name.type>
+    <value lang="neutral">PERSON</value>
+    <value lang="0">person</value>
+    <value lang="1">persoon</value>
+    <value lang="2">personne</value>
+    <value lang="3">Person</value>
+    <value lang="4">&#1573;&#1587;&#1605; &#1588;&#1582;&#1589;</value>
+    <value lang="5">persona</value>
+    <value lang="6">&#960;&#961;&#972;&#963;&#969;&#960;&#959;</value>
+    <value lang="9">person</value>
+    <value lang="10">&#1488;&#1491;&#1501;</value>
+    <value lang="11">person</value>
+    <value lang="14">&#20154;&#22763;</value>
+  </name.type>
+  <name.type>
+    <value lang="neutral">CREDITS</value>
+    <value lang="0">credits</value>
+    <value lang="1">credits</value>
+    <value lang="3">Credits</value>
+    <value lang="9">krediteringar</value>
+  </name.type>
+  <occupation>
+    <value lang="de-DE" invariant="true">Kameramann</value>
+    <value lang="en-GB" invariant="false">cameraman</value>
+  </occupation>
+  <occupation>
+    <value lang="de-DE" invariant="true">Regisseur</value>
+    <value lang="en-GB" invariant="false">Director</value>
+  </occupation>
+  <occupation>
+    <value lang="de-DE" invariant="true">Produzent</value>
+    <value lang="en-GB" invariant="false">Producer</value>
+  </occupation>
+  <occupation.lref>5029</occupation.lref>
+  <occupation.lref>5047</occupation.lref>
+  <occupation.lref>5032</occupation.lref>
+  <phone>+49 (0)30 791 12 44</phone>
+  <priref>8615</priref>
+  <record_access.owner>sdkRedaktion</record_access.owner>
+  <record_type>
+    <value lang="neutral">1</value>
+    <value lang="0">Person</value>
+    <value lang="3">Person</value>
+  </record_type>
+  <reference_number>9742</reference_number>
+  <surname>Mauch</surname>
+</record>

@@ -1,0 +1,127 @@
+<record priref="626" created="2024-11-30T05:09:52" modification="2024-11-30T05:09:52" selected="false" deleted="false">
+  <broader_term>
+    <value lang="de-DE" invariant="true">Pflanze</value>
+    <value lang="en-GB" invariant="false">plant</value>
+  </broader_term>
+  <broader_term.lref>625</broader_term.lref>
+  <group>
+    <value lang="de-DE" invariant="true">T5 Natur/Umwelt</value>
+    <value lang="en-GB" invariant="false">T5 Nature/Environment</value>
+  </group>
+  <group.lref>297</group.lref>
+  <Source>
+    <scope_note>1. Pflanze, die gr&#246;&#223;ere, ins Auge fallende Bl&#252;ten hervorbringt
+2. einzelne Bl&#252;te einer Blume mit Stiel
+3. (umgangssprachlich) Kurzform f&#252;r: Blumenstock</scope_note>
+    <source>Duden</source>
+    <source.number>https://www.duden.de/node/663744/revisions/1684948/view</source.number>
+  </Source>
+  <Source>
+    <source>Gemeinsame Normdatei</source>
+    <source.number>http://d-nb.info/gnd/4146054-6</source.number>
+  </Source>
+  <guid>6c7addf0-2ca7-42cf-a05d-612043a155c3</guid>
+  <narrower_term>
+    <value lang="de-DE" invariant="false">Geranie</value>
+  </narrower_term>
+  <narrower_term>
+    <value lang="de-DE" invariant="false">Kornblumen</value>
+  </narrower_term>
+  <narrower_term>
+    <value lang="de-DE" invariant="false">Nelke</value>
+    <value lang="en-GB" invariant="false">Carnation</value>
+  </narrower_term>
+  <narrower_term>
+    <value lang="de-DE" invariant="false">Rose</value>
+  </narrower_term>
+  <narrower_term>
+    <value lang="de-DE" invariant="false">Veilchen</value>
+  </narrower_term>
+  <narrower_term>
+    <value lang="de-DE" invariant="false">Wicke (Blume)</value>
+  </narrower_term>
+  <narrower_term.lref>31031</narrower_term.lref>
+  <narrower_term.lref>14336</narrower_term.lref>
+  <narrower_term.lref>13252</narrower_term.lref>
+  <narrower_term.lref>13916</narrower_term.lref>
+  <narrower_term.lref>13241</narrower_term.lref>
+  <narrower_term.lref>14341</narrower_term.lref>
+  <priref>626</priref>
+  <record_access.owner>sdkAdmin</record_access.owner>
+  <term>
+    <value lang="de-DE" invariant="true">Blume</value>
+    <value lang="en-GB" invariant="false">Flower</value>
+  </term>
+  <term.code>sdk:C00626</term.code>
+  <term.status>
+    <value lang="neutral">1</value>
+    <value lang="0">approved preferred term</value>
+    <value lang="1">descriptor</value>
+    <value lang="2">descripteur</value>
+    <value lang="3">Deskriptor</value>
+    <value lang="5">termine preferenziale approvato</value>
+    <value lang="9">godk&#228;nda f&#246;redragen term</value>
+    <value lang="10">&#1502;&#1493;&#1504;&#1495; &#1502;&#1488;&#1493;&#1513;&#1512; &#1502;&#1493;&#1506;&#1491;&#1507;</value>
+    <value lang="11">godkendt foretrukket term</value>
+    <value lang="14">&#25209;&#20934;&#39318;&#36984;&#26781;&#27454;</value>
+  </term.status>
+  <term.type>
+    <value lang="neutral">SUBJECT</value>
+    <value lang="0">subject</value>
+    <value lang="1">onderwerp</value>
+    <value lang="2">sujet</value>
+    <value lang="3">Thema</value>
+    <value lang="4">&#1605;&#1608;&#1590;&#1608;&#1593;</value>
+    <value lang="5">soggetto</value>
+    <value lang="6">&#952;&#941;&#956;&#945;</value>
+    <value lang="9">&#228;mne</value>
+  </term.type>
+  <term.type>
+    <value lang="neutral">KEYWORD</value>
+    <value lang="0">keyword</value>
+    <value lang="1">trefwoord</value>
+    <value lang="2">mot-cl&#233;</value>
+    <value lang="3">Schlagwort</value>
+    <value lang="4">&#1603;&#1604;&#1605;&#1577;.&#1605;&#1601;&#1578;&#1575;&#1581;&#1610;&#1577;</value>
+    <value lang="5">parola chiave</value>
+    <value lang="6">&#955;&#941;&#958;&#951;-&#954;&#955;&#949;&#953;&#948;&#943;</value>
+    <value lang="9">keyword</value>
+  </term.type>
+  <term.type>
+    <value lang="neutral">OBJECT</value>
+    <value lang="0">object name</value>
+    <value lang="1">objectnaam</value>
+    <value lang="2">nom d'objet</value>
+    <value lang="3">Objektbezeichnung</value>
+    <value lang="4">&#1573;&#1587;&#1605;_&#1602;&#1591;&#1593;&#1577;.&#1601;&#1606;&#1610;&#1577;</value>
+    <value lang="5">nome dell'oggetto</value>
+    <value lang="6">&#959;&#957;&#959;&#956;&#945;&#963;&#943;&#945; &#945;&#957;&#964;&#953;&#954;&#949;&#953;&#956;.</value>
+    <value lang="9">f&#246;rem&#229;lsnamn</value>
+  </term.type>
+  <term.type>
+    <value lang="neutral">MOTIF</value>
+    <value lang="0">motif</value>
+    <value lang="1">motief</value>
+    <value lang="2">motif</value>
+    <value lang="3">Motiv</value>
+    <value lang="4">&#1586;&#1582;&#1585;&#1601;&#1577;</value>
+    <value lang="5">motivo</value>
+    <value lang="6">&#956;&#959;&#964;&#943;&#946;&#959;</value>
+    <value lang="9">motiv</value>
+  </term.type>
+  <term.type>
+    <value lang="neutral">SUBJECT</value>
+    <value lang="0">subject</value>
+    <value lang="1">onderwerp</value>
+    <value lang="2">sujet</value>
+    <value lang="3">Thema</value>
+    <value lang="4">&#1605;&#1608;&#1590;&#1608;&#1593;</value>
+    <value lang="5">soggetto</value>
+    <value lang="6">&#952;&#941;&#956;&#945;</value>
+    <value lang="9">&#228;mne</value>
+  </term.type>
+  <used_for>
+    <value lang="de-DE" invariant="false">Blumen</value>
+  </used_for>
+  <used_for.lref>11595</used_for.lref>
+</record>

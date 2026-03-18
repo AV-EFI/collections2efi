@@ -868,6 +868,25 @@ pygments = ">=2.7.2"
 dev = ["argcomplete", "attrs (>=19.2)", "hypothesis (>=3.56)", "mock", "requests", "setuptools", "xmlschema"]
 
 [[package]]
+name = "pytest-datadir"
+version = "1.8.0"
+description = "pytest plugin for test data directories and files"
+optional = false
+python-versions = ">=3.8"
+groups = ["dev"]
+files = [
+    {file = "pytest_datadir-1.8.0-py3-none-any.whl", hash = "sha256:5c677bc097d907ac71ca418109adc3abe34cf0bddfe6cf78aecfbabd96a15cf0"},
+    {file = "pytest_datadir-1.8.0.tar.gz", hash = "sha256:7a15faed76cebe87cc91941dd1920a9a38eba56a09c11e9ddf1434d28a0f78eb"},
+]
+
+[package.dependencies]
+pytest = ">=7.0"
+
+[package.extras]
+dev = ["pre-commit", "pytest-datadir[testing]"]
+testing = ["pytest", "tox"]
+
+[[package]]
 name = "pytest-logging"
 version = "2015.11.4"
 description = "Configures logging and allows tweaking the log level with a py.test flag"
@@ -882,12 +901,35 @@ files = [
 pytest = ">=2.8.1"
 
 [[package]]
+name = "pytest-regressions"
+version = "2.10.0"
+description = "Easy to use fixtures to write regression tests."
+optional = false
+python-versions = ">=3.10"
+groups = ["dev"]
+files = [
+    {file = "pytest_regressions-2.10.0-py3-none-any.whl", hash = "sha256:e40b98fd1e26435bf694fbd497ac74f4580cbda3b794562faab3dcea2300c0eb"},
+    {file = "pytest_regressions-2.10.0.tar.gz", hash = "sha256:5239d29ffe5760acb4a37d95d575383473a2e62c55ede2e89cff735d3bbd2ac9"},
+]
+
+[package.dependencies]
+pytest = ">=6.2.0"
+pytest-datadir = ">=1.7.0"
+pyyaml = "*"
+
+[package.extras]
+dataframe = ["numpy", "pandas"]
+dev = ["matplotlib", "mypy", "numpy", "pandas", "pillow", "pre-commit", "pyarrow", "restructuredtext-lint", "tox"]
+image = ["numpy", "pillow"]
+num = ["numpy", "pandas"]
+
+[[package]]
 name = "pyyaml"
 version = "6.0.3"
 description = "YAML parser and emitter for Python"
 optional = false
 python-versions = ">=3.8"
-groups = ["main"]
+groups = ["main", "dev"]
 files = [
     {file = "PyYAML-6.0.3-cp38-cp38-macosx_10_13_x86_64.whl", hash = "sha256:c2514fceb77bc5e7a2f7adfaa1feb2fb311607c9cb518dbc378688ec73d8292f"},
     {file = "PyYAML-6.0.3-cp38-cp38-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:9c57bb8c96f6d1808c030b1687b9b5fb476abaa47f0db9c0101f5e9f394e97f4"},
@@ -1377,4 +1419,4 @@ dev = ["pytest", "setuptools"]
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.11,<4.0.0"
-content-hash = "c942852f03dd1257173ee0236275c94b2922b124b7cff82cc291c6d7ac613df6"
+content-hash = "9f699adc5826d077ded5c81c1401fe84b336125b7e4da018dc1c6d2835f2562b"

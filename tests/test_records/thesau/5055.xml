@@ -1,0 +1,118 @@
+<record priref="5055" created="2024-11-30T05:11:05" modification="2024-11-30T05:11:05" selected="false" deleted="false">
+  <broader_term>
+    <value lang="de-DE" invariant="true">Musikerin</value>
+    <value lang="en-GB" invariant="false">musician</value>
+  </broader_term>
+  <broader_term.lref>5084</broader_term.lref>
+  <group>
+    <value lang="de-DE" invariant="false">T3.4 Darstellende Kunst</value>
+  </group>
+  <group>
+    <value lang="de-DE" invariant="true">T3.1 Musik</value>
+    <value lang="en-GB" invariant="false">T3.1 Music</value>
+  </group>
+  <group>
+    <value lang="de-DE" invariant="true">F1.1 Personen nach Beruf/T&#228;tigkeit</value>
+    <value lang="en-GB" invariant="false">F1.1 Persons by profession/activity</value>
+  </group>
+  <group.lref>10097</group.lref>
+  <group.lref>875</group.lref>
+  <group.lref>398</group.lref>
+  <Source>
+    <scope_note/>
+    <source>Gemeinsame Normdatei</source>
+    <source.number>http://d-nb.info/gnd/4051246-0</source.number>
+  </Source>
+  <Source>
+    <scope_note>weibliche Form zu S&#228;nger (=jemand, der [berufsm&#228;&#223;ig] singt)</scope_note>
+    <source>Duden</source>
+    <source.number>https://www.duden.de/node/124613/revision/124649</source.number>
+  </Source>
+  <Source>
+    <scope_note>S&#228;nger/innen interpretieren Vokalmusik der unterschiedlichsten Art. Sie singen solo oder im Chor. Je nach Musiksparte arbeiten S&#228;nger/innen z.B. an Opern- und Schauspielh&#228;usern, an Musicalb&#252;hnen, bei Konzertveranstaltern und in Musikclubs, aber auch bei H&#246;rfunk-, Film- und Fernsehanstalten.
+S&#228;nger/in in konzertanten Auftritten (ggf. Stimmfach als nachgestellte Zusatzinformation) sowie Vokalsolisten, Ensemble- oder Bands&#228;nger/in bei U-Musik Darbietungen.</scope_note>
+  </Source>
+  <guid>4dc45916-089d-4a0b-8575-96748702c362</guid>
+  <priref>5055</priref>
+  <record_access.owner>sdkAdmin</record_access.owner>
+  <related_term>
+    <value lang="de-DE" invariant="true">S&#228;nger</value>
+    <value lang="en-GB" invariant="false">singer</value>
+  </related_term>
+  <related_term.lref>5054</related_term.lref>
+  <term>
+    <value lang="de-DE" invariant="true">S&#228;ngerin</value>
+    <value lang="en-GB" invariant="false">singer</value>
+  </term>
+  <term.code>sdk:C00055</term.code>
+  <term.status>
+    <value lang="neutral">1</value>
+    <value lang="0">approved preferred term</value>
+    <value lang="1">descriptor</value>
+    <value lang="2">descripteur</value>
+    <value lang="3">Deskriptor</value>
+    <value lang="5">termine preferenziale approvato</value>
+    <value lang="9">godk&#228;nda f&#246;redragen term</value>
+    <value lang="10">&#1502;&#1493;&#1504;&#1495; &#1502;&#1488;&#1493;&#1513;&#1512; &#1502;&#1493;&#1506;&#1491;&#1507;</value>
+    <value lang="11">godkendt foretrukket term</value>
+    <value lang="14">&#25209;&#20934;&#39318;&#36984;&#26781;&#27454;</value>
+  </term.status>
+  <term.type>
+    <value lang="neutral">OCCUPATION</value>
+    <value lang="0">occupation</value>
+    <value lang="1">beroep</value>
+    <value lang="2">profession</value>
+    <value lang="3">Beruf</value>
+    <value lang="4">&#1575;&#1604;&#1605;&#1607;&#1606;&#1577;</value>
+    <value lang="5">occupazione</value>
+    <value lang="6">&#949;&#960;&#940;&#947;&#947;&#949;&#955;&#956;&#945;</value>
+    <value lang="9">yrke</value>
+  </term.type>
+  <term.type>
+    <value lang="neutral">CREDITTYPE</value>
+    <value lang="0">credit type</value>
+    <value lang="1">credit type</value>
+    <value lang="3">Credittyp</value>
+    <value lang="9">filmteamtyp</value>
+  </term.type>
+  <term.type>
+    <value lang="neutral">SUBJECT</value>
+    <value lang="0">subject</value>
+    <value lang="1">onderwerp</value>
+    <value lang="2">sujet</value>
+    <value lang="3">Thema</value>
+    <value lang="4">&#1605;&#1608;&#1590;&#1608;&#1593;</value>
+    <value lang="5">soggetto</value>
+    <value lang="6">&#952;&#941;&#956;&#945;</value>
+    <value lang="9">&#228;mne</value>
+  </term.type>
+  <term.type>
+    <value lang="neutral">MOTIF</value>
+    <value lang="0">motif</value>
+    <value lang="1">motief</value>
+    <value lang="2">motif</value>
+    <value lang="3">Motiv</value>
+    <value lang="4">&#1586;&#1582;&#1585;&#1601;&#1577;</value>
+    <value lang="5">motivo</value>
+    <value lang="6">&#956;&#959;&#964;&#943;&#946;&#959;</value>
+    <value lang="9">motiv</value>
+  </term.type>
+  <term.type>
+    <value lang="neutral">CASTTYPE</value>
+    <value lang="0">cast type</value>
+    <value lang="1">cast - soort rol</value>
+    <value lang="3">Besetzungstyp</value>
+    <value lang="9">medverkandetyp</value>
+  </term.type>
+  <term.type>
+    <value lang="neutral">SUBJECT</value>
+    <value lang="0">subject</value>
+    <value lang="1">onderwerp</value>
+    <value lang="2">sujet</value>
+    <value lang="3">Thema</value>
+    <value lang="4">&#1605;&#1608;&#1590;&#1608;&#1593;</value>
+    <value lang="5">soggetto</value>
+    <value lang="6">&#952;&#941;&#956;&#945;</value>
+    <value lang="9">&#228;mne</value>
+  </term.type>
+</record>

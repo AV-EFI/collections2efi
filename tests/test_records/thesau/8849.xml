@@ -1,0 +1,107 @@
+<record priref="8849" created="2024-11-30T05:12:24" modification="2025-09-19T16:34:13" selected="false" deleted="false">
+  <broader_term>
+    <value lang="de-DE" invariant="false">Bayern</value>
+  </broader_term>
+  <broader_term.lref>11619</broader_term.lref>
+  <group>
+    <value lang="de-DE" invariant="true">E3.1 Orte in Deutschland</value>
+    <value lang="en-GB" invariant="false">E3.1 Places in Germany</value>
+  </group>
+  <group.lref>945</group.lref>
+  <Source>
+    <scope_note>M&#252;nchen ist die Landeshauptstadt des Freistaates Bayern. Sie ist mit rund 1,5 Millionen Einwohnern die einwohnerst&#228;rkste Stadt Bayerns und (nach Berlin und Hamburg) die nach Einwohnern drittgr&#246;&#223;te Gemeinde Deutschlands sowie die viertgr&#246;&#223;te Stadt im deutschsprachigen Raum und zw&#246;lftgr&#246;&#223;te der Europ&#228;ischen Union.</scope_note>
+    <source>Wikipedia</source>
+    <source.number>https://de.wikipedia.org/w/index.php?title=M%C3%BCnchen&amp;oldid=184027088</source.number>
+  </Source>
+  <guid>10f2fd6d-13ea-4990-8feb-2601b8477a86</guid>
+  <narrower_term>
+    <value lang="de-DE" invariant="false">M&#252;nchen-Altstadt</value>
+  </narrower_term>
+  <narrower_term>
+    <value lang="de-DE" invariant="false">M&#252;nchen-Au</value>
+  </narrower_term>
+  <narrower_term>
+    <value lang="de-DE" invariant="false">M&#252;nchen-Geiselgasteig</value>
+  </narrower_term>
+  <narrower_term>
+    <value lang="de-DE" invariant="false">M&#252;nchen-Gro&#223;hadern</value>
+  </narrower_term>
+  <narrower_term>
+    <value lang="de-DE" invariant="false">M&#252;nchen-Gr&#252;nwald</value>
+  </narrower_term>
+  <narrower_term>
+    <value lang="de-DE" invariant="false">M&#252;nchen-Krailling</value>
+  </narrower_term>
+  <narrower_term>
+    <value lang="de-DE" invariant="false">M&#252;nchen-Neuhausen</value>
+  </narrower_term>
+  <narrower_term>
+    <value lang="de-DE" invariant="false">M&#252;nchen-Neuperlach</value>
+  </narrower_term>
+  <narrower_term>
+    <value lang="de-DE" invariant="false">M&#252;nchen-Nymphenburg</value>
+  </narrower_term>
+  <narrower_term>
+    <value lang="de-DE" invariant="false">M&#252;nchen-Obermenzing</value>
+  </narrower_term>
+  <narrower_term>
+    <value lang="de-DE" invariant="false">M&#252;nchen-Pasing</value>
+  </narrower_term>
+  <narrower_term>
+    <value lang="de-DE" invariant="false">M&#252;nchen-Ramersdorf-Perlach</value>
+  </narrower_term>
+  <narrower_term>
+    <value lang="de-DE" invariant="false">M&#252;nchen-Schwabing</value>
+  </narrower_term>
+  <narrower_term>
+    <value lang="de-DE" invariant="false">M&#252;nchen-Solln</value>
+  </narrower_term>
+  <narrower_term>
+    <value lang="de-DE" invariant="false">M&#252;nchen-Waldperlach</value>
+  </narrower_term>
+  <narrower_term.lref>22466</narrower_term.lref>
+  <narrower_term.lref>23314</narrower_term.lref>
+  <narrower_term.lref>22014</narrower_term.lref>
+  <narrower_term.lref>22183</narrower_term.lref>
+  <narrower_term.lref>22210</narrower_term.lref>
+  <narrower_term.lref>22266</narrower_term.lref>
+  <narrower_term.lref>22444</narrower_term.lref>
+  <narrower_term.lref>22497</narrower_term.lref>
+  <narrower_term.lref>22088</narrower_term.lref>
+  <narrower_term.lref>22054</narrower_term.lref>
+  <narrower_term.lref>27558</narrower_term.lref>
+  <narrower_term.lref>32047</narrower_term.lref>
+  <narrower_term.lref>16610</narrower_term.lref>
+  <narrower_term.lref>22446</narrower_term.lref>
+  <narrower_term.lref>22053</narrower_term.lref>
+  <priref>8849</priref>
+  <record_access.owner>sdkRedaktion</record_access.owner>
+  <reference_number>221: Filmstadt M&#252;nchen</reference_number>
+  <term>
+    <value lang="de-DE" invariant="true">M&#252;nchen</value>
+    <value lang="en-GB" invariant="false">Munich</value>
+  </term>
+  <term.status>
+    <value lang="neutral">1</value>
+    <value lang="0">approved preferred term</value>
+    <value lang="1">descriptor</value>
+    <value lang="2">descripteur</value>
+    <value lang="3">Deskriptor</value>
+    <value lang="5">termine preferenziale approvato</value>
+    <value lang="9">godk&#228;nda f&#246;redragen term</value>
+    <value lang="10">&#1502;&#1493;&#1504;&#1495; &#1502;&#1488;&#1493;&#1513;&#1512; &#1502;&#1493;&#1506;&#1491;&#1507;</value>
+    <value lang="11">godkendt foretrukket term</value>
+    <value lang="14">&#25209;&#20934;&#39318;&#36984;&#26781;&#27454;</value>
+  </term.status>
+  <term.type>
+    <value lang="neutral">SUBJECT</value>
+    <value lang="0">subject</value>
+    <value lang="1">onderwerp</value>
+    <value lang="2">sujet</value>
+    <value lang="3">Thema</value>
+    <value lang="4">&#1605;&#1608;&#1590;&#1608;&#1593;</value>
+    <value lang="5">soggetto</value>
+    <value lang="6">&#952;&#941;&#956;&#945;</value>
+    <value lang="9">&#228;mne</value>
+  </term.type>
+</record>

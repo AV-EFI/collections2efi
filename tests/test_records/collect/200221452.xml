@@ -1,0 +1,344 @@
+<record priref="200221452" created="2024-12-05T14:52:42" modification="2025-08-21T14:28:14" selected="false" deleted="false">
+  <acquisition.notes>SDK05025-V</acquisition.notes>
+  <acquisition.number>26862</acquisition.number>
+  <archive_number>428953-D</archive_number>
+  <aspect_ratio>
+    <value lang="de-DE" invariant="true">1:2,35</value>
+    <value lang="en-GB" invariant="false">1:2,35</value>
+  </aspect_ratio>
+  <aspect_ratio.lref>9113</aspect_ratio.lref>
+  <audio.bit_depth>
+    <value lang="neutral">24</value>
+    <value lang="0">24</value>
+    <value lang="3">24</value>
+  </audio.bit_depth>
+  <audio.bitrate>6912</audio.bitrate>
+  <audio.file_type>
+    <value lang="de-DE" invariant="true">MXF</value>
+    <value lang="en-GB" invariant="false">MXF</value>
+  </audio.file_type>
+  <audio.file_type.lref>7742</audio.file_type.lref>
+  <bit_depth>
+    <value lang="de-DE" invariant="true">12</value>
+  </bit_depth>
+  <bit_depth.lref>7870</bit_depth.lref>
+  <codec.audio>
+    <value lang="de-DE" invariant="false">PCM</value>
+  </codec.audio>
+  <codec.audio.lref>10404</codec.audio.lref>
+  <codec.video>
+    <value lang="de-DE" invariant="true">JPEG 2000</value>
+  </codec.video>
+  <codec.video.lref>7805</codec.video.lref>
+  <color_range>
+    <value lang="neutral">FULL</value>
+    <value lang="0">full</value>
+    <value lang="3">full</value>
+  </color_range>
+  <colour_type>
+    <value lang="neutral">C</value>
+    <value lang="0">Colour</value>
+    <value lang="1">kleur</value>
+    <value lang="2">Couleur</value>
+    <value lang="3">Farbe</value>
+  </colour_type>
+  <compression>
+    <value lang="neutral">lossy</value>
+    <value lang="0">lossy</value>
+    <value lang="3">verlustbehaftet</value>
+  </compression>
+  <copy_status>
+    <value lang="neutral">VERLEIH</value>
+    <value lang="0">Distribution Print</value>
+    <value lang="3">Verleihkopie</value>
+  </copy_status>
+  <copy_usage>
+    <value lang="neutral">6</value>
+    <value lang="0">Rental Deutsche Kinemathek</value>
+    <value lang="3">Verleih Deutsche Kinemathek</value>
+  </copy_usage>
+  <DAM_MAN_deeplink>https://sammlungen.deutsche-kinemathek.de/flow2/itemdetails/sdk200221452</DAM_MAN_deeplink>
+  <dataset_name>
+    <value lang="neutral">film</value>
+    <value lang="0">Moving image catalogue</value>
+    <value lang="1">Filmcatalogus</value>
+    <value lang="2">Registres de la cin&#233;matographie</value>
+    <value lang="3">Filmkatalog</value>
+  </dataset_name>
+  <department>
+    <value lang="de-DE" invariant="false">Filmarchiv</value>
+  </department>
+  <department.lref>3264</department.lref>
+  <distribution_notes.internal>Leihgeb&#252;hr verhandelbar bis 128 Euro (= Minimum)</distribution_notes.internal>
+  <documentation.notes>OF hat deutsche UT bei den Passagen in denen franz&#246;sisch gesprochen wird. Durchg&#228;ngige UT-Spuren = englisch oder franz&#246;sisch (jeweils optional)</documentation.notes>
+  <Encryption>
+    <value lang="neutral">1</value>
+    <value lang="0">unencrypted</value>
+    <value lang="3">unverschl&#252;sselt</value>
+  </Encryption>
+  <file_type>
+    <value lang="de-DE" invariant="true">MXF</value>
+    <value lang="en-GB" invariant="false">MXF</value>
+  </file_type>
+  <file_type.lref>7742</file_type.lref>
+  <Dimension>
+    <dimension.type>
+      <value lang="de-DE" invariant="true">Laufzeit</value>
+      <value lang="en-GB" invariant="false">runtime</value>
+    </dimension.type>
+    <dimension.type.lref>8707</dimension.type.lref>
+    <dimension.unit>
+      <value lang="de-DE" invariant="false">min,sek</value>
+      <value lang="en-GB" invariant="false">min.sec</value>
+    </dimension.unit>
+    <dimension.unit.lref>8709</dimension.unit.lref>
+    <dimension.value>91</dimension.value>
+  </Dimension>
+  <Film_speed>
+    <frame_rate>
+      <value lang="de-DE" invariant="true">24</value>
+    </frame_rate>
+    <frame_rate.lref>7605</frame_rate.lref>
+    <speed.type>
+      <value lang="neutral">PLAYBACKSPEED</value>
+      <value lang="0">playback speed</value>
+      <value lang="3">Abspielgeschwindigkeit</value>
+    </speed.type>
+  </Film_speed>
+  <Language>
+    <language.lref/>
+    <language.optional>x</language.optional>
+    <language.type>
+      <value lang="neutral">DIALORIG</value>
+      <value lang="0">Original version</value>
+      <value lang="3">OF</value>
+    </language.type>
+  </Language>
+  <Language>
+    <language.lref/>
+    <language.optional>x</language.optional>
+    <language.type>
+      <value lang="neutral">DIALORIGSUBT</value>
+      <value lang="0">Original version with subtitles</value>
+      <value lang="3">OmU</value>
+    </language.type>
+  </Language>
+  <Language>
+    <language>
+      <value lang="de-DE" invariant="true">deutsch</value>
+      <value lang="en-GB" invariant="false">German</value>
+    </language>
+    <language.lref>5247</language.lref>
+    <language.optional/>
+    <language.type>
+      <value lang="neutral">DIAL</value>
+      <value lang="0">Spoken language</value>
+      <value lang="3">Dialog</value>
+    </language.type>
+  </Language>
+  <Language>
+    <language>
+      <value lang="de-DE" invariant="false">franz&#246;sisch</value>
+      <value lang="en-GB" invariant="false">French</value>
+    </language>
+    <language.lref>7705</language.lref>
+    <language.optional/>
+    <language.type>
+      <value lang="neutral">DIAL</value>
+      <value lang="0">Spoken language</value>
+      <value lang="3">Dialog</value>
+    </language.type>
+  </Language>
+  <Language>
+    <language>
+      <value lang="de-DE" invariant="true">deutsch</value>
+      <value lang="en-GB" invariant="false">German</value>
+    </language>
+    <language.lref>5247</language.lref>
+    <language.optional>x</language.optional>
+    <language.type>
+      <value lang="neutral">SUBT</value>
+      <value lang="0">Subtitles</value>
+      <value lang="1">Ondertitels</value>
+      <value lang="3">Untertitel</value>
+    </language.type>
+  </Language>
+  <Language>
+    <language>
+      <value lang="de-DE" invariant="false">englisch</value>
+      <value lang="en-GB" invariant="false">English</value>
+    </language>
+    <language.lref>5462</language.lref>
+    <language.optional>x</language.optional>
+    <language.type>
+      <value lang="neutral">SUBT</value>
+      <value lang="0">Subtitles</value>
+      <value lang="1">Ondertitels</value>
+      <value lang="3">Untertitel</value>
+    </language.type>
+  </Language>
+  <Language>
+    <language>
+      <value lang="de-DE" invariant="false">franz&#246;sisch</value>
+      <value lang="en-GB" invariant="false">French</value>
+    </language>
+    <language.lref>7705</language.lref>
+    <language.optional>x</language.optional>
+    <language.type>
+      <value lang="neutral">SUBT</value>
+      <value lang="0">Subtitles</value>
+      <value lang="1">Ondertitels</value>
+      <value lang="3">Untertitel</value>
+    </language.type>
+  </Language>
+  <License>
+    <licence.partner.creditor_number>9003200</licence.partner.creditor_number>
+    <licence.partner.lref>2066</licence.partner.lref>
+    <license.partner>
+      <value lang="de-DE" invariant="false">St&#246;ckl, Ula</value>
+      <value lang="en-GB" invariant="false">St&#246;ckl, Ula</value>
+    </license.partner>
+    <license.split>50</license.split>
+  </License>
+  <Part_of>
+    <part_of.lead_word/>
+    <part_of.location.default.name/>
+    <part_of.record_type>
+      <value lang="neutral">MANIFESTATION</value>
+      <value lang="0">Manifestation</value>
+      <value lang="1">Manifestatie</value>
+      <value lang="3">Manifestation</value>
+      <value lang="9">Manifestation</value>
+    </part_of.record_type>
+    <part_of.title>Neun Leben hat die Katze</part_of.title>
+    <part_of_reference>
+      <Part_of>
+        <part_of.lead_word/>
+        <part_of.title>Neun Leben hat die Katze</part_of.title>
+        <part_of_reference.lref>200000687</part_of_reference.lref>
+      </Part_of>
+      <object_number>1271667</object_number>
+    </part_of_reference>
+    <part_of_reference.lref>200152886</part_of_reference.lref>
+  </Part_of>
+  <Phys_file>
+    <phys_characteristic.aspect.file_path>\\straub.ad.kinemathek.de\DIGITALISATE\av-access\4\2\8\9\5\3\428953-D</phys_characteristic.aspect.file_path>
+  </Phys_file>
+  <Phys_file>
+    <phys_characteristic.aspect.file_path>Archiviert auf Tape Library</phys_characteristic.aspect.file_path>
+  </Phys_file>
+  <PIDdata>
+    <PID_data_URI>https://hdl.handle.net/21.11155/EA420DE9-DE11-461E-BCAA-6D833E243757</PID_data_URI>
+  </PIDdata>
+  <Production>
+    <copied_date>2014</copied_date>
+  </Production>
+  <Related_accession>
+    <related_accession_number>Z1089</related_accession_number>
+    <related_accession_number.lref>100001087</related_accession_number.lref>
+    <related_accession_number.method>
+      <value lang="de-DE" invariant="false">Kopierung</value>
+    </related_accession_number.method>
+    <related_accession_number.source>
+      <value lang="de-DE" invariant="true">ARRI</value>
+    </related_accession_number.source>
+    <related_accession_number.title/>
+  </Related_accession>
+  <Rights>
+    <rights.notes>Weltvertrieb, nicht-exklusiv, vorbehaltlich Drittrechte</rights.notes>
+  </Rights>
+  <Title>
+    <title>Neun Leben hat die Katze</title>
+    <title.type.lref>5237</title.type.lref>
+  </Title>
+  <guid>c4f83d36-c5d0-4a8a-b54c-85e51b493762</guid>
+  <institution.code>DE-MUS-407010</institution.code>
+  <institution.name>
+    <value lang="de-DE" invariant="true">Deutsche Kinemathek &#8211; Museum f&#252;r Film und Fernsehen</value>
+    <value lang="en-GB" invariant="false">Deutsche Kinemathek &#8211; Museum f&#252;r Film und Fernsehen</value>
+  </institution.name>
+  <institution.name.lref>3238</institution.name.lref>
+  <institution.place>
+    <value lang="de-DE" invariant="true">Berlin</value>
+    <value lang="en-GB" invariant="false">Berlin</value>
+  </institution.place>
+  <item_type>
+    <value lang="neutral">DIGITAL</value>
+    <value lang="0">Digital</value>
+    <value lang="2">Digital</value>
+    <value lang="3">Digital</value>
+  </item_type>
+  <license.scope>Weltvertrieb, nicht-exklusiv, vorbehaltlich Drittrechte</license.scope>
+  <material_type_digital>
+    <value lang="de-DE" invariant="false">DCP</value>
+    <value lang="en-GB" invariant="false">DCP</value>
+  </material_type_digital>
+  <material_type_digital.lref>7734</material_type_digital.lref>
+  <normalisation>
+    <value lang="de-DE" invariant="true">DCP Interop</value>
+    <value lang="en-GB" invariant="false">DCP Interop</value>
+  </normalisation>
+  <normalisation.lref>10960</normalisation.lref>
+  <object_number>428953</object_number>
+  <phys_characteristic.aspect.file_name>9LebenHdKatze_FTR-1-Uencr_S_DE-XX_30_2K_20150310_ADC_IOP_OV</phys_characteristic.aspect.file_name>
+  <priref>200221452</priref>
+  <record_access.owner>sdkAdmin</record_access.owner>
+  <record_type>
+    <value lang="neutral">ITEM</value>
+    <value lang="0">Item</value>
+    <value lang="1">Item</value>
+    <value lang="3">Item</value>
+    <value lang="9">Objekt</value>
+  </record_type>
+  <rental_price>150</rental_price>
+  <resolution>
+    <value lang="de-DE" invariant="true">2K</value>
+    <value lang="en-GB" invariant="false">2K</value>
+  </resolution>
+  <resolution.lref>10322</resolution.lref>
+  <sample_rate.audio>
+    <value lang="neutral">48</value>
+    <value lang="0">48</value>
+    <value lang="3">48</value>
+  </sample_rate.audio>
+  <sound_item>
+    <value lang="de-DE" invariant="true">Ton</value>
+    <value lang="en-GB" invariant="false">Sound</value>
+  </sound_item>
+  <sound_item.lref>5136</sound_item.lref>
+  <sound_notes>6 Kan&#228;le</sound_notes>
+  <surround_sound>
+    <value lang="de-DE" invariant="false">5.1.</value>
+  </surround_sound>
+  <surround_sound.lref>30636</surround_sound.lref>
+  <total_filesize>121</total_filesize>
+  <total_filesize.unit>
+    <value lang="de-DE" invariant="false">GB</value>
+  </total_filesize.unit>
+  <total_filesize.unit.lref>11018</total_filesize.unit.lref>
+  <Update_field>150225688</Update_field>
+  <video.bitrate>180</video.bitrate>
+  <video.color_subsampling>
+    <value lang="neutral">4:4:4</value>
+    <value lang="0">4:4:4</value>
+    <value lang="3">4:4:4</value>
+  </video.color_subsampling>
+  <video.height>858</video.height>
+  <video.interlacing>
+    <value lang="neutral">PROGRESSIVE</value>
+    <value lang="0">progressive</value>
+    <value lang="3">progressiv</value>
+  </video.interlacing>
+  <video.pixel_shape>
+    <value lang="neutral">cubic (1,0)</value>
+    <value lang="0">cubic (1,0)</value>
+    <value lang="3">quadratisch (1,0)</value>
+  </video.pixel_shape>
+  <video.width>2048</video.width>
+  <work.description_type>
+    <value lang="neutral">MONOGRAPHIC</value>
+    <value lang="0">Monographic</value>
+    <value lang="3">Monographisch</value>
+    <value lang="9">Sj&#228;lvst&#228;ndigt verk</value>
+  </work.description_type>
+</record>

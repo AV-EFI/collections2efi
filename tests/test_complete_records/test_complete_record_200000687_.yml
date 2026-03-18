@@ -1,0 +1,159 @@
+category: avefi:WorkVariant
+described_by:
+- has_issuer_id: https://w3id.org/isil/DE-MUS-407010
+  has_issuer_name: Deutsche Kinemathek - Museum für Film und Fernsehen
+  last_modified: '2024-01-01T00:00:00'
+has_alternative_title:
+- has_name: 9 Leben hat die Katze
+  type: AlternativeTitle
+- has_name: Marionetten
+  type: WorkingTitle
+- has_name: 2 Max in der Sonne
+  type: WorkingTitle
+- has_name: Die Meisterinnen
+  has_ordering_name: Meisterinnen, Die
+  type: WorkingTitle
+has_event:
+- category: avefi:ProductionEvent
+  has_activity:
+  - category: avefi:DirectingActivity
+    has_agent:
+    - category: avefi:Agent
+      has_name: Stöckl, Ula
+      same_as:
+      - category: avefi:GNDResource
+        id: '139373934'
+      - category: avefi:FilmportalResource
+        id: 73dccfe23d104964a89de2c83e81b1ae
+      type: Person
+    type: Director
+  - category: avefi:CinematographyActivity
+    has_agent:
+    - category: avefi:Agent
+      has_name: Mauch, Thomas
+      same_as:
+      - category: avefi:GNDResource
+        id: '137692226'
+      type: Person
+    type: Cinematographer
+  - category: avefi:CinematographyActivity
+    has_agent:
+    - category: avefi:Agent
+      has_name: Lohmann, Dietrich
+      same_as:
+      - category: avefi:FilmportalResource
+        id: 197cbf4e6613430884cef350da8d8fa2
+      - category: avefi:FilmportalResource
+        id: 197cbf4e6613430884cef350da8d8fa2
+      - category: avefi:GNDResource
+        id: '137628382'
+      type: Person
+    type: Cinematographer
+  - category: avefi:EditingActivity
+    has_agent:
+    - category: avefi:Agent
+      has_name: Schacht, Wolfgang
+      same_as:
+      - category: avefi:GNDResource
+        id: '1062188918'
+      - category: avefi:FilmportalResource
+        id: c25999b59f1042f58ae56aa17d0ccfe0
+      type: Person
+    type: FilmEditor
+  - category: avefi:WritingActivity
+    has_agent:
+    - category: avefi:Agent
+      has_name: Stöckl, Ula
+      same_as:
+      - category: avefi:GNDResource
+        id: '139373934'
+      - category: avefi:FilmportalResource
+        id: 73dccfe23d104964a89de2c83e81b1ae
+      type: Person
+    type: Writer
+  has_date: '1968'
+  located_in:
+  - category: avefi:GeographicName
+    has_name: Bundesrepublik Deutschland (BRD)
+    same_as:
+    - category: avefi:GNDResource
+      id: 4011889-7
+    - category: avefi:TGNResource
+      id: '7000081'
+has_form:
+- Fiction
+has_genre:
+- has_name: Drama
+  same_as:
+  - category: avefi:GNDResource
+    id: 4012899-4
+has_identifier:
+- category: avefi:LocalResource
+  id: '200000687'
+- category: avefi:AVefiResource
+  id: 21.11155/5F55A580-C70F-40C8-A771-07EAD9635ABD
+has_primary_title:
+  has_name: Neun Leben hat die Katze
+  type: PreferredTitle
+has_subject:
+- category: avefi:Subject
+  has_name: Ehebruch
+  same_as:
+  - category: avefi:GNDResource
+    id: 4013632-2
+- category: avefi:Subject
+  has_name: Emanzipation
+  same_as:
+  - category: avefi:GNDResource
+    id: 4130667-3
+- category: avefi:Subject
+  has_name: Feminismus
+  same_as:
+  - category: avefi:GNDResource
+    id: 4222126-2
+- category: avefi:Subject
+  has_name: Blume
+  same_as:
+  - category: avefi:GNDResource
+    id: 4146054-6
+- category: avefi:Subject
+  has_name: Frauenfreundschaft
+  same_as:
+  - category: avefi:GNDResource
+    id: 4196112-2
+- category: avefi:Subject
+  has_name: Freundschaft
+  same_as:
+  - category: avefi:GNDResource
+    id: 4018480-8
+- category: avefi:Subject
+  has_name: Journalistin
+  same_as:
+  - category: avefi:GNDResource
+    id: 4028786-5
+- category: avefi:Subject
+  has_name: Mann
+  same_as:
+  - category: avefi:GNDResource
+    id: 4037363-0
+- category: avefi:Subject
+  has_name: München
+- category: avefi:Subject
+  has_name: Sängerin
+  same_as:
+  - category: avefi:GNDResource
+    id: 4051246-0
+- category: avefi:Subject
+  has_name: Sommer
+  same_as:
+  - category: avefi:GNDResource
+    id: 4136980-4
+- category: avefi:Subject
+  has_name: Frau
+  same_as:
+  - category: avefi:GNDResource
+    id: 4018202-2
+same_as:
+- category: avefi:FilmportalResource
+  id: dc565007bfe44efd97d804567dc508f2
+type: Monographic

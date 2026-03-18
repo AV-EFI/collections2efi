@@ -1,0 +1,893 @@
+<record priref="281" created="2024-11-30T05:09:33" modification="2025-02-25T17:29:18" selected="false" deleted="false">
+  <group>
+    <value lang="de-DE" invariant="true">F1.6 Personen nach Geschlecht</value>
+    <value lang="en-GB" invariant="false">F1.6 Persons by gender</value>
+  </group>
+  <group.lref>401</group.lref>
+  <Source>
+    <source>Gemeinsame Normdatei</source>
+    <source.number>http://d-nb.info/gnd/4018202-2</source.number>
+  </Source>
+  <guid>52384227-409d-4dac-9273-b68741f54534</guid>
+  <priref>281</priref>
+  <record_access.owner>sdkRedaktion</record_access.owner>
+  <related_term>
+    <value lang="de-DE" invariant="false">Agentin (Beruf)</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Agentin (Nachrichtendienst)</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Akrobatin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Aktivistin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Alkoholikerin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Altenpflegerin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Amazone</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Angeklagte</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Anhalterin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Animatorin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Antiheldin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Anw&#228;ltin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Arbeiterin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Arbeitgeberin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Arch&#228;ologin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Astronautin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Aufnahmeleiterin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Auslandskorrespondentin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Automechanikerin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="true">Autorin</value>
+    <value lang="en-GB" invariant="false">author</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Banditin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Baronin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Beamtin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Beleuchterin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Bergsteigerin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Betr&#252;gerin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="true">Bildhauerin</value>
+    <value lang="en-GB" invariant="false">sculptor</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Biologin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="true">Bundesvorsitzende</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="true">B&#252;hnenbildnerin</value>
+    <value lang="en-GB" invariant="false">set painter</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Cheerleader</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Chefin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="true">Cutterin</value>
+    <value lang="en-GB" invariant="false">Editor</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Dichterin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Diebin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Dienerin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Domina</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Dompteuse</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Doppelagentin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Dozentin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Dramatikerin</value>
+    <value lang="en-GB" invariant="false">dramatist</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Dramaturgin</value>
+    <value lang="en-GB" invariant="false">dramaturge</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Dressurreiterin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="true">Entertainerin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Erbin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Ethnologin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Ex-Frau</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Fee</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Feministin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Femme fatale</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="true">Fernsehproduzentin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Fernsehredakteurin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="true">Filmarchitektin</value>
+    <value lang="en-GB" invariant="false">film architect</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="true">Filmproduzentin</value>
+    <value lang="en-GB" invariant="false">film producer</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="true">Filmregisseurin</value>
+    <value lang="en-GB" invariant="false">film director</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="true">Filmtiertrainer</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Filmvorf&#252;hrerin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Final Girl</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">First Lady</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Flugbegleiterin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="true">Fotografin</value>
+    <value lang="en-GB" invariant="false">photographer</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Fremdenf&#252;hrerin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Friseurin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="true">F&#252;rstin</value>
+    <value lang="en-GB" invariant="false">Princess</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Galeristin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Gefangene</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Geisha</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Germanistin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Gesch&#228;ftsfrau</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Gesetzlose</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Gl&#252;cksspielerin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="true">Grafikerin</value>
+    <value lang="en-GB" invariant="false">graphic artist</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Groupie</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="true">Gr&#228;fin</value>
+    <value lang="en-GB" invariant="false">Countess</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Hackerin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Hausfrau</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Haush&#228;lterin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Hebamme</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Heilpraktikerin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Heiratsschwindlerin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Heldin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Herrscherin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Herzogin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Hexe</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Historikerin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="true">Journalistin</value>
+    <value lang="en-GB" invariant="false">journalist</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Kabarettistin</value>
+    <value lang="en-GB" invariant="false">cabaret performer</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Kaiserin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Kameraassistentin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="true">Kamerafrau</value>
+    <value lang="en-GB" invariant="false">camera woman</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Kellnerin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Kinderfrau</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Kinobesitzerin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Kommandantin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Kommissarin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="true">Komponistin</value>
+    <value lang="en-GB" invariant="false">composer</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Kopfgeldj&#228;gerin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="true">Korrespondentin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="true">Kost&#252;mbildnerin</value>
+    <value lang="en-GB" invariant="false">costume designer</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Kriegerin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Kriegsgefangene</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Kritikerin</value>
+    <value lang="en-GB" invariant="false">critic</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Kulturwissenschaftlerin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Kundin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Kuratorin</value>
+    <value lang="en-GB" invariant="false">curator</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">K&#246;chin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="true">K&#246;nigin</value>
+    <value lang="en-GB" invariant="false">Queen (ruler)</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="true">K&#252;nstlerin</value>
+    <value lang="en-GB" invariant="false">artist (female)</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="true">Lehrerin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Lesbe</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Linguistin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Literaturwissenschaftlerin</value>
+    <value lang="en-GB" invariant="false">literary scholar</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="true">Maskenbildnerin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Mathematikerin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Menstruation</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Million&#228;rin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Missionarin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="true">Moderatorin</value>
+    <value lang="en-GB" invariant="false">moderator</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="true">Modistin</value>
+    <value lang="en-GB" invariant="false">Milliner</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Mutter</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">M&#246;rderin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Nachbarin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Neurochirurgin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="true">Nonne</value>
+    <value lang="en-GB" invariant="false">Nun</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">N&#228;herin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Patientin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Pflegerin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Philosophin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="true">Politikerin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Privatlehrerin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Produktionsleiterin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="true">Produzentin</value>
+    <value lang="en-GB" invariant="false">Producer</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Professorin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Prostituierte</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Psychiaterin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Psychologin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Psychotherapeutin</value>
+    <value lang="en-GB" invariant="false">psychotherapist</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="true">Publizistin</value>
+    <value lang="en-GB" invariant="false">publicist</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="true">Puppenspielerin</value>
+    <value lang="en-GB" invariant="false">Puppeteer</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Rancherin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="true">Redakteurin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Regieassistentin</value>
+    <value lang="en-GB" invariant="false">Assistant Director</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="true">Regisseurin</value>
+    <value lang="en-GB" invariant="false">Director</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Reiterin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Rentnerin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Requisiteurin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Sammlerin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="true">Schauspielerin</value>
+    <value lang="en-GB" invariant="false">actress</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Schaustellerin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Schmugglerin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Schneiderin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="true">Schriftstellerin</value>
+    <value lang="en-GB" invariant="false">authoress</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Schwester</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Schwiegermutter</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="true">Sekret&#228;rin</value>
+    <value lang="en-GB" invariant="false">Secretary</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Soldatin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Sozialistin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Sozialp&#228;dagogin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Soziologin</value>
+    <value lang="en-GB" invariant="false">sociologist</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Spionin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Sprecherin</value>
+    <value lang="en-GB" invariant="false">narrator</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Strafentlassene</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Stra&#223;enk&#252;nstlerin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Suffragette</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Synchronsprecherin</value>
+    <value lang="en-GB" invariant="false">voice actor (dubbing)</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="true">Szenenbildnerin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">S&#252;nderin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Tante</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Taxifahrerin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Terroristin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="true">Theaterregisseurin</value>
+    <value lang="en-GB" invariant="false">theatre director</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="true">Theaterschauspielerin</value>
+    <value lang="en-GB" invariant="false">Theatre actress</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Tier&#228;rztin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Tonassistentin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="true">Toningenieurin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="true">Tonmeisterin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="true">Tontechnikerin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Tr&#252;mmerfrau</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="true">T&#228;nzerin</value>
+    <value lang="en-GB" invariant="false">dancer</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">T&#228;terin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Verlegerin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Vermieterin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Veteranin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Violinistin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Widerstandsk&#228;mpferin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Wissenschaftlerin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Witwe</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">W&#228;scherin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Yogalehrerin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">&#196;rztin</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="true">&#220;bersetzerin</value>
+    <value lang="en-GB" invariant="false">translator</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">&#228;ltere Frau</value>
+  </related_term>
+  <related_term.lref>42381</related_term.lref>
+  <related_term.lref>21749</related_term.lref>
+  <related_term.lref>29410</related_term.lref>
+  <related_term.lref>31494</related_term.lref>
+  <related_term.lref>30778</related_term.lref>
+  <related_term.lref>31470</related_term.lref>
+  <related_term.lref>30719</related_term.lref>
+  <related_term.lref>33499</related_term.lref>
+  <related_term.lref>31316</related_term.lref>
+  <related_term.lref>9181</related_term.lref>
+  <related_term.lref>35620</related_term.lref>
+  <related_term.lref>29280</related_term.lref>
+  <related_term.lref>16930</related_term.lref>
+  <related_term.lref>31187</related_term.lref>
+  <related_term.lref>34400</related_term.lref>
+  <related_term.lref>17157</related_term.lref>
+  <related_term.lref>9405</related_term.lref>
+  <related_term.lref>29081</related_term.lref>
+  <related_term.lref>30703</related_term.lref>
+  <related_term.lref>5037</related_term.lref>
+  <related_term.lref>34546</related_term.lref>
+  <related_term.lref>34548</related_term.lref>
+  <related_term.lref>35967</related_term.lref>
+  <related_term.lref>9121</related_term.lref>
+  <related_term.lref>30455</related_term.lref>
+  <related_term.lref>30986</related_term.lref>
+  <related_term.lref>10018</related_term.lref>
+  <related_term.lref>33919</related_term.lref>
+  <related_term.lref>2903</related_term.lref>
+  <related_term.lref>9183</related_term.lref>
+  <related_term.lref>34235</related_term.lref>
+  <related_term.lref>30500</related_term.lref>
+  <related_term.lref>5050</related_term.lref>
+  <related_term.lref>21474</related_term.lref>
+  <related_term.lref>30492</related_term.lref>
+  <related_term.lref>33926</related_term.lref>
+  <related_term.lref>29146</related_term.lref>
+  <related_term.lref>34700</related_term.lref>
+  <related_term.lref>31493</related_term.lref>
+  <related_term.lref>10245</related_term.lref>
+  <related_term.lref>9245</related_term.lref>
+  <related_term.lref>8321</related_term.lref>
+  <related_term.lref>31482</related_term.lref>
+  <related_term.lref>5020</related_term.lref>
+  <related_term.lref>29294</related_term.lref>
+  <related_term.lref>9590</related_term.lref>
+  <related_term.lref>31066</related_term.lref>
+  <related_term.lref>30296</related_term.lref>
+  <related_term.lref>31314</related_term.lref>
+  <related_term.lref>29135</related_term.lref>
+  <related_term.lref>5005</related_term.lref>
+  <related_term.lref>9180</related_term.lref>
+  <related_term.lref>8322</related_term.lref>
+  <related_term.lref>5026</related_term.lref>
+  <related_term.lref>5028</related_term.lref>
+  <related_term.lref>5153</related_term.lref>
+  <related_term.lref>23163</related_term.lref>
+  <related_term.lref>31130</related_term.lref>
+  <related_term.lref>11161</related_term.lref>
+  <related_term.lref>31002</related_term.lref>
+  <related_term.lref>8934</related_term.lref>
+  <related_term.lref>30999</related_term.lref>
+  <related_term.lref>20616</related_term.lref>
+  <related_term.lref>12856</related_term.lref>
+  <related_term.lref>31204</related_term.lref>
+  <related_term.lref>31663</related_term.lref>
+  <related_term.lref>28929</related_term.lref>
+  <related_term.lref>9170</related_term.lref>
+  <related_term.lref>31218</related_term.lref>
+  <related_term.lref>29353</related_term.lref>
+  <related_term.lref>30992</related_term.lref>
+  <related_term.lref>9188</related_term.lref>
+  <related_term.lref>34311</related_term.lref>
+  <related_term.lref>12919</related_term.lref>
+  <related_term.lref>31553</related_term.lref>
+  <related_term.lref>16902</related_term.lref>
+  <related_term.lref>17094</related_term.lref>
+  <related_term.lref>40138</related_term.lref>
+  <related_term.lref>10165</related_term.lref>
+  <related_term.lref>36304</related_term.lref>
+  <related_term.lref>17156</related_term.lref>
+  <related_term.lref>30858</related_term.lref>
+  <related_term.lref>33998</related_term.lref>
+  <related_term.lref>17060</related_term.lref>
+  <related_term.lref>30633</related_term.lref>
+  <related_term.lref>846</related_term.lref>
+  <related_term.lref>8988</related_term.lref>
+  <related_term.lref>30985</related_term.lref>
+  <related_term.lref>8998</related_term.lref>
+  <related_term.lref>5030</related_term.lref>
+  <related_term.lref>21442</related_term.lref>
+  <related_term.lref>30732</related_term.lref>
+  <related_term.lref>29791</related_term.lref>
+  <related_term.lref>31565</related_term.lref>
+  <related_term.lref>31455</related_term.lref>
+  <related_term.lref>5052</related_term.lref>
+  <related_term.lref>11199</related_term.lref>
+  <related_term.lref>5065</related_term.lref>
+  <related_term.lref>8323</related_term.lref>
+  <related_term.lref>29387</related_term.lref>
+  <related_term.lref>40050</related_term.lref>
+  <related_term.lref>22669</related_term.lref>
+  <related_term.lref>36166</related_term.lref>
+  <related_term.lref>31436</related_term.lref>
+  <related_term.lref>34096</related_term.lref>
+  <related_term.lref>21443</related_term.lref>
+  <related_term.lref>12659</related_term.lref>
+  <related_term.lref>392</related_term.lref>
+  <related_term.lref>1523</related_term.lref>
+  <related_term.lref>10961</related_term.lref>
+  <related_term.lref>31099</related_term.lref>
+  <related_term.lref>10244</related_term.lref>
+  <related_term.lref>5069</related_term.lref>
+  <related_term.lref>31034</related_term.lref>
+  <related_term.lref>10962</related_term.lref>
+  <related_term.lref>34036</related_term.lref>
+  <related_term.lref>37656</related_term.lref>
+  <related_term.lref>5008</related_term.lref>
+  <related_term.lref>30042</related_term.lref>
+  <related_term.lref>33722</related_term.lref>
+  <related_term.lref>17088</related_term.lref>
+  <related_term.lref>31618</related_term.lref>
+  <related_term.lref>29366</related_term.lref>
+  <related_term.lref>12647</related_term.lref>
+  <related_term.lref>30998</related_term.lref>
+  <related_term.lref>30710</related_term.lref>
+  <related_term.lref>30235</related_term.lref>
+  <related_term.lref>9177</related_term.lref>
+  <related_term.lref>577</related_term.lref>
+  <related_term.lref>30522</related_term.lref>
+  <related_term.lref>9111</related_term.lref>
+  <related_term.lref>5033</related_term.lref>
+  <related_term.lref>26914</related_term.lref>
+  <related_term.lref>29405</related_term.lref>
+  <related_term.lref>17104</related_term.lref>
+  <related_term.lref>32868</related_term.lref>
+  <related_term.lref>9711</related_term.lref>
+  <related_term.lref>5041</related_term.lref>
+  <related_term.lref>8995</related_term.lref>
+  <related_term.lref>33905</related_term.lref>
+  <related_term.lref>5078</related_term.lref>
+  <related_term.lref>9018</related_term.lref>
+  <related_term.lref>8320</related_term.lref>
+  <related_term.lref>32067</related_term.lref>
+  <related_term.lref>29150</related_term.lref>
+  <related_term.lref>9110</related_term.lref>
+  <related_term.lref>34399</related_term.lref>
+  <related_term.lref>753</related_term.lref>
+  <related_term.lref>24985</related_term.lref>
+  <related_term.lref>30584</related_term.lref>
+  <related_term.lref>31004</related_term.lref>
+  <related_term.lref>823</related_term.lref>
+  <related_term.lref>16898</related_term.lref>
+  <related_term.lref>29561</related_term.lref>
+  <related_term.lref>8040</related_term.lref>
+  <related_term.lref>21477</related_term.lref>
+  <related_term.lref>30632</related_term.lref>
+  <related_term.lref>31483</related_term.lref>
+  <related_term.lref>30864</related_term.lref>
+  <related_term.lref>21132</related_term.lref>
+  <related_term.lref>8917</related_term.lref>
+  <related_term.lref>34524</related_term.lref>
+  <related_term.lref>31315</related_term.lref>
+  <related_term.lref>29240</related_term.lref>
+  <related_term.lref>9093</related_term.lref>
+  <related_term.lref>5091</related_term.lref>
+  <related_term.lref>31575</related_term.lref>
+  <related_term.lref>20335</related_term.lref>
+  <related_term.lref>31609</related_term.lref>
+  <related_term.lref>30552</related_term.lref>
+  <related_term.lref>8848</related_term.lref>
+  <related_term.lref>21026</related_term.lref>
+  <related_term.lref>29363</related_term.lref>
+  <related_term.lref>9703</related_term.lref>
+  <related_term.lref>5157</related_term.lref>
+  <related_term.lref>5156</related_term.lref>
+  <related_term.lref>5103</related_term.lref>
+  <related_term.lref>29239</related_term.lref>
+  <related_term.lref>5060</related_term.lref>
+  <related_term.lref>21123</related_term.lref>
+  <related_term.lref>9949</related_term.lref>
+  <related_term.lref>29136</related_term.lref>
+  <related_term.lref>31451</related_term.lref>
+  <related_term.lref>33351</related_term.lref>
+  <related_term.lref>34989</related_term.lref>
+  <related_term.lref>11138</related_term.lref>
+  <related_term.lref>17100</related_term.lref>
+  <related_term.lref>29559</related_term.lref>
+  <related_term.lref>9586</related_term.lref>
+  <related_term.lref>21686</related_term.lref>
+  <related_term.lref>5063</related_term.lref>
+  <related_term.lref>30773</related_term.lref>
+  <term>
+    <value lang="de-DE" invariant="true">Frau</value>
+    <value lang="en-GB" invariant="false">Woman</value>
+  </term>
+  <term.code>sdk:C00281</term.code>
+  <term.status>
+    <value lang="neutral">1</value>
+    <value lang="0">approved preferred term</value>
+    <value lang="1">descriptor</value>
+    <value lang="2">descripteur</value>
+    <value lang="3">Deskriptor</value>
+    <value lang="5">termine preferenziale approvato</value>
+    <value lang="9">godk&#228;nda f&#246;redragen term</value>
+    <value lang="10">&#1502;&#1493;&#1504;&#1495; &#1502;&#1488;&#1493;&#1513;&#1512; &#1502;&#1493;&#1506;&#1491;&#1507;</value>
+    <value lang="11">godkendt foretrukket term</value>
+    <value lang="14">&#25209;&#20934;&#39318;&#36984;&#26781;&#27454;</value>
+  </term.status>
+  <term.type>
+    <value lang="neutral">SUBJECT</value>
+    <value lang="0">subject</value>
+    <value lang="1">onderwerp</value>
+    <value lang="2">sujet</value>
+    <value lang="3">Thema</value>
+    <value lang="4">&#1605;&#1608;&#1590;&#1608;&#1593;</value>
+    <value lang="5">soggetto</value>
+    <value lang="6">&#952;&#941;&#956;&#945;</value>
+    <value lang="9">&#228;mne</value>
+  </term.type>
+  <term.type>
+    <value lang="neutral">MOTIF</value>
+    <value lang="0">motif</value>
+    <value lang="1">motief</value>
+    <value lang="2">motif</value>
+    <value lang="3">Motiv</value>
+    <value lang="4">&#1586;&#1582;&#1585;&#1601;&#1577;</value>
+    <value lang="5">motivo</value>
+    <value lang="6">&#956;&#959;&#964;&#943;&#946;&#959;</value>
+    <value lang="9">motiv</value>
+  </term.type>
+  <term.type>
+    <value lang="neutral">KEYWORD</value>
+    <value lang="0">keyword</value>
+    <value lang="1">trefwoord</value>
+    <value lang="2">mot-cl&#233;</value>
+    <value lang="3">Schlagwort</value>
+    <value lang="4">&#1603;&#1604;&#1605;&#1577;.&#1605;&#1601;&#1578;&#1575;&#1581;&#1610;&#1577;</value>
+    <value lang="5">parola chiave</value>
+    <value lang="6">&#955;&#941;&#958;&#951;-&#954;&#955;&#949;&#953;&#948;&#943;</value>
+    <value lang="9">keyword</value>
+  </term.type>
+  <term.type>
+    <value lang="neutral">SUBJECT</value>
+    <value lang="0">subject</value>
+    <value lang="1">onderwerp</value>
+    <value lang="2">sujet</value>
+    <value lang="3">Thema</value>
+    <value lang="4">&#1605;&#1608;&#1590;&#1608;&#1593;</value>
+    <value lang="5">soggetto</value>
+    <value lang="6">&#952;&#941;&#956;&#945;</value>
+    <value lang="9">&#228;mne</value>
+  </term.type>
+  <used_for>
+    <value lang="de-DE" invariant="true">Frauen</value>
+  </used_for>
+  <used_for>
+    <value lang="en-GB" invariant="true">women</value>
+  </used_for>
+  <used_for.lref>1908</used_for.lref>
+  <used_for.lref>1909</used_for.lref>
+</record>

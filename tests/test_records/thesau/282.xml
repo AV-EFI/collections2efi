@@ -1,0 +1,816 @@
+<record priref="282" created="2024-11-30T05:09:33" modification="2025-02-26T16:21:26" selected="false" deleted="false">
+  <group>
+    <value lang="de-DE" invariant="true">F1.6 Personen nach Geschlecht</value>
+    <value lang="en-GB" invariant="false">F1.6 Persons by gender</value>
+  </group>
+  <group.lref>401</group.lref>
+  <Source>
+    <source>Gemeinsame Normdatei</source>
+    <source.number>http://d-nb.info/gnd/4037363-0</source.number>
+  </Source>
+  <guid>911ecf83-2883-43f7-a8b0-26de8ae3869a</guid>
+  <priref>282</priref>
+  <record_access.owner>sdkRedaktion</record_access.owner>
+  <related_term>
+    <value lang="de-DE" invariant="false">Adoptivvater</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Agent (Nachrichtendienst)</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Akrobat</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Aktivist</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Alkoholiker</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Altenpfleger</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">&#228;lterer Mann</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Anarchist</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Angestellter</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Anhalter</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Antiheld</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Anwalt</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="true">Arbeiter</value>
+    <value lang="en-GB" invariant="false">worker</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Arch&#228;ologe</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="true">Arzt</value>
+    <value lang="en-GB" invariant="false">Physician</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="true">Astronaut</value>
+    <value lang="en-GB" invariant="false">astronaut</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Astrophysiker</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Augenarzt</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Ausbrecher</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Auslandskorrespondent</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Au&#223;enseiter</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Automechaniker</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Baron</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Bauarbeiter</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Beamter</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Bergmann</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Besitzer</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Betr&#252;ger</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Bischof</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Buchhalter</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">B&#252;chsenmacher</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="true">Bundesvorsitzender</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Chef</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Chirurg</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="true">Detektiv</value>
+    <value lang="en-GB" invariant="false">Detective</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Dichter</value>
+    <value lang="en-GB" invariant="false">Poet</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Diktator</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Diplomat</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">DJ</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Doppelagent</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="true">Dramaturg</value>
+    <value lang="en-GB" invariant="false">dramaturge</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Druide</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Erfinder</value>
+    <value lang="en-GB" invariant="false">Inventor</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Ex-Mann</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Extremkletterer</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Fernfahrer</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="true">Fernsehmoderator</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Fernsehprediger</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="true">Fernsehproduzent</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Feuerwehrmann</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Filmvorf&#252;hrer</value>
+    <value lang="en-GB" invariant="false">projectionist</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Fischer</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Florist</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Flugbegleiter</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Fluglotse</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">F&#246;rster</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="true">Fotograf</value>
+    <value lang="en-GB" invariant="false">photographer</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Frauenheld</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Fremdenlegion&#228;r</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="true">F&#252;rst</value>
+    <value lang="en-GB" invariant="false">Prince</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Galerist</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Gef&#228;ngnisw&#228;rter</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Geheimrat</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Generalkonsul</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Gerichtsvollzieher</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Geselle</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Gesetzlose</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Glockengie&#223;er</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Gl&#252;cksspieler</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Gutsbesitzer</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Hacker</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Hauptmann</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Hauslehrer</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Heiler</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Heiratsschwindler</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Held</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="true">Herrscher</value>
+    <value lang="en-GB" invariant="false">Ruler</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Herzog</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Hirte</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Holzf&#228;ller</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">H&#246;rfunkregisseur</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Hoteldirektor</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Industriekaufmann</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Ingenieur</value>
+    <value lang="en-GB" invariant="false">engineer</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Investor</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="true">Jurist</value>
+    <value lang="en-GB" invariant="false">lawyer</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="true">Kabarettist</value>
+    <value lang="en-GB" invariant="false">cabaret performer</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Kaiser</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="true">Kameramann</value>
+    <value lang="en-GB" invariant="false">cameraman</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Kamikazepilot</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Komiker</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Kommissar</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="true">K&#246;nig</value>
+    <value lang="en-GB" invariant="false">King</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Konsul</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Kopfgeldj&#228;ger</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Krieger</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Kriegsfl&#252;chtling</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Kriegsheimkehrer</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Kulturwissenschaftler</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Kunsth&#228;ndler</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Laienprediger</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="true">Landesvorsitzender</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Landstreicher</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Lastkraftwagenfahrer</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Liftboy</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Linguist</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Mentor</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Meteorologe</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Million&#228;r</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="true">Moderator</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">M&#246;rder</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Motorradfahrer</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="true">Musiker</value>
+    <value lang="en-GB" invariant="false">musician</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Nachtw&#228;chter</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Neurologe</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Offizier</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Pal&#228;ontologe</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Pharao</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="true">Physiker</value>
+    <value lang="en-GB" invariant="false">physicist</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="true">Pilot</value>
+    <value lang="en-GB" invariant="false">Pilot</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Playboy</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="true">Politikwissenschaftler</value>
+    <value lang="en-GB" invariant="false">political scientist</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="true">Polizist</value>
+    <value lang="en-GB" invariant="false">policeman</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Praktikant</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="true">Pr&#228;sident</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Primatologe</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Programmierer</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Psychiater</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Radiomoderator</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Rancher</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">R&#228;uber</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Rebell</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Rechtsradikaler</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="true">Redakteur</value>
+    <value lang="en-GB" invariant="false">Copy Editor</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Rentner</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Ritter</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Samurai</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Sch&#228;fer</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Scharfrichter</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Scharfsch&#252;tze</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Schausteller</value>
+    <value lang="en-GB" invariant="false">showman</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Schmuggler</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Schwimmer</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Seemann</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Serienm&#246;rder</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">S&#246;ldner</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Stahlarbeiter</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Steinmetz</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Strafentlassener</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Stra&#223;enk&#252;nstler</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Stra&#223;enmusiker</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">S&#252;nder</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Superheld</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Tagel&#246;hner</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Taxifahrer</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Tennisspieler</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Terrorist</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Tierarzt</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Tierwirt</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Torwart</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Trainer</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Trapper</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Untermieter</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Vater</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Vegetarier</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Verk&#228;ufer</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Veteran</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Wanderm&#246;nch</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Weber</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Wilddieb</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Wissenschaftler</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Witwer</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Wrestler</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="true">Zollbeamter</value>
+    <value lang="en-GB" invariant="false">customs official</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Z&#252;chter</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Zugf&#252;hrer</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="false">Zuh&#228;lter</value>
+  </related_term>
+  <related_term>
+    <value lang="de-DE" invariant="true">Gro&#223;vater</value>
+    <value lang="en-GB" invariant="false">grandfather</value>
+  </related_term>
+  <related_term.lref>32400</related_term.lref>
+  <related_term.lref>5484</related_term.lref>
+  <related_term.lref>20364</related_term.lref>
+  <related_term.lref>31732</related_term.lref>
+  <related_term.lref>31166</related_term.lref>
+  <related_term.lref>36715</related_term.lref>
+  <related_term.lref>30780</related_term.lref>
+  <related_term.lref>30558</related_term.lref>
+  <related_term.lref>31009</related_term.lref>
+  <related_term.lref>30202</related_term.lref>
+  <related_term.lref>30721</related_term.lref>
+  <related_term.lref>8829</related_term.lref>
+  <related_term.lref>65</related_term.lref>
+  <related_term.lref>31044</related_term.lref>
+  <related_term.lref>901</related_term.lref>
+  <related_term.lref>918</related_term.lref>
+  <related_term.lref>31484</related_term.lref>
+  <related_term.lref>30574</related_term.lref>
+  <related_term.lref>31636</related_term.lref>
+  <related_term.lref>17073</related_term.lref>
+  <related_term.lref>21323</related_term.lref>
+  <related_term.lref>30714</related_term.lref>
+  <related_term.lref>30983</related_term.lref>
+  <related_term.lref>29121</related_term.lref>
+  <related_term.lref>24914</related_term.lref>
+  <related_term.lref>31086</related_term.lref>
+  <related_term.lref>36409</related_term.lref>
+  <related_term.lref>30766</related_term.lref>
+  <related_term.lref>31758</related_term.lref>
+  <related_term.lref>31360</related_term.lref>
+  <related_term.lref>31477</related_term.lref>
+  <related_term.lref>2298</related_term.lref>
+  <related_term.lref>30896</related_term.lref>
+  <related_term.lref>29309</related_term.lref>
+  <related_term.lref>12283</related_term.lref>
+  <related_term.lref>21475</related_term.lref>
+  <related_term.lref>30582</related_term.lref>
+  <related_term.lref>17074</related_term.lref>
+  <related_term.lref>29207</related_term.lref>
+  <related_term.lref>8797</related_term.lref>
+  <related_term.lref>5001</related_term.lref>
+  <related_term.lref>34701</related_term.lref>
+  <related_term.lref>17117</related_term.lref>
+  <related_term.lref>31330</related_term.lref>
+  <related_term.lref>31467</related_term.lref>
+  <related_term.lref>38340</related_term.lref>
+  <related_term.lref>5009</related_term.lref>
+  <related_term.lref>29171</related_term.lref>
+  <related_term.lref>5006</related_term.lref>
+  <related_term.lref>34491</related_term.lref>
+  <related_term.lref>22802</related_term.lref>
+  <related_term.lref>28946</related_term.lref>
+  <related_term.lref>28954</related_term.lref>
+  <related_term.lref>31337</related_term.lref>
+  <related_term.lref>31499</related_term.lref>
+  <related_term.lref>31402</related_term.lref>
+  <related_term.lref>274</related_term.lref>
+  <related_term.lref>29318</related_term.lref>
+  <related_term.lref>30506</related_term.lref>
+  <related_term.lref>12857</related_term.lref>
+  <related_term.lref>30740</related_term.lref>
+  <related_term.lref>30779</related_term.lref>
+  <related_term.lref>33931</related_term.lref>
+  <related_term.lref>31108</related_term.lref>
+  <related_term.lref>30452</related_term.lref>
+  <related_term.lref>31524</related_term.lref>
+  <related_term.lref>29353</related_term.lref>
+  <related_term.lref>32792</related_term.lref>
+  <related_term.lref>29128</related_term.lref>
+  <related_term.lref>31406</related_term.lref>
+  <related_term.lref>11180</related_term.lref>
+  <related_term.lref>31495</related_term.lref>
+  <related_term.lref>21417</related_term.lref>
+  <related_term.lref>32766</related_term.lref>
+  <related_term.lref>16890</related_term.lref>
+  <related_term.lref>29189</related_term.lref>
+  <related_term.lref>16104</related_term.lref>
+  <related_term.lref>30580</related_term.lref>
+  <related_term.lref>28940</related_term.lref>
+  <related_term.lref>31353</related_term.lref>
+  <related_term.lref>29080</related_term.lref>
+  <related_term.lref>31408</related_term.lref>
+  <related_term.lref>29062</related_term.lref>
+  <related_term.lref>42571</related_term.lref>
+  <related_term.lref>21453</related_term.lref>
+  <related_term.lref>540</related_term.lref>
+  <related_term.lref>5085</related_term.lref>
+  <related_term.lref>29303</related_term.lref>
+  <related_term.lref>5029</related_term.lref>
+  <related_term.lref>31042</related_term.lref>
+  <related_term.lref>21824</related_term.lref>
+  <related_term.lref>8078</related_term.lref>
+  <related_term.lref>8056</related_term.lref>
+  <related_term.lref>33932</related_term.lref>
+  <related_term.lref>29718</related_term.lref>
+  <related_term.lref>28950</related_term.lref>
+  <related_term.lref>31466</related_term.lref>
+  <related_term.lref>29245</related_term.lref>
+  <related_term.lref>28657</related_term.lref>
+  <related_term.lref>16970</related_term.lref>
+  <related_term.lref>31219</related_term.lref>
+  <related_term.lref>2299</related_term.lref>
+  <related_term.lref>31319</related_term.lref>
+  <related_term.lref>31469</related_term.lref>
+  <related_term.lref>31806</related_term.lref>
+  <related_term.lref>32057</related_term.lref>
+  <related_term.lref>30658</related_term.lref>
+  <related_term.lref>21435</related_term.lref>
+  <related_term.lref>29372</related_term.lref>
+  <related_term.lref>5007</related_term.lref>
+  <related_term.lref>11158</related_term.lref>
+  <related_term.lref>29379</related_term.lref>
+  <related_term.lref>373</related_term.lref>
+  <related_term.lref>33270</related_term.lref>
+  <related_term.lref>21455</related_term.lref>
+  <related_term.lref>18897</related_term.lref>
+  <related_term.lref>21441</related_term.lref>
+  <related_term.lref>30583</related_term.lref>
+  <related_term.lref>595</related_term.lref>
+  <related_term.lref>12573</related_term.lref>
+  <related_term.lref>29307</related_term.lref>
+  <related_term.lref>831</related_term.lref>
+  <related_term.lref>248</related_term.lref>
+  <related_term.lref>31608</related_term.lref>
+  <related_term.lref>2302</related_term.lref>
+  <related_term.lref>21444</related_term.lref>
+  <related_term.lref>31639</related_term.lref>
+  <related_term.lref>17107</related_term.lref>
+  <related_term.lref>30934</related_term.lref>
+  <related_term.lref>36126</related_term.lref>
+  <related_term.lref>30519</related_term.lref>
+  <related_term.lref>31642</related_term.lref>
+  <related_term.lref>31574</related_term.lref>
+  <related_term.lref>5077</related_term.lref>
+  <related_term.lref>28963</related_term.lref>
+  <related_term.lref>20694</related_term.lref>
+  <related_term.lref>21644</related_term.lref>
+  <related_term.lref>29556</related_term.lref>
+  <related_term.lref>34098</related_term.lref>
+  <related_term.lref>29202</related_term.lref>
+  <related_term.lref>22556</related_term.lref>
+  <related_term.lref>31332</related_term.lref>
+  <related_term.lref>32015</related_term.lref>
+  <related_term.lref>21321</related_term.lref>
+  <related_term.lref>17077</related_term.lref>
+  <related_term.lref>21462</related_term.lref>
+  <related_term.lref>30234</related_term.lref>
+  <related_term.lref>21319</related_term.lref>
+  <related_term.lref>31682</related_term.lref>
+  <related_term.lref>31500</related_term.lref>
+  <related_term.lref>31347</related_term.lref>
+  <related_term.lref>31576</related_term.lref>
+  <related_term.lref>17734</related_term.lref>
+  <related_term.lref>31631</related_term.lref>
+  <related_term.lref>29204</related_term.lref>
+  <related_term.lref>17103</related_term.lref>
+  <related_term.lref>29312</related_term.lref>
+  <related_term.lref>34164</related_term.lref>
+  <related_term.lref>36318</related_term.lref>
+  <related_term.lref>30722</related_term.lref>
+  <related_term.lref>32838</related_term.lref>
+  <related_term.lref>32374</related_term.lref>
+  <related_term.lref>21418</related_term.lref>
+  <related_term.lref>33468</related_term.lref>
+  <related_term.lref>21142</related_term.lref>
+  <related_term.lref>31519</related_term.lref>
+  <related_term.lref>29200</related_term.lref>
+  <related_term.lref>31326</related_term.lref>
+  <related_term.lref>29393</related_term.lref>
+  <related_term.lref>31404</related_term.lref>
+  <related_term.lref>11149</related_term.lref>
+  <related_term.lref>17751</related_term.lref>
+  <related_term.lref>29384</related_term.lref>
+  <related_term.lref>898</related_term.lref>
+  <related_term.lref>17732</related_term.lref>
+  <related_term.lref>31458</related_term.lref>
+  <related_term.lref>31348</related_term.lref>
+  <related_term.lref>102</related_term.lref>
+  <term>
+    <value lang="de-DE" invariant="true">Mann</value>
+    <value lang="en-GB" invariant="false">Man</value>
+  </term>
+  <term.code>sdk:C00282</term.code>
+  <term.status>
+    <value lang="neutral">1</value>
+    <value lang="0">approved preferred term</value>
+    <value lang="1">descriptor</value>
+    <value lang="2">descripteur</value>
+    <value lang="3">Deskriptor</value>
+    <value lang="5">termine preferenziale approvato</value>
+    <value lang="9">godk&#228;nda f&#246;redragen term</value>
+    <value lang="10">&#1502;&#1493;&#1504;&#1495; &#1502;&#1488;&#1493;&#1513;&#1512; &#1502;&#1493;&#1506;&#1491;&#1507;</value>
+    <value lang="11">godkendt foretrukket term</value>
+    <value lang="14">&#25209;&#20934;&#39318;&#36984;&#26781;&#27454;</value>
+  </term.status>
+  <term.type>
+    <value lang="neutral">SUBJECT</value>
+    <value lang="0">subject</value>
+    <value lang="1">onderwerp</value>
+    <value lang="2">sujet</value>
+    <value lang="3">Thema</value>
+    <value lang="4">&#1605;&#1608;&#1590;&#1608;&#1593;</value>
+    <value lang="5">soggetto</value>
+    <value lang="6">&#952;&#941;&#956;&#945;</value>
+    <value lang="9">&#228;mne</value>
+  </term.type>
+  <term.type>
+    <value lang="neutral">KEYWORD</value>
+    <value lang="0">keyword</value>
+    <value lang="1">trefwoord</value>
+    <value lang="2">mot-cl&#233;</value>
+    <value lang="3">Schlagwort</value>
+    <value lang="4">&#1603;&#1604;&#1605;&#1577;.&#1605;&#1601;&#1578;&#1575;&#1581;&#1610;&#1577;</value>
+    <value lang="5">parola chiave</value>
+    <value lang="6">&#955;&#941;&#958;&#951;-&#954;&#955;&#949;&#953;&#948;&#943;</value>
+    <value lang="9">keyword</value>
+  </term.type>
+  <term.type>
+    <value lang="neutral">MOTIF</value>
+    <value lang="0">motif</value>
+    <value lang="1">motief</value>
+    <value lang="2">motif</value>
+    <value lang="3">Motiv</value>
+    <value lang="4">&#1586;&#1582;&#1585;&#1601;&#1577;</value>
+    <value lang="5">motivo</value>
+    <value lang="6">&#956;&#959;&#964;&#943;&#946;&#959;</value>
+    <value lang="9">motiv</value>
+  </term.type>
+  <term.type>
+    <value lang="neutral">SUBJECT</value>
+    <value lang="0">subject</value>
+    <value lang="1">onderwerp</value>
+    <value lang="2">sujet</value>
+    <value lang="3">Thema</value>
+    <value lang="4">&#1605;&#1608;&#1590;&#1608;&#1593;</value>
+    <value lang="5">soggetto</value>
+    <value lang="6">&#952;&#941;&#956;&#945;</value>
+    <value lang="9">&#228;mne</value>
+  </term.type>
+  <used_for>
+    <value lang="de-DE" invariant="true">M&#228;nner</value>
+  </used_for>
+  <used_for.lref>1910</used_for.lref>
+</record>

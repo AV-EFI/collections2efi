@@ -1,0 +1,152 @@
+<record priref="2066" created="2024-11-30T05:55:04" modification="2025-04-29T17:55:15" selected="false" deleted="false">
+  <birth.country>
+    <value lang="de-DE" invariant="true">Deutschland (Deutsches Reich)</value>
+    <value lang="en-GB" invariant="false">Germany (German Reich)</value>
+  </birth.country>
+  <birth.country.lref>8404</birth.country.lref>
+  <birth.date.end>1938-02-05</birth.date.end>
+  <birth.date.start>1938-02-05</birth.date.start>
+  <birth.date.start.index>1938-02-05</birth.date.start.index>
+  <birth.place>
+    <value lang="de-DE" invariant="false">Ulm</value>
+  </birth.place>
+  <birth.place.lref>21878</birth.place.lref>
+  <death.date.end>9999</death.date.end>
+  <death.date.start>9999</death.date.start>
+  <forename>Ula</forename>
+  <gender>
+    <value lang="de-DE" invariant="false">weiblich</value>
+    <value lang="en-GB" invariant="false">female</value>
+  </gender>
+  <gender.lref>44178</gender.lref>
+  <Source>
+    <source>CineGraph</source>
+    <source.number/>
+  </Source>
+  <Source>
+    <source>Wikipedia</source>
+    <source.number>https://de.wikipedia.org/w/index.php?title=Ula_St%C3%B6ckl&amp;oldid=206410045</source.number>
+  </Source>
+  <Source>
+    <source>Gemeinsame Normdatei</source>
+    <source.number>http://d-nb.info/gnd/139373934</source.number>
+  </Source>
+  <Source>
+    <source>IMDb</source>
+    <source.number>https://www.imdb.com/name/nm0836693/?ref_=nv_sr_srsg_8</source.number>
+  </Source>
+  <Source>
+    <source>Filmportal</source>
+    <source.number>https://www.filmportal.de/person/ula-stoeckl_73dccfe23d104964a89de2c83e81b1ae</source.number>
+  </Source>
+  <utb>
+    <utb.content>geb. Ulm, 5. Feb 1938</utb.content>
+    <utb.fieldname>Lebensdaten</utb.fieldname>
+  </utb>
+  <guid>bdc6d1e4-b7e3-4abb-8b59-928b6dbe0212</guid>
+  <institution_code>9003200</institution_code>
+  <name>
+    <value lang="de-DE" invariant="false">St&#246;ckl, Ula</value>
+    <value lang="en-GB" invariant="false">St&#246;ckl, Ula</value>
+  </name>
+  <name.status>
+    <value lang="neutral">1</value>
+    <value lang="0">approved preferred term</value>
+    <value lang="1">descriptor</value>
+    <value lang="2">descripteur</value>
+    <value lang="3">Deskriptor</value>
+    <value lang="5">termine preferenziale approvato</value>
+    <value lang="9">godk&#228;nda f&#246;redragen term</value>
+    <value lang="10">&#1502;&#1493;&#1504;&#1495; &#1502;&#1488;&#1493;&#1513;&#1512; &#1502;&#1493;&#1506;&#1491;&#1507;</value>
+    <value lang="11">godkendt foretrukket term</value>
+    <value lang="14">&#25209;&#20934;&#39318;&#36984;&#26781;&#27454;</value>
+  </name.status>
+  <name.type>
+    <value lang="neutral">CAST</value>
+    <value lang="0">cast</value>
+    <value lang="1">cast</value>
+    <value lang="3">Besetzung</value>
+    <value lang="9">roller</value>
+  </name.type>
+  <name.type>
+    <value lang="neutral">ACQUISITIONSOURCE</value>
+    <value lang="0">acquisition source</value>
+    <value lang="1">verwervingsbron</value>
+    <value lang="2">source d'acquisition</value>
+    <value lang="3">Erwerbungsquelle</value>
+    <value lang="5">fonte di acquisizione</value>
+    <value lang="6">&#960;&#951;&#947;&#942; &#945;&#960;&#972;&#954;&#964;&#951;&#963;&#951;&#962;</value>
+    <value lang="9">f&#246;rv&#228;rv k&#228;lla</value>
+    <value lang="10">&#1502;&#1511;&#1493;&#1512; &#1492;&#1512;&#1499;&#1497;&#1513;&#1492;</value>
+    <value lang="11">accession.kilde</value>
+    <value lang="14">&#34255;&#21697;&#21462;&#24471;&#20358;&#28304;</value>
+  </name.type>
+  <name.type>
+    <value lang="neutral">MAKER</value>
+    <value lang="0">creator</value>
+    <value lang="1">vervaardiger</value>
+    <value lang="2">cr&#233;ateur</value>
+    <value lang="3">Hersteller</value>
+    <value lang="4">&#1575;&#1604;&#1589;&#1575;&#1606;&#1593;</value>
+    <value lang="5">creatore</value>
+    <value lang="6">&#948;&#951;&#956;&#953;&#959;&#965;&#961;&#947;&#972;&#962;</value>
+    <value lang="9">upphov</value>
+    <value lang="10">&#1497;&#1493;&#1510;&#1512;</value>
+    <value lang="11">kunstner</value>
+    <value lang="14">&#21109;&#20316;&#20154;</value>
+  </name.type>
+  <name.type>
+    <value lang="neutral">PERSON</value>
+    <value lang="0">person</value>
+    <value lang="1">persoon</value>
+    <value lang="2">personne</value>
+    <value lang="3">Person</value>
+    <value lang="4">&#1573;&#1587;&#1605; &#1588;&#1582;&#1589;</value>
+    <value lang="5">persona</value>
+    <value lang="6">&#960;&#961;&#972;&#963;&#969;&#960;&#959;</value>
+    <value lang="9">person</value>
+    <value lang="10">&#1488;&#1491;&#1501;</value>
+    <value lang="11">person</value>
+    <value lang="14">&#20154;&#22763;</value>
+  </name.type>
+  <name.type>
+    <value lang="neutral">PERSON</value>
+    <value lang="0">person</value>
+    <value lang="1">persoon</value>
+    <value lang="2">personne</value>
+    <value lang="3">Person</value>
+    <value lang="4">&#1573;&#1587;&#1605; &#1588;&#1582;&#1589;</value>
+    <value lang="5">persona</value>
+    <value lang="6">&#960;&#961;&#972;&#963;&#969;&#960;&#959;</value>
+    <value lang="9">person</value>
+    <value lang="10">&#1488;&#1491;&#1501;</value>
+    <value lang="11">person</value>
+    <value lang="14">&#20154;&#22763;</value>
+  </name.type>
+  <name.type>
+    <value lang="neutral">CREDITS</value>
+    <value lang="0">credits</value>
+    <value lang="1">credits</value>
+    <value lang="3">Credits</value>
+    <value lang="9">krediteringar</value>
+  </name.type>
+  <occupation>
+    <value lang="de-DE" invariant="true">Regisseurin</value>
+    <value lang="en-GB" invariant="false">Director</value>
+  </occupation>
+  <occupation>
+    <value lang="de-DE" invariant="true">Drehbuchautorin</value>
+    <value lang="en-GB" invariant="false">screenwriter</value>
+  </occupation>
+  <occupation.lref>8320</occupation.lref>
+  <occupation.lref>5039</occupation.lref>
+  <priref>2066</priref>
+  <record_access.owner>sdkRedaktion</record_access.owner>
+  <record_type>
+    <value lang="neutral">1</value>
+    <value lang="0">Person</value>
+    <value lang="3">Person</value>
+  </record_type>
+  <reference_number>2748</reference_number>
+  <surname>St&#246;ckl</surname>
+</record>

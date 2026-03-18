@@ -1,6 +1,6 @@
+import datetime
 import logging
 import re
-import datetime
 
 from avefi_schema import model_pydantic_v2 as efi
 
@@ -112,6 +112,7 @@ def compute_display_and_ordering_title(
         return new_title_text, None
 
     return f"{title_article} {title_text}", f"{title_text}, {title_article}"
+
 
 def get_description_resource():
     return efi.DescriptionResource(

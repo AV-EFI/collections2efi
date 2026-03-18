@@ -1,0 +1,130 @@
+<record priref="5733" created="2024-11-30T05:58:14" modification="2024-12-01T07:31:26" selected="false" deleted="false">
+  <birth.date.end>1943-03-09</birth.date.end>
+  <birth.date.start>1943-03-09</birth.date.start>
+  <birth.place>
+    <value lang="de-DE" invariant="false">Schnepfenthal</value>
+  </birth.place>
+  <birth.place.lref>10751</birth.place.lref>
+  <death.country>
+    <value lang="de-DE" invariant="true">Vereinigte Staaten von Amerika</value>
+    <value lang="en-GB" invariant="false">United States of America</value>
+  </death.country>
+  <death.country.lref>5700</death.country.lref>
+  <death.date.end>1997-11-13</death.date.end>
+  <death.date.start>1997-11-13</death.date.start>
+  <death.place>
+    <value lang="de-DE" invariant="true">Los Angeles</value>
+    <value lang="en-GB" invariant="false">Los Angeles</value>
+  </death.place>
+  <death.place.lref>9145</death.place.lref>
+  <forename>Dietrich</forename>
+  <gender>
+    <value lang="de-DE" invariant="false">m&#228;nnlich</value>
+    <value lang="en-GB" invariant="false">male</value>
+  </gender>
+  <gender.lref>44180</gender.lref>
+  <ACCESS_RIGHTS>
+    <record_access.rights>
+      <value lang="neutral">1</value>
+      <value lang="0">Read</value>
+      <value lang="1">Lezen</value>
+      <value lang="2">Lire</value>
+      <value lang="3">Lesen</value>
+      <value lang="10">&#1511;&#1493;&#1512;&#1488;</value>
+      <value lang="11">l&#230;se</value>
+      <value lang="14">&#38321;&#35712;</value>
+    </record_access.rights>
+    <record_access.user>dffb</record_access.user>
+  </ACCESS_RIGHTS>
+  <Place_activity>
+    <place_activity>
+      <value lang="de-DE" invariant="true">Berlin</value>
+      <value lang="en-GB" invariant="false">Berlin</value>
+    </place_activity>
+    <place_activity.date.start>1971</place_activity.date.start>
+    <place_activity.institution>
+      <value lang="de-DE" invariant="true">Deutsche Film- und Fernsehakademie Berlin</value>
+    </place_activity.institution>
+    <place_activity.institution.lref>6431</place_activity.institution.lref>
+    <place_activity.lref>5457</place_activity.lref>
+    <place_activity.type>Dozent</place_activity.type>
+  </Place_activity>
+  <Source>
+    <source>Wikipedia</source>
+    <source.number>https://de.wikipedia.org/wiki/Dietrich_Lohmann</source.number>
+  </Source>
+  <Source>
+    <source>Filmportal</source>
+    <source.number>http://www.filmportal.de/person/dietrich-lohmann_197cbf4e6613430884cef350da8d8fa2</source.number>
+  </Source>
+  <Source>
+    <source>Internet Movie Database</source>
+    <source.number>http://www.filmportal.de/person/dietrich-lohmann_197cbf4e6613430884cef350da8d8fa2</source.number>
+  </Source>
+  <Source>
+    <source>Gemeinsame Normdatei</source>
+    <source.number>http://d-nb.info/gnd/137628382</source.number>
+  </Source>
+  <utb>
+    <utb.content>geb. Schnepfenthal bei Berlin, 9. M&#228;r 1943, gest. Duarte/Kalifornien, 13. Nov 1997</utb.content>
+    <utb.fieldname>Lebensdaten</utb.fieldname>
+  </utb>
+  <guid>7d5abc60-c0ba-496f-9f13-585cb830145a</guid>
+  <name>
+    <value lang="de-DE" invariant="false">Lohmann, Dietrich</value>
+  </name>
+  <name.status>
+    <value lang="neutral">1</value>
+    <value lang="0">approved preferred term</value>
+    <value lang="1">descriptor</value>
+    <value lang="2">descripteur</value>
+    <value lang="3">Deskriptor</value>
+    <value lang="5">termine preferenziale approvato</value>
+    <value lang="9">godk&#228;nda f&#246;redragen term</value>
+    <value lang="10">&#1502;&#1493;&#1504;&#1495; &#1502;&#1488;&#1493;&#1513;&#1512; &#1502;&#1493;&#1506;&#1491;&#1507;</value>
+    <value lang="11">godkendt foretrukket term</value>
+    <value lang="14">&#25209;&#20934;&#39318;&#36984;&#26781;&#27454;</value>
+  </name.status>
+  <name.type>
+    <value lang="neutral">CAST</value>
+    <value lang="0">cast</value>
+    <value lang="1">cast</value>
+    <value lang="3">Besetzung</value>
+    <value lang="9">roller</value>
+  </name.type>
+  <name.type>
+    <value lang="neutral">PERSON</value>
+    <value lang="0">person</value>
+    <value lang="1">persoon</value>
+    <value lang="2">personne</value>
+    <value lang="3">Person</value>
+    <value lang="4">&#1573;&#1587;&#1605; &#1588;&#1582;&#1589;</value>
+    <value lang="5">persona</value>
+    <value lang="6">&#960;&#961;&#972;&#963;&#969;&#960;&#959;</value>
+    <value lang="9">person</value>
+    <value lang="10">&#1488;&#1491;&#1501;</value>
+    <value lang="11">person</value>
+    <value lang="14">&#20154;&#22763;</value>
+  </name.type>
+  <name.type>
+    <value lang="neutral">CREDITS</value>
+    <value lang="0">credits</value>
+    <value lang="1">credits</value>
+    <value lang="3">Credits</value>
+    <value lang="9">krediteringar</value>
+  </name.type>
+  <occupation>
+    <value lang="de-DE" invariant="true">Kameramann</value>
+    <value lang="en-GB" invariant="false">cameraman</value>
+  </occupation>
+  <occupation.lref>5029</occupation.lref>
+  <priref>5733</priref>
+  <record_access.owner>sdkRedaktion</record_access.owner>
+  <record_type>
+    <value lang="neutral">1</value>
+    <value lang="0">Person</value>
+    <value lang="3">Person</value>
+  </record_type>
+  <reference_number>9752</reference_number>
+  <surname>Lohmann</surname>
+</record>

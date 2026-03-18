@@ -1,0 +1,31 @@
+category: avefi:Item
+described_by:
+  has_issuer_id: https://w3id.org/isil/DE-MUS-407010
+  has_issuer_name: Deutsche Kinemathek - Museum für Film und Fernsehen
+  last_modified: '2024-01-01T00:00:00'
+has_access_status: Master
+has_colour_type: Colour
+has_duration:
+  has_value: PT1H30M23S
+has_extent:
+  has_precision: Approximate
+  has_unit: GigaByte
+  has_value: '108'
+has_format:
+- category: avefi:DigitalFile
+  type: MOV
+has_frame_rate: 24fps
+has_identifier:
+- category: avefi:LocalResource
+  id: '200236329'
+- category: avefi:AVefiResource
+  id: 21.11155/20224790-19E0-4A5D-B5A3-47B2695450DF
+has_primary_title:
+  has_name: Neun Leben hat die Katze
+  type: TitleProper
+has_sound_type: Silent
+has_webresource:
+- https://sammlungen.deutsche-kinemathek.de/recherche/itemdetails/sdk200236329
+is_item_of:
+  category: avefi:LocalResource
+  id: '200313682'

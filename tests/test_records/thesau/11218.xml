@@ -1,0 +1,57 @@
+<record priref="11218" created="2024-11-30T05:14:08" modification="2024-11-30T05:14:08" selected="false" deleted="false">
+  <Source>
+    <scope_note>Emanzipation stammt von dem lateinischen emancipatio, was &#8222;Entlassung aus der v&#228;terlichen Gewalt&#8220; oder auch die &#8222;Freilassung eines Sklaven&#8220; bedeutet.
+Im 17./18. Jahrhundert erfolgte eine Bedeutungsverschiebung: Aus dem Akt des Gew&#228;hrens von Selbstst&#228;ndigkeit wurde eine Aktion gesellschaftlicher und insbesondere politischer Selbstbefreiung (siehe auch M&#252;ndigkeit (Philosophie)). Neben die &#228;u&#223;ere tritt die innere Emanzipation: als Befreiung aus eigener Unm&#252;ndigkeit und den Fesseln von Tradition, gesellschaftlichen Normen und vorgegebener Weltanschauung. Ziel emanzipatorischen Bestrebens ist ein Zugewinn an Freiheit oder Gleichheit, meist durch Kritik an Diskriminierung oder hegemonialen z. B. paternalistischen Strukturen, oder auch die Verringerung von z. B. seelischer, &#246;konomischer Abh&#228;ngigkeit, etwa von den Eltern.</scope_note>
+    <source>Wikipedia</source>
+    <source.number>https://de.wikipedia.org/w/index.php?title=Emanzipation&amp;oldid=164220329</source.number>
+  </Source>
+  <Source>
+    <source>Gemeinsame Normdatei</source>
+    <source.number>http://d-nb.info/gnd/4130667-3</source.number>
+  </Source>
+  <guid>bcb7e58c-d035-4d3f-8264-1415ee6b27f1</guid>
+  <narrower_term>
+    <value lang="de-DE" invariant="true">Frauenbewegung</value>
+    <value lang="en-GB" invariant="false">women's movement</value>
+  </narrower_term>
+  <narrower_term.lref>157</narrower_term.lref>
+  <priref>11218</priref>
+  <record_access.owner>sdkAdmin</record_access.owner>
+  <term>
+    <value lang="de-DE" invariant="false">Emanzipation</value>
+  </term>
+  <term.status>
+    <value lang="neutral">1</value>
+    <value lang="0">approved preferred term</value>
+    <value lang="1">descriptor</value>
+    <value lang="2">descripteur</value>
+    <value lang="3">Deskriptor</value>
+    <value lang="5">termine preferenziale approvato</value>
+    <value lang="9">godk&#228;nda f&#246;redragen term</value>
+    <value lang="10">&#1502;&#1493;&#1504;&#1495; &#1502;&#1488;&#1493;&#1513;&#1512; &#1502;&#1493;&#1506;&#1491;&#1507;</value>
+    <value lang="11">godkendt foretrukket term</value>
+    <value lang="14">&#25209;&#20934;&#39318;&#36984;&#26781;&#27454;</value>
+  </term.status>
+  <term.type>
+    <value lang="neutral">SUBJECT</value>
+    <value lang="0">subject</value>
+    <value lang="1">onderwerp</value>
+    <value lang="2">sujet</value>
+    <value lang="3">Thema</value>
+    <value lang="4">&#1605;&#1608;&#1590;&#1608;&#1593;</value>
+    <value lang="5">soggetto</value>
+    <value lang="6">&#952;&#941;&#956;&#945;</value>
+    <value lang="9">&#228;mne</value>
+  </term.type>
+  <term.type>
+    <value lang="neutral">SUBJECT</value>
+    <value lang="0">subject</value>
+    <value lang="1">onderwerp</value>
+    <value lang="2">sujet</value>
+    <value lang="3">Thema</value>
+    <value lang="4">&#1605;&#1608;&#1590;&#1608;&#1593;</value>
+    <value lang="5">soggetto</value>
+    <value lang="6">&#952;&#941;&#956;&#945;</value>
+    <value lang="9">&#228;mne</value>
+  </term.type>
+</record>

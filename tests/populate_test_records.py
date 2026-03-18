@@ -24,55 +24,18 @@ COLLECT_RECORDS_PATH = os.path.join(TEST_RECORDS_BASE_PATH, "test_records", "col
 THESAU_RECORDS_PATH = os.path.join(TEST_RECORDS_BASE_PATH, "test_records", "thesau")
 PEOPLE_RECORDS_PATH = os.path.join(TEST_RECORDS_BASE_PATH, "test_records", "people")
 
-
-def get_prirefs_from_tests():
-    test_dirs = ["manifestations", "work", "item"]
-    test_files = []
-    for directory in test_dirs:
-        path = os.path.join(SCRIPT_DIR, directory)
-        test_files.extend(glob.glob(f"{path}/**/*.py", recursive=True))
-
-    logging.info(f"Found test files: {test_files}")
-    prirefs = set()
-    for file_path in test_files:
-        logging.info(f"Processing file: {file_path}")
-        with open(file_path, "r") as f:
-            content = f.read()
-            try:
-                tree = ast.parse(content)
-                for node in ast.walk(tree):
-                    if isinstance(node, ast.FunctionDef):
-                        for decorator in node.decorator_list:
-                            if (
-                                isinstance(decorator, ast.Call)
-                                and isinstance(decorator.func, ast.Attribute)
-                                and isinstance(decorator.func.value, ast.Attribute)
-                                and decorator.func.value.value.id == "pytest"
-                                and decorator.func.value.attr == "mark"
-                                and decorator.func.attr == "parametrize"
-                            ):
-                                if (
-                                    len(decorator.args) > 1
-                                    and isinstance(decorator.args[0], ast.Constant)
-                                    and "priref" in decorator.args[0].value
-                                ):
-                                    if isinstance(
-                                        decorator.args[1], (ast.List, ast.Tuple)
-                                    ):
-                                        for element in decorator.args[1].elts:
-                                            if isinstance(
-                                                element, (ast.List, ast.Tuple)
-                                            ):
-                                                if len(element.elts) > 0 and isinstance(
-                                                    element.elts[0], ast.Constant
-                                                ):
-                                                    prirefs.add(
-                                                        str(element.elts[0].value)
-                                                    )
-            except Exception as e:
-                logging.error(f"Error parsing {file_path}: {e}")
-
-    return list(prirefs)
+PRIREFS_TO_FETCH = [
+    "200000127",
+    "200000687",
+    "200044362",
+    "200152050",
+    "200221452",
+    "200236329",
+    "200322007",
+    "200322201",
+    "200323440",
+    "200339241",
+]
 
 
 def clear_directory(path):
@@ -101,7 +64,7 @@ def save_xml(record_xml, path, priref):
 
 
 def main():
-    collect_prirefs = get_prirefs_from_tests()
+    collect_prirefs = PRIREFS_TO_FETCH
     if not collect_prirefs:
         logging.warning("No prirefs found in test files. Exiting.")
         return

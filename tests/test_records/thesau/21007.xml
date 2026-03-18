@@ -1,0 +1,40 @@
+<record priref="21007" created="2024-11-30T05:18:55" modification="2024-11-30T05:18:55" selected="false" deleted="false">
+  <Source>
+    <scope_note>Ehebruch wurde bis zum 21. Jahrhundert in Europa als &#8222;der zumindest bedingt vors&#228;tzliche Vollzug des Beischlafs eines Ehegatten mit einer dritten Person anderen Geschlechts&#8220; definiert. In zahlreichen L&#228;ndern stellt Ehebruch keine Straftat dar; in Deutschland wurde 1969 auch das Moment der schuldhaften Eheverfehlung aus dem Familienrecht gestrichen. Vor allem in Gesellschaften mit patrilinearen Gesellschaftsordnungen wird Ehebruch der Frau streng bestraft.</scope_note>
+    <source>Wikipedia</source>
+    <source.number>https://de.wikipedia.org/w/index.php?title=Ehebruch&amp;oldid=191917548</source.number>
+  </Source>
+  <Source>
+    <source>Gemeinsame Normdatei</source>
+    <source.number>http://d-nb.info/gnd/4013632-2</source.number>
+  </Source>
+  <guid>bec904fa-c437-4ee3-8c72-1479a2ccd684</guid>
+  <priref>21007</priref>
+  <record_access.owner>sdkAdmin</record_access.owner>
+  <term>
+    <value lang="de-DE" invariant="false">Ehebruch</value>
+  </term>
+  <term.status>
+    <value lang="neutral">1</value>
+    <value lang="0">approved preferred term</value>
+    <value lang="1">descriptor</value>
+    <value lang="2">descripteur</value>
+    <value lang="3">Deskriptor</value>
+    <value lang="5">termine preferenziale approvato</value>
+    <value lang="9">godk&#228;nda f&#246;redragen term</value>
+    <value lang="10">&#1502;&#1493;&#1504;&#1495; &#1502;&#1488;&#1493;&#1513;&#1512; &#1502;&#1493;&#1506;&#1491;&#1507;</value>
+    <value lang="11">godkendt foretrukket term</value>
+    <value lang="14">&#25209;&#20934;&#39318;&#36984;&#26781;&#27454;</value>
+  </term.status>
+  <term.type>
+    <value lang="neutral">SUBJECT</value>
+    <value lang="0">subject</value>
+    <value lang="1">onderwerp</value>
+    <value lang="2">sujet</value>
+    <value lang="3">Thema</value>
+    <value lang="4">&#1605;&#1608;&#1590;&#1608;&#1593;</value>
+    <value lang="5">soggetto</value>
+    <value lang="6">&#952;&#941;&#956;&#945;</value>
+    <value lang="9">&#228;mne</value>
+  </term.type>
+</record>

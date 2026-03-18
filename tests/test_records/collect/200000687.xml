@@ -1,0 +1,1937 @@
+<record priref="200000687" created="2024-12-05T13:39:56" modification="2025-08-21T12:30:22" selected="false" deleted="false">
+  <copy_usage>
+    <value lang="neutral">6</value>
+    <value lang="0">Rental Deutsche Kinemathek</value>
+    <value lang="3">Verleih Deutsche Kinemathek</value>
+  </copy_usage>
+  <DAM_MAN_deeplink>https://sammlungen.deutsche-kinemathek.de/flow2/workdetails/sdk200000687</DAM_MAN_deeplink>
+  <dataset_name>
+    <value lang="neutral">film</value>
+    <value lang="0">Moving image catalogue</value>
+    <value lang="1">Filmcatalogus</value>
+    <value lang="2">Registres de la cin&#233;matographie</value>
+    <value lang="3">Filmkatalog</value>
+  </dataset_name>
+  <department>
+    <value lang="de-DE" invariant="false">Filmarchiv</value>
+  </department>
+  <department.lref>3264</department.lref>
+  <Alternative_number>
+    <alternative_number>dc565007bfe44efd97d804567dc508f2</alternative_number>
+    <alternative_number.type>
+      <value lang="de-DE" invariant="false">ref_filmportal</value>
+    </alternative_number.type>
+    <alternative_number.type.lref>8560</alternative_number.type.lref>
+  </Alternative_number>
+  <Alternative_number>
+    <alternative_number>1032499</alternative_number>
+    <alternative_number.type>
+      <value lang="de-DE" invariant="false">ref_vdb</value>
+    </alternative_number.type>
+    <alternative_number.type.lref>12511</alternative_number.type.lref>
+  </Alternative_number>
+  <Content_genre>
+    <content.genre>
+      <value lang="de-DE" invariant="false">Drama</value>
+    </content.genre>
+    <content.genre.lref>8059</content.genre.lref>
+  </Content_genre>
+  <Content_subject>
+    <content.subject>
+      <value lang="de-DE" invariant="false">Ehebruch</value>
+    </content.subject>
+    <content.subject.lref>21007</content.subject.lref>
+  </Content_subject>
+  <Content_subject>
+    <content.subject>
+      <value lang="de-DE" invariant="false">Emanzipation</value>
+    </content.subject>
+    <content.subject.lref>11218</content.subject.lref>
+  </Content_subject>
+  <Content_subject>
+    <content.subject>
+      <value lang="de-DE" invariant="false">Feminismus</value>
+    </content.subject>
+    <content.subject.lref>8170</content.subject.lref>
+  </Content_subject>
+  <Content_subject>
+    <content.subject>
+      <value lang="de-DE" invariant="true">Blume</value>
+      <value lang="en-GB" invariant="false">Flower</value>
+    </content.subject>
+    <content.subject.lref>626</content.subject.lref>
+  </Content_subject>
+  <Content_subject>
+    <content.subject>
+      <value lang="de-DE" invariant="false">Frauenfreundschaft</value>
+    </content.subject>
+    <content.subject.lref>43216</content.subject.lref>
+  </Content_subject>
+  <Content_subject>
+    <content.subject>
+      <value lang="de-DE" invariant="false">Freundschaft</value>
+    </content.subject>
+    <content.subject.lref>8103</content.subject.lref>
+  </Content_subject>
+  <Content_subject>
+    <content.subject>
+      <value lang="de-DE" invariant="true">Journalistin</value>
+      <value lang="en-GB" invariant="false">journalist</value>
+    </content.subject>
+    <content.subject.lref>846</content.subject.lref>
+  </Content_subject>
+  <Content_subject>
+    <content.subject>
+      <value lang="de-DE" invariant="true">Mann</value>
+      <value lang="en-GB" invariant="false">Man</value>
+    </content.subject>
+    <content.subject.lref>282</content.subject.lref>
+  </Content_subject>
+  <Content_subject>
+    <content.subject>
+      <value lang="de-DE" invariant="true">M&#252;nchen</value>
+      <value lang="en-GB" invariant="false">Munich</value>
+    </content.subject>
+    <content.subject.lref>8849</content.subject.lref>
+  </Content_subject>
+  <Content_subject>
+    <content.subject>
+      <value lang="de-DE" invariant="true">S&#228;ngerin</value>
+      <value lang="en-GB" invariant="false">singer</value>
+    </content.subject>
+    <content.subject.lref>5055</content.subject.lref>
+  </Content_subject>
+  <Content_subject>
+    <content.subject>
+      <value lang="de-DE" invariant="true">Sommer</value>
+      <value lang="en-GB" invariant="false">summer</value>
+    </content.subject>
+    <content.subject.lref>208</content.subject.lref>
+  </Content_subject>
+  <Content_subject>
+    <content.subject>
+      <value lang="de-DE" invariant="true">Frau</value>
+      <value lang="en-GB" invariant="false">Woman</value>
+    </content.subject>
+    <content.subject.lref>281</content.subject.lref>
+  </Content_subject>
+  <Credits>
+    <credit.name>
+      <value lang="de-DE" invariant="false">St&#246;ckl, Ula</value>
+      <value lang="en-GB" invariant="false">St&#246;ckl, Ula</value>
+    </credit.name>
+    <credit.name.lref>2066</credit.name.lref>
+    <credit.on_screen/>
+    <credit.sequence>C001a</credit.sequence>
+    <credit.type>
+      <value lang="de-DE" invariant="true">Regie</value>
+      <value lang="en-GB" invariant="false">Director</value>
+    </credit.type>
+    <credit.type.lref>5238</credit.type.lref>
+  </Credits>
+  <Credits>
+    <credit.name>
+      <value lang="de-DE" invariant="false">St&#246;ckl, Ula</value>
+      <value lang="en-GB" invariant="false">St&#246;ckl, Ula</value>
+    </credit.name>
+    <credit.name.lref>2066</credit.name.lref>
+    <credit.on_screen/>
+    <credit.sequence>C002b</credit.sequence>
+    <credit.type>
+      <value lang="de-DE" invariant="true">Drehbuch</value>
+      <value lang="en-GB" invariant="false">Screenplay</value>
+    </credit.type>
+    <credit.type.lref>5286</credit.type.lref>
+  </Credits>
+  <Credits>
+    <credit.name>
+      <value lang="de-DE" invariant="false">Mauch, Thomas</value>
+    </credit.name>
+    <credit.name.lref>8615</credit.name.lref>
+    <credit.on_screen>(uncredited)</credit.on_screen>
+    <credit.sequence>C003a</credit.sequence>
+    <credit.type>
+      <value lang="de-DE" invariant="true">Kamera</value>
+      <value lang="en-GB" invariant="false">Director of Photography</value>
+    </credit.type>
+    <credit.type.lref>33810</credit.type.lref>
+  </Credits>
+  <Credits>
+    <credit.name>
+      <value lang="de-DE" invariant="false">Lohmann, Dietrich</value>
+    </credit.name>
+    <credit.name.lref>5733</credit.name.lref>
+    <credit.sequence>C003a</credit.sequence>
+    <credit.type>
+      <value lang="de-DE" invariant="true">Kamera</value>
+      <value lang="en-GB" invariant="false">Director of Photography</value>
+    </credit.type>
+    <credit.type.lref>33810</credit.type.lref>
+  </Credits>
+  <Credits>
+    <credit.name>
+      <value lang="de-DE" invariant="false">Schacht, Wolfgang</value>
+    </credit.name>
+    <credit.name.lref>176718</credit.name.lref>
+    <credit.sequence>C004a</credit.sequence>
+    <credit.type>
+      <value lang="de-DE" invariant="false">Schnitt</value>
+      <value lang="en-GB" invariant="false">Editor</value>
+    </credit.type>
+    <credit.type.lref>5305</credit.type.lref>
+  </Credits>
+  <Dating>
+    <dating.date.end>1968</dating.date.end>
+    <dating.date.start>1968</dating.date.start>
+  </Dating>
+  <Description>
+    <description>
+      <value lang="de-DE" invariant="false">M&#252;nchen im Sommer 1967. Die Journalistin Katharina erh&#228;lt Besuch von ihrer franz&#246;sischen Freundin Anne. Sie unternehmen Ausfl&#252;ge, besuchen Caf&#233;s, Bekannte und Partys. Dabei erkunden sie in Gespr&#228;chen die Chancen weiblicher Emanzipation in einer m&#228;nnlich gepr&#228;gten Gesellschaft. Der essayistische Spielfilm stellt f&#252;nf Frauentypen ins Zentrum der episodischen Handlung: die nicht verheiratete berufst&#228;tige Frau, die Geschiedene, die sich um die Zukunft sorgt, die Karrierefrau, die Betrogene und eine &#8222;Traumfrau&#8220;. Ula St&#246;ckl, 1968: &#8222;Nie hatten Frauen so viele M&#246;glichkeiten, ihr Leben einzurichten, wie sie es wollen. Aber jetzt m&#252;ssen sie &#252;berhaupt erst lernen, dass sie etwas wollen k&#246;nnen.&#8220; Entschieden subjektiv und dabei dem franz&#246;sischen Cin&#233;ma v&#233;rit&#233; verpflichtet, sp&#252;rt die Regisseurin in ihrer impressionistischen Montage weiblichen Lebenspl&#228;nen und Lustfantasien nach. Als ein ebenso kluger wie bet&#246;rend pr&#228;chtiger Wachtraum in Cinemascope und Technicolor eroberte sich Neun Leben hat die Katze einen Ehrenplatz als &#8222;der erste feministische Film&#8220; der Bundesrepublik (Christa Maerker).</value>
+    </description>
+    <description.date>2019</description.date>
+    <description.name>
+      <value lang="de-DE" invariant="false">Sch&#246;ning, J&#246;rg</value>
+    </description.name>
+    <description.name.lref>182707</description.name.lref>
+    <description.type>
+      <value lang="de-DE" invariant="false">Inhaltsangabe</value>
+    </description.type>
+    <description.type.lref>7969</description.type.lref>
+    <description.URL>https://www.berlinale.de/de/archiv/jahresarchive/2019/02_programm_2019/02_filmdatenblatt_2019_201901517.html</description.URL>
+  </Description>
+  <Description>
+    <description>
+      <value lang="de-DE" invariant="false"/>
+      <value lang="en-GB" invariant="false">In the summer of 1967, journalist Katharina is visited in Munich by her French friend, Anne. They take day trips and visit caf&#233;s, acquaintances, and parties. In a series of conversations, they talk about the chances for female emancipation in a male-dominated society &#8230;
+This essayistic film puts five different types of women at the centre of the episodic narrative &#8211; an unmarried professional woman, a divorcee confused about her future, a career woman, a deceived wife, and a &#8220;dream woman&#8221;. Director Ula St&#246;ckl said in 1968, &#8220;women have never had so many chances to organise their lives the way they want. But first they have to learn that they can want something&#8221;. With a nod to French cin&#233;ma v&#233;rit&#233; and a decidedly subjective point of view, the director uses impressionist techniques to explore female ambition and desire. Like a sumptuous waking dream in Cinemascope and Technicolor that is as wise as it is enchanting, The Cat Has Nine Lives garnered pride of place as West Germany&#8217;s &#8220;first feminist film&#8221; (Christa Maerker).</value>
+    </description>
+  </Description>
+  <Digital_reference>
+    <digital_reference>https://vimeo.com/261277614/48fc74cd0d</digital_reference>
+    <digital_reference.availability>
+      <value lang="neutral">WEB</value>
+      <value lang="0">Web</value>
+      <value lang="3">Internet</value>
+    </digital_reference.availability>
+    <digital_reference.description>
+      <value lang="de-DE" invariant="false">Vimeo Link Sichtungskopie (EN UT)</value>
+    </digital_reference.description>
+  </Digital_reference>
+  <event>
+    <event.number>E-2824</event.number>
+    <event.number.lref>2818</event.number.lref>
+    <event.number_filemaker/>
+    <event.occasion/>
+    <event.specific_type>
+      <value lang="de-DE" invariant="false">Retrospektive</value>
+    </event.specific_type>
+    <event.start_date>2019</event.start_date>
+    <event.type>
+      <value lang="neutral">PUBLICATION</value>
+      <value lang="0">Publication</value>
+      <value lang="1">publicatie</value>
+      <value lang="3">Ver&#246;ffentlichung</value>
+      <value lang="9">Visning</value>
+    </event.type>
+    <event.verdict/>
+  </event>
+  <event>
+    <event.number>E-1931</event.number>
+    <event.number.lref>1927</event.number.lref>
+    <event.number_filemaker>858</event.number_filemaker>
+    <event.occasion/>
+    <event.specific_type>
+      <value lang="de-DE" invariant="false">Retrospektive</value>
+    </event.specific_type>
+    <event.start_date>2002-02-06</event.start_date>
+    <event.type>
+      <value lang="neutral">PUBLICATION</value>
+      <value lang="0">Publication</value>
+      <value lang="1">publicatie</value>
+      <value lang="3">Ver&#246;ffentlichung</value>
+      <value lang="9">Visning</value>
+    </event.type>
+    <event.verdict/>
+  </event>
+  <Exhibition>
+    <exhibition>Der Deutsche Film - Von 1895 bis heute</exhibition>
+    <exhibition.date.end>2024-08-18</exhibition.date.end>
+    <exhibition.date.start>2023-09-11</exhibition.date.start>
+    <exhibition.lref>388833</exhibition.lref>
+    <exhibition.organiser>
+      <value lang="de-DE" invariant="false">Weltkulturerbe V&#246;lklinger H&#252;tte</value>
+    </exhibition.organiser>
+    <exhibition.reference_number>2254</exhibition.reference_number>
+    <exhibition.venue>
+      <value lang="de-DE" invariant="false">Weltkulturerbe V&#246;lklinger H&#252;tte</value>
+    </exhibition.venue>
+    <exhibition.venue.place>
+      <value lang="de-DE" invariant="false">V&#246;lklingen</value>
+    </exhibition.venue.place>
+  </Exhibition>
+  <External_ID>
+    <external_identifier>https://www.imdb.com/title/tt0130141/</external_identifier>
+    <external_identifier.date>2023-06-06</external_identifier.date>
+    <external_identifier.primary/>
+    <external_identifier_domain>Internet Movie Database</external_identifier_domain>
+  </External_ID>
+  <External_ID>
+    <external_identifier>http://www.filmportal.de/film/dc565007bfe44efd97d804567dc508f2</external_identifier>
+    <external_identifier.date>2020-10-22</external_identifier.date>
+    <external_identifier.primary>x</external_identifier.primary>
+    <external_identifier_domain>Filmportal</external_identifier_domain>
+  </External_ID>
+  <Parts>
+    <parts.condition.date/>
+    <parts.current_location.name/>
+    <parts.default_location.name/>
+    <parts.dimension.value/>
+    <parts.lead_word/>
+    <parts.part/>
+    <parts.record_type>
+      <value lang="neutral">MANIFESTATION</value>
+      <value lang="0">Manifestation</value>
+      <value lang="1">Manifestatie</value>
+      <value lang="3">Manifestation</value>
+      <value lang="9">Manifestation</value>
+    </parts.record_type>
+    <parts.reference.lref>200042526</parts.reference.lref>
+    <parts.title>Neun Leben hat die Katze</parts.title>
+    <parts_reference>1201017</parts_reference>
+  </Parts>
+  <Parts>
+    <parts.condition.date/>
+    <parts.current_location.name/>
+    <parts.default_location.name/>
+    <parts.dimension.value/>
+    <parts.lead_word/>
+    <parts.part/>
+    <parts.record_type>
+      <value lang="neutral">MANIFESTATION</value>
+      <value lang="0">Manifestation</value>
+      <value lang="1">Manifestatie</value>
+      <value lang="3">Manifestation</value>
+      <value lang="9">Manifestation</value>
+    </parts.record_type>
+    <parts.reference.lref>200222251</parts.reference.lref>
+    <parts.title>Neun Leben hat die Katze</parts.title>
+    <parts_reference>1295573</parts_reference>
+  </Parts>
+  <Parts>
+    <parts.condition.date/>
+    <parts.current_location.name/>
+    <parts.default_location.name/>
+    <parts.dimension.value/>
+    <parts.lead_word/>
+    <parts.part/>
+    <parts.record_type>
+      <value lang="neutral">MANIFESTATION</value>
+      <value lang="0">Manifestation</value>
+      <value lang="1">Manifestatie</value>
+      <value lang="3">Manifestation</value>
+      <value lang="9">Manifestation</value>
+    </parts.record_type>
+    <parts.reference.lref>200222250</parts.reference.lref>
+    <parts.title>Neun Leben hat die Katze</parts.title>
+    <parts_reference>1295572</parts_reference>
+  </Parts>
+  <Parts>
+    <parts.condition.date/>
+    <parts.current_location.name/>
+    <parts.default_location.name/>
+    <parts.dimension.type>
+      <value lang="de-DE" invariant="true">L&#228;nge</value>
+      <value lang="en-GB" invariant="false">length</value>
+    </parts.dimension.type>
+    <parts.dimension.unit>
+      <value lang="de-DE" invariant="false">m</value>
+    </parts.dimension.unit>
+    <parts.dimension.value>2490</parts.dimension.value>
+    <parts.lead_word/>
+    <parts.part/>
+    <parts.record_type>
+      <value lang="neutral">MANIFESTATION</value>
+      <value lang="0">Manifestation</value>
+      <value lang="1">Manifestatie</value>
+      <value lang="3">Manifestation</value>
+      <value lang="9">Manifestation</value>
+    </parts.record_type>
+    <parts.reference.lref>200152885</parts.reference.lref>
+    <parts.title>Neun Leben hat die Katze</parts.title>
+    <parts_reference>1271666</parts_reference>
+  </Parts>
+  <Parts>
+    <parts.condition.date/>
+    <parts.current_location.name/>
+    <parts.default_location.name/>
+    <parts.dimension.value/>
+    <parts.lead_word/>
+    <parts.part/>
+    <parts.record_type>
+      <value lang="neutral">MANIFESTATION</value>
+      <value lang="0">Manifestation</value>
+      <value lang="1">Manifestatie</value>
+      <value lang="3">Manifestation</value>
+      <value lang="9">Manifestation</value>
+    </parts.record_type>
+    <parts.reference.lref>200313682</parts.reference.lref>
+    <parts.title>Neun Leben hat die Katze</parts.title>
+    <parts_reference>1303339</parts_reference>
+  </Parts>
+  <Parts>
+    <parts.condition.date/>
+    <parts.current_location.name/>
+    <parts.default_location.name/>
+    <parts.dimension.type>
+      <value lang="de-DE" invariant="true">Laufzeit</value>
+      <value lang="en-GB" invariant="false">runtime</value>
+    </parts.dimension.type>
+    <parts.dimension.unit>
+      <value lang="de-DE" invariant="false">min,sek</value>
+      <value lang="en-GB" invariant="false">min.sec</value>
+    </parts.dimension.unit>
+    <parts.dimension.value>91</parts.dimension.value>
+    <parts.lead_word/>
+    <parts.part/>
+    <parts.record_type>
+      <value lang="neutral">MANIFESTATION</value>
+      <value lang="0">Manifestation</value>
+      <value lang="1">Manifestatie</value>
+      <value lang="3">Manifestation</value>
+      <value lang="9">Manifestation</value>
+    </parts.record_type>
+    <parts.reference.lref>200152886</parts.reference.lref>
+    <parts.title>Neun Leben hat die Katze</parts.title>
+    <parts_reference>1271667</parts_reference>
+  </Parts>
+  <Parts>
+    <parts.condition.date/>
+    <parts.current_location.name/>
+    <parts.default_location.name/>
+    <parts.dimension.type>
+      <value lang="de-DE" invariant="true">Laufzeit</value>
+      <value lang="en-GB" invariant="false">runtime</value>
+    </parts.dimension.type>
+    <parts.dimension.unit>
+      <value lang="de-DE" invariant="false">min,sek</value>
+      <value lang="en-GB" invariant="false">min.sec</value>
+    </parts.dimension.unit>
+    <parts.dimension.value>407</parts.dimension.value>
+    <parts.lead_word/>
+    <parts.part/>
+    <parts.record_type>
+      <value lang="neutral">MANIFESTATION</value>
+      <value lang="0">Manifestation</value>
+      <value lang="1">Manifestatie</value>
+      <value lang="3">Manifestation</value>
+      <value lang="9">Manifestation</value>
+    </parts.record_type>
+    <parts.reference.lref>200322409</parts.reference.lref>
+    <parts.title>Selbst bestimmt. Perspektiven von Filmemacherinnen</parts.title>
+    <parts_reference>1312109</parts_reference>
+  </Parts>
+  <PIDdata>
+    <PID_data_URI>https://hdl.handle.net/21.11155/5F55A580-C70F-40C8-A771-07EAD9635ABD</PID_data_URI>
+  </PIDdata>
+  <Production>
+    <production_country>
+      <value lang="de-DE" invariant="true">Bundesrepublik Deutschland (BRD)</value>
+      <value lang="en-GB" invariant="false">Federal Republic of Germany</value>
+    </production_country>
+    <production_country.lref>9646</production_country.lref>
+  </Production>
+  <production_company>
+    <production_company>
+      <value lang="de-DE" invariant="true">Filmproduktion Ula St&#246;ckl, Thomas Mauch (M&#252;nchen)</value>
+    </production_company>
+    <production_company.lref>2067</production_company.lref>
+  </production_company>
+  <Related_object>
+    <related_object.dataset>
+      <value lang="neutral">archivecatalogue</value>
+      <value lang="0">Archives catalogue</value>
+      <value lang="1">Archieven (catalogus)</value>
+      <value lang="2">Archives (catalogue)</value>
+      <value lang="3">Archiv (Katalog)</value>
+      <value lang="4">&#1575;&#1604;&#1571;&#1585;&#1588;&#1610;&#1601;&#1575;&#1578;(&#1601;&#1607;&#1585;&#1587;)</value>
+      <value lang="5">Archivi (catalogo)</value>
+      <value lang="6">&#913;&#961;&#967;&#949;&#943;&#945; (&#954;&#945;&#964;&#940;&#955;&#959;&#947;&#959;&#962;)</value>
+    </related_object.dataset>
+    <related_object.date.end>1968</related_object.date.end>
+    <related_object.date.start>1968</related_object.date.start>
+    <related_object.object_name>
+      <value lang="de-DE" invariant="false">Aushangfotografie</value>
+    </related_object.object_name>
+    <related_object.record_type>
+      <value lang="neutral">FILE</value>
+      <value lang="0">file</value>
+      <value lang="1">bestanddeel</value>
+      <value lang="3">Akte</value>
+    </related_object.record_type>
+    <related_object.reference>200711_40</related_object.reference>
+    <related_object.reference.lref>110048543</related_object.reference.lref>
+    <related_object.title>Aushangsfotos, Textlisten "Neun Leben hat die Katze"</related_object.title>
+    <related_object.title.article/>
+  </Related_object>
+  <Related_object>
+    <related_object.dataset>
+      <value lang="neutral">archivecatalogue</value>
+      <value lang="0">Archives catalogue</value>
+      <value lang="1">Archieven (catalogus)</value>
+      <value lang="2">Archives (catalogue)</value>
+      <value lang="3">Archiv (Katalog)</value>
+      <value lang="4">&#1575;&#1604;&#1571;&#1585;&#1588;&#1610;&#1601;&#1575;&#1578;(&#1601;&#1607;&#1585;&#1587;)</value>
+      <value lang="5">Archivi (catalogo)</value>
+      <value lang="6">&#913;&#961;&#967;&#949;&#943;&#945; (&#954;&#945;&#964;&#940;&#955;&#959;&#947;&#959;&#962;)</value>
+    </related_object.dataset>
+    <related_object.date.end/>
+    <related_object.date.start/>
+    <related_object.object_name>
+      <value lang="de-DE" invariant="false">Aushangfotografie</value>
+    </related_object.object_name>
+    <related_object.record_type>
+      <value lang="neutral">FILE</value>
+      <value lang="0">file</value>
+      <value lang="1">bestanddeel</value>
+      <value lang="3">Akte</value>
+    </related_object.record_type>
+    <related_object.reference>200711_41_1</related_object.reference>
+    <related_object.reference.lref>110048544</related_object.reference.lref>
+    <related_object.title>Aushangsfoto "Neun Leben hat die Katze"</related_object.title>
+    <related_object.title.article/>
+  </Related_object>
+  <Related_object>
+    <related_object.dataset>
+      <value lang="neutral">archivecatalogue</value>
+      <value lang="0">Archives catalogue</value>
+      <value lang="1">Archieven (catalogus)</value>
+      <value lang="2">Archives (catalogue)</value>
+      <value lang="3">Archiv (Katalog)</value>
+      <value lang="4">&#1575;&#1604;&#1571;&#1585;&#1588;&#1610;&#1601;&#1575;&#1578;(&#1601;&#1607;&#1585;&#1587;)</value>
+      <value lang="5">Archivi (catalogo)</value>
+      <value lang="6">&#913;&#961;&#967;&#949;&#943;&#945; (&#954;&#945;&#964;&#940;&#955;&#959;&#947;&#959;&#962;)</value>
+    </related_object.dataset>
+    <related_object.date.end/>
+    <related_object.date.start/>
+    <related_object.object_name>
+      <value lang="de-DE" invariant="false">Korrespondenz (Schriftst&#252;ck)</value>
+    </related_object.object_name>
+    <related_object.record_type>
+      <value lang="neutral">FILE</value>
+      <value lang="0">file</value>
+      <value lang="1">bestanddeel</value>
+      <value lang="3">Akte</value>
+    </related_object.record_type>
+    <related_object.reference>200711_41_2</related_object.reference>
+    <related_object.reference.lref>110048545</related_object.reference.lref>
+    <related_object.title>Werbe-/Pressematerial, Produktionsunterlagen "Neun Leben hat die Katze"</related_object.title>
+    <related_object.title.article/>
+  </Related_object>
+  <Related_object>
+    <related_object.dataset>
+      <value lang="neutral">archivecatalogue</value>
+      <value lang="0">Archives catalogue</value>
+      <value lang="1">Archieven (catalogus)</value>
+      <value lang="2">Archives (catalogue)</value>
+      <value lang="3">Archiv (Katalog)</value>
+      <value lang="4">&#1575;&#1604;&#1571;&#1585;&#1588;&#1610;&#1601;&#1575;&#1578;(&#1601;&#1607;&#1585;&#1587;)</value>
+      <value lang="5">Archivi (catalogo)</value>
+      <value lang="6">&#913;&#961;&#967;&#949;&#943;&#945; (&#954;&#945;&#964;&#940;&#955;&#959;&#947;&#959;&#962;)</value>
+    </related_object.dataset>
+    <related_object.date.end/>
+    <related_object.date.start/>
+    <related_object.object_name>
+      <value lang="de-DE" invariant="false">Pressespiegel</value>
+    </related_object.object_name>
+    <related_object.record_type>
+      <value lang="neutral">FILE</value>
+      <value lang="0">file</value>
+      <value lang="1">bestanddeel</value>
+      <value lang="3">Akte</value>
+    </related_object.record_type>
+    <related_object.reference>200711_42</related_object.reference>
+    <related_object.reference.lref>110048546</related_object.reference.lref>
+    <related_object.title>Werbe-/Pressematerial "Neun Leben hat die Katze"</related_object.title>
+    <related_object.title.article/>
+  </Related_object>
+  <Related_object>
+    <related_object.dataset>
+      <value lang="neutral">archivecatalogue</value>
+      <value lang="0">Archives catalogue</value>
+      <value lang="1">Archieven (catalogus)</value>
+      <value lang="2">Archives (catalogue)</value>
+      <value lang="3">Archiv (Katalog)</value>
+      <value lang="4">&#1575;&#1604;&#1571;&#1585;&#1588;&#1610;&#1601;&#1575;&#1578;(&#1601;&#1607;&#1585;&#1587;)</value>
+      <value lang="5">Archivi (catalogo)</value>
+      <value lang="6">&#913;&#961;&#967;&#949;&#943;&#945; (&#954;&#945;&#964;&#940;&#955;&#959;&#947;&#959;&#962;)</value>
+    </related_object.dataset>
+    <related_object.date.end/>
+    <related_object.date.start/>
+    <related_object.object_name>
+      <value lang="de-DE" invariant="false">Film (Material)</value>
+    </related_object.object_name>
+    <related_object.record_type>
+      <value lang="neutral">FILE</value>
+      <value lang="0">file</value>
+      <value lang="1">bestanddeel</value>
+      <value lang="3">Akte</value>
+    </related_object.record_type>
+    <related_object.reference>200711_43_1</related_object.reference>
+    <related_object.reference.lref>110048547</related_object.reference.lref>
+    <related_object.title>Filmnegative Probeaufnahmen "Neun Leben hat die Katze"</related_object.title>
+    <related_object.title.article/>
+  </Related_object>
+  <Related_object>
+    <related_object.dataset>
+      <value lang="neutral">archivecatalogue</value>
+      <value lang="0">Archives catalogue</value>
+      <value lang="1">Archieven (catalogus)</value>
+      <value lang="2">Archives (catalogue)</value>
+      <value lang="3">Archiv (Katalog)</value>
+      <value lang="4">&#1575;&#1604;&#1571;&#1585;&#1588;&#1610;&#1601;&#1575;&#1578;(&#1601;&#1607;&#1585;&#1587;)</value>
+      <value lang="5">Archivi (catalogo)</value>
+      <value lang="6">&#913;&#961;&#967;&#949;&#943;&#945; (&#954;&#945;&#964;&#940;&#955;&#959;&#947;&#959;&#962;)</value>
+    </related_object.dataset>
+    <related_object.date.end/>
+    <related_object.date.start/>
+    <related_object.object_name>
+      <value lang="de-DE" invariant="false">Fotoabzug</value>
+    </related_object.object_name>
+    <related_object.record_type>
+      <value lang="neutral">FILE</value>
+      <value lang="0">file</value>
+      <value lang="1">bestanddeel</value>
+      <value lang="3">Akte</value>
+    </related_object.record_type>
+    <related_object.reference>200711_44_1</related_object.reference>
+    <related_object.reference.lref>110048549</related_object.reference.lref>
+    <related_object.title>Recherchematerial Fotos "Neun Leben hat die Katze"</related_object.title>
+    <related_object.title.article/>
+  </Related_object>
+  <Related_object>
+    <related_object.dataset>
+      <value lang="neutral">archivecatalogue</value>
+      <value lang="0">Archives catalogue</value>
+      <value lang="1">Archieven (catalogus)</value>
+      <value lang="2">Archives (catalogue)</value>
+      <value lang="3">Archiv (Katalog)</value>
+      <value lang="4">&#1575;&#1604;&#1571;&#1585;&#1588;&#1610;&#1601;&#1575;&#1578;(&#1601;&#1607;&#1585;&#1587;)</value>
+      <value lang="5">Archivi (catalogo)</value>
+      <value lang="6">&#913;&#961;&#967;&#949;&#943;&#945; (&#954;&#945;&#964;&#940;&#955;&#959;&#947;&#959;&#962;)</value>
+    </related_object.dataset>
+    <related_object.date.end/>
+    <related_object.date.start/>
+    <related_object.object_name>
+      <value lang="de-DE" invariant="false">Kalkulation</value>
+    </related_object.object_name>
+    <related_object.record_type>
+      <value lang="neutral">FILE</value>
+      <value lang="0">file</value>
+      <value lang="1">bestanddeel</value>
+      <value lang="3">Akte</value>
+    </related_object.record_type>
+    <related_object.reference>200711_44_2</related_object.reference>
+    <related_object.reference.lref>110048550</related_object.reference.lref>
+    <related_object.title>Produktionsunterlagen "Neun Leben hat die Katze"</related_object.title>
+    <related_object.title.article/>
+  </Related_object>
+  <Related_object>
+    <related_object.dataset>
+      <value lang="neutral">archivecatalogue</value>
+      <value lang="0">Archives catalogue</value>
+      <value lang="1">Archieven (catalogus)</value>
+      <value lang="2">Archives (catalogue)</value>
+      <value lang="3">Archiv (Katalog)</value>
+      <value lang="4">&#1575;&#1604;&#1571;&#1585;&#1588;&#1610;&#1601;&#1575;&#1578;(&#1601;&#1607;&#1585;&#1587;)</value>
+      <value lang="5">Archivi (catalogo)</value>
+      <value lang="6">&#913;&#961;&#967;&#949;&#943;&#945; (&#954;&#945;&#964;&#940;&#955;&#959;&#947;&#959;&#962;)</value>
+    </related_object.dataset>
+    <related_object.date.end/>
+    <related_object.date.start/>
+    <related_object.object_name>
+      <value lang="de-DE" invariant="false">Aushangfotografie</value>
+    </related_object.object_name>
+    <related_object.record_type>
+      <value lang="neutral">FILE</value>
+      <value lang="0">file</value>
+      <value lang="1">bestanddeel</value>
+      <value lang="3">Akte</value>
+    </related_object.record_type>
+    <related_object.reference>200711_49</related_object.reference>
+    <related_object.reference.lref>110048556</related_object.reference.lref>
+    <related_object.title>Aushangfotos "Neun Leben hat die Katze"</related_object.title>
+    <related_object.title.article/>
+  </Related_object>
+  <Related_object>
+    <related_object.dataset>
+      <value lang="neutral">archivecatalogue</value>
+      <value lang="0">Archives catalogue</value>
+      <value lang="1">Archieven (catalogus)</value>
+      <value lang="2">Archives (catalogue)</value>
+      <value lang="3">Archiv (Katalog)</value>
+      <value lang="4">&#1575;&#1604;&#1571;&#1585;&#1588;&#1610;&#1601;&#1575;&#1578;(&#1601;&#1607;&#1585;&#1587;)</value>
+      <value lang="5">Archivi (catalogo)</value>
+      <value lang="6">&#913;&#961;&#967;&#949;&#943;&#945; (&#954;&#945;&#964;&#940;&#955;&#959;&#947;&#959;&#962;)</value>
+    </related_object.dataset>
+    <related_object.date.end/>
+    <related_object.date.start/>
+    <related_object.object_name>
+      <value lang="de-DE" invariant="false">Aushangfotografie</value>
+    </related_object.object_name>
+    <related_object.record_type>
+      <value lang="neutral">FILE</value>
+      <value lang="0">file</value>
+      <value lang="1">bestanddeel</value>
+      <value lang="3">Akte</value>
+    </related_object.record_type>
+    <related_object.reference>200711_50</related_object.reference>
+    <related_object.reference.lref>110048557</related_object.reference.lref>
+    <related_object.title>Aushangfotos "Neun Leben hat die Katze"</related_object.title>
+    <related_object.title.article/>
+  </Related_object>
+  <Related_object>
+    <related_object.dataset>
+      <value lang="neutral">archivecatalogue</value>
+      <value lang="0">Archives catalogue</value>
+      <value lang="1">Archieven (catalogus)</value>
+      <value lang="2">Archives (catalogue)</value>
+      <value lang="3">Archiv (Katalog)</value>
+      <value lang="4">&#1575;&#1604;&#1571;&#1585;&#1588;&#1610;&#1601;&#1575;&#1578;(&#1601;&#1607;&#1585;&#1587;)</value>
+      <value lang="5">Archivi (catalogo)</value>
+      <value lang="6">&#913;&#961;&#967;&#949;&#943;&#945; (&#954;&#945;&#964;&#940;&#955;&#959;&#947;&#959;&#962;)</value>
+    </related_object.dataset>
+    <related_object.date.end/>
+    <related_object.date.start/>
+    <related_object.object_name>
+      <value lang="de-DE" invariant="false">Treatment</value>
+    </related_object.object_name>
+    <related_object.record_type>
+      <value lang="neutral">ITEM</value>
+      <value lang="0">Item</value>
+      <value lang="1">Item</value>
+      <value lang="3">Item</value>
+      <value lang="9">Objekt</value>
+    </related_object.record_type>
+    <related_object.reference>200711_4</related_object.reference>
+    <related_object.reference.lref>110046157</related_object.reference.lref>
+    <related_object.title>Beschreibung des Filmvorhabens "Neun Leben sind nicht genug"</related_object.title>
+    <related_object.title.article/>
+  </Related_object>
+  <Related_object>
+    <related_object.dataset>
+      <value lang="neutral">archivecatalogue</value>
+      <value lang="0">Archives catalogue</value>
+      <value lang="1">Archieven (catalogus)</value>
+      <value lang="2">Archives (catalogue)</value>
+      <value lang="3">Archiv (Katalog)</value>
+      <value lang="4">&#1575;&#1604;&#1571;&#1585;&#1588;&#1610;&#1601;&#1575;&#1578;(&#1601;&#1607;&#1585;&#1587;)</value>
+      <value lang="5">Archivi (catalogo)</value>
+      <value lang="6">&#913;&#961;&#967;&#949;&#943;&#945; (&#954;&#945;&#964;&#940;&#955;&#959;&#947;&#959;&#962;)</value>
+    </related_object.dataset>
+    <related_object.date.end/>
+    <related_object.date.start/>
+    <related_object.object_name>
+      <value lang="de-DE" invariant="false">Korrespondenz (Schriftst&#252;ck)</value>
+    </related_object.object_name>
+    <related_object.record_type>
+      <value lang="neutral">FILE</value>
+      <value lang="0">file</value>
+      <value lang="1">bestanddeel</value>
+      <value lang="3">Akte</value>
+    </related_object.record_type>
+    <related_object.reference>200711_59</related_object.reference>
+    <related_object.reference.lref>110048567</related_object.reference.lref>
+    <related_object.title>Unterlagen zur Ver&#246;ffentlichung "Neun Leben hat die Katze"</related_object.title>
+    <related_object.title.article/>
+  </Related_object>
+  <Related_object>
+    <related_object.dataset>
+      <value lang="neutral">archivecatalogue</value>
+      <value lang="0">Archives catalogue</value>
+      <value lang="1">Archieven (catalogus)</value>
+      <value lang="2">Archives (catalogue)</value>
+      <value lang="3">Archiv (Katalog)</value>
+      <value lang="4">&#1575;&#1604;&#1571;&#1585;&#1588;&#1610;&#1601;&#1575;&#1578;(&#1601;&#1607;&#1585;&#1587;)</value>
+      <value lang="5">Archivi (catalogo)</value>
+      <value lang="6">&#913;&#961;&#967;&#949;&#943;&#945; (&#954;&#945;&#964;&#940;&#955;&#959;&#947;&#959;&#962;)</value>
+    </related_object.dataset>
+    <related_object.date.end/>
+    <related_object.date.start/>
+    <related_object.object_name>
+      <value lang="de-DE" invariant="false">Fotoabzug</value>
+    </related_object.object_name>
+    <related_object.record_type>
+      <value lang="neutral">FILE</value>
+      <value lang="0">file</value>
+      <value lang="1">bestanddeel</value>
+      <value lang="3">Akte</value>
+    </related_object.record_type>
+    <related_object.reference>200711_66_1</related_object.reference>
+    <related_object.reference.lref>110048595</related_object.reference.lref>
+    <related_object.title>Portr&#228;tfotos Heidi Stroh "9 Leben hat die Katze"</related_object.title>
+    <related_object.title.article/>
+  </Related_object>
+  <Related_object>
+    <related_object.dataset>
+      <value lang="neutral">archivecatalogue</value>
+      <value lang="0">Archives catalogue</value>
+      <value lang="1">Archieven (catalogus)</value>
+      <value lang="2">Archives (catalogue)</value>
+      <value lang="3">Archiv (Katalog)</value>
+      <value lang="4">&#1575;&#1604;&#1571;&#1585;&#1588;&#1610;&#1601;&#1575;&#1578;(&#1601;&#1607;&#1585;&#1587;)</value>
+      <value lang="5">Archivi (catalogo)</value>
+      <value lang="6">&#913;&#961;&#967;&#949;&#943;&#945; (&#954;&#945;&#964;&#940;&#955;&#959;&#947;&#959;&#962;)</value>
+    </related_object.dataset>
+    <related_object.date.end/>
+    <related_object.date.start/>
+    <related_object.object_name>
+      <value lang="de-DE" invariant="false">Drehbuchseite</value>
+    </related_object.object_name>
+    <related_object.record_type>
+      <value lang="neutral">FILE</value>
+      <value lang="0">file</value>
+      <value lang="1">bestanddeel</value>
+      <value lang="3">Akte</value>
+    </related_object.record_type>
+    <related_object.reference>200711_66_2</related_object.reference>
+    <related_object.reference.lref>110048596</related_object.reference.lref>
+    <related_object.title>Drehbuchseiten, Dialoglisten "Neun Leben hat die Katze"</related_object.title>
+    <related_object.title.article/>
+  </Related_object>
+  <Related_object>
+    <related_object.dataset>
+      <value lang="neutral">archivecatalogue</value>
+      <value lang="0">Archives catalogue</value>
+      <value lang="1">Archieven (catalogus)</value>
+      <value lang="2">Archives (catalogue)</value>
+      <value lang="3">Archiv (Katalog)</value>
+      <value lang="4">&#1575;&#1604;&#1571;&#1585;&#1588;&#1610;&#1601;&#1575;&#1578;(&#1601;&#1607;&#1585;&#1587;)</value>
+      <value lang="5">Archivi (catalogo)</value>
+      <value lang="6">&#913;&#961;&#967;&#949;&#943;&#945; (&#954;&#945;&#964;&#940;&#955;&#959;&#947;&#959;&#962;)</value>
+    </related_object.dataset>
+    <related_object.date.end>1970</related_object.date.end>
+    <related_object.date.start>1968</related_object.date.start>
+    <related_object.object_name>
+      <value lang="de-DE" invariant="false">Korrespondenz (Schriftst&#252;ck)</value>
+    </related_object.object_name>
+    <related_object.record_type>
+      <value lang="neutral">FILE</value>
+      <value lang="0">file</value>
+      <value lang="1">bestanddeel</value>
+      <value lang="3">Akte</value>
+    </related_object.record_type>
+    <related_object.reference>200711_77_2</related_object.reference>
+    <related_object.reference.lref>110048615</related_object.reference.lref>
+    <related_object.title>Korrespondenz, Notizen, Charakterisierung u.a. "Neun Leben hat die Katze"</related_object.title>
+    <related_object.title.article/>
+  </Related_object>
+  <Related_object>
+    <related_object.dataset>
+      <value lang="neutral">archivecatalogue</value>
+      <value lang="0">Archives catalogue</value>
+      <value lang="1">Archieven (catalogus)</value>
+      <value lang="2">Archives (catalogue)</value>
+      <value lang="3">Archiv (Katalog)</value>
+      <value lang="4">&#1575;&#1604;&#1571;&#1585;&#1588;&#1610;&#1601;&#1575;&#1578;(&#1601;&#1607;&#1585;&#1587;)</value>
+      <value lang="5">Archivi (catalogo)</value>
+      <value lang="6">&#913;&#961;&#967;&#949;&#943;&#945; (&#954;&#945;&#964;&#940;&#955;&#959;&#947;&#959;&#962;)</value>
+    </related_object.dataset>
+    <related_object.date.end>1977</related_object.date.end>
+    <related_object.date.start>1977</related_object.date.start>
+    <related_object.object_name>
+      <value lang="de-DE" invariant="false">Korrespondenz (Schriftst&#252;ck)</value>
+    </related_object.object_name>
+    <related_object.record_type>
+      <value lang="neutral">FILE</value>
+      <value lang="0">file</value>
+      <value lang="1">bestanddeel</value>
+      <value lang="3">Akte</value>
+    </related_object.record_type>
+    <related_object.reference>200711_118</related_object.reference>
+    <related_object.reference.lref>110048671</related_object.reference.lref>
+    <related_object.title>Korrespondenzen 1977</related_object.title>
+    <related_object.title.article/>
+  </Related_object>
+  <Related_object>
+    <related_object.dataset>
+      <value lang="neutral">archivecatalogue</value>
+      <value lang="0">Archives catalogue</value>
+      <value lang="1">Archieven (catalogus)</value>
+      <value lang="2">Archives (catalogue)</value>
+      <value lang="3">Archiv (Katalog)</value>
+      <value lang="4">&#1575;&#1604;&#1571;&#1585;&#1588;&#1610;&#1601;&#1575;&#1578;(&#1601;&#1607;&#1585;&#1587;)</value>
+      <value lang="5">Archivi (catalogo)</value>
+      <value lang="6">&#913;&#961;&#967;&#949;&#943;&#945; (&#954;&#945;&#964;&#940;&#955;&#959;&#947;&#959;&#962;)</value>
+    </related_object.dataset>
+    <related_object.date.end>1969</related_object.date.end>
+    <related_object.date.start>1969</related_object.date.start>
+    <related_object.object_name>
+      <value lang="de-DE" invariant="false">Korrespondenz (Schriftst&#252;ck)</value>
+    </related_object.object_name>
+    <related_object.record_type>
+      <value lang="neutral">FILE</value>
+      <value lang="0">file</value>
+      <value lang="1">bestanddeel</value>
+      <value lang="3">Akte</value>
+    </related_object.record_type>
+    <related_object.reference>200711_121</related_object.reference>
+    <related_object.reference.lref>110048674</related_object.reference.lref>
+    <related_object.title>Korrespondenz, Finanzunterlagen 1969</related_object.title>
+    <related_object.title.article/>
+  </Related_object>
+  <Related_object>
+    <related_object.dataset>
+      <value lang="neutral">archivecatalogue</value>
+      <value lang="0">Archives catalogue</value>
+      <value lang="1">Archieven (catalogus)</value>
+      <value lang="2">Archives (catalogue)</value>
+      <value lang="3">Archiv (Katalog)</value>
+      <value lang="4">&#1575;&#1604;&#1571;&#1585;&#1588;&#1610;&#1601;&#1575;&#1578;(&#1601;&#1607;&#1585;&#1587;)</value>
+      <value lang="5">Archivi (catalogo)</value>
+      <value lang="6">&#913;&#961;&#967;&#949;&#943;&#945; (&#954;&#945;&#964;&#940;&#955;&#959;&#947;&#959;&#962;)</value>
+    </related_object.dataset>
+    <related_object.date.end>1967</related_object.date.end>
+    <related_object.date.start>1967</related_object.date.start>
+    <related_object.object_name>
+      <value lang="de-DE" invariant="false">Drehbuch (Schriftst&#252;ck)</value>
+      <value lang="en-GB" invariant="false">Script</value>
+    </related_object.object_name>
+    <related_object.record_type>
+      <value lang="neutral">ITEM</value>
+      <value lang="0">Item</value>
+      <value lang="1">Item</value>
+      <value lang="3">Item</value>
+      <value lang="9">Objekt</value>
+    </related_object.record_type>
+    <related_object.reference>4.4-200711-1</related_object.reference>
+    <related_object.reference.lref>110048706</related_object.reference.lref>
+    <related_object.title>Drehbuch "Neun Leben hat die Katze"</related_object.title>
+    <related_object.title.article/>
+  </Related_object>
+  <Related_object>
+    <related_object.dataset>
+      <value lang="neutral">archivecatalogue</value>
+      <value lang="0">Archives catalogue</value>
+      <value lang="1">Archieven (catalogus)</value>
+      <value lang="2">Archives (catalogue)</value>
+      <value lang="3">Archiv (Katalog)</value>
+      <value lang="4">&#1575;&#1604;&#1571;&#1585;&#1588;&#1610;&#1601;&#1575;&#1578;(&#1601;&#1607;&#1585;&#1587;)</value>
+      <value lang="5">Archivi (catalogo)</value>
+      <value lang="6">&#913;&#961;&#967;&#949;&#943;&#945; (&#954;&#945;&#964;&#940;&#955;&#959;&#947;&#959;&#962;)</value>
+    </related_object.dataset>
+    <related_object.date.end/>
+    <related_object.date.start/>
+    <related_object.object_name>
+      <value lang="de-DE" invariant="false">Drehbuchseite</value>
+    </related_object.object_name>
+    <related_object.record_type>
+      <value lang="neutral">ITEM</value>
+      <value lang="0">Item</value>
+      <value lang="1">Item</value>
+      <value lang="3">Item</value>
+      <value lang="9">Objekt</value>
+    </related_object.record_type>
+    <related_object.reference>4.4-200711-2</related_object.reference>
+    <related_object.reference.lref>110048707</related_object.reference.lref>
+    <related_object.title>Drehbuchseiten "Neun Leben hat die Katze"</related_object.title>
+    <related_object.title.article/>
+  </Related_object>
+  <Related_object>
+    <related_object.dataset>
+      <value lang="neutral">archivecatalogue</value>
+      <value lang="0">Archives catalogue</value>
+      <value lang="1">Archieven (catalogus)</value>
+      <value lang="2">Archives (catalogue)</value>
+      <value lang="3">Archiv (Katalog)</value>
+      <value lang="4">&#1575;&#1604;&#1571;&#1585;&#1588;&#1610;&#1601;&#1575;&#1578;(&#1601;&#1607;&#1585;&#1587;)</value>
+      <value lang="5">Archivi (catalogo)</value>
+      <value lang="6">&#913;&#961;&#967;&#949;&#943;&#945; (&#954;&#945;&#964;&#940;&#955;&#959;&#947;&#959;&#962;)</value>
+    </related_object.dataset>
+    <related_object.date.end/>
+    <related_object.date.start/>
+    <related_object.object_name>
+      <value lang="de-DE" invariant="false">Drehbuch (Schriftst&#252;ck)</value>
+      <value lang="en-GB" invariant="false">Script</value>
+    </related_object.object_name>
+    <related_object.record_type>
+      <value lang="neutral">ITEM</value>
+      <value lang="0">Item</value>
+      <value lang="1">Item</value>
+      <value lang="3">Item</value>
+      <value lang="9">Objekt</value>
+    </related_object.record_type>
+    <related_object.reference>4.4-200711-3</related_object.reference>
+    <related_object.reference.lref>110048708</related_object.reference.lref>
+    <related_object.title>Drehbuch "Neun Leben hat die Katze"</related_object.title>
+    <related_object.title.article/>
+  </Related_object>
+  <Related_object>
+    <related_object.dataset>
+      <value lang="neutral">archivecatalogue</value>
+      <value lang="0">Archives catalogue</value>
+      <value lang="1">Archieven (catalogus)</value>
+      <value lang="2">Archives (catalogue)</value>
+      <value lang="3">Archiv (Katalog)</value>
+      <value lang="4">&#1575;&#1604;&#1571;&#1585;&#1588;&#1610;&#1601;&#1575;&#1578;(&#1601;&#1607;&#1585;&#1587;)</value>
+      <value lang="5">Archivi (catalogo)</value>
+      <value lang="6">&#913;&#961;&#967;&#949;&#943;&#945; (&#954;&#945;&#964;&#940;&#955;&#959;&#947;&#959;&#962;)</value>
+    </related_object.dataset>
+    <related_object.date.end/>
+    <related_object.date.start/>
+    <related_object.object_name>
+      <value lang="de-DE" invariant="false">Drehbuch (Schriftst&#252;ck)</value>
+      <value lang="en-GB" invariant="false">Script</value>
+    </related_object.object_name>
+    <related_object.record_type>
+      <value lang="neutral">ITEM</value>
+      <value lang="0">Item</value>
+      <value lang="1">Item</value>
+      <value lang="3">Item</value>
+      <value lang="9">Objekt</value>
+    </related_object.record_type>
+    <related_object.reference>4.4-200711-4</related_object.reference>
+    <related_object.reference.lref>110048709</related_object.reference.lref>
+    <related_object.title>Drehbuch "Neun Leben hat die Katze"</related_object.title>
+    <related_object.title.article/>
+  </Related_object>
+  <Related_object>
+    <related_object.dataset>
+      <value lang="neutral">archivecatalogue</value>
+      <value lang="0">Archives catalogue</value>
+      <value lang="1">Archieven (catalogus)</value>
+      <value lang="2">Archives (catalogue)</value>
+      <value lang="3">Archiv (Katalog)</value>
+      <value lang="4">&#1575;&#1604;&#1571;&#1585;&#1588;&#1610;&#1601;&#1575;&#1578;(&#1601;&#1607;&#1585;&#1587;)</value>
+      <value lang="5">Archivi (catalogo)</value>
+      <value lang="6">&#913;&#961;&#967;&#949;&#943;&#945; (&#954;&#945;&#964;&#940;&#955;&#959;&#947;&#959;&#962;)</value>
+    </related_object.dataset>
+    <related_object.date.end/>
+    <related_object.date.start/>
+    <related_object.object_name>
+      <value lang="de-DE" invariant="false">Drehbuch (Schriftst&#252;ck)</value>
+      <value lang="en-GB" invariant="false">Script</value>
+    </related_object.object_name>
+    <related_object.record_type>
+      <value lang="neutral">ITEM</value>
+      <value lang="0">Item</value>
+      <value lang="1">Item</value>
+      <value lang="3">Item</value>
+      <value lang="9">Objekt</value>
+    </related_object.record_type>
+    <related_object.reference>4.4-200711-5</related_object.reference>
+    <related_object.reference.lref>110048710</related_object.reference.lref>
+    <related_object.title>Drehbuch "Neun Leben hat die Katze"</related_object.title>
+    <related_object.title.article/>
+  </Related_object>
+  <Related_object>
+    <related_object.dataset>
+      <value lang="neutral">archivecatalogue</value>
+      <value lang="0">Archives catalogue</value>
+      <value lang="1">Archieven (catalogus)</value>
+      <value lang="2">Archives (catalogue)</value>
+      <value lang="3">Archiv (Katalog)</value>
+      <value lang="4">&#1575;&#1604;&#1571;&#1585;&#1588;&#1610;&#1601;&#1575;&#1578;(&#1601;&#1607;&#1585;&#1587;)</value>
+      <value lang="5">Archivi (catalogo)</value>
+      <value lang="6">&#913;&#961;&#967;&#949;&#943;&#945; (&#954;&#945;&#964;&#940;&#955;&#959;&#947;&#959;&#962;)</value>
+    </related_object.dataset>
+    <related_object.date.end/>
+    <related_object.date.start/>
+    <related_object.object_name>
+      <value lang="de-DE" invariant="false">Drehbuchseite</value>
+    </related_object.object_name>
+    <related_object.record_type>
+      <value lang="neutral">ITEM</value>
+      <value lang="0">Item</value>
+      <value lang="1">Item</value>
+      <value lang="3">Item</value>
+      <value lang="9">Objekt</value>
+    </related_object.record_type>
+    <related_object.reference>4.4-200711-9</related_object.reference>
+    <related_object.reference.lref>110048714</related_object.reference.lref>
+    <related_object.title>Drehbuchseiten "Neun Leben hat die Katze"</related_object.title>
+    <related_object.title.article/>
+  </Related_object>
+  <Related_object>
+    <related_object.dataset>
+      <value lang="neutral">archivecatalogue</value>
+      <value lang="0">Archives catalogue</value>
+      <value lang="1">Archieven (catalogus)</value>
+      <value lang="2">Archives (catalogue)</value>
+      <value lang="3">Archiv (Katalog)</value>
+      <value lang="4">&#1575;&#1604;&#1571;&#1585;&#1588;&#1610;&#1601;&#1575;&#1578;(&#1601;&#1607;&#1585;&#1587;)</value>
+      <value lang="5">Archivi (catalogo)</value>
+      <value lang="6">&#913;&#961;&#967;&#949;&#943;&#945; (&#954;&#945;&#964;&#940;&#955;&#959;&#947;&#959;&#962;)</value>
+    </related_object.dataset>
+    <related_object.date.end/>
+    <related_object.date.start/>
+    <related_object.object_name>
+      <value lang="de-DE" invariant="false">Korrespondenz (Schriftst&#252;ck)</value>
+    </related_object.object_name>
+    <related_object.record_type>
+      <value lang="neutral">FILE</value>
+      <value lang="0">file</value>
+      <value lang="1">bestanddeel</value>
+      <value lang="3">Akte</value>
+    </related_object.record_type>
+    <related_object.reference>200711_43_2</related_object.reference>
+    <related_object.reference.lref>110048548</related_object.reference.lref>
+    <related_object.title>Korrespondenz "Neun Leben hat die Katze"</related_object.title>
+    <related_object.title.article/>
+  </Related_object>
+  <Related_object>
+    <related_object.dataset>
+      <value lang="neutral">museum</value>
+      <value lang="0">Object catalogue</value>
+      <value lang="1">Objecten</value>
+      <value lang="2">Catalogue d'objets</value>
+      <value lang="3">Objekte</value>
+      <value lang="5">Catalogo oggetti</value>
+      <value lang="6">&#922;&#945;&#964;&#940;&#955;&#959;&#947;&#959;&#962; &#945;&#957;&#964;&#953;&#954;&#949;&#953;&#956;&#941;&#957;&#969;&#957;</value>
+      <value lang="9">Objektskatalog</value>
+    </related_object.dataset>
+    <related_object.date.end/>
+    <related_object.date.start/>
+    <related_object.object_name>
+      <value lang="de-DE" invariant="true">Filmplakat</value>
+      <value lang="en-GB" invariant="false">Film poster</value>
+    </related_object.object_name>
+    <related_object.record_type>
+      <value lang="neutral"/>
+    </related_object.record_type>
+    <related_object.reference>GW1_04_087</related_object.reference>
+    <related_object.reference.lref>194456</related_object.reference.lref>
+    <related_object.title>9 Leben hat die Katze - Wie Frauen heute lieben</related_object.title>
+    <related_object.title.article/>
+  </Related_object>
+  <Related_object>
+    <related_object.dataset>
+      <value lang="neutral">museum</value>
+      <value lang="0">Object catalogue</value>
+      <value lang="1">Objecten</value>
+      <value lang="2">Catalogue d'objets</value>
+      <value lang="3">Objekte</value>
+      <value lang="5">Catalogo oggetti</value>
+      <value lang="6">&#922;&#945;&#964;&#940;&#955;&#959;&#947;&#959;&#962; &#945;&#957;&#964;&#953;&#954;&#949;&#953;&#956;&#941;&#957;&#969;&#957;</value>
+      <value lang="9">Objektskatalog</value>
+    </related_object.dataset>
+    <related_object.date.end/>
+    <related_object.date.start/>
+    <related_object.object_name>
+      <value lang="de-DE" invariant="true">Filmplakat</value>
+      <value lang="en-GB" invariant="false">Film poster</value>
+    </related_object.object_name>
+    <related_object.record_type>
+      <value lang="neutral"/>
+    </related_object.record_type>
+    <related_object.reference>GW2_01_487</related_object.reference>
+    <related_object.reference.lref>198070</related_object.reference.lref>
+    <related_object.title>9 Leben hat die Katze - Wie Frauen heute lieben</related_object.title>
+    <related_object.title.article/>
+  </Related_object>
+  <Related_object>
+    <related_object.dataset>
+      <value lang="neutral">museum</value>
+      <value lang="0">Object catalogue</value>
+      <value lang="1">Objecten</value>
+      <value lang="2">Catalogue d'objets</value>
+      <value lang="3">Objekte</value>
+      <value lang="5">Catalogo oggetti</value>
+      <value lang="6">&#922;&#945;&#964;&#940;&#955;&#959;&#947;&#959;&#962; &#945;&#957;&#964;&#953;&#954;&#949;&#953;&#956;&#941;&#957;&#969;&#957;</value>
+      <value lang="9">Objektskatalog</value>
+    </related_object.dataset>
+    <related_object.date.end/>
+    <related_object.date.start/>
+    <related_object.object_name>
+      <value lang="de-DE" invariant="true">Filmplakat</value>
+      <value lang="en-GB" invariant="false">Film poster</value>
+    </related_object.object_name>
+    <related_object.record_type>
+      <value lang="neutral"/>
+    </related_object.record_type>
+    <related_object.reference>GW2_02_624</related_object.reference>
+    <related_object.reference.lref>199290</related_object.reference.lref>
+    <related_object.title>9 Leben hat die Katze - Wie Frauen heute lieben</related_object.title>
+    <related_object.title.article/>
+  </Related_object>
+  <Related_object>
+    <related_object.dataset>
+      <value lang="neutral">museum</value>
+      <value lang="0">Object catalogue</value>
+      <value lang="1">Objecten</value>
+      <value lang="2">Catalogue d'objets</value>
+      <value lang="3">Objekte</value>
+      <value lang="5">Catalogo oggetti</value>
+      <value lang="6">&#922;&#945;&#964;&#940;&#955;&#959;&#947;&#959;&#962; &#945;&#957;&#964;&#953;&#954;&#949;&#953;&#956;&#941;&#957;&#969;&#957;</value>
+      <value lang="9">Objektskatalog</value>
+    </related_object.dataset>
+    <related_object.date.end>9999</related_object.date.end>
+    <related_object.date.start>1968</related_object.date.start>
+    <related_object.object_name>
+      <value lang="de-DE" invariant="false">Drehbuch (Schriftst&#252;ck)</value>
+      <value lang="en-GB" invariant="false">Script</value>
+    </related_object.object_name>
+    <related_object.record_type>
+      <value lang="neutral"/>
+    </related_object.record_type>
+    <related_object.reference>A-82</related_object.reference>
+    <related_object.reference.lref>132308</related_object.reference.lref>
+    <related_object.title>Max zwei in der Sonne</related_object.title>
+    <related_object.title.article/>
+  </Related_object>
+  <Related_object>
+    <related_object.dataset>
+      <value lang="neutral">museum</value>
+      <value lang="0">Object catalogue</value>
+      <value lang="1">Objecten</value>
+      <value lang="2">Catalogue d'objets</value>
+      <value lang="3">Objekte</value>
+      <value lang="5">Catalogo oggetti</value>
+      <value lang="6">&#922;&#945;&#964;&#940;&#955;&#959;&#947;&#959;&#962; &#945;&#957;&#964;&#953;&#954;&#949;&#953;&#956;&#941;&#957;&#969;&#957;</value>
+      <value lang="9">Objektskatalog</value>
+    </related_object.dataset>
+    <related_object.date.end/>
+    <related_object.date.start/>
+    <related_object.object_name>
+      <value lang="de-DE" invariant="false">Pressefoto</value>
+    </related_object.object_name>
+    <related_object.record_type>
+      <value lang="neutral"/>
+    </related_object.record_type>
+    <related_object.reference>F17691_01</related_object.reference>
+    <related_object.reference.lref>232650</related_object.reference.lref>
+    <related_object.title>Szenenfoto - Neun Leben hat die Katze</related_object.title>
+    <related_object.title.article/>
+  </Related_object>
+  <Related_object>
+    <related_object.dataset>
+      <value lang="neutral">museum</value>
+      <value lang="0">Object catalogue</value>
+      <value lang="1">Objecten</value>
+      <value lang="2">Catalogue d'objets</value>
+      <value lang="3">Objekte</value>
+      <value lang="5">Catalogo oggetti</value>
+      <value lang="6">&#922;&#945;&#964;&#940;&#955;&#959;&#947;&#959;&#962; &#945;&#957;&#964;&#953;&#954;&#949;&#953;&#956;&#941;&#957;&#969;&#957;</value>
+      <value lang="9">Objektskatalog</value>
+    </related_object.dataset>
+    <related_object.date.end/>
+    <related_object.date.start/>
+    <related_object.object_name>
+      <value lang="de-DE" invariant="false">Aushangfotografie</value>
+    </related_object.object_name>
+    <related_object.record_type>
+      <value lang="neutral"/>
+    </related_object.record_type>
+    <related_object.reference>F17691_02</related_object.reference>
+    <related_object.reference.lref>238745</related_object.reference.lref>
+    <related_object.title>Szenenfoto - Neun Leben hat die Katze</related_object.title>
+    <related_object.title.article/>
+  </Related_object>
+  <Related_object>
+    <related_object.dataset>
+      <value lang="neutral">museum</value>
+      <value lang="0">Object catalogue</value>
+      <value lang="1">Objecten</value>
+      <value lang="2">Catalogue d'objets</value>
+      <value lang="3">Objekte</value>
+      <value lang="5">Catalogo oggetti</value>
+      <value lang="6">&#922;&#945;&#964;&#940;&#955;&#959;&#947;&#959;&#962; &#945;&#957;&#964;&#953;&#954;&#949;&#953;&#956;&#941;&#957;&#969;&#957;</value>
+      <value lang="9">Objektskatalog</value>
+    </related_object.dataset>
+    <related_object.date.end/>
+    <related_object.date.start/>
+    <related_object.object_name>
+      <value lang="de-DE" invariant="false">Aushangfotografie</value>
+    </related_object.object_name>
+    <related_object.record_type>
+      <value lang="neutral"/>
+    </related_object.record_type>
+    <related_object.reference>F17691_03</related_object.reference>
+    <related_object.reference.lref>238746</related_object.reference.lref>
+    <related_object.title>Szenenfoto - Neun Leben hat die Katze</related_object.title>
+    <related_object.title.article/>
+  </Related_object>
+  <Related_object>
+    <related_object.dataset>
+      <value lang="neutral">museum</value>
+      <value lang="0">Object catalogue</value>
+      <value lang="1">Objecten</value>
+      <value lang="2">Catalogue d'objets</value>
+      <value lang="3">Objekte</value>
+      <value lang="5">Catalogo oggetti</value>
+      <value lang="6">&#922;&#945;&#964;&#940;&#955;&#959;&#947;&#959;&#962; &#945;&#957;&#964;&#953;&#954;&#949;&#953;&#956;&#941;&#957;&#969;&#957;</value>
+      <value lang="9">Objektskatalog</value>
+    </related_object.dataset>
+    <related_object.date.end/>
+    <related_object.date.start/>
+    <related_object.object_name>
+      <value lang="de-DE" invariant="false">Szenenfotografie</value>
+      <value lang="en-GB" invariant="false">Production still</value>
+    </related_object.object_name>
+    <related_object.record_type>
+      <value lang="neutral"/>
+    </related_object.record_type>
+    <related_object.reference>F17691_04</related_object.reference>
+    <related_object.reference.lref>246835</related_object.reference.lref>
+    <related_object.title>Szenenfoto - Neun Leben hat die Katze</related_object.title>
+    <related_object.title.article/>
+  </Related_object>
+  <Related_object>
+    <related_object.dataset>
+      <value lang="neutral">museum</value>
+      <value lang="0">Object catalogue</value>
+      <value lang="1">Objecten</value>
+      <value lang="2">Catalogue d'objets</value>
+      <value lang="3">Objekte</value>
+      <value lang="5">Catalogo oggetti</value>
+      <value lang="6">&#922;&#945;&#964;&#940;&#955;&#959;&#947;&#959;&#962; &#945;&#957;&#964;&#953;&#954;&#949;&#953;&#956;&#941;&#957;&#969;&#957;</value>
+      <value lang="9">Objektskatalog</value>
+    </related_object.dataset>
+    <related_object.date.end/>
+    <related_object.date.start/>
+    <related_object.object_name>
+      <value lang="de-DE" invariant="false">Szenenfotografie</value>
+      <value lang="en-GB" invariant="false">Production still</value>
+    </related_object.object_name>
+    <related_object.record_type>
+      <value lang="neutral"/>
+    </related_object.record_type>
+    <related_object.reference>F17691_05</related_object.reference>
+    <related_object.reference.lref>246836</related_object.reference.lref>
+    <related_object.title>Szenenfoto - Neun Leben hat die Katze</related_object.title>
+    <related_object.title.article/>
+  </Related_object>
+  <Related_object>
+    <related_object.dataset>
+      <value lang="neutral">museum</value>
+      <value lang="0">Object catalogue</value>
+      <value lang="1">Objecten</value>
+      <value lang="2">Catalogue d'objets</value>
+      <value lang="3">Objekte</value>
+      <value lang="5">Catalogo oggetti</value>
+      <value lang="6">&#922;&#945;&#964;&#940;&#955;&#959;&#947;&#959;&#962; &#945;&#957;&#964;&#953;&#954;&#949;&#953;&#956;&#941;&#957;&#969;&#957;</value>
+      <value lang="9">Objektskatalog</value>
+    </related_object.dataset>
+    <related_object.date.end/>
+    <related_object.date.start/>
+    <related_object.object_name>
+      <value lang="de-DE" invariant="false">Szenenfotografie</value>
+      <value lang="en-GB" invariant="false">Production still</value>
+    </related_object.object_name>
+    <related_object.record_type>
+      <value lang="neutral"/>
+    </related_object.record_type>
+    <related_object.reference>F17691_06</related_object.reference>
+    <related_object.reference.lref>249327</related_object.reference.lref>
+    <related_object.title>Szenenfoto - Neun Leben hat die Katze</related_object.title>
+    <related_object.title.article/>
+  </Related_object>
+  <Related_object>
+    <related_object.dataset>
+      <value lang="neutral">museum</value>
+      <value lang="0">Object catalogue</value>
+      <value lang="1">Objecten</value>
+      <value lang="2">Catalogue d'objets</value>
+      <value lang="3">Objekte</value>
+      <value lang="5">Catalogo oggetti</value>
+      <value lang="6">&#922;&#945;&#964;&#940;&#955;&#959;&#947;&#959;&#962; &#945;&#957;&#964;&#953;&#954;&#949;&#953;&#956;&#941;&#957;&#969;&#957;</value>
+      <value lang="9">Objektskatalog</value>
+    </related_object.dataset>
+    <related_object.date.end/>
+    <related_object.date.start/>
+    <related_object.object_name>
+      <value lang="de-DE" invariant="false">Szenenfotografie</value>
+      <value lang="en-GB" invariant="false">Production still</value>
+    </related_object.object_name>
+    <related_object.record_type>
+      <value lang="neutral"/>
+    </related_object.record_type>
+    <related_object.reference>F17691_07</related_object.reference>
+    <related_object.reference.lref>249328</related_object.reference.lref>
+    <related_object.title>Szenenfoto - Neun Leben hat die Katze</related_object.title>
+    <related_object.title.article/>
+  </Related_object>
+  <Related_object>
+    <related_object.dataset>
+      <value lang="neutral">museum</value>
+      <value lang="0">Object catalogue</value>
+      <value lang="1">Objecten</value>
+      <value lang="2">Catalogue d'objets</value>
+      <value lang="3">Objekte</value>
+      <value lang="5">Catalogo oggetti</value>
+      <value lang="6">&#922;&#945;&#964;&#940;&#955;&#959;&#947;&#959;&#962; &#945;&#957;&#964;&#953;&#954;&#949;&#953;&#956;&#941;&#957;&#969;&#957;</value>
+      <value lang="9">Objektskatalog</value>
+    </related_object.dataset>
+    <related_object.date.end/>
+    <related_object.date.start/>
+    <related_object.object_name>
+      <value lang="de-DE" invariant="false">Szenenfotografie</value>
+      <value lang="en-GB" invariant="false">Production still</value>
+    </related_object.object_name>
+    <related_object.record_type>
+      <value lang="neutral"/>
+    </related_object.record_type>
+    <related_object.reference>F17691_08</related_object.reference>
+    <related_object.reference.lref>267676</related_object.reference.lref>
+    <related_object.title>Szenenfoto - Neun Leben hat die Katze</related_object.title>
+    <related_object.title.article/>
+  </Related_object>
+  <Related_object>
+    <related_object.dataset>
+      <value lang="neutral">museum</value>
+      <value lang="0">Object catalogue</value>
+      <value lang="1">Objecten</value>
+      <value lang="2">Catalogue d'objets</value>
+      <value lang="3">Objekte</value>
+      <value lang="5">Catalogo oggetti</value>
+      <value lang="6">&#922;&#945;&#964;&#940;&#955;&#959;&#947;&#959;&#962; &#945;&#957;&#964;&#953;&#954;&#949;&#953;&#956;&#941;&#957;&#969;&#957;</value>
+      <value lang="9">Objektskatalog</value>
+    </related_object.dataset>
+    <related_object.date.end/>
+    <related_object.date.start/>
+    <related_object.object_name>
+      <value lang="de-DE" invariant="false">Szenenfotografie</value>
+      <value lang="en-GB" invariant="false">Production still</value>
+    </related_object.object_name>
+    <related_object.record_type>
+      <value lang="neutral"/>
+    </related_object.record_type>
+    <related_object.reference>F17691_09</related_object.reference>
+    <related_object.reference.lref>267677</related_object.reference.lref>
+    <related_object.title>Szenenfoto - Neun Leben hat die Katze</related_object.title>
+    <related_object.title.article/>
+  </Related_object>
+  <Related_object>
+    <related_object.dataset>
+      <value lang="neutral">museum</value>
+      <value lang="0">Object catalogue</value>
+      <value lang="1">Objecten</value>
+      <value lang="2">Catalogue d'objets</value>
+      <value lang="3">Objekte</value>
+      <value lang="5">Catalogo oggetti</value>
+      <value lang="6">&#922;&#945;&#964;&#940;&#955;&#959;&#947;&#959;&#962; &#945;&#957;&#964;&#953;&#954;&#949;&#953;&#956;&#941;&#957;&#969;&#957;</value>
+      <value lang="9">Objektskatalog</value>
+    </related_object.dataset>
+    <related_object.date.end/>
+    <related_object.date.start/>
+    <related_object.object_name>
+      <value lang="de-DE" invariant="false">Szenenfotografie</value>
+      <value lang="en-GB" invariant="false">Production still</value>
+    </related_object.object_name>
+    <related_object.record_type>
+      <value lang="neutral"/>
+    </related_object.record_type>
+    <related_object.reference>F17691_10</related_object.reference>
+    <related_object.reference.lref>267678</related_object.reference.lref>
+    <related_object.title>Szenenfoto - Neun Leben hat die Katze</related_object.title>
+    <related_object.title.article/>
+  </Related_object>
+  <Related_object>
+    <related_object.dataset>
+      <value lang="neutral">museum</value>
+      <value lang="0">Object catalogue</value>
+      <value lang="1">Objecten</value>
+      <value lang="2">Catalogue d'objets</value>
+      <value lang="3">Objekte</value>
+      <value lang="5">Catalogo oggetti</value>
+      <value lang="6">&#922;&#945;&#964;&#940;&#955;&#959;&#947;&#959;&#962; &#945;&#957;&#964;&#953;&#954;&#949;&#953;&#956;&#941;&#957;&#969;&#957;</value>
+      <value lang="9">Objektskatalog</value>
+    </related_object.dataset>
+    <related_object.date.end/>
+    <related_object.date.start/>
+    <related_object.object_name>
+      <value lang="de-DE" invariant="false">Szenenfotografie</value>
+      <value lang="en-GB" invariant="false">Production still</value>
+    </related_object.object_name>
+    <related_object.record_type>
+      <value lang="neutral"/>
+    </related_object.record_type>
+    <related_object.reference>F17691_11</related_object.reference>
+    <related_object.reference.lref>267679</related_object.reference.lref>
+    <related_object.title>Szenenfoto - Neun Leben hat die Katze</related_object.title>
+    <related_object.title.article/>
+  </Related_object>
+  <Related_object>
+    <related_object.dataset>
+      <value lang="neutral">museum</value>
+      <value lang="0">Object catalogue</value>
+      <value lang="1">Objecten</value>
+      <value lang="2">Catalogue d'objets</value>
+      <value lang="3">Objekte</value>
+      <value lang="5">Catalogo oggetti</value>
+      <value lang="6">&#922;&#945;&#964;&#940;&#955;&#959;&#947;&#959;&#962; &#945;&#957;&#964;&#953;&#954;&#949;&#953;&#956;&#941;&#957;&#969;&#957;</value>
+      <value lang="9">Objektskatalog</value>
+    </related_object.dataset>
+    <related_object.date.end/>
+    <related_object.date.start/>
+    <related_object.object_name>
+      <value lang="de-DE" invariant="false">Szenenfotografie</value>
+      <value lang="en-GB" invariant="false">Production still</value>
+    </related_object.object_name>
+    <related_object.record_type>
+      <value lang="neutral"/>
+    </related_object.record_type>
+    <related_object.reference>F17691_12</related_object.reference>
+    <related_object.reference.lref>267680</related_object.reference.lref>
+    <related_object.title>Szenenfoto - Neun Leben hat die Katze</related_object.title>
+    <related_object.title.article/>
+  </Related_object>
+  <Related_object>
+    <related_object.dataset>
+      <value lang="neutral">museum</value>
+      <value lang="0">Object catalogue</value>
+      <value lang="1">Objecten</value>
+      <value lang="2">Catalogue d'objets</value>
+      <value lang="3">Objekte</value>
+      <value lang="5">Catalogo oggetti</value>
+      <value lang="6">&#922;&#945;&#964;&#940;&#955;&#959;&#947;&#959;&#962; &#945;&#957;&#964;&#953;&#954;&#949;&#953;&#956;&#941;&#957;&#969;&#957;</value>
+      <value lang="9">Objektskatalog</value>
+    </related_object.dataset>
+    <related_object.date.end/>
+    <related_object.date.start/>
+    <related_object.object_name>
+      <value lang="de-DE" invariant="false">Aushangfotografie</value>
+    </related_object.object_name>
+    <related_object.record_type>
+      <value lang="neutral"/>
+    </related_object.record_type>
+    <related_object.reference>F17691_13</related_object.reference>
+    <related_object.reference.lref>269309</related_object.reference.lref>
+    <related_object.title>Szenenfoto - Neun Leben hat die Katze</related_object.title>
+    <related_object.title.article/>
+  </Related_object>
+  <Related_object>
+    <related_object.dataset>
+      <value lang="neutral">museum</value>
+      <value lang="0">Object catalogue</value>
+      <value lang="1">Objecten</value>
+      <value lang="2">Catalogue d'objets</value>
+      <value lang="3">Objekte</value>
+      <value lang="5">Catalogo oggetti</value>
+      <value lang="6">&#922;&#945;&#964;&#940;&#955;&#959;&#947;&#959;&#962; &#945;&#957;&#964;&#953;&#954;&#949;&#953;&#956;&#941;&#957;&#969;&#957;</value>
+      <value lang="9">Objektskatalog</value>
+    </related_object.dataset>
+    <related_object.date.end/>
+    <related_object.date.start/>
+    <related_object.object_name>
+      <value lang="de-DE" invariant="false">Aushangfotografie</value>
+    </related_object.object_name>
+    <related_object.record_type>
+      <value lang="neutral"/>
+    </related_object.record_type>
+    <related_object.reference>F17691_14</related_object.reference>
+    <related_object.reference.lref>269808</related_object.reference.lref>
+    <related_object.title>Szenenfoto - Neun Leben hat die Katze</related_object.title>
+    <related_object.title.article/>
+  </Related_object>
+  <Related_object>
+    <related_object.dataset>
+      <value lang="neutral">museum</value>
+      <value lang="0">Object catalogue</value>
+      <value lang="1">Objecten</value>
+      <value lang="2">Catalogue d'objets</value>
+      <value lang="3">Objekte</value>
+      <value lang="5">Catalogo oggetti</value>
+      <value lang="6">&#922;&#945;&#964;&#940;&#955;&#959;&#947;&#959;&#962; &#945;&#957;&#964;&#953;&#954;&#949;&#953;&#956;&#941;&#957;&#969;&#957;</value>
+      <value lang="9">Objektskatalog</value>
+    </related_object.dataset>
+    <related_object.date.end/>
+    <related_object.date.start/>
+    <related_object.object_name>
+      <value lang="de-DE" invariant="false">Aushangfotografie</value>
+    </related_object.object_name>
+    <related_object.record_type>
+      <value lang="neutral"/>
+    </related_object.record_type>
+    <related_object.reference>F17691_15</related_object.reference>
+    <related_object.reference.lref>269809</related_object.reference.lref>
+    <related_object.title>Szenenfoto - Neun Leben hat die Katze</related_object.title>
+    <related_object.title.article/>
+  </Related_object>
+  <Related_object>
+    <related_object.dataset>
+      <value lang="neutral">museum</value>
+      <value lang="0">Object catalogue</value>
+      <value lang="1">Objecten</value>
+      <value lang="2">Catalogue d'objets</value>
+      <value lang="3">Objekte</value>
+      <value lang="5">Catalogo oggetti</value>
+      <value lang="6">&#922;&#945;&#964;&#940;&#955;&#959;&#947;&#959;&#962; &#945;&#957;&#964;&#953;&#954;&#949;&#953;&#956;&#941;&#957;&#969;&#957;</value>
+      <value lang="9">Objektskatalog</value>
+    </related_object.dataset>
+    <related_object.date.end/>
+    <related_object.date.start/>
+    <related_object.object_name>
+      <value lang="de-DE" invariant="false">Aushangfotografie</value>
+    </related_object.object_name>
+    <related_object.record_type>
+      <value lang="neutral"/>
+    </related_object.record_type>
+    <related_object.reference>F17691_16</related_object.reference>
+    <related_object.reference.lref>270009</related_object.reference.lref>
+    <related_object.title>Szenenfoto - Neun Leben hat die Katze</related_object.title>
+    <related_object.title.article/>
+  </Related_object>
+  <Related_object>
+    <related_object.dataset>
+      <value lang="neutral">museum</value>
+      <value lang="0">Object catalogue</value>
+      <value lang="1">Objecten</value>
+      <value lang="2">Catalogue d'objets</value>
+      <value lang="3">Objekte</value>
+      <value lang="5">Catalogo oggetti</value>
+      <value lang="6">&#922;&#945;&#964;&#940;&#955;&#959;&#947;&#959;&#962; &#945;&#957;&#964;&#953;&#954;&#949;&#953;&#956;&#941;&#957;&#969;&#957;</value>
+      <value lang="9">Objektskatalog</value>
+    </related_object.dataset>
+    <related_object.date.end/>
+    <related_object.date.start/>
+    <related_object.object_name>
+      <value lang="de-DE" invariant="false">Druck</value>
+    </related_object.object_name>
+    <related_object.record_type>
+      <value lang="neutral"/>
+    </related_object.record_type>
+    <related_object.reference>F17691</related_object.reference>
+    <related_object.reference.lref>415506</related_object.reference.lref>
+    <related_object.title>Neun Leben hat die Katze</related_object.title>
+    <related_object.title.article/>
+  </Related_object>
+  <Related_object>
+    <related_object.dataset>
+      <value lang="neutral">museum</value>
+      <value lang="0">Object catalogue</value>
+      <value lang="1">Objecten</value>
+      <value lang="2">Catalogue d'objets</value>
+      <value lang="3">Objekte</value>
+      <value lang="5">Catalogo oggetti</value>
+      <value lang="6">&#922;&#945;&#964;&#940;&#955;&#959;&#947;&#959;&#962; &#945;&#957;&#964;&#953;&#954;&#949;&#953;&#956;&#941;&#957;&#969;&#957;</value>
+      <value lang="9">Objektskatalog</value>
+    </related_object.dataset>
+    <related_object.date.end/>
+    <related_object.date.start/>
+    <related_object.record_type>
+      <value lang="neutral"/>
+    </related_object.record_type>
+    <related_object.reference>17691loeschen</related_object.reference>
+    <related_object.reference.lref>481753</related_object.reference.lref>
+    <related_object.title/>
+    <related_object.title.article/>
+  </Related_object>
+  <Related_object>
+    <related_object.dataset>
+      <value lang="neutral">museum</value>
+      <value lang="0">Object catalogue</value>
+      <value lang="1">Objecten</value>
+      <value lang="2">Catalogue d'objets</value>
+      <value lang="3">Objekte</value>
+      <value lang="5">Catalogo oggetti</value>
+      <value lang="6">&#922;&#945;&#964;&#940;&#955;&#959;&#947;&#959;&#962; &#945;&#957;&#964;&#953;&#954;&#949;&#953;&#956;&#941;&#957;&#969;&#957;</value>
+      <value lang="9">Objektskatalog</value>
+    </related_object.dataset>
+    <related_object.date.end/>
+    <related_object.date.start/>
+    <related_object.record_type>
+      <value lang="neutral"/>
+    </related_object.record_type>
+    <related_object.reference>20150901_SDK_3000</related_object.reference>
+    <related_object.reference.lref>481754</related_object.reference.lref>
+    <related_object.title/>
+    <related_object.title.article/>
+  </Related_object>
+  <Related_object>
+    <related_object.dataset>
+      <value lang="neutral">museum</value>
+      <value lang="0">Object catalogue</value>
+      <value lang="1">Objecten</value>
+      <value lang="2">Catalogue d'objets</value>
+      <value lang="3">Objekte</value>
+      <value lang="5">Catalogo oggetti</value>
+      <value lang="6">&#922;&#945;&#964;&#940;&#955;&#959;&#947;&#959;&#962; &#945;&#957;&#964;&#953;&#954;&#949;&#953;&#956;&#941;&#957;&#969;&#957;</value>
+      <value lang="9">Objektskatalog</value>
+    </related_object.dataset>
+    <related_object.date.end/>
+    <related_object.date.start/>
+    <related_object.record_type>
+      <value lang="neutral"/>
+    </related_object.record_type>
+    <related_object.reference>20150901_SDK_3001</related_object.reference>
+    <related_object.reference.lref>481755</related_object.reference.lref>
+    <related_object.title/>
+    <related_object.title.article/>
+  </Related_object>
+  <Related_object>
+    <related_object.dataset>
+      <value lang="neutral">museum</value>
+      <value lang="0">Object catalogue</value>
+      <value lang="1">Objecten</value>
+      <value lang="2">Catalogue d'objets</value>
+      <value lang="3">Objekte</value>
+      <value lang="5">Catalogo oggetti</value>
+      <value lang="6">&#922;&#945;&#964;&#940;&#955;&#959;&#947;&#959;&#962; &#945;&#957;&#964;&#953;&#954;&#949;&#953;&#956;&#941;&#957;&#969;&#957;</value>
+      <value lang="9">Objektskatalog</value>
+    </related_object.dataset>
+    <related_object.date.end/>
+    <related_object.date.start/>
+    <related_object.record_type>
+      <value lang="neutral"/>
+    </related_object.record_type>
+    <related_object.reference>20150901_SDK_3002</related_object.reference>
+    <related_object.reference.lref>481756</related_object.reference.lref>
+    <related_object.title/>
+    <related_object.title.article/>
+  </Related_object>
+  <Related_object>
+    <related_object.dataset>
+      <value lang="neutral">museum</value>
+      <value lang="0">Object catalogue</value>
+      <value lang="1">Objecten</value>
+      <value lang="2">Catalogue d'objets</value>
+      <value lang="3">Objekte</value>
+      <value lang="5">Catalogo oggetti</value>
+      <value lang="6">&#922;&#945;&#964;&#940;&#955;&#959;&#947;&#959;&#962; &#945;&#957;&#964;&#953;&#954;&#949;&#953;&#956;&#941;&#957;&#969;&#957;</value>
+      <value lang="9">Objektskatalog</value>
+    </related_object.dataset>
+    <related_object.date.end/>
+    <related_object.date.start/>
+    <related_object.record_type>
+      <value lang="neutral"/>
+    </related_object.record_type>
+    <related_object.reference>nlhdk_kt_03_0359957</related_object.reference>
+    <related_object.reference.lref>481757</related_object.reference.lref>
+    <related_object.title/>
+    <related_object.title.article/>
+  </Related_object>
+  <Rights_in>
+    <rights_in.contract_type>
+      <value lang="de-DE" invariant="false">Lizenzvertrag</value>
+    </rights_in.contract_type>
+    <rights_in.contracting_party>
+      <value lang="de-DE" invariant="true">Ula St&#246;ckl Filmproduktion</value>
+    </rights_in.contracting_party>
+    <rights_in.date_end/>
+    <rights_in.date_start>2019-03-01</rights_in.date_start>
+    <rights_in.number>5779</rights_in.number>
+    <rights_in.number.lref>10000359</rights_in.number.lref>
+  </Rights_in>
+  <Rights_out>
+    <rights_out.contract_type>
+      <value lang="de-DE" invariant="false">Lizenzvertrag</value>
+    </rights_out.contract_type>
+    <rights_out.date_end>2020-12-31</rights_out.date_end>
+    <rights_out.date_start>2019-01-01</rights_out.date_start>
+    <rights_out.number>14</rights_out.number>
+    <rights_out.number.lref>20000037</rights_out.number.lref>
+  </Rights_out>
+  <Rights_out>
+    <rights_out.contract_type>
+      <value lang="de-DE" invariant="false">Lizenzvertrag</value>
+    </rights_out.contract_type>
+    <rights_out.contracting_party>
+      <value lang="de-DE" invariant="false">La Cinetek La Cin&#232;math&#232;que des Cin&#232;astes </value>
+    </rights_out.contracting_party>
+    <rights_out.date_end>2026-02-22</rights_out.date_end>
+    <rights_out.date_start>2025-02-23</rights_out.date_start>
+    <rights_out.number>25</rights_out.number>
+    <rights_out.number.lref>20000046</rights_out.number.lref>
+  </Rights_out>
+  <Rights_situation>
+    <rights_overall_status>
+      <value lang="de-DE" invariant="false">Rechte vertraglich gekl&#228;rt</value>
+    </rights_overall_status>
+    <rights_situation.number>5971</rights_situation.number>
+    <rights_situation.number.lref>5538</rights_situation.number.lref>
+    <rights_situation.research_date/>
+  </Rights_situation>
+  <Title>
+    <title>Neun Leben hat die Katze</title>
+    <title.article/>
+    <title.language>
+      <value lang="de-DE" invariant="true">deutsch</value>
+      <value lang="en-GB" invariant="false">German</value>
+    </title.language>
+    <title.language.lref>5247</title.language.lref>
+    <title.type>
+      <value lang="en-GB" invariant="true">Original Title</value>
+      <value lang="de-DE" invariant="false">Originaltitel</value>
+    </title.type>
+    <title.type.lref>5237</title.type.lref>
+  </Title>
+  <Title>
+    <title>9 Leben hat die Katze</title>
+    <title.article/>
+    <title.language>
+      <value lang="de-DE" invariant="true">deutsch</value>
+      <value lang="en-GB" invariant="false">German</value>
+    </title.language>
+    <title.language.lref>5247</title.language.lref>
+    <title.type>
+      <value lang="de-DE" invariant="true">Materialtitel</value>
+      <value lang="en-GB" invariant="false">Material Title</value>
+    </title.type>
+    <title.type.lref>5263</title.type.lref>
+  </Title>
+  <Title>
+    <title>Marionetten</title>
+    <title.article/>
+    <title.type>
+      <value lang="de-DE" invariant="true">Arbeitstitel</value>
+      <value lang="en-GB" invariant="false">Working Title</value>
+    </title.type>
+    <title.type.lref>5253</title.type.lref>
+  </Title>
+  <Title>
+    <title>2 Max in der Sonne</title>
+    <title.article/>
+    <title.type>
+      <value lang="de-DE" invariant="true">Arbeitstitel</value>
+      <value lang="en-GB" invariant="false">Working Title</value>
+    </title.type>
+    <title.type.lref>5253</title.type.lref>
+  </Title>
+  <Title>
+    <title>Meisterinnen</title>
+    <title.article>Die</title.article>
+    <title.type>
+      <value lang="de-DE" invariant="true">Arbeitstitel</value>
+      <value lang="en-GB" invariant="false">Working Title</value>
+    </title.type>
+    <title.type.lref>5253</title.type.lref>
+  </Title>
+  <Use_collection>
+    <use_collection.date.end>9999</use_collection.date.end>
+    <use_collection.date.start/>
+    <use_collection.reference_number>37</use_collection.reference_number>
+    <use_collection.reference_number.lref>29</use_collection.reference_number.lref>
+    <use_collection.researcher>
+      <value lang="de-DE" invariant="false">Haupts, Annika</value>
+    </use_collection.researcher>
+    <use_collection.status>
+      <value lang="neutral"/>
+    </use_collection.status>
+    <use_collection.title>Filme, die in einer der Retrospektiven der Deutschen Kinemathek gezeigt wurden</use_collection.title>
+    <use_collection.type>
+      <value lang="neutral"/>
+    </use_collection.type>
+  </Use_collection>
+  <utb>
+    <utb.content>GW</utb.content>
+    <utb.fieldname>Land</utb.fieldname>
+  </utb>
+  <utb>
+    <utb.content>1968</utb.content>
+    <utb.fieldname>Jahr</utb.fieldname>
+  </utb>
+  <utb>
+    <utb.content>St&#246;ckl, Ula</utb.content>
+    <utb.fieldname>Regie</utb.fieldname>
+  </utb>
+  <utb>
+    <utb.content/>
+    <utb.fieldname>Kategorie</utb.fieldname>
+  </utb>
+  <utb>
+    <utb.content/>
+    <utb.fieldname>Mehrteiler</utb.fieldname>
+  </utb>
+  <utb>
+    <utb.content/>
+    <utb.fieldname>Verweis_Mehrteiler</utb.fieldname>
+  </utb>
+  <utb>
+    <utb.content/>
+    <utb.fieldname>vgl DS-Nummer</utb.fieldname>
+  </utb>
+  <utb>
+    <utb.content/>
+    <utb.fieldname>Anmerkungen</utb.fieldname>
+  </utb>
+  <utb>
+    <utb.content/>
+    <utb.fieldname>ID CineGraph</utb.fieldname>
+  </utb>
+  <utb>
+    <utb.content/>
+    <utb.fieldname>Titelkategorie_Quelle</utb.fieldname>
+  </utb>
+  <utb>
+    <utb.content>rororo</utb.content>
+    <utb.fieldname>Quelle</utb.fieldname>
+  </utb>
+  <utb>
+    <utb.content/>
+    <utb.fieldname>Link_Quelle</utb.fieldname>
+  </utb>
+  <utb>
+    <utb.content/>
+    <utb.fieldname>Produktionsnummer</utb.fieldname>
+  </utb>
+  <utb>
+    <utb.content/>
+    <utb.fieldname>UAOrt</utb.fieldname>
+  </utb>
+  <utb>
+    <utb.content/>
+    <utb.fieldname>Urauff&#252;hrung Erstausstrahlung</utb.fieldname>
+  </utb>
+  <utb>
+    <utb.content/>
+    <utb.fieldname>DSNrNamen</utb.fieldname>
+  </utb>
+  <utb>
+    <utb.content>cl&#252;tke/20.05.1997</utb.content>
+    <utb.fieldname>Dateneingabe</utb.fieldname>
+  </utb>
+  <utb>
+    <utb.content>08.04.2002|platta</utb.content>
+    <utb.fieldname>Datenbearbeitung</utb.fieldname>
+  </utb>
+  <guid>c80d1dc1-cc1e-429c-8fad-dbd8c77ab12e</guid>
+  <institution.code>DE-MUS-407010</institution.code>
+  <institution.name>
+    <value lang="de-DE" invariant="true">Deutsche Kinemathek &#8211; Museum f&#252;r Film und Fernsehen</value>
+    <value lang="en-GB" invariant="false">Deutsche Kinemathek &#8211; Museum f&#252;r Film und Fernsehen</value>
+  </institution.name>
+  <institution.name.lref>3238</institution.name.lref>
+  <institution.place>
+    <value lang="de-DE" invariant="true">Berlin</value>
+    <value lang="en-GB" invariant="false">Berlin</value>
+  </institution.place>
+  <nfa_category>
+    <value lang="neutral">F</value>
+    <value lang="0">Fiction</value>
+    <value lang="1">Fictie</value>
+    <value lang="3">Spielfilm</value>
+  </nfa_category>
+  <object_number>17691</object_number>
+  <priref>200000687</priref>
+  <production.status>
+    <value lang="neutral">R</value>
+    <value lang="0">Released</value>
+    <value lang="1">uitgebracht</value>
+    <value lang="3">ver&#246;ffentlicht</value>
+  </production.status>
+  <record_access.owner>sdkRedaktion</record_access.owner>
+  <record_type>
+    <value lang="neutral">WORK</value>
+    <value lang="0">Work</value>
+    <value lang="1">Werk</value>
+    <value lang="3">Werk</value>
+    <value lang="9">Verk</value>
+  </record_type>
+  <Update_field>150000698</Update_field>
+  <work.description_type>
+    <value lang="neutral">MONOGRAPHIC</value>
+    <value lang="0">Monographic</value>
+    <value lang="3">Monographisch</value>
+    <value lang="9">Sj&#228;lvst&#228;ndigt verk</value>
+  </work.description_type>
+  <work_type>
+    <value lang="neutral">F</value>
+    <value lang="0">Cinema</value>
+    <value lang="3">Kino</value>
+  </work_type>
+  <work_type.general>
+    <value lang="de-DE" invariant="false">Film</value>
+    <value lang="en-GB" invariant="false">Film</value>
+  </work_type.general>
+  <work_type.general.lref>11248</work_type.general.lref>
+</record>

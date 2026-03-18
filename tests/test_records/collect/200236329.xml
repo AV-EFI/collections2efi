@@ -1,0 +1,208 @@
+<record priref="200236329" created="2024-12-05T14:57:34" modification="2025-08-22T12:33:30" selected="false" deleted="false">
+  <aperture>
+    <value lang="de-DE" invariant="false">Letter Box</value>
+  </aperture>
+  <aperture.lref>44215</aperture.lref>
+  <archive_number>435706-D</archive_number>
+  <aspect_ratio>
+    <value lang="de-DE" invariant="true">1:1,85</value>
+    <value lang="en-GB" invariant="false">1:1,85</value>
+  </aspect_ratio>
+  <aspect_ratio.container>
+    <value lang="de-DE" invariant="true">16:9</value>
+    <value lang="en-GB" invariant="false">16:9</value>
+  </aspect_ratio.container>
+  <aspect_ratio.container.lref>6779</aspect_ratio.container.lref>
+  <aspect_ratio.lref>6740</aspect_ratio.lref>
+  <bit_depth>
+    <value lang="de-DE" invariant="true">10</value>
+  </bit_depth>
+  <bit_depth.lref>7745</bit_depth.lref>
+  <codec.video>
+    <value lang="de-DE" invariant="true">Apple ProRes (HQ)</value>
+  </codec.video>
+  <codec.video.lref>7740</codec.video.lref>
+  <colour_system>
+    <value lang="de-DE" invariant="false">YUV (BT.709)</value>
+  </colour_system>
+  <colour_system.lref>44232</colour_system.lref>
+  <colour_type>
+    <value lang="neutral">C</value>
+    <value lang="0">Colour</value>
+    <value lang="1">kleur</value>
+    <value lang="2">Couleur</value>
+    <value lang="3">Farbe</value>
+  </colour_type>
+  <compression>
+    <value lang="neutral">lossy</value>
+    <value lang="0">lossy</value>
+    <value lang="3">verlustbehaftet</value>
+  </compression>
+  <copy_status>
+    <value lang="neutral">AUSGANG</value>
+    <value lang="0">Preprint Materials</value>
+    <value lang="3">Mastermaterial</value>
+  </copy_status>
+  <DAM_MAN_deeplink>https://sammlungen.deutsche-kinemathek.de/flow2/itemdetails/sdk200236329</DAM_MAN_deeplink>
+  <dataset_name>
+    <value lang="neutral">film</value>
+    <value lang="0">Moving image catalogue</value>
+    <value lang="1">Filmcatalogus</value>
+    <value lang="2">Registres de la cin&#233;matographie</value>
+    <value lang="3">Filmkatalog</value>
+  </dataset_name>
+  <department>
+    <value lang="de-DE" invariant="false">Filmarchiv</value>
+  </department>
+  <department.lref>3264</department.lref>
+  <file_type>
+    <value lang="de-DE" invariant="true">MOV</value>
+  </file_type>
+  <file_type.lref>7602</file_type.lref>
+  <Dimension>
+    <dimension.type>
+      <value lang="de-DE" invariant="true">Laufzeit</value>
+      <value lang="en-GB" invariant="false">runtime</value>
+    </dimension.type>
+    <dimension.type.lref>8707</dimension.type.lref>
+    <dimension.unit>
+      <value lang="de-DE" invariant="false">min,sek</value>
+      <value lang="en-GB" invariant="false">min.sec</value>
+    </dimension.unit>
+    <dimension.unit.lref>8709</dimension.unit.lref>
+    <dimension.value>90.23</dimension.value>
+  </Dimension>
+  <Film_speed>
+    <frame_rate>
+      <value lang="de-DE" invariant="true">24</value>
+    </frame_rate>
+    <frame_rate.lref>7605</frame_rate.lref>
+    <speed.type>
+      <value lang="neutral">PLAYBACKSPEED</value>
+      <value lang="0">playback speed</value>
+      <value lang="3">Abspielgeschwindigkeit</value>
+    </speed.type>
+  </Film_speed>
+  <Language>
+    <language.type>
+      <value lang="neutral">DIALORIG</value>
+      <value lang="0">Original version</value>
+      <value lang="3">OF</value>
+    </language.type>
+  </Language>
+  <Part_of>
+    <part_of.lead_word/>
+    <part_of.location.default.name/>
+    <part_of.record_type>
+      <value lang="neutral">MANIFESTATION</value>
+      <value lang="0">Manifestation</value>
+      <value lang="1">Manifestatie</value>
+      <value lang="3">Manifestation</value>
+      <value lang="9">Manifestation</value>
+    </part_of.record_type>
+    <part_of.title>Neun Leben hat die Katze</part_of.title>
+    <part_of_reference>
+      <Part_of>
+        <part_of.lead_word/>
+        <part_of.title>Neun Leben hat die Katze</part_of.title>
+        <part_of_reference.lref>200000687</part_of_reference.lref>
+      </Part_of>
+      <object_number>1303339</object_number>
+    </part_of_reference>
+    <part_of_reference.lref>200313682</part_of_reference.lref>
+  </Part_of>
+  <Phys_file>
+    <phys_characteristic.aspect.file_path>Archiviert auf Tape Library</phys_characteristic.aspect.file_path>
+  </Phys_file>
+  <PIDdata>
+    <PID_data_URI>https://hdl.handle.net/21.11155/20224790-19E0-4A5D-B5A3-47B2695450DF</PID_data_URI>
+  </PIDdata>
+  <Related_accession>
+    <related_accession_number>Z1101</related_accession_number>
+    <related_accession_number.lref>100001099</related_accession_number.lref>
+    <related_accession_number.method>
+      <value lang="de-DE" invariant="false">Kopierung</value>
+    </related_accession_number.method>
+    <related_accession_number.source>
+      <value lang="de-DE" invariant="true">ARRI</value>
+    </related_accession_number.source>
+    <related_accession_number.title/>
+  </Related_accession>
+  <Title>
+    <title>Neun Leben hat die Katze</title>
+    <title.type.lref>5237</title.type.lref>
+  </Title>
+  <guid>576d23be-60d5-4728-9ef2-cb587544ffed</guid>
+  <institution.code>DE-MUS-407010</institution.code>
+  <institution.name>
+    <value lang="de-DE" invariant="true">Deutsche Kinemathek &#8211; Museum f&#252;r Film und Fernsehen</value>
+    <value lang="en-GB" invariant="false">Deutsche Kinemathek &#8211; Museum f&#252;r Film und Fernsehen</value>
+  </institution.name>
+  <institution.name.lref>3238</institution.name.lref>
+  <institution.place>
+    <value lang="de-DE" invariant="true">Berlin</value>
+    <value lang="en-GB" invariant="false">Berlin</value>
+  </institution.place>
+  <item_type>
+    <value lang="neutral">DIGITAL</value>
+    <value lang="0">Digital</value>
+    <value lang="2">Digital</value>
+    <value lang="3">Digital</value>
+  </item_type>
+  <legacy.copy_specifics>bestehend aus 5 Rollen - Faksimile der M&#252;nchner Kopie</legacy.copy_specifics>
+  <material_type_digital>
+    <value lang="de-DE" invariant="false">Intermediate Master</value>
+    <value lang="en-GB" invariant="false">Intermediate Master</value>
+  </material_type_digital>
+  <material_type_digital.lref>10846</material_type_digital.lref>
+  <object_number>435706</object_number>
+  <phys_characteristic.aspect.file_name>nlhdk_reel01_print_grading-ref_rec709_1080p24_prores422hq_20150324.mov</phys_characteristic.aspect.file_name>
+  <priref>200236329</priref>
+  <record_access.owner>sdkRedaktion</record_access.owner>
+  <record_type>
+    <value lang="neutral">ITEM</value>
+    <value lang="0">Item</value>
+    <value lang="1">Item</value>
+    <value lang="3">Item</value>
+    <value lang="9">Objekt</value>
+  </record_type>
+  <resolution>
+    <value lang="de-DE" invariant="true">HD</value>
+    <value lang="en-GB" invariant="false">HD</value>
+  </resolution>
+  <resolution.lref>10425</resolution.lref>
+  <sound_item>
+    <value lang="de-DE" invariant="true">Stumm</value>
+  </sound_item>
+  <sound_item.lref>6721</sound_item.lref>
+  <total_filesize>108</total_filesize>
+  <total_filesize.unit>
+    <value lang="de-DE" invariant="false">GB</value>
+  </total_filesize.unit>
+  <total_filesize.unit.lref>11018</total_filesize.unit.lref>
+  <Update_field>150241502</Update_field>
+  <video.bitrate>173</video.bitrate>
+  <video.color_subsampling>
+    <value lang="neutral">4:2:2</value>
+    <value lang="0">4:2:2</value>
+    <value lang="3">4:2:2</value>
+  </video.color_subsampling>
+  <video.height>1080</video.height>
+  <video.interlacing>
+    <value lang="neutral">PROGRESSIVE</value>
+    <value lang="0">progressive</value>
+    <value lang="3">progressiv</value>
+  </video.interlacing>
+  <video.pixel_shape>
+    <value lang="neutral">cubic (1,0)</value>
+    <value lang="0">cubic (1,0)</value>
+    <value lang="3">quadratisch (1,0)</value>
+  </video.pixel_shape>
+  <video.width>1920</video.width>
+  <work.description_type>
+    <value lang="neutral">MONOGRAPHIC</value>
+    <value lang="0">Monographic</value>
+    <value lang="3">Monographisch</value>
+    <value lang="9">Sj&#228;lvst&#228;ndigt verk</value>
+  </work.description_type>
+</record>

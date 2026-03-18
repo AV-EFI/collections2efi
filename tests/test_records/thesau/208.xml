@@ -1,0 +1,57 @@
+<record priref="208" created="2024-11-30T05:09:28" modification="2024-11-30T05:09:28" selected="false" deleted="false">
+  <broader_term>
+    <value lang="de-DE" invariant="true">Jahreszeiten</value>
+    <value lang="en-GB" invariant="false">Seasons</value>
+  </broader_term>
+  <broader_term.lref>11127</broader_term.lref>
+  <group>
+    <value lang="de-DE" invariant="true">T5.1.1 Jahreszeiten</value>
+    <value lang="en-GB" invariant="false">T5.1.1 Seasons</value>
+  </group>
+  <group.lref>1018</group.lref>
+  <Source>
+    <source>Gemeinsame Normdatei</source>
+    <source.number>https://d-nb.info/gnd/4136980-4</source.number>
+  </Source>
+  <guid>b6fbc71a-4c51-42bb-a82f-5b5b5c75a6d5</guid>
+  <priref>208</priref>
+  <term>
+    <value lang="de-DE" invariant="true">Sommer</value>
+    <value lang="en-GB" invariant="false">summer</value>
+  </term>
+  <term.code>sdk:C00208</term.code>
+  <term.status>
+    <value lang="neutral">1</value>
+    <value lang="0">approved preferred term</value>
+    <value lang="1">descriptor</value>
+    <value lang="2">descripteur</value>
+    <value lang="3">Deskriptor</value>
+    <value lang="5">termine preferenziale approvato</value>
+    <value lang="9">godk&#228;nda f&#246;redragen term</value>
+    <value lang="10">&#1502;&#1493;&#1504;&#1495; &#1502;&#1488;&#1493;&#1513;&#1512; &#1502;&#1493;&#1506;&#1491;&#1507;</value>
+    <value lang="11">godkendt foretrukket term</value>
+    <value lang="14">&#25209;&#20934;&#39318;&#36984;&#26781;&#27454;</value>
+  </term.status>
+  <term.type>
+    <value lang="neutral">SUBJECT</value>
+    <value lang="0">subject</value>
+    <value lang="1">onderwerp</value>
+    <value lang="2">sujet</value>
+    <value lang="3">Thema</value>
+    <value lang="4">&#1605;&#1608;&#1590;&#1608;&#1593;</value>
+    <value lang="5">soggetto</value>
+    <value lang="6">&#952;&#941;&#956;&#945;</value>
+    <value lang="9">&#228;mne</value>
+  </term.type>
+  <term.type>
+    <value lang="neutral">SUBJECT</value>
+    <value lang="0">subject</value>
+    <value lang="1">onderwerp</value>
+    <value lang="2">sujet</value>
+    <value lang="3">Thema</value>
+    <value lang="4">&#1605;&#1608;&#1590;&#1608;&#1593;</value>
+    <value lang="5">soggetto</value>
+    <value lang="6">&#952;&#941;&#956;&#945;</value>
+    <value lang="9">&#228;mne</value>
+  </term.type>
+</record>
