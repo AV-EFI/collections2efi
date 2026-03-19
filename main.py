@@ -43,11 +43,13 @@ def setup_logging():
 setup_logging()
 
 
-def get_prirefs_from_pointer_files() -> list[str]:
-    work_prirefs = pointer_file_provider.get_by_priref(3).xpath("hit/text()")
-    manifestation_prirefs = pointer_file_provider.get_by_priref(4).xpath("hit/text()")
-    item_prirefs = pointer_file_provider.get_by_priref(5).xpath("hit/text()")
-    return work_prirefs + manifestation_prirefs + item_prirefs
+def get_prirefs_from_pointer_files(pointer_files: list[int]) -> list[str]:
+    prirefs = [
+        hit
+        for priref in pointer_files
+        for hit in pointer_file_provider.get_by_priref(priref).xpath("hit/text()")
+    ]
+    return prirefs
 
 
 def get_prirefs_from_graph_exploration(start_priref: str) -> list[str]:
@@ -213,8 +215,10 @@ def process_records(prirefs: list[str]):
 
 
 def main():
-    prirefs = get_prirefs_from_pointer_files()
-    # prirefs = get_prirefs_from_graph_exploration("200339733")
+    prirefs = get_prirefs_from_pointer_files([3, 4, 5])  # pointer files
+    # prirefs = ["200339733"] # direct input
+    # prirefs = get_prirefs_from_graph_exploration("200339733") # subgraph exploration on direct input
+
     process_records(prirefs)
 
 

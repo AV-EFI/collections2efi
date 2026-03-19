@@ -65,13 +65,8 @@ def save_xml(record_xml, path, priref):
 
 def main():
     collect_prirefs = PRIREFS_TO_FETCH
-    if not collect_prirefs:
-        logging.warning("No prirefs found in test files. Exiting.")
-        return
 
-    logging.info(
-        f"Found {len(collect_prirefs)} unique prirefs in test files: {collect_prirefs}"
-    )
+    logging.info(f"Found {len(collect_prirefs)} unique prirefs")
 
     collect_provider = RecordProvider(axiell_collections_database, COLLECT_DB_NAME)
     thesau_provider = RecordProvider(axiell_collections_database, THESAU_DB_NAME)
