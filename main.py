@@ -175,10 +175,29 @@ def purge_records(records):
     return purged_works + purged_manifestations + purged_items
 
 
+def filter_out_manifestations(records):
+    filtered_records = []
+    for record in records:
+        record_type = record.xml.get_first(
+            "record_type/value[@lang='neutral']/text()"
+        ).lower()
+        if record_type == "manifestation":
+            manifestationlevel_type = record.xml.get_first(
+                "manifestationlevel_type/value[@lang='3']/text()"
+            )
+            if manifestationlevel_type == "Nicht zugeordnet (Altdaten)":
+                continue
+
+        filtered_records.append(record)
+
+    return filtered_records
+
+
 def process_records(prirefs: list[str]):
     logging.info(f"# Retrieved {len(prirefs)} prirefs")
 
     records: list[CollectRecord] = get_records(prirefs)
+    records = filter_out_manifestations(records)
 
     people_repo, thesau_repo = build_repos(records)
 
@@ -216,13 +235,13 @@ def main():
     # choose a way to get prirefs
 
     # pointer files
-    # prirefs = get_prirefs_from_pointer_files([3, 4, 5])
+    prirefs = get_prirefs_from_pointer_files([3, 4, 5])
 
     # direct input
     # prirefs = ["200000127"]
 
     # subgraph exploration on direct input
-    prirefs = get_prirefs_from_graph_exploration("200000127")
+    # prirefs = get_prirefs_from_graph_exploration("200000127")
 
     processing_start = time.time()
     json_file_str = process_records(prirefs)
