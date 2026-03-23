@@ -51,6 +51,8 @@ This script demonstrates a fetch-translate-purge cycle.
 
 Ensure the `SDK_AXIELL_COLLECTIONS_URL` environment variable is set.
 
+Ensure the `SDK_AXIELL_COLLECTIONS_CACHED` environment variable is set. See [Caching](#caching)
+
 ```bash
 export SDK_AXIELL_COLLECTIONS_URL=http://...
 poetry run python main.py
@@ -69,6 +71,15 @@ Process Flow:
 ### [`write_pids.py`](./main.py)
 
 This temporary script provides an outline on how PIDs could be written back into collections.
+
+## Caching
+
+During development, it was very helpful to have the requests to the axiell collections database cached.
+This was done very rudimentarily by using the package [`requests-cache`](https://requests-cache.readthedocs.io/en/stable/).
+
+For caching set `SDK_AXIELL_COLLECTIONS_CACHED = 1`.
+
+_Note: There is no cache invalidation implemented, to invalidate delete the generated `axiell_collections_cache.sqlite` database._
 
 ## Testing
 

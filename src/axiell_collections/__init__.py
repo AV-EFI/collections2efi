@@ -14,11 +14,22 @@ class CachedDatabase(Database):
 
 try:
     axiell_collections_url = os.environ["SDK_AXIELL_COLLECTIONS_URL"]
-    axiell_collections_database = CachedDatabase(axiell_collections_url)
 except KeyError:
     raise EnvironmentError(
         "SDK_AXIELL_COLLECTIONS_URL environment variable is not set."
     )
+
+try:
+    cached_session = os.environ["SDK_AXIELL_COLLECTIONS_CACHED"]
+except KeyError:
+    raise EnvironmentError(
+        "SDK_AXIELL_COLLECTIONS_CACHED environment variable is not set."
+    )
+
+if cached_session == "1":
+    axiell_collections_database = CachedDatabase(axiell_collections_url)
+else:
+    axiell_collections_database = Database(axiell_collections_url)
 
 pointer_file_provider = PointerFileProvider(
     axiell_collections_database, database="collect.inf"

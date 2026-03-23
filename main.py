@@ -176,8 +176,6 @@ def purge_records(records):
 
 
 def process_records(prirefs: list[str]):
-    start = time.time()
-
     logging.info(f"# Retrieved {len(prirefs)} prirefs")
 
     records: list[CollectRecord] = get_records(prirefs)
@@ -209,17 +207,34 @@ def process_records(prirefs: list[str]):
     dumper = JSONDumper()
     dumper.dump(purged_records, json_file, inject_type=False)
 
-    print(f"Wrote data to file://{json_file}")
-    end = time.time()
-    print(end - start)
+    return json_file
 
 
 def main():
-    prirefs = get_prirefs_from_pointer_files([3, 4, 5])  # pointer files
-    # prirefs = ["200339733"] # direct input
-    # prirefs = get_prirefs_from_graph_exploration("200339733") # subgraph exploration on direct input
+    total_start = time.time()
 
-    process_records(prirefs)
+    # choose a way to get prirefs
+
+    # pointer files
+    # prirefs = get_prirefs_from_pointer_files([3, 4, 5])
+
+    # direct input
+    # prirefs = ["200000127"]
+
+    # subgraph exploration on direct input
+    prirefs = get_prirefs_from_graph_exploration("200000127")
+
+    processing_start = time.time()
+    json_file_str = process_records(prirefs)
+    processing_end = time.time()
+
+    print(f"Wrote data to file://{json_file_str}")
+    print(
+        f"Processing time: {'{:.2f}'.format(processing_end - processing_start)} seconds"
+    )
+
+    total_end = time.time()
+    print(f"Total time: {'{:.2f}'.format(total_end - total_start)} seconds")
 
 
 if __name__ == "__main__":
