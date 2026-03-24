@@ -51,10 +51,11 @@ This script demonstrates a fetch-translate-purge cycle.
 
 Ensure the `SDK_AXIELL_COLLECTIONS_URL` environment variable is set.
 
-Ensure the `SDK_AXIELL_COLLECTIONS_CACHED` environment variable is set. See [Caching](#caching)
+Ensure the `SDK_AXIELL_COLLECTIONS_CACHED` environment variable is set. See [Caching](#caching).
 
 ```bash
 export SDK_AXIELL_COLLECTIONS_URL=http://...
+export SDK_AXIELL_COLLECTIONS_CACHED=1
 poetry run python main.py
 ```
 
