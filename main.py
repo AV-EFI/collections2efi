@@ -196,7 +196,9 @@ def filter_out_manifestations(records):
 def process_records(prirefs: list[str]):
     logging.info(f"# Retrieved {len(prirefs)} prirefs")
 
-    records: list[CollectRecord] = get_records(prirefs)
+    dedup_prirefs = list(dict.fromkeys(prirefs))
+
+    records: list[CollectRecord] = get_records(dedup_prirefs)
     records = filter_out_manifestations(records)
 
     people_repo, thesau_repo = build_repos(records)
