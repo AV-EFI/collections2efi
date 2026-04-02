@@ -27,7 +27,7 @@ in_language:
 - code: ger
   usage:
   - SpokenLanguage
-- code: fra
+- code: fre
   usage:
   - SpokenLanguage
 is_item_of:
