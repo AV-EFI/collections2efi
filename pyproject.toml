@@ -7,7 +7,7 @@ readme = "README.md"
 requires-python = ">=3.11,<4.0.0"
 dependencies = [
     "dicttoxml>=1.7.16",
-    "lxml>=6.0.0",
+    "lxml>=6.1.0",
     "requests>=2.32.3",
     "linkml-runtime>=1.8.0",
     "avefi-schema @ git+https://github.com/AV-EFI/av-efi-schema.git",
@@ -15,8 +15,8 @@ dependencies = [
 ]
 
 [tool.poetry.group.dev.dependencies]
-pytest = "^8.4.1"
-ruff = "^0.15.6"
+pytest = "^9.0.3"
+ruff = "^0.15.11"
 pytest-regressions = "^2.10.0"
 
 [build-system]
